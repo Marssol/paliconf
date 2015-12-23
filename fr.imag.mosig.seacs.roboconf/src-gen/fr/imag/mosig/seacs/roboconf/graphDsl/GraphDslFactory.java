@@ -59,13 +59,31 @@ public interface GraphDslFactory extends EFactory
   Facet createFacet();
 
   /**
-   * Returns a new object of class '<em>Properties</em>'.
+   * Returns a new object of class '<em>Component Properties</em>'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @return a new object of class '<em>Properties</em>'.
+   * @return a new object of class '<em>Component Properties</em>'.
    * @generated
    */
-  Properties createProperties();
+  ComponentProperties createComponentProperties();
+
+  /**
+   * Returns a new object of class '<em>Facet Properties</em>'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return a new object of class '<em>Facet Properties</em>'.
+   * @generated
+   */
+  FacetProperties createFacetProperties();
+
+  /**
+   * Returns a new object of class '<em>Facet Property</em>'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return a new object of class '<em>Facet Property</em>'.
+   * @generated
+   */
+  FacetProperty createFacetProperty();
 
   /**
    * Returns a new object of class '<em>Optional Property</em>'.

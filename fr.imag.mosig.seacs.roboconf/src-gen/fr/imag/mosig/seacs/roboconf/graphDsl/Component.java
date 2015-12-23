@@ -58,12 +58,12 @@ public interface Component extends EObject
    * </p>
    * <!-- end-user-doc -->
    * @return the value of the '<em>Properties</em>' containment reference.
-   * @see #setProperties(Properties)
+   * @see #setProperties(ComponentProperties)
    * @see fr.imag.mosig.seacs.roboconf.graphDsl.GraphDslPackage#getComponent_Properties()
    * @model containment="true"
    * @generated
    */
-  Properties getProperties();
+  ComponentProperties getProperties();
 
   /**
    * Sets the value of the '{@link fr.imag.mosig.seacs.roboconf.graphDsl.Component#getProperties <em>Properties</em>}' containment reference.
@@ -73,6 +73,6 @@ public interface Component extends EObject
    * @see #getProperties()
    * @generated
    */
-  void setProperties(Properties value);
+  void setProperties(ComponentProperties value);
 
 } // Component

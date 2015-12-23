@@ -412,21 +412,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
     // $ANTLR end "ruleFacet"
 
 
-    // $ANTLR start "entryRuleProperties"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:172:1: entryRuleProperties : ruleProperties EOF ;
-    public final void entryRuleProperties() throws RecognitionException {
+    // $ANTLR start "entryRuleComponentProperties"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:172:1: entryRuleComponentProperties : ruleComponentProperties EOF ;
+    public final void entryRuleComponentProperties() throws RecognitionException {
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:173:1: ( ruleProperties EOF )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:174:1: ruleProperties EOF
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:173:1: ( ruleComponentProperties EOF )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:174:1: ruleComponentProperties EOF
             {
-             before(grammarAccess.getPropertiesRule()); 
-            pushFollow(FOLLOW_ruleProperties_in_entryRuleProperties302);
-            ruleProperties();
+             before(grammarAccess.getComponentPropertiesRule()); 
+            pushFollow(FOLLOW_ruleComponentProperties_in_entryRuleComponentProperties302);
+            ruleComponentProperties();
 
             state._fsp--;
 
-             after(grammarAccess.getPropertiesRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleProperties309); 
+             after(grammarAccess.getComponentPropertiesRule()); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleComponentProperties309); 
 
             }
 
@@ -439,35 +439,35 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
         }
         return ;
     }
-    // $ANTLR end "entryRuleProperties"
+    // $ANTLR end "entryRuleComponentProperties"
 
 
-    // $ANTLR start "ruleProperties"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:181:1: ruleProperties : ( ( rule__Properties__Group__0 ) ) ;
-    public final void ruleProperties() throws RecognitionException {
+    // $ANTLR start "ruleComponentProperties"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:181:1: ruleComponentProperties : ( ( rule__ComponentProperties__Group__0 ) ) ;
+    public final void ruleComponentProperties() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:185:2: ( ( ( rule__Properties__Group__0 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:186:1: ( ( rule__Properties__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:185:2: ( ( ( rule__ComponentProperties__Group__0 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:186:1: ( ( rule__ComponentProperties__Group__0 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:186:1: ( ( rule__Properties__Group__0 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:187:1: ( rule__Properties__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:186:1: ( ( rule__ComponentProperties__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:187:1: ( rule__ComponentProperties__Group__0 )
             {
-             before(grammarAccess.getPropertiesAccess().getGroup()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:188:1: ( rule__Properties__Group__0 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:188:2: rule__Properties__Group__0
+             before(grammarAccess.getComponentPropertiesAccess().getGroup()); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:188:1: ( rule__ComponentProperties__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:188:2: rule__ComponentProperties__Group__0
             {
-            pushFollow(FOLLOW_rule__Properties__Group__0_in_ruleProperties335);
-            rule__Properties__Group__0();
+            pushFollow(FOLLOW_rule__ComponentProperties__Group__0_in_ruleComponentProperties335);
+            rule__ComponentProperties__Group__0();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getPropertiesAccess().getGroup()); 
+             after(grammarAccess.getComponentPropertiesAccess().getGroup()); 
 
             }
 
@@ -486,24 +486,205 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
         }
         return ;
     }
-    // $ANTLR end "ruleProperties"
+    // $ANTLR end "ruleComponentProperties"
+
+
+    // $ANTLR start "entryRuleFacetProperties"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:200:1: entryRuleFacetProperties : ruleFacetProperties EOF ;
+    public final void entryRuleFacetProperties() throws RecognitionException {
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:201:1: ( ruleFacetProperties EOF )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:202:1: ruleFacetProperties EOF
+            {
+             before(grammarAccess.getFacetPropertiesRule()); 
+            pushFollow(FOLLOW_ruleFacetProperties_in_entryRuleFacetProperties362);
+            ruleFacetProperties();
+
+            state._fsp--;
+
+             after(grammarAccess.getFacetPropertiesRule()); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleFacetProperties369); 
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+        }
+        return ;
+    }
+    // $ANTLR end "entryRuleFacetProperties"
+
+
+    // $ANTLR start "ruleFacetProperties"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:209:1: ruleFacetProperties : ( ( rule__FacetProperties__Group__0 )* ) ;
+    public final void ruleFacetProperties() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:213:2: ( ( ( rule__FacetProperties__Group__0 )* ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:214:1: ( ( rule__FacetProperties__Group__0 )* )
+            {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:214:1: ( ( rule__FacetProperties__Group__0 )* )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:215:1: ( rule__FacetProperties__Group__0 )*
+            {
+             before(grammarAccess.getFacetPropertiesAccess().getGroup()); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:216:1: ( rule__FacetProperties__Group__0 )*
+            loop2:
+            do {
+                int alt2=2;
+                int LA2_0 = input.LA(1);
+
+                if ( (LA2_0==RULE_WS) ) {
+                    int LA2_2 = input.LA(2);
+
+                    if ( (LA2_2==16||LA2_2==18) ) {
+                        alt2=1;
+                    }
+
+
+                }
+                else if ( (LA2_0==16||LA2_0==18) ) {
+                    alt2=1;
+                }
+
+
+                switch (alt2) {
+            	case 1 :
+            	    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:216:2: rule__FacetProperties__Group__0
+            	    {
+            	    pushFollow(FOLLOW_rule__FacetProperties__Group__0_in_ruleFacetProperties395);
+            	    rule__FacetProperties__Group__0();
+
+            	    state._fsp--;
+
+
+            	    }
+            	    break;
+
+            	default :
+            	    break loop2;
+                }
+            } while (true);
+
+             after(grammarAccess.getFacetPropertiesAccess().getGroup()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "ruleFacetProperties"
+
+
+    // $ANTLR start "entryRuleFacetProperty"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:228:1: entryRuleFacetProperty : ruleFacetProperty EOF ;
+    public final void entryRuleFacetProperty() throws RecognitionException {
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:229:1: ( ruleFacetProperty EOF )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:230:1: ruleFacetProperty EOF
+            {
+             before(grammarAccess.getFacetPropertyRule()); 
+            pushFollow(FOLLOW_ruleFacetProperty_in_entryRuleFacetProperty423);
+            ruleFacetProperty();
+
+            state._fsp--;
+
+             after(grammarAccess.getFacetPropertyRule()); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleFacetProperty430); 
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+        }
+        return ;
+    }
+    // $ANTLR end "entryRuleFacetProperty"
+
+
+    // $ANTLR start "ruleFacetProperty"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:237:1: ruleFacetProperty : ( ( rule__FacetProperty__Alternatives ) ) ;
+    public final void ruleFacetProperty() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:241:2: ( ( ( rule__FacetProperty__Alternatives ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:242:1: ( ( rule__FacetProperty__Alternatives ) )
+            {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:242:1: ( ( rule__FacetProperty__Alternatives ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:243:1: ( rule__FacetProperty__Alternatives )
+            {
+             before(grammarAccess.getFacetPropertyAccess().getAlternatives()); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:244:1: ( rule__FacetProperty__Alternatives )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:244:2: rule__FacetProperty__Alternatives
+            {
+            pushFollow(FOLLOW_rule__FacetProperty__Alternatives_in_ruleFacetProperty456);
+            rule__FacetProperty__Alternatives();
+
+            state._fsp--;
+
+
+            }
+
+             after(grammarAccess.getFacetPropertyAccess().getAlternatives()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "ruleFacetProperty"
 
 
     // $ANTLR start "entryRuleOptionalProperty"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:200:1: entryRuleOptionalProperty : ruleOptionalProperty EOF ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:256:1: entryRuleOptionalProperty : ruleOptionalProperty EOF ;
     public final void entryRuleOptionalProperty() throws RecognitionException {
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:201:1: ( ruleOptionalProperty EOF )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:202:1: ruleOptionalProperty EOF
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:257:1: ( ruleOptionalProperty EOF )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:258:1: ruleOptionalProperty EOF
             {
              before(grammarAccess.getOptionalPropertyRule()); 
-            pushFollow(FOLLOW_ruleOptionalProperty_in_entryRuleOptionalProperty362);
+            pushFollow(FOLLOW_ruleOptionalProperty_in_entryRuleOptionalProperty483);
             ruleOptionalProperty();
 
             state._fsp--;
 
              after(grammarAccess.getOptionalPropertyRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleOptionalProperty369); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleOptionalProperty490); 
 
             }
 
@@ -520,23 +701,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "ruleOptionalProperty"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:209:1: ruleOptionalProperty : ( ( rule__OptionalProperty__Alternatives ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:265:1: ruleOptionalProperty : ( ( rule__OptionalProperty__Alternatives ) ) ;
     public final void ruleOptionalProperty() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:213:2: ( ( ( rule__OptionalProperty__Alternatives ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:214:1: ( ( rule__OptionalProperty__Alternatives ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:269:2: ( ( ( rule__OptionalProperty__Alternatives ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:270:1: ( ( rule__OptionalProperty__Alternatives ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:214:1: ( ( rule__OptionalProperty__Alternatives ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:215:1: ( rule__OptionalProperty__Alternatives )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:270:1: ( ( rule__OptionalProperty__Alternatives ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:271:1: ( rule__OptionalProperty__Alternatives )
             {
              before(grammarAccess.getOptionalPropertyAccess().getAlternatives()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:216:1: ( rule__OptionalProperty__Alternatives )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:216:2: rule__OptionalProperty__Alternatives
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:272:1: ( rule__OptionalProperty__Alternatives )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:272:2: rule__OptionalProperty__Alternatives
             {
-            pushFollow(FOLLOW_rule__OptionalProperty__Alternatives_in_ruleOptionalProperty395);
+            pushFollow(FOLLOW_rule__OptionalProperty__Alternatives_in_ruleOptionalProperty516);
             rule__OptionalProperty__Alternatives();
 
             state._fsp--;
@@ -567,20 +748,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "entryRuleInstallerProperty"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:228:1: entryRuleInstallerProperty : ruleInstallerProperty EOF ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:284:1: entryRuleInstallerProperty : ruleInstallerProperty EOF ;
     public final void entryRuleInstallerProperty() throws RecognitionException {
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:229:1: ( ruleInstallerProperty EOF )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:230:1: ruleInstallerProperty EOF
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:285:1: ( ruleInstallerProperty EOF )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:286:1: ruleInstallerProperty EOF
             {
              before(grammarAccess.getInstallerPropertyRule()); 
-            pushFollow(FOLLOW_ruleInstallerProperty_in_entryRuleInstallerProperty422);
+            pushFollow(FOLLOW_ruleInstallerProperty_in_entryRuleInstallerProperty543);
             ruleInstallerProperty();
 
             state._fsp--;
 
              after(grammarAccess.getInstallerPropertyRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleInstallerProperty429); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleInstallerProperty550); 
 
             }
 
@@ -597,23 +778,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "ruleInstallerProperty"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:237:1: ruleInstallerProperty : ( ( rule__InstallerProperty__Group__0 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:293:1: ruleInstallerProperty : ( ( rule__InstallerProperty__Group__0 ) ) ;
     public final void ruleInstallerProperty() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:241:2: ( ( ( rule__InstallerProperty__Group__0 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:242:1: ( ( rule__InstallerProperty__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:297:2: ( ( ( rule__InstallerProperty__Group__0 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:298:1: ( ( rule__InstallerProperty__Group__0 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:242:1: ( ( rule__InstallerProperty__Group__0 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:243:1: ( rule__InstallerProperty__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:298:1: ( ( rule__InstallerProperty__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:299:1: ( rule__InstallerProperty__Group__0 )
             {
              before(grammarAccess.getInstallerPropertyAccess().getGroup()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:244:1: ( rule__InstallerProperty__Group__0 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:244:2: rule__InstallerProperty__Group__0
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:300:1: ( rule__InstallerProperty__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:300:2: rule__InstallerProperty__Group__0
             {
-            pushFollow(FOLLOW_rule__InstallerProperty__Group__0_in_ruleInstallerProperty455);
+            pushFollow(FOLLOW_rule__InstallerProperty__Group__0_in_ruleInstallerProperty576);
             rule__InstallerProperty__Group__0();
 
             state._fsp--;
@@ -644,20 +825,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "entryRuleChildrenProperty"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:256:1: entryRuleChildrenProperty : ruleChildrenProperty EOF ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:312:1: entryRuleChildrenProperty : ruleChildrenProperty EOF ;
     public final void entryRuleChildrenProperty() throws RecognitionException {
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:257:1: ( ruleChildrenProperty EOF )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:258:1: ruleChildrenProperty EOF
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:313:1: ( ruleChildrenProperty EOF )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:314:1: ruleChildrenProperty EOF
             {
              before(grammarAccess.getChildrenPropertyRule()); 
-            pushFollow(FOLLOW_ruleChildrenProperty_in_entryRuleChildrenProperty482);
+            pushFollow(FOLLOW_ruleChildrenProperty_in_entryRuleChildrenProperty603);
             ruleChildrenProperty();
 
             state._fsp--;
 
              after(grammarAccess.getChildrenPropertyRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleChildrenProperty489); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleChildrenProperty610); 
 
             }
 
@@ -674,23 +855,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "ruleChildrenProperty"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:265:1: ruleChildrenProperty : ( ( rule__ChildrenProperty__Group__0 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:321:1: ruleChildrenProperty : ( ( rule__ChildrenProperty__Group__0 ) ) ;
     public final void ruleChildrenProperty() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:269:2: ( ( ( rule__ChildrenProperty__Group__0 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:270:1: ( ( rule__ChildrenProperty__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:325:2: ( ( ( rule__ChildrenProperty__Group__0 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:326:1: ( ( rule__ChildrenProperty__Group__0 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:270:1: ( ( rule__ChildrenProperty__Group__0 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:271:1: ( rule__ChildrenProperty__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:326:1: ( ( rule__ChildrenProperty__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:327:1: ( rule__ChildrenProperty__Group__0 )
             {
              before(grammarAccess.getChildrenPropertyAccess().getGroup()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:272:1: ( rule__ChildrenProperty__Group__0 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:272:2: rule__ChildrenProperty__Group__0
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:328:1: ( rule__ChildrenProperty__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:328:2: rule__ChildrenProperty__Group__0
             {
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group__0_in_ruleChildrenProperty515);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group__0_in_ruleChildrenProperty636);
             rule__ChildrenProperty__Group__0();
 
             state._fsp--;
@@ -721,20 +902,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "entryRuleExportsProperty"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:284:1: entryRuleExportsProperty : ruleExportsProperty EOF ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:340:1: entryRuleExportsProperty : ruleExportsProperty EOF ;
     public final void entryRuleExportsProperty() throws RecognitionException {
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:285:1: ( ruleExportsProperty EOF )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:286:1: ruleExportsProperty EOF
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:341:1: ( ruleExportsProperty EOF )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:342:1: ruleExportsProperty EOF
             {
              before(grammarAccess.getExportsPropertyRule()); 
-            pushFollow(FOLLOW_ruleExportsProperty_in_entryRuleExportsProperty542);
+            pushFollow(FOLLOW_ruleExportsProperty_in_entryRuleExportsProperty663);
             ruleExportsProperty();
 
             state._fsp--;
 
              after(grammarAccess.getExportsPropertyRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleExportsProperty549); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleExportsProperty670); 
 
             }
 
@@ -751,23 +932,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "ruleExportsProperty"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:293:1: ruleExportsProperty : ( ( rule__ExportsProperty__Group__0 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:349:1: ruleExportsProperty : ( ( rule__ExportsProperty__Group__0 ) ) ;
     public final void ruleExportsProperty() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:297:2: ( ( ( rule__ExportsProperty__Group__0 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:298:1: ( ( rule__ExportsProperty__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:353:2: ( ( ( rule__ExportsProperty__Group__0 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:354:1: ( ( rule__ExportsProperty__Group__0 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:298:1: ( ( rule__ExportsProperty__Group__0 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:299:1: ( rule__ExportsProperty__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:354:1: ( ( rule__ExportsProperty__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:355:1: ( rule__ExportsProperty__Group__0 )
             {
              before(grammarAccess.getExportsPropertyAccess().getGroup()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:300:1: ( rule__ExportsProperty__Group__0 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:300:2: rule__ExportsProperty__Group__0
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:356:1: ( rule__ExportsProperty__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:356:2: rule__ExportsProperty__Group__0
             {
-            pushFollow(FOLLOW_rule__ExportsProperty__Group__0_in_ruleExportsProperty575);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group__0_in_ruleExportsProperty696);
             rule__ExportsProperty__Group__0();
 
             state._fsp--;
@@ -798,20 +979,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "entryRuleExportsVariable"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:312:1: entryRuleExportsVariable : ruleExportsVariable EOF ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:368:1: entryRuleExportsVariable : ruleExportsVariable EOF ;
     public final void entryRuleExportsVariable() throws RecognitionException {
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:313:1: ( ruleExportsVariable EOF )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:314:1: ruleExportsVariable EOF
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:369:1: ( ruleExportsVariable EOF )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:370:1: ruleExportsVariable EOF
             {
              before(grammarAccess.getExportsVariableRule()); 
-            pushFollow(FOLLOW_ruleExportsVariable_in_entryRuleExportsVariable602);
+            pushFollow(FOLLOW_ruleExportsVariable_in_entryRuleExportsVariable723);
             ruleExportsVariable();
 
             state._fsp--;
 
              after(grammarAccess.getExportsVariableRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleExportsVariable609); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleExportsVariable730); 
 
             }
 
@@ -828,23 +1009,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "ruleExportsVariable"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:321:1: ruleExportsVariable : ( ( rule__ExportsVariable__Alternatives ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:377:1: ruleExportsVariable : ( ( rule__ExportsVariable__Alternatives ) ) ;
     public final void ruleExportsVariable() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:325:2: ( ( ( rule__ExportsVariable__Alternatives ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:326:1: ( ( rule__ExportsVariable__Alternatives ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:381:2: ( ( ( rule__ExportsVariable__Alternatives ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:382:1: ( ( rule__ExportsVariable__Alternatives ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:326:1: ( ( rule__ExportsVariable__Alternatives ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:327:1: ( rule__ExportsVariable__Alternatives )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:382:1: ( ( rule__ExportsVariable__Alternatives ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:383:1: ( rule__ExportsVariable__Alternatives )
             {
              before(grammarAccess.getExportsVariableAccess().getAlternatives()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:328:1: ( rule__ExportsVariable__Alternatives )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:328:2: rule__ExportsVariable__Alternatives
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:384:1: ( rule__ExportsVariable__Alternatives )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:384:2: rule__ExportsVariable__Alternatives
             {
-            pushFollow(FOLLOW_rule__ExportsVariable__Alternatives_in_ruleExportsVariable635);
+            pushFollow(FOLLOW_rule__ExportsVariable__Alternatives_in_ruleExportsVariable756);
             rule__ExportsVariable__Alternatives();
 
             state._fsp--;
@@ -875,20 +1056,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "entryRuleImportsProperty"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:340:1: entryRuleImportsProperty : ruleImportsProperty EOF ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:396:1: entryRuleImportsProperty : ruleImportsProperty EOF ;
     public final void entryRuleImportsProperty() throws RecognitionException {
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:341:1: ( ruleImportsProperty EOF )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:342:1: ruleImportsProperty EOF
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:397:1: ( ruleImportsProperty EOF )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:398:1: ruleImportsProperty EOF
             {
              before(grammarAccess.getImportsPropertyRule()); 
-            pushFollow(FOLLOW_ruleImportsProperty_in_entryRuleImportsProperty662);
+            pushFollow(FOLLOW_ruleImportsProperty_in_entryRuleImportsProperty783);
             ruleImportsProperty();
 
             state._fsp--;
 
              after(grammarAccess.getImportsPropertyRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleImportsProperty669); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleImportsProperty790); 
 
             }
 
@@ -905,23 +1086,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "ruleImportsProperty"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:349:1: ruleImportsProperty : ( ( rule__ImportsProperty__Group__0 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:405:1: ruleImportsProperty : ( ( rule__ImportsProperty__Group__0 ) ) ;
     public final void ruleImportsProperty() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:353:2: ( ( ( rule__ImportsProperty__Group__0 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:354:1: ( ( rule__ImportsProperty__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:409:2: ( ( ( rule__ImportsProperty__Group__0 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:410:1: ( ( rule__ImportsProperty__Group__0 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:354:1: ( ( rule__ImportsProperty__Group__0 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:355:1: ( rule__ImportsProperty__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:410:1: ( ( rule__ImportsProperty__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:411:1: ( rule__ImportsProperty__Group__0 )
             {
              before(grammarAccess.getImportsPropertyAccess().getGroup()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:356:1: ( rule__ImportsProperty__Group__0 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:356:2: rule__ImportsProperty__Group__0
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:412:1: ( rule__ImportsProperty__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:412:2: rule__ImportsProperty__Group__0
             {
-            pushFollow(FOLLOW_rule__ImportsProperty__Group__0_in_ruleImportsProperty695);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group__0_in_ruleImportsProperty816);
             rule__ImportsProperty__Group__0();
 
             state._fsp--;
@@ -952,20 +1133,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "entryRuleImportsVariable"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:368:1: entryRuleImportsVariable : ruleImportsVariable EOF ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:424:1: entryRuleImportsVariable : ruleImportsVariable EOF ;
     public final void entryRuleImportsVariable() throws RecognitionException {
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:369:1: ( ruleImportsVariable EOF )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:370:1: ruleImportsVariable EOF
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:425:1: ( ruleImportsVariable EOF )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:426:1: ruleImportsVariable EOF
             {
              before(grammarAccess.getImportsVariableRule()); 
-            pushFollow(FOLLOW_ruleImportsVariable_in_entryRuleImportsVariable722);
+            pushFollow(FOLLOW_ruleImportsVariable_in_entryRuleImportsVariable843);
             ruleImportsVariable();
 
             state._fsp--;
 
              after(grammarAccess.getImportsVariableRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleImportsVariable729); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleImportsVariable850); 
 
             }
 
@@ -982,23 +1163,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "ruleImportsVariable"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:377:1: ruleImportsVariable : ( ( rule__ImportsVariable__Group__0 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:433:1: ruleImportsVariable : ( ( rule__ImportsVariable__Group__0 ) ) ;
     public final void ruleImportsVariable() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:381:2: ( ( ( rule__ImportsVariable__Group__0 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:382:1: ( ( rule__ImportsVariable__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:437:2: ( ( ( rule__ImportsVariable__Group__0 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:438:1: ( ( rule__ImportsVariable__Group__0 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:382:1: ( ( rule__ImportsVariable__Group__0 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:383:1: ( rule__ImportsVariable__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:438:1: ( ( rule__ImportsVariable__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:439:1: ( rule__ImportsVariable__Group__0 )
             {
              before(grammarAccess.getImportsVariableAccess().getGroup()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:384:1: ( rule__ImportsVariable__Group__0 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:384:2: rule__ImportsVariable__Group__0
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:440:1: ( rule__ImportsVariable__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:440:2: rule__ImportsVariable__Group__0
             {
-            pushFollow(FOLLOW_rule__ImportsVariable__Group__0_in_ruleImportsVariable755);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group__0_in_ruleImportsVariable876);
             rule__ImportsVariable__Group__0();
 
             state._fsp--;
@@ -1029,20 +1210,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "entryRuleFacetsProperty"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:396:1: entryRuleFacetsProperty : ruleFacetsProperty EOF ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:452:1: entryRuleFacetsProperty : ruleFacetsProperty EOF ;
     public final void entryRuleFacetsProperty() throws RecognitionException {
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:397:1: ( ruleFacetsProperty EOF )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:398:1: ruleFacetsProperty EOF
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:453:1: ( ruleFacetsProperty EOF )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:454:1: ruleFacetsProperty EOF
             {
              before(grammarAccess.getFacetsPropertyRule()); 
-            pushFollow(FOLLOW_ruleFacetsProperty_in_entryRuleFacetsProperty782);
+            pushFollow(FOLLOW_ruleFacetsProperty_in_entryRuleFacetsProperty903);
             ruleFacetsProperty();
 
             state._fsp--;
 
              after(grammarAccess.getFacetsPropertyRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleFacetsProperty789); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleFacetsProperty910); 
 
             }
 
@@ -1059,23 +1240,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "ruleFacetsProperty"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:405:1: ruleFacetsProperty : ( ( rule__FacetsProperty__Group__0 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:461:1: ruleFacetsProperty : ( ( rule__FacetsProperty__Group__0 ) ) ;
     public final void ruleFacetsProperty() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:409:2: ( ( ( rule__FacetsProperty__Group__0 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:410:1: ( ( rule__FacetsProperty__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:465:2: ( ( ( rule__FacetsProperty__Group__0 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:466:1: ( ( rule__FacetsProperty__Group__0 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:410:1: ( ( rule__FacetsProperty__Group__0 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:411:1: ( rule__FacetsProperty__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:466:1: ( ( rule__FacetsProperty__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:467:1: ( rule__FacetsProperty__Group__0 )
             {
              before(grammarAccess.getFacetsPropertyAccess().getGroup()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:412:1: ( rule__FacetsProperty__Group__0 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:412:2: rule__FacetsProperty__Group__0
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:468:1: ( rule__FacetsProperty__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:468:2: rule__FacetsProperty__Group__0
             {
-            pushFollow(FOLLOW_rule__FacetsProperty__Group__0_in_ruleFacetsProperty815);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group__0_in_ruleFacetsProperty936);
             rule__FacetsProperty__Group__0();
 
             state._fsp--;
@@ -1106,20 +1287,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "entryRuleExtendsProperty"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:424:1: entryRuleExtendsProperty : ruleExtendsProperty EOF ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:480:1: entryRuleExtendsProperty : ruleExtendsProperty EOF ;
     public final void entryRuleExtendsProperty() throws RecognitionException {
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:425:1: ( ruleExtendsProperty EOF )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:426:1: ruleExtendsProperty EOF
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:481:1: ( ruleExtendsProperty EOF )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:482:1: ruleExtendsProperty EOF
             {
              before(grammarAccess.getExtendsPropertyRule()); 
-            pushFollow(FOLLOW_ruleExtendsProperty_in_entryRuleExtendsProperty842);
+            pushFollow(FOLLOW_ruleExtendsProperty_in_entryRuleExtendsProperty963);
             ruleExtendsProperty();
 
             state._fsp--;
 
              after(grammarAccess.getExtendsPropertyRule()); 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleExtendsProperty849); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleExtendsProperty970); 
 
             }
 
@@ -1136,23 +1317,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "ruleExtendsProperty"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:433:1: ruleExtendsProperty : ( ( rule__ExtendsProperty__Group__0 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:489:1: ruleExtendsProperty : ( ( rule__ExtendsProperty__Group__0 ) ) ;
     public final void ruleExtendsProperty() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:437:2: ( ( ( rule__ExtendsProperty__Group__0 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:438:1: ( ( rule__ExtendsProperty__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:493:2: ( ( ( rule__ExtendsProperty__Group__0 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:494:1: ( ( rule__ExtendsProperty__Group__0 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:438:1: ( ( rule__ExtendsProperty__Group__0 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:439:1: ( rule__ExtendsProperty__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:494:1: ( ( rule__ExtendsProperty__Group__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:495:1: ( rule__ExtendsProperty__Group__0 )
             {
              before(grammarAccess.getExtendsPropertyAccess().getGroup()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:440:1: ( rule__ExtendsProperty__Group__0 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:440:2: rule__ExtendsProperty__Group__0
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:496:1: ( rule__ExtendsProperty__Group__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:496:2: rule__ExtendsProperty__Group__0
             {
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group__0_in_ruleExtendsProperty875);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group__0_in_ruleExtendsProperty996);
             rule__ExtendsProperty__Group__0();
 
             state._fsp--;
@@ -1183,40 +1364,40 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ComponentOrFacet__Alternatives"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:452:1: rule__ComponentOrFacet__Alternatives : ( ( ( rule__ComponentOrFacet__ComponentAssignment_0 ) ) | ( ( rule__ComponentOrFacet__FacetAssignment_1 ) ) );
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:508:1: rule__ComponentOrFacet__Alternatives : ( ( ( rule__ComponentOrFacet__ComponentAssignment_0 ) ) | ( ( rule__ComponentOrFacet__FacetAssignment_1 ) ) );
     public final void rule__ComponentOrFacet__Alternatives() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:456:1: ( ( ( rule__ComponentOrFacet__ComponentAssignment_0 ) ) | ( ( rule__ComponentOrFacet__FacetAssignment_1 ) ) )
-            int alt2=2;
-            int LA2_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:512:1: ( ( ( rule__ComponentOrFacet__ComponentAssignment_0 ) ) | ( ( rule__ComponentOrFacet__FacetAssignment_1 ) ) )
+            int alt3=2;
+            int LA3_0 = input.LA(1);
 
-            if ( (LA2_0==RULE_ID) ) {
-                alt2=1;
+            if ( (LA3_0==RULE_ID) ) {
+                alt3=1;
             }
-            else if ( (LA2_0==13) ) {
-                alt2=2;
+            else if ( (LA3_0==13) ) {
+                alt3=2;
             }
             else {
                 NoViableAltException nvae =
-                    new NoViableAltException("", 2, 0, input);
+                    new NoViableAltException("", 3, 0, input);
 
                 throw nvae;
             }
-            switch (alt2) {
+            switch (alt3) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:457:1: ( ( rule__ComponentOrFacet__ComponentAssignment_0 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:513:1: ( ( rule__ComponentOrFacet__ComponentAssignment_0 ) )
                     {
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:457:1: ( ( rule__ComponentOrFacet__ComponentAssignment_0 ) )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:458:1: ( rule__ComponentOrFacet__ComponentAssignment_0 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:513:1: ( ( rule__ComponentOrFacet__ComponentAssignment_0 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:514:1: ( rule__ComponentOrFacet__ComponentAssignment_0 )
                     {
                      before(grammarAccess.getComponentOrFacetAccess().getComponentAssignment_0()); 
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:459:1: ( rule__ComponentOrFacet__ComponentAssignment_0 )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:459:2: rule__ComponentOrFacet__ComponentAssignment_0
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:515:1: ( rule__ComponentOrFacet__ComponentAssignment_0 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:515:2: rule__ComponentOrFacet__ComponentAssignment_0
                     {
-                    pushFollow(FOLLOW_rule__ComponentOrFacet__ComponentAssignment_0_in_rule__ComponentOrFacet__Alternatives911);
+                    pushFollow(FOLLOW_rule__ComponentOrFacet__ComponentAssignment_0_in_rule__ComponentOrFacet__Alternatives1032);
                     rule__ComponentOrFacet__ComponentAssignment_0();
 
                     state._fsp--;
@@ -1232,16 +1413,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
                     }
                     break;
                 case 2 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:463:6: ( ( rule__ComponentOrFacet__FacetAssignment_1 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:519:6: ( ( rule__ComponentOrFacet__FacetAssignment_1 ) )
                     {
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:463:6: ( ( rule__ComponentOrFacet__FacetAssignment_1 ) )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:464:1: ( rule__ComponentOrFacet__FacetAssignment_1 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:519:6: ( ( rule__ComponentOrFacet__FacetAssignment_1 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:520:1: ( rule__ComponentOrFacet__FacetAssignment_1 )
                     {
                      before(grammarAccess.getComponentOrFacetAccess().getFacetAssignment_1()); 
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:465:1: ( rule__ComponentOrFacet__FacetAssignment_1 )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:465:2: rule__ComponentOrFacet__FacetAssignment_1
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:521:1: ( rule__ComponentOrFacet__FacetAssignment_1 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:521:2: rule__ComponentOrFacet__FacetAssignment_1
                     {
-                    pushFollow(FOLLOW_rule__ComponentOrFacet__FacetAssignment_1_in_rule__ComponentOrFacet__Alternatives929);
+                    pushFollow(FOLLOW_rule__ComponentOrFacet__FacetAssignment_1_in_rule__ComponentOrFacet__Alternatives1050);
                     rule__ComponentOrFacet__FacetAssignment_1();
 
                     state._fsp--;
@@ -1273,60 +1454,151 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
     // $ANTLR end "rule__ComponentOrFacet__Alternatives"
 
 
+    // $ANTLR start "rule__FacetProperty__Alternatives"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:530:1: rule__FacetProperty__Alternatives : ( ( ( rule__FacetProperty__ChildrenPropertyAssignment_0 ) ) | ( ( rule__FacetProperty__ExportsPropertyAssignment_1 ) ) );
+    public final void rule__FacetProperty__Alternatives() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:534:1: ( ( ( rule__FacetProperty__ChildrenPropertyAssignment_0 ) ) | ( ( rule__FacetProperty__ExportsPropertyAssignment_1 ) ) )
+            int alt4=2;
+            int LA4_0 = input.LA(1);
+
+            if ( (LA4_0==16) ) {
+                alt4=1;
+            }
+            else if ( (LA4_0==18) ) {
+                alt4=2;
+            }
+            else {
+                NoViableAltException nvae =
+                    new NoViableAltException("", 4, 0, input);
+
+                throw nvae;
+            }
+            switch (alt4) {
+                case 1 :
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:535:1: ( ( rule__FacetProperty__ChildrenPropertyAssignment_0 ) )
+                    {
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:535:1: ( ( rule__FacetProperty__ChildrenPropertyAssignment_0 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:536:1: ( rule__FacetProperty__ChildrenPropertyAssignment_0 )
+                    {
+                     before(grammarAccess.getFacetPropertyAccess().getChildrenPropertyAssignment_0()); 
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:537:1: ( rule__FacetProperty__ChildrenPropertyAssignment_0 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:537:2: rule__FacetProperty__ChildrenPropertyAssignment_0
+                    {
+                    pushFollow(FOLLOW_rule__FacetProperty__ChildrenPropertyAssignment_0_in_rule__FacetProperty__Alternatives1083);
+                    rule__FacetProperty__ChildrenPropertyAssignment_0();
+
+                    state._fsp--;
+
+
+                    }
+
+                     after(grammarAccess.getFacetPropertyAccess().getChildrenPropertyAssignment_0()); 
+
+                    }
+
+
+                    }
+                    break;
+                case 2 :
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:541:6: ( ( rule__FacetProperty__ExportsPropertyAssignment_1 ) )
+                    {
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:541:6: ( ( rule__FacetProperty__ExportsPropertyAssignment_1 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:542:1: ( rule__FacetProperty__ExportsPropertyAssignment_1 )
+                    {
+                     before(grammarAccess.getFacetPropertyAccess().getExportsPropertyAssignment_1()); 
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:543:1: ( rule__FacetProperty__ExportsPropertyAssignment_1 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:543:2: rule__FacetProperty__ExportsPropertyAssignment_1
+                    {
+                    pushFollow(FOLLOW_rule__FacetProperty__ExportsPropertyAssignment_1_in_rule__FacetProperty__Alternatives1101);
+                    rule__FacetProperty__ExportsPropertyAssignment_1();
+
+                    state._fsp--;
+
+
+                    }
+
+                     after(grammarAccess.getFacetPropertyAccess().getExportsPropertyAssignment_1()); 
+
+                    }
+
+
+                    }
+                    break;
+
+            }
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__FacetProperty__Alternatives"
+
+
     // $ANTLR start "rule__OptionalProperty__Alternatives"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:474:1: rule__OptionalProperty__Alternatives : ( ( ( rule__OptionalProperty__ChildrenPropertyAssignment_0 ) ) | ( ( rule__OptionalProperty__ExportsPropertyAssignment_1 ) ) | ( ( rule__OptionalProperty__ImportsPropertyAssignment_2 ) ) | ( ( rule__OptionalProperty__FacetsPropertyAssignment_3 ) ) | ( ( rule__OptionalProperty__ExtendsPropertyAssignment_4 ) ) );
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:552:1: rule__OptionalProperty__Alternatives : ( ( ( rule__OptionalProperty__ChildrenPropertyAssignment_0 ) ) | ( ( rule__OptionalProperty__ExportsPropertyAssignment_1 ) ) | ( ( rule__OptionalProperty__ImportsPropertyAssignment_2 ) ) | ( ( rule__OptionalProperty__FacetsPropertyAssignment_3 ) ) | ( ( rule__OptionalProperty__ExtendsPropertyAssignment_4 ) ) );
     public final void rule__OptionalProperty__Alternatives() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:478:1: ( ( ( rule__OptionalProperty__ChildrenPropertyAssignment_0 ) ) | ( ( rule__OptionalProperty__ExportsPropertyAssignment_1 ) ) | ( ( rule__OptionalProperty__ImportsPropertyAssignment_2 ) ) | ( ( rule__OptionalProperty__FacetsPropertyAssignment_3 ) ) | ( ( rule__OptionalProperty__ExtendsPropertyAssignment_4 ) ) )
-            int alt3=5;
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:556:1: ( ( ( rule__OptionalProperty__ChildrenPropertyAssignment_0 ) ) | ( ( rule__OptionalProperty__ExportsPropertyAssignment_1 ) ) | ( ( rule__OptionalProperty__ImportsPropertyAssignment_2 ) ) | ( ( rule__OptionalProperty__FacetsPropertyAssignment_3 ) ) | ( ( rule__OptionalProperty__ExtendsPropertyAssignment_4 ) ) )
+            int alt5=5;
             switch ( input.LA(1) ) {
             case 16:
                 {
-                alt3=1;
+                alt5=1;
                 }
                 break;
             case 18:
                 {
-                alt3=2;
+                alt5=2;
                 }
                 break;
             case 20:
                 {
-                alt3=3;
+                alt5=3;
                 }
                 break;
             case 22:
                 {
-                alt3=4;
+                alt5=4;
                 }
                 break;
             case 23:
                 {
-                alt3=5;
+                alt5=5;
                 }
                 break;
             default:
                 NoViableAltException nvae =
-                    new NoViableAltException("", 3, 0, input);
+                    new NoViableAltException("", 5, 0, input);
 
                 throw nvae;
             }
 
-            switch (alt3) {
+            switch (alt5) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:479:1: ( ( rule__OptionalProperty__ChildrenPropertyAssignment_0 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:557:1: ( ( rule__OptionalProperty__ChildrenPropertyAssignment_0 ) )
                     {
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:479:1: ( ( rule__OptionalProperty__ChildrenPropertyAssignment_0 ) )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:480:1: ( rule__OptionalProperty__ChildrenPropertyAssignment_0 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:557:1: ( ( rule__OptionalProperty__ChildrenPropertyAssignment_0 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:558:1: ( rule__OptionalProperty__ChildrenPropertyAssignment_0 )
                     {
                      before(grammarAccess.getOptionalPropertyAccess().getChildrenPropertyAssignment_0()); 
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:481:1: ( rule__OptionalProperty__ChildrenPropertyAssignment_0 )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:481:2: rule__OptionalProperty__ChildrenPropertyAssignment_0
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:559:1: ( rule__OptionalProperty__ChildrenPropertyAssignment_0 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:559:2: rule__OptionalProperty__ChildrenPropertyAssignment_0
                     {
-                    pushFollow(FOLLOW_rule__OptionalProperty__ChildrenPropertyAssignment_0_in_rule__OptionalProperty__Alternatives962);
+                    pushFollow(FOLLOW_rule__OptionalProperty__ChildrenPropertyAssignment_0_in_rule__OptionalProperty__Alternatives1134);
                     rule__OptionalProperty__ChildrenPropertyAssignment_0();
 
                     state._fsp--;
@@ -1342,16 +1614,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
                     }
                     break;
                 case 2 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:485:6: ( ( rule__OptionalProperty__ExportsPropertyAssignment_1 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:563:6: ( ( rule__OptionalProperty__ExportsPropertyAssignment_1 ) )
                     {
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:485:6: ( ( rule__OptionalProperty__ExportsPropertyAssignment_1 ) )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:486:1: ( rule__OptionalProperty__ExportsPropertyAssignment_1 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:563:6: ( ( rule__OptionalProperty__ExportsPropertyAssignment_1 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:564:1: ( rule__OptionalProperty__ExportsPropertyAssignment_1 )
                     {
                      before(grammarAccess.getOptionalPropertyAccess().getExportsPropertyAssignment_1()); 
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:487:1: ( rule__OptionalProperty__ExportsPropertyAssignment_1 )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:487:2: rule__OptionalProperty__ExportsPropertyAssignment_1
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:565:1: ( rule__OptionalProperty__ExportsPropertyAssignment_1 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:565:2: rule__OptionalProperty__ExportsPropertyAssignment_1
                     {
-                    pushFollow(FOLLOW_rule__OptionalProperty__ExportsPropertyAssignment_1_in_rule__OptionalProperty__Alternatives980);
+                    pushFollow(FOLLOW_rule__OptionalProperty__ExportsPropertyAssignment_1_in_rule__OptionalProperty__Alternatives1152);
                     rule__OptionalProperty__ExportsPropertyAssignment_1();
 
                     state._fsp--;
@@ -1367,16 +1639,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
                     }
                     break;
                 case 3 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:491:6: ( ( rule__OptionalProperty__ImportsPropertyAssignment_2 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:569:6: ( ( rule__OptionalProperty__ImportsPropertyAssignment_2 ) )
                     {
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:491:6: ( ( rule__OptionalProperty__ImportsPropertyAssignment_2 ) )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:492:1: ( rule__OptionalProperty__ImportsPropertyAssignment_2 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:569:6: ( ( rule__OptionalProperty__ImportsPropertyAssignment_2 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:570:1: ( rule__OptionalProperty__ImportsPropertyAssignment_2 )
                     {
                      before(grammarAccess.getOptionalPropertyAccess().getImportsPropertyAssignment_2()); 
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:493:1: ( rule__OptionalProperty__ImportsPropertyAssignment_2 )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:493:2: rule__OptionalProperty__ImportsPropertyAssignment_2
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:571:1: ( rule__OptionalProperty__ImportsPropertyAssignment_2 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:571:2: rule__OptionalProperty__ImportsPropertyAssignment_2
                     {
-                    pushFollow(FOLLOW_rule__OptionalProperty__ImportsPropertyAssignment_2_in_rule__OptionalProperty__Alternatives998);
+                    pushFollow(FOLLOW_rule__OptionalProperty__ImportsPropertyAssignment_2_in_rule__OptionalProperty__Alternatives1170);
                     rule__OptionalProperty__ImportsPropertyAssignment_2();
 
                     state._fsp--;
@@ -1392,16 +1664,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
                     }
                     break;
                 case 4 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:497:6: ( ( rule__OptionalProperty__FacetsPropertyAssignment_3 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:575:6: ( ( rule__OptionalProperty__FacetsPropertyAssignment_3 ) )
                     {
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:497:6: ( ( rule__OptionalProperty__FacetsPropertyAssignment_3 ) )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:498:1: ( rule__OptionalProperty__FacetsPropertyAssignment_3 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:575:6: ( ( rule__OptionalProperty__FacetsPropertyAssignment_3 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:576:1: ( rule__OptionalProperty__FacetsPropertyAssignment_3 )
                     {
                      before(grammarAccess.getOptionalPropertyAccess().getFacetsPropertyAssignment_3()); 
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:499:1: ( rule__OptionalProperty__FacetsPropertyAssignment_3 )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:499:2: rule__OptionalProperty__FacetsPropertyAssignment_3
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:577:1: ( rule__OptionalProperty__FacetsPropertyAssignment_3 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:577:2: rule__OptionalProperty__FacetsPropertyAssignment_3
                     {
-                    pushFollow(FOLLOW_rule__OptionalProperty__FacetsPropertyAssignment_3_in_rule__OptionalProperty__Alternatives1016);
+                    pushFollow(FOLLOW_rule__OptionalProperty__FacetsPropertyAssignment_3_in_rule__OptionalProperty__Alternatives1188);
                     rule__OptionalProperty__FacetsPropertyAssignment_3();
 
                     state._fsp--;
@@ -1417,16 +1689,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
                     }
                     break;
                 case 5 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:503:6: ( ( rule__OptionalProperty__ExtendsPropertyAssignment_4 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:581:6: ( ( rule__OptionalProperty__ExtendsPropertyAssignment_4 ) )
                     {
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:503:6: ( ( rule__OptionalProperty__ExtendsPropertyAssignment_4 ) )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:504:1: ( rule__OptionalProperty__ExtendsPropertyAssignment_4 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:581:6: ( ( rule__OptionalProperty__ExtendsPropertyAssignment_4 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:582:1: ( rule__OptionalProperty__ExtendsPropertyAssignment_4 )
                     {
                      before(grammarAccess.getOptionalPropertyAccess().getExtendsPropertyAssignment_4()); 
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:505:1: ( rule__OptionalProperty__ExtendsPropertyAssignment_4 )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:505:2: rule__OptionalProperty__ExtendsPropertyAssignment_4
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:583:1: ( rule__OptionalProperty__ExtendsPropertyAssignment_4 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:583:2: rule__OptionalProperty__ExtendsPropertyAssignment_4
                     {
-                    pushFollow(FOLLOW_rule__OptionalProperty__ExtendsPropertyAssignment_4_in_rule__OptionalProperty__Alternatives1034);
+                    pushFollow(FOLLOW_rule__OptionalProperty__ExtendsPropertyAssignment_4_in_rule__OptionalProperty__Alternatives1206);
                     rule__OptionalProperty__ExtendsPropertyAssignment_4();
 
                     state._fsp--;
@@ -1459,40 +1731,40 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsVariable__Alternatives"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:514:1: rule__ExportsVariable__Alternatives : ( ( ( rule__ExportsVariable__NameAssignment_0 ) ) | ( ( rule__ExportsVariable__Group_1__0 ) ) );
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:592:1: rule__ExportsVariable__Alternatives : ( ( ( rule__ExportsVariable__NameAssignment_0 ) ) | ( ( rule__ExportsVariable__Group_1__0 ) ) );
     public final void rule__ExportsVariable__Alternatives() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:518:1: ( ( ( rule__ExportsVariable__NameAssignment_0 ) ) | ( ( rule__ExportsVariable__Group_1__0 ) ) )
-            int alt4=2;
-            int LA4_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:596:1: ( ( ( rule__ExportsVariable__NameAssignment_0 ) ) | ( ( rule__ExportsVariable__Group_1__0 ) ) )
+            int alt6=2;
+            int LA6_0 = input.LA(1);
 
-            if ( (LA4_0==24) ) {
-                alt4=1;
+            if ( (LA6_0==24) ) {
+                alt6=1;
             }
-            else if ( (LA4_0==RULE_ID) ) {
-                alt4=2;
+            else if ( (LA6_0==RULE_ID) ) {
+                alt6=2;
             }
             else {
                 NoViableAltException nvae =
-                    new NoViableAltException("", 4, 0, input);
+                    new NoViableAltException("", 6, 0, input);
 
                 throw nvae;
             }
-            switch (alt4) {
+            switch (alt6) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:519:1: ( ( rule__ExportsVariable__NameAssignment_0 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:597:1: ( ( rule__ExportsVariable__NameAssignment_0 ) )
                     {
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:519:1: ( ( rule__ExportsVariable__NameAssignment_0 ) )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:520:1: ( rule__ExportsVariable__NameAssignment_0 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:597:1: ( ( rule__ExportsVariable__NameAssignment_0 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:598:1: ( rule__ExportsVariable__NameAssignment_0 )
                     {
                      before(grammarAccess.getExportsVariableAccess().getNameAssignment_0()); 
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:521:1: ( rule__ExportsVariable__NameAssignment_0 )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:521:2: rule__ExportsVariable__NameAssignment_0
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:599:1: ( rule__ExportsVariable__NameAssignment_0 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:599:2: rule__ExportsVariable__NameAssignment_0
                     {
-                    pushFollow(FOLLOW_rule__ExportsVariable__NameAssignment_0_in_rule__ExportsVariable__Alternatives1067);
+                    pushFollow(FOLLOW_rule__ExportsVariable__NameAssignment_0_in_rule__ExportsVariable__Alternatives1239);
                     rule__ExportsVariable__NameAssignment_0();
 
                     state._fsp--;
@@ -1508,16 +1780,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
                     }
                     break;
                 case 2 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:525:6: ( ( rule__ExportsVariable__Group_1__0 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:603:6: ( ( rule__ExportsVariable__Group_1__0 ) )
                     {
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:525:6: ( ( rule__ExportsVariable__Group_1__0 ) )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:526:1: ( rule__ExportsVariable__Group_1__0 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:603:6: ( ( rule__ExportsVariable__Group_1__0 ) )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:604:1: ( rule__ExportsVariable__Group_1__0 )
                     {
                      before(grammarAccess.getExportsVariableAccess().getGroup_1()); 
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:527:1: ( rule__ExportsVariable__Group_1__0 )
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:527:2: rule__ExportsVariable__Group_1__0
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:605:1: ( rule__ExportsVariable__Group_1__0 )
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:605:2: rule__ExportsVariable__Group_1__0
                     {
-                    pushFollow(FOLLOW_rule__ExportsVariable__Group_1__0_in_rule__ExportsVariable__Alternatives1085);
+                    pushFollow(FOLLOW_rule__ExportsVariable__Group_1__0_in_rule__ExportsVariable__Alternatives1257);
                     rule__ExportsVariable__Group_1__0();
 
                     state._fsp--;
@@ -1550,21 +1822,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Graph__Group__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:538:1: rule__Graph__Group__0 : rule__Graph__Group__0__Impl rule__Graph__Group__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:616:1: rule__Graph__Group__0 : rule__Graph__Group__0__Impl rule__Graph__Group__1 ;
     public final void rule__Graph__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:542:1: ( rule__Graph__Group__0__Impl rule__Graph__Group__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:543:2: rule__Graph__Group__0__Impl rule__Graph__Group__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:620:1: ( rule__Graph__Group__0__Impl rule__Graph__Group__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:621:2: rule__Graph__Group__0__Impl rule__Graph__Group__1
             {
-            pushFollow(FOLLOW_rule__Graph__Group__0__Impl_in_rule__Graph__Group__01116);
+            pushFollow(FOLLOW_rule__Graph__Group__0__Impl_in_rule__Graph__Group__01288);
             rule__Graph__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Graph__Group__1_in_rule__Graph__Group__01119);
+            pushFollow(FOLLOW_rule__Graph__Group__1_in_rule__Graph__Group__01291);
             rule__Graph__Group__1();
 
             state._fsp--;
@@ -1588,31 +1860,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Graph__Group__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:550:1: rule__Graph__Group__0__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:628:1: rule__Graph__Group__0__Impl : ( ( RULE_WS )? ) ;
     public final void rule__Graph__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:554:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:555:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:632:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:633:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:555:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:556:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:633:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:634:1: ( RULE_WS )?
             {
              before(grammarAccess.getGraphAccess().getWSTerminalRuleCall_0()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:557:1: ( RULE_WS )?
-            int alt5=2;
-            int LA5_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:635:1: ( RULE_WS )?
+            int alt7=2;
+            int LA7_0 = input.LA(1);
 
-            if ( (LA5_0==RULE_WS) ) {
-                alt5=1;
+            if ( (LA7_0==RULE_WS) ) {
+                alt7=1;
             }
-            switch (alt5) {
+            switch (alt7) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:557:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:635:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Graph__Group__0__Impl1147); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Graph__Group__0__Impl1319); 
 
                     }
                     break;
@@ -1642,21 +1914,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Graph__Group__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:567:1: rule__Graph__Group__1 : rule__Graph__Group__1__Impl rule__Graph__Group__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:645:1: rule__Graph__Group__1 : rule__Graph__Group__1__Impl rule__Graph__Group__2 ;
     public final void rule__Graph__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:571:1: ( rule__Graph__Group__1__Impl rule__Graph__Group__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:572:2: rule__Graph__Group__1__Impl rule__Graph__Group__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:649:1: ( rule__Graph__Group__1__Impl rule__Graph__Group__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:650:2: rule__Graph__Group__1__Impl rule__Graph__Group__2
             {
-            pushFollow(FOLLOW_rule__Graph__Group__1__Impl_in_rule__Graph__Group__11178);
+            pushFollow(FOLLOW_rule__Graph__Group__1__Impl_in_rule__Graph__Group__11350);
             rule__Graph__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Graph__Group__2_in_rule__Graph__Group__11181);
+            pushFollow(FOLLOW_rule__Graph__Group__2_in_rule__Graph__Group__11353);
             rule__Graph__Group__2();
 
             state._fsp--;
@@ -1680,23 +1952,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Graph__Group__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:579:1: rule__Graph__Group__1__Impl : ( ( rule__Graph__ComponentsAssignment_1 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:657:1: rule__Graph__Group__1__Impl : ( ( rule__Graph__ComponentsAssignment_1 ) ) ;
     public final void rule__Graph__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:583:1: ( ( ( rule__Graph__ComponentsAssignment_1 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:584:1: ( ( rule__Graph__ComponentsAssignment_1 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:661:1: ( ( ( rule__Graph__ComponentsAssignment_1 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:662:1: ( ( rule__Graph__ComponentsAssignment_1 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:584:1: ( ( rule__Graph__ComponentsAssignment_1 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:585:1: ( rule__Graph__ComponentsAssignment_1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:662:1: ( ( rule__Graph__ComponentsAssignment_1 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:663:1: ( rule__Graph__ComponentsAssignment_1 )
             {
              before(grammarAccess.getGraphAccess().getComponentsAssignment_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:586:1: ( rule__Graph__ComponentsAssignment_1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:586:2: rule__Graph__ComponentsAssignment_1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:664:1: ( rule__Graph__ComponentsAssignment_1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:664:2: rule__Graph__ComponentsAssignment_1
             {
-            pushFollow(FOLLOW_rule__Graph__ComponentsAssignment_1_in_rule__Graph__Group__1__Impl1208);
+            pushFollow(FOLLOW_rule__Graph__ComponentsAssignment_1_in_rule__Graph__Group__1__Impl1380);
             rule__Graph__ComponentsAssignment_1();
 
             state._fsp--;
@@ -1727,16 +1999,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Graph__Group__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:596:1: rule__Graph__Group__2 : rule__Graph__Group__2__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:674:1: rule__Graph__Group__2 : rule__Graph__Group__2__Impl ;
     public final void rule__Graph__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:600:1: ( rule__Graph__Group__2__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:601:2: rule__Graph__Group__2__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:678:1: ( rule__Graph__Group__2__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:679:2: rule__Graph__Group__2__Impl
             {
-            pushFollow(FOLLOW_rule__Graph__Group__2__Impl_in_rule__Graph__Group__21238);
+            pushFollow(FOLLOW_rule__Graph__Group__2__Impl_in_rule__Graph__Group__21410);
             rule__Graph__Group__2__Impl();
 
             state._fsp--;
@@ -1760,31 +2032,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Graph__Group__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:607:1: rule__Graph__Group__2__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:685:1: rule__Graph__Group__2__Impl : ( ( RULE_WS )? ) ;
     public final void rule__Graph__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:611:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:612:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:689:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:690:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:612:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:613:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:690:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:691:1: ( RULE_WS )?
             {
              before(grammarAccess.getGraphAccess().getWSTerminalRuleCall_2()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:614:1: ( RULE_WS )?
-            int alt6=2;
-            int LA6_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:692:1: ( RULE_WS )?
+            int alt8=2;
+            int LA8_0 = input.LA(1);
 
-            if ( (LA6_0==RULE_WS) ) {
-                alt6=1;
+            if ( (LA8_0==RULE_WS) ) {
+                alt8=1;
             }
-            switch (alt6) {
+            switch (alt8) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:614:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:692:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Graph__Group__2__Impl1266); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Graph__Group__2__Impl1438); 
 
                     }
                     break;
@@ -1814,21 +2086,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__Group__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:630:1: rule__Component__Group__0 : rule__Component__Group__0__Impl rule__Component__Group__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:708:1: rule__Component__Group__0 : rule__Component__Group__0__Impl rule__Component__Group__1 ;
     public final void rule__Component__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:634:1: ( rule__Component__Group__0__Impl rule__Component__Group__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:635:2: rule__Component__Group__0__Impl rule__Component__Group__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:712:1: ( rule__Component__Group__0__Impl rule__Component__Group__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:713:2: rule__Component__Group__0__Impl rule__Component__Group__1
             {
-            pushFollow(FOLLOW_rule__Component__Group__0__Impl_in_rule__Component__Group__01303);
+            pushFollow(FOLLOW_rule__Component__Group__0__Impl_in_rule__Component__Group__01475);
             rule__Component__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Component__Group__1_in_rule__Component__Group__01306);
+            pushFollow(FOLLOW_rule__Component__Group__1_in_rule__Component__Group__01478);
             rule__Component__Group__1();
 
             state._fsp--;
@@ -1852,23 +2124,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__Group__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:642:1: rule__Component__Group__0__Impl : ( ( rule__Component__NameAssignment_0 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:720:1: rule__Component__Group__0__Impl : ( ( rule__Component__NameAssignment_0 ) ) ;
     public final void rule__Component__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:646:1: ( ( ( rule__Component__NameAssignment_0 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:647:1: ( ( rule__Component__NameAssignment_0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:724:1: ( ( ( rule__Component__NameAssignment_0 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:725:1: ( ( rule__Component__NameAssignment_0 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:647:1: ( ( rule__Component__NameAssignment_0 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:648:1: ( rule__Component__NameAssignment_0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:725:1: ( ( rule__Component__NameAssignment_0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:726:1: ( rule__Component__NameAssignment_0 )
             {
              before(grammarAccess.getComponentAccess().getNameAssignment_0()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:649:1: ( rule__Component__NameAssignment_0 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:649:2: rule__Component__NameAssignment_0
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:727:1: ( rule__Component__NameAssignment_0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:727:2: rule__Component__NameAssignment_0
             {
-            pushFollow(FOLLOW_rule__Component__NameAssignment_0_in_rule__Component__Group__0__Impl1333);
+            pushFollow(FOLLOW_rule__Component__NameAssignment_0_in_rule__Component__Group__0__Impl1505);
             rule__Component__NameAssignment_0();
 
             state._fsp--;
@@ -1899,21 +2171,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__Group__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:659:1: rule__Component__Group__1 : rule__Component__Group__1__Impl rule__Component__Group__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:737:1: rule__Component__Group__1 : rule__Component__Group__1__Impl rule__Component__Group__2 ;
     public final void rule__Component__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:663:1: ( rule__Component__Group__1__Impl rule__Component__Group__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:664:2: rule__Component__Group__1__Impl rule__Component__Group__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:741:1: ( rule__Component__Group__1__Impl rule__Component__Group__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:742:2: rule__Component__Group__1__Impl rule__Component__Group__2
             {
-            pushFollow(FOLLOW_rule__Component__Group__1__Impl_in_rule__Component__Group__11363);
+            pushFollow(FOLLOW_rule__Component__Group__1__Impl_in_rule__Component__Group__11535);
             rule__Component__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Component__Group__2_in_rule__Component__Group__11366);
+            pushFollow(FOLLOW_rule__Component__Group__2_in_rule__Component__Group__11538);
             rule__Component__Group__2();
 
             state._fsp--;
@@ -1937,31 +2209,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__Group__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:671:1: rule__Component__Group__1__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:749:1: rule__Component__Group__1__Impl : ( ( RULE_WS )? ) ;
     public final void rule__Component__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:675:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:676:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:753:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:754:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:676:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:677:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:754:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:755:1: ( RULE_WS )?
             {
              before(grammarAccess.getComponentAccess().getWSTerminalRuleCall_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:678:1: ( RULE_WS )?
-            int alt7=2;
-            int LA7_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:756:1: ( RULE_WS )?
+            int alt9=2;
+            int LA9_0 = input.LA(1);
 
-            if ( (LA7_0==RULE_WS) ) {
-                alt7=1;
+            if ( (LA9_0==RULE_WS) ) {
+                alt9=1;
             }
-            switch (alt7) {
+            switch (alt9) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:678:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:756:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Component__Group__1__Impl1394); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Component__Group__1__Impl1566); 
 
                     }
                     break;
@@ -1991,21 +2263,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__Group__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:688:1: rule__Component__Group__2 : rule__Component__Group__2__Impl rule__Component__Group__3 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:766:1: rule__Component__Group__2 : rule__Component__Group__2__Impl rule__Component__Group__3 ;
     public final void rule__Component__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:692:1: ( rule__Component__Group__2__Impl rule__Component__Group__3 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:693:2: rule__Component__Group__2__Impl rule__Component__Group__3
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:770:1: ( rule__Component__Group__2__Impl rule__Component__Group__3 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:771:2: rule__Component__Group__2__Impl rule__Component__Group__3
             {
-            pushFollow(FOLLOW_rule__Component__Group__2__Impl_in_rule__Component__Group__21425);
+            pushFollow(FOLLOW_rule__Component__Group__2__Impl_in_rule__Component__Group__21597);
             rule__Component__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Component__Group__3_in_rule__Component__Group__21428);
+            pushFollow(FOLLOW_rule__Component__Group__3_in_rule__Component__Group__21600);
             rule__Component__Group__3();
 
             state._fsp--;
@@ -2029,20 +2301,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__Group__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:700:1: rule__Component__Group__2__Impl : ( '{' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:778:1: rule__Component__Group__2__Impl : ( '{' ) ;
     public final void rule__Component__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:704:1: ( ( '{' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:705:1: ( '{' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:782:1: ( ( '{' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:783:1: ( '{' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:705:1: ( '{' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:706:1: '{'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:783:1: ( '{' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:784:1: '{'
             {
              before(grammarAccess.getComponentAccess().getLeftCurlyBracketKeyword_2()); 
-            match(input,11,FOLLOW_11_in_rule__Component__Group__2__Impl1456); 
+            match(input,11,FOLLOW_11_in_rule__Component__Group__2__Impl1628); 
              after(grammarAccess.getComponentAccess().getLeftCurlyBracketKeyword_2()); 
 
             }
@@ -2066,21 +2338,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__Group__3"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:719:1: rule__Component__Group__3 : rule__Component__Group__3__Impl rule__Component__Group__4 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:797:1: rule__Component__Group__3 : rule__Component__Group__3__Impl rule__Component__Group__4 ;
     public final void rule__Component__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:723:1: ( rule__Component__Group__3__Impl rule__Component__Group__4 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:724:2: rule__Component__Group__3__Impl rule__Component__Group__4
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:801:1: ( rule__Component__Group__3__Impl rule__Component__Group__4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:802:2: rule__Component__Group__3__Impl rule__Component__Group__4
             {
-            pushFollow(FOLLOW_rule__Component__Group__3__Impl_in_rule__Component__Group__31487);
+            pushFollow(FOLLOW_rule__Component__Group__3__Impl_in_rule__Component__Group__31659);
             rule__Component__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Component__Group__4_in_rule__Component__Group__31490);
+            pushFollow(FOLLOW_rule__Component__Group__4_in_rule__Component__Group__31662);
             rule__Component__Group__4();
 
             state._fsp--;
@@ -2104,31 +2376,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__Group__3__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:731:1: rule__Component__Group__3__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:809:1: rule__Component__Group__3__Impl : ( ( RULE_WS )? ) ;
     public final void rule__Component__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:735:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:736:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:813:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:814:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:736:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:737:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:814:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:815:1: ( RULE_WS )?
             {
              before(grammarAccess.getComponentAccess().getWSTerminalRuleCall_3()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:738:1: ( RULE_WS )?
-            int alt8=2;
-            int LA8_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:816:1: ( RULE_WS )?
+            int alt10=2;
+            int LA10_0 = input.LA(1);
 
-            if ( (LA8_0==RULE_WS) ) {
-                alt8=1;
+            if ( (LA10_0==RULE_WS) ) {
+                alt10=1;
             }
-            switch (alt8) {
+            switch (alt10) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:738:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:816:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Component__Group__3__Impl1518); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Component__Group__3__Impl1690); 
 
                     }
                     break;
@@ -2158,21 +2430,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__Group__4"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:748:1: rule__Component__Group__4 : rule__Component__Group__4__Impl rule__Component__Group__5 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:826:1: rule__Component__Group__4 : rule__Component__Group__4__Impl rule__Component__Group__5 ;
     public final void rule__Component__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:752:1: ( rule__Component__Group__4__Impl rule__Component__Group__5 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:753:2: rule__Component__Group__4__Impl rule__Component__Group__5
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:830:1: ( rule__Component__Group__4__Impl rule__Component__Group__5 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:831:2: rule__Component__Group__4__Impl rule__Component__Group__5
             {
-            pushFollow(FOLLOW_rule__Component__Group__4__Impl_in_rule__Component__Group__41549);
+            pushFollow(FOLLOW_rule__Component__Group__4__Impl_in_rule__Component__Group__41721);
             rule__Component__Group__4__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Component__Group__5_in_rule__Component__Group__41552);
+            pushFollow(FOLLOW_rule__Component__Group__5_in_rule__Component__Group__41724);
             rule__Component__Group__5();
 
             state._fsp--;
@@ -2196,23 +2468,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__Group__4__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:760:1: rule__Component__Group__4__Impl : ( ( rule__Component__PropertiesAssignment_4 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:838:1: rule__Component__Group__4__Impl : ( ( rule__Component__PropertiesAssignment_4 ) ) ;
     public final void rule__Component__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:764:1: ( ( ( rule__Component__PropertiesAssignment_4 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:765:1: ( ( rule__Component__PropertiesAssignment_4 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:842:1: ( ( ( rule__Component__PropertiesAssignment_4 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:843:1: ( ( rule__Component__PropertiesAssignment_4 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:765:1: ( ( rule__Component__PropertiesAssignment_4 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:766:1: ( rule__Component__PropertiesAssignment_4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:843:1: ( ( rule__Component__PropertiesAssignment_4 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:844:1: ( rule__Component__PropertiesAssignment_4 )
             {
              before(grammarAccess.getComponentAccess().getPropertiesAssignment_4()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:767:1: ( rule__Component__PropertiesAssignment_4 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:767:2: rule__Component__PropertiesAssignment_4
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:845:1: ( rule__Component__PropertiesAssignment_4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:845:2: rule__Component__PropertiesAssignment_4
             {
-            pushFollow(FOLLOW_rule__Component__PropertiesAssignment_4_in_rule__Component__Group__4__Impl1579);
+            pushFollow(FOLLOW_rule__Component__PropertiesAssignment_4_in_rule__Component__Group__4__Impl1751);
             rule__Component__PropertiesAssignment_4();
 
             state._fsp--;
@@ -2243,21 +2515,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__Group__5"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:777:1: rule__Component__Group__5 : rule__Component__Group__5__Impl rule__Component__Group__6 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:855:1: rule__Component__Group__5 : rule__Component__Group__5__Impl rule__Component__Group__6 ;
     public final void rule__Component__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:781:1: ( rule__Component__Group__5__Impl rule__Component__Group__6 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:782:2: rule__Component__Group__5__Impl rule__Component__Group__6
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:859:1: ( rule__Component__Group__5__Impl rule__Component__Group__6 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:860:2: rule__Component__Group__5__Impl rule__Component__Group__6
             {
-            pushFollow(FOLLOW_rule__Component__Group__5__Impl_in_rule__Component__Group__51609);
+            pushFollow(FOLLOW_rule__Component__Group__5__Impl_in_rule__Component__Group__51781);
             rule__Component__Group__5__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Component__Group__6_in_rule__Component__Group__51612);
+            pushFollow(FOLLOW_rule__Component__Group__6_in_rule__Component__Group__51784);
             rule__Component__Group__6();
 
             state._fsp--;
@@ -2281,31 +2553,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__Group__5__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:789:1: rule__Component__Group__5__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:867:1: rule__Component__Group__5__Impl : ( ( RULE_WS )? ) ;
     public final void rule__Component__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:793:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:794:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:871:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:872:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:794:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:795:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:872:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:873:1: ( RULE_WS )?
             {
              before(grammarAccess.getComponentAccess().getWSTerminalRuleCall_5()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:796:1: ( RULE_WS )?
-            int alt9=2;
-            int LA9_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:874:1: ( RULE_WS )?
+            int alt11=2;
+            int LA11_0 = input.LA(1);
 
-            if ( (LA9_0==RULE_WS) ) {
-                alt9=1;
+            if ( (LA11_0==RULE_WS) ) {
+                alt11=1;
             }
-            switch (alt9) {
+            switch (alt11) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:796:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:874:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Component__Group__5__Impl1640); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Component__Group__5__Impl1812); 
 
                     }
                     break;
@@ -2335,16 +2607,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__Group__6"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:806:1: rule__Component__Group__6 : rule__Component__Group__6__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:884:1: rule__Component__Group__6 : rule__Component__Group__6__Impl ;
     public final void rule__Component__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:810:1: ( rule__Component__Group__6__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:811:2: rule__Component__Group__6__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:888:1: ( rule__Component__Group__6__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:889:2: rule__Component__Group__6__Impl
             {
-            pushFollow(FOLLOW_rule__Component__Group__6__Impl_in_rule__Component__Group__61671);
+            pushFollow(FOLLOW_rule__Component__Group__6__Impl_in_rule__Component__Group__61843);
             rule__Component__Group__6__Impl();
 
             state._fsp--;
@@ -2368,20 +2640,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__Group__6__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:817:1: rule__Component__Group__6__Impl : ( '}' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:895:1: rule__Component__Group__6__Impl : ( '}' ) ;
     public final void rule__Component__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:821:1: ( ( '}' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:822:1: ( '}' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:899:1: ( ( '}' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:900:1: ( '}' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:822:1: ( '}' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:823:1: '}'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:900:1: ( '}' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:901:1: '}'
             {
              before(grammarAccess.getComponentAccess().getRightCurlyBracketKeyword_6()); 
-            match(input,12,FOLLOW_12_in_rule__Component__Group__6__Impl1699); 
+            match(input,12,FOLLOW_12_in_rule__Component__Group__6__Impl1871); 
              after(grammarAccess.getComponentAccess().getRightCurlyBracketKeyword_6()); 
 
             }
@@ -2405,21 +2677,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:850:1: rule__Facet__Group__0 : rule__Facet__Group__0__Impl rule__Facet__Group__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:928:1: rule__Facet__Group__0 : rule__Facet__Group__0__Impl rule__Facet__Group__1 ;
     public final void rule__Facet__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:854:1: ( rule__Facet__Group__0__Impl rule__Facet__Group__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:855:2: rule__Facet__Group__0__Impl rule__Facet__Group__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:932:1: ( rule__Facet__Group__0__Impl rule__Facet__Group__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:933:2: rule__Facet__Group__0__Impl rule__Facet__Group__1
             {
-            pushFollow(FOLLOW_rule__Facet__Group__0__Impl_in_rule__Facet__Group__01744);
+            pushFollow(FOLLOW_rule__Facet__Group__0__Impl_in_rule__Facet__Group__01916);
             rule__Facet__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Facet__Group__1_in_rule__Facet__Group__01747);
+            pushFollow(FOLLOW_rule__Facet__Group__1_in_rule__Facet__Group__01919);
             rule__Facet__Group__1();
 
             state._fsp--;
@@ -2443,20 +2715,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:862:1: rule__Facet__Group__0__Impl : ( 'facet' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:940:1: rule__Facet__Group__0__Impl : ( 'facet' ) ;
     public final void rule__Facet__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:866:1: ( ( 'facet' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:867:1: ( 'facet' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:944:1: ( ( 'facet' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:945:1: ( 'facet' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:867:1: ( 'facet' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:868:1: 'facet'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:945:1: ( 'facet' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:946:1: 'facet'
             {
              before(grammarAccess.getFacetAccess().getFacetKeyword_0()); 
-            match(input,13,FOLLOW_13_in_rule__Facet__Group__0__Impl1775); 
+            match(input,13,FOLLOW_13_in_rule__Facet__Group__0__Impl1947); 
              after(grammarAccess.getFacetAccess().getFacetKeyword_0()); 
 
             }
@@ -2480,21 +2752,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:881:1: rule__Facet__Group__1 : rule__Facet__Group__1__Impl rule__Facet__Group__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:959:1: rule__Facet__Group__1 : rule__Facet__Group__1__Impl rule__Facet__Group__2 ;
     public final void rule__Facet__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:885:1: ( rule__Facet__Group__1__Impl rule__Facet__Group__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:886:2: rule__Facet__Group__1__Impl rule__Facet__Group__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:963:1: ( rule__Facet__Group__1__Impl rule__Facet__Group__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:964:2: rule__Facet__Group__1__Impl rule__Facet__Group__2
             {
-            pushFollow(FOLLOW_rule__Facet__Group__1__Impl_in_rule__Facet__Group__11806);
+            pushFollow(FOLLOW_rule__Facet__Group__1__Impl_in_rule__Facet__Group__11978);
             rule__Facet__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Facet__Group__2_in_rule__Facet__Group__11809);
+            pushFollow(FOLLOW_rule__Facet__Group__2_in_rule__Facet__Group__11981);
             rule__Facet__Group__2();
 
             state._fsp--;
@@ -2518,20 +2790,37 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:893:1: rule__Facet__Group__1__Impl : ( RULE_WS ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:971:1: rule__Facet__Group__1__Impl : ( ( RULE_WS )? ) ;
     public final void rule__Facet__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:897:1: ( ( RULE_WS ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:898:1: ( RULE_WS )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:975:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:976:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:898:1: ( RULE_WS )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:899:1: RULE_WS
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:976:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:977:1: ( RULE_WS )?
             {
              before(grammarAccess.getFacetAccess().getWSTerminalRuleCall_1()); 
-            match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Facet__Group__1__Impl1836); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:978:1: ( RULE_WS )?
+            int alt12=2;
+            int LA12_0 = input.LA(1);
+
+            if ( (LA12_0==RULE_WS) ) {
+                alt12=1;
+            }
+            switch (alt12) {
+                case 1 :
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:978:3: RULE_WS
+                    {
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Facet__Group__1__Impl2009); 
+
+                    }
+                    break;
+
+            }
+
              after(grammarAccess.getFacetAccess().getWSTerminalRuleCall_1()); 
 
             }
@@ -2555,21 +2844,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:910:1: rule__Facet__Group__2 : rule__Facet__Group__2__Impl rule__Facet__Group__3 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:988:1: rule__Facet__Group__2 : rule__Facet__Group__2__Impl rule__Facet__Group__3 ;
     public final void rule__Facet__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:914:1: ( rule__Facet__Group__2__Impl rule__Facet__Group__3 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:915:2: rule__Facet__Group__2__Impl rule__Facet__Group__3
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:992:1: ( rule__Facet__Group__2__Impl rule__Facet__Group__3 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:993:2: rule__Facet__Group__2__Impl rule__Facet__Group__3
             {
-            pushFollow(FOLLOW_rule__Facet__Group__2__Impl_in_rule__Facet__Group__21865);
+            pushFollow(FOLLOW_rule__Facet__Group__2__Impl_in_rule__Facet__Group__22040);
             rule__Facet__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Facet__Group__3_in_rule__Facet__Group__21868);
+            pushFollow(FOLLOW_rule__Facet__Group__3_in_rule__Facet__Group__22043);
             rule__Facet__Group__3();
 
             state._fsp--;
@@ -2593,23 +2882,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:922:1: rule__Facet__Group__2__Impl : ( ( rule__Facet__NameAssignment_2 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1000:1: rule__Facet__Group__2__Impl : ( ( rule__Facet__NameAssignment_2 ) ) ;
     public final void rule__Facet__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:926:1: ( ( ( rule__Facet__NameAssignment_2 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:927:1: ( ( rule__Facet__NameAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1004:1: ( ( ( rule__Facet__NameAssignment_2 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1005:1: ( ( rule__Facet__NameAssignment_2 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:927:1: ( ( rule__Facet__NameAssignment_2 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:928:1: ( rule__Facet__NameAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1005:1: ( ( rule__Facet__NameAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1006:1: ( rule__Facet__NameAssignment_2 )
             {
              before(grammarAccess.getFacetAccess().getNameAssignment_2()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:929:1: ( rule__Facet__NameAssignment_2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:929:2: rule__Facet__NameAssignment_2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1007:1: ( rule__Facet__NameAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1007:2: rule__Facet__NameAssignment_2
             {
-            pushFollow(FOLLOW_rule__Facet__NameAssignment_2_in_rule__Facet__Group__2__Impl1895);
+            pushFollow(FOLLOW_rule__Facet__NameAssignment_2_in_rule__Facet__Group__2__Impl2070);
             rule__Facet__NameAssignment_2();
 
             state._fsp--;
@@ -2640,21 +2929,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__3"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:939:1: rule__Facet__Group__3 : rule__Facet__Group__3__Impl rule__Facet__Group__4 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1017:1: rule__Facet__Group__3 : rule__Facet__Group__3__Impl rule__Facet__Group__4 ;
     public final void rule__Facet__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:943:1: ( rule__Facet__Group__3__Impl rule__Facet__Group__4 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:944:2: rule__Facet__Group__3__Impl rule__Facet__Group__4
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1021:1: ( rule__Facet__Group__3__Impl rule__Facet__Group__4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1022:2: rule__Facet__Group__3__Impl rule__Facet__Group__4
             {
-            pushFollow(FOLLOW_rule__Facet__Group__3__Impl_in_rule__Facet__Group__31925);
+            pushFollow(FOLLOW_rule__Facet__Group__3__Impl_in_rule__Facet__Group__32100);
             rule__Facet__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Facet__Group__4_in_rule__Facet__Group__31928);
+            pushFollow(FOLLOW_rule__Facet__Group__4_in_rule__Facet__Group__32103);
             rule__Facet__Group__4();
 
             state._fsp--;
@@ -2678,31 +2967,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__3__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:951:1: rule__Facet__Group__3__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1029:1: rule__Facet__Group__3__Impl : ( ( RULE_WS )? ) ;
     public final void rule__Facet__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:955:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:956:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1033:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1034:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:956:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:957:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1034:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1035:1: ( RULE_WS )?
             {
              before(grammarAccess.getFacetAccess().getWSTerminalRuleCall_3()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:958:1: ( RULE_WS )?
-            int alt10=2;
-            int LA10_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1036:1: ( RULE_WS )?
+            int alt13=2;
+            int LA13_0 = input.LA(1);
 
-            if ( (LA10_0==RULE_WS) ) {
-                alt10=1;
+            if ( (LA13_0==RULE_WS) ) {
+                alt13=1;
             }
-            switch (alt10) {
+            switch (alt13) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:958:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1036:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Facet__Group__3__Impl1956); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Facet__Group__3__Impl2131); 
 
                     }
                     break;
@@ -2732,21 +3021,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__4"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:968:1: rule__Facet__Group__4 : rule__Facet__Group__4__Impl rule__Facet__Group__5 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1046:1: rule__Facet__Group__4 : rule__Facet__Group__4__Impl rule__Facet__Group__5 ;
     public final void rule__Facet__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:972:1: ( rule__Facet__Group__4__Impl rule__Facet__Group__5 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:973:2: rule__Facet__Group__4__Impl rule__Facet__Group__5
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1050:1: ( rule__Facet__Group__4__Impl rule__Facet__Group__5 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1051:2: rule__Facet__Group__4__Impl rule__Facet__Group__5
             {
-            pushFollow(FOLLOW_rule__Facet__Group__4__Impl_in_rule__Facet__Group__41987);
+            pushFollow(FOLLOW_rule__Facet__Group__4__Impl_in_rule__Facet__Group__42162);
             rule__Facet__Group__4__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Facet__Group__5_in_rule__Facet__Group__41990);
+            pushFollow(FOLLOW_rule__Facet__Group__5_in_rule__Facet__Group__42165);
             rule__Facet__Group__5();
 
             state._fsp--;
@@ -2770,20 +3059,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__4__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:980:1: rule__Facet__Group__4__Impl : ( '{' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1058:1: rule__Facet__Group__4__Impl : ( '{' ) ;
     public final void rule__Facet__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:984:1: ( ( '{' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:985:1: ( '{' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1062:1: ( ( '{' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1063:1: ( '{' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:985:1: ( '{' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:986:1: '{'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1063:1: ( '{' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1064:1: '{'
             {
              before(grammarAccess.getFacetAccess().getLeftCurlyBracketKeyword_4()); 
-            match(input,11,FOLLOW_11_in_rule__Facet__Group__4__Impl2018); 
+            match(input,11,FOLLOW_11_in_rule__Facet__Group__4__Impl2193); 
              after(grammarAccess.getFacetAccess().getLeftCurlyBracketKeyword_4()); 
 
             }
@@ -2807,21 +3096,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__5"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:999:1: rule__Facet__Group__5 : rule__Facet__Group__5__Impl rule__Facet__Group__6 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1077:1: rule__Facet__Group__5 : rule__Facet__Group__5__Impl rule__Facet__Group__6 ;
     public final void rule__Facet__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1003:1: ( rule__Facet__Group__5__Impl rule__Facet__Group__6 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1004:2: rule__Facet__Group__5__Impl rule__Facet__Group__6
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1081:1: ( rule__Facet__Group__5__Impl rule__Facet__Group__6 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1082:2: rule__Facet__Group__5__Impl rule__Facet__Group__6
             {
-            pushFollow(FOLLOW_rule__Facet__Group__5__Impl_in_rule__Facet__Group__52049);
+            pushFollow(FOLLOW_rule__Facet__Group__5__Impl_in_rule__Facet__Group__52224);
             rule__Facet__Group__5__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Facet__Group__6_in_rule__Facet__Group__52052);
+            pushFollow(FOLLOW_rule__Facet__Group__6_in_rule__Facet__Group__52227);
             rule__Facet__Group__6();
 
             state._fsp--;
@@ -2845,31 +3134,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__5__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1011:1: rule__Facet__Group__5__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1089:1: rule__Facet__Group__5__Impl : ( ( RULE_WS )? ) ;
     public final void rule__Facet__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1015:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1016:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1093:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1094:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1016:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1017:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1094:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1095:1: ( RULE_WS )?
             {
              before(grammarAccess.getFacetAccess().getWSTerminalRuleCall_5()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1018:1: ( RULE_WS )?
-            int alt11=2;
-            int LA11_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1096:1: ( RULE_WS )?
+            int alt14=2;
+            int LA14_0 = input.LA(1);
 
-            if ( (LA11_0==RULE_WS) ) {
-                alt11=1;
+            if ( (LA14_0==RULE_WS) ) {
+                alt14=1;
             }
-            switch (alt11) {
+            switch (alt14) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1018:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1096:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Facet__Group__5__Impl2080); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Facet__Group__5__Impl2255); 
 
                     }
                     break;
@@ -2899,21 +3188,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__6"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1028:1: rule__Facet__Group__6 : rule__Facet__Group__6__Impl rule__Facet__Group__7 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1106:1: rule__Facet__Group__6 : rule__Facet__Group__6__Impl rule__Facet__Group__7 ;
     public final void rule__Facet__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1032:1: ( rule__Facet__Group__6__Impl rule__Facet__Group__7 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1033:2: rule__Facet__Group__6__Impl rule__Facet__Group__7
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1110:1: ( rule__Facet__Group__6__Impl rule__Facet__Group__7 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1111:2: rule__Facet__Group__6__Impl rule__Facet__Group__7
             {
-            pushFollow(FOLLOW_rule__Facet__Group__6__Impl_in_rule__Facet__Group__62111);
+            pushFollow(FOLLOW_rule__Facet__Group__6__Impl_in_rule__Facet__Group__62286);
             rule__Facet__Group__6__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Facet__Group__7_in_rule__Facet__Group__62114);
+            pushFollow(FOLLOW_rule__Facet__Group__7_in_rule__Facet__Group__62289);
             rule__Facet__Group__7();
 
             state._fsp--;
@@ -2937,23 +3226,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__6__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1040:1: rule__Facet__Group__6__Impl : ( ( rule__Facet__PropertiesAssignment_6 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1118:1: rule__Facet__Group__6__Impl : ( ( rule__Facet__PropertiesAssignment_6 ) ) ;
     public final void rule__Facet__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1044:1: ( ( ( rule__Facet__PropertiesAssignment_6 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1045:1: ( ( rule__Facet__PropertiesAssignment_6 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1122:1: ( ( ( rule__Facet__PropertiesAssignment_6 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1123:1: ( ( rule__Facet__PropertiesAssignment_6 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1045:1: ( ( rule__Facet__PropertiesAssignment_6 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1046:1: ( rule__Facet__PropertiesAssignment_6 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1123:1: ( ( rule__Facet__PropertiesAssignment_6 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1124:1: ( rule__Facet__PropertiesAssignment_6 )
             {
              before(grammarAccess.getFacetAccess().getPropertiesAssignment_6()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1047:1: ( rule__Facet__PropertiesAssignment_6 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1047:2: rule__Facet__PropertiesAssignment_6
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1125:1: ( rule__Facet__PropertiesAssignment_6 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1125:2: rule__Facet__PropertiesAssignment_6
             {
-            pushFollow(FOLLOW_rule__Facet__PropertiesAssignment_6_in_rule__Facet__Group__6__Impl2141);
+            pushFollow(FOLLOW_rule__Facet__PropertiesAssignment_6_in_rule__Facet__Group__6__Impl2316);
             rule__Facet__PropertiesAssignment_6();
 
             state._fsp--;
@@ -2984,21 +3273,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__7"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1057:1: rule__Facet__Group__7 : rule__Facet__Group__7__Impl rule__Facet__Group__8 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1135:1: rule__Facet__Group__7 : rule__Facet__Group__7__Impl rule__Facet__Group__8 ;
     public final void rule__Facet__Group__7() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1061:1: ( rule__Facet__Group__7__Impl rule__Facet__Group__8 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1062:2: rule__Facet__Group__7__Impl rule__Facet__Group__8
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1139:1: ( rule__Facet__Group__7__Impl rule__Facet__Group__8 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1140:2: rule__Facet__Group__7__Impl rule__Facet__Group__8
             {
-            pushFollow(FOLLOW_rule__Facet__Group__7__Impl_in_rule__Facet__Group__72171);
+            pushFollow(FOLLOW_rule__Facet__Group__7__Impl_in_rule__Facet__Group__72346);
             rule__Facet__Group__7__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Facet__Group__8_in_rule__Facet__Group__72174);
+            pushFollow(FOLLOW_rule__Facet__Group__8_in_rule__Facet__Group__72349);
             rule__Facet__Group__8();
 
             state._fsp--;
@@ -3022,31 +3311,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__7__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1069:1: rule__Facet__Group__7__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1147:1: rule__Facet__Group__7__Impl : ( ( RULE_WS )? ) ;
     public final void rule__Facet__Group__7__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1073:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1074:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1151:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1152:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1074:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1075:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1152:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1153:1: ( RULE_WS )?
             {
              before(grammarAccess.getFacetAccess().getWSTerminalRuleCall_7()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1076:1: ( RULE_WS )?
-            int alt12=2;
-            int LA12_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1154:1: ( RULE_WS )?
+            int alt15=2;
+            int LA15_0 = input.LA(1);
 
-            if ( (LA12_0==RULE_WS) ) {
-                alt12=1;
+            if ( (LA15_0==RULE_WS) ) {
+                alt15=1;
             }
-            switch (alt12) {
+            switch (alt15) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1076:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1154:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Facet__Group__7__Impl2202); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__Facet__Group__7__Impl2377); 
 
                     }
                     break;
@@ -3076,16 +3365,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__8"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1086:1: rule__Facet__Group__8 : rule__Facet__Group__8__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1164:1: rule__Facet__Group__8 : rule__Facet__Group__8__Impl ;
     public final void rule__Facet__Group__8() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1090:1: ( rule__Facet__Group__8__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1091:2: rule__Facet__Group__8__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1168:1: ( rule__Facet__Group__8__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1169:2: rule__Facet__Group__8__Impl
             {
-            pushFollow(FOLLOW_rule__Facet__Group__8__Impl_in_rule__Facet__Group__82233);
+            pushFollow(FOLLOW_rule__Facet__Group__8__Impl_in_rule__Facet__Group__82408);
             rule__Facet__Group__8__Impl();
 
             state._fsp--;
@@ -3109,20 +3398,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__Group__8__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1097:1: rule__Facet__Group__8__Impl : ( '}' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1175:1: rule__Facet__Group__8__Impl : ( '}' ) ;
     public final void rule__Facet__Group__8__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1101:1: ( ( '}' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1102:1: ( '}' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1179:1: ( ( '}' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1180:1: ( '}' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1102:1: ( '}' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1103:1: '}'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1180:1: ( '}' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1181:1: '}'
             {
              before(grammarAccess.getFacetAccess().getRightCurlyBracketKeyword_8()); 
-            match(input,12,FOLLOW_12_in_rule__Facet__Group__8__Impl2261); 
+            match(input,12,FOLLOW_12_in_rule__Facet__Group__8__Impl2436); 
              after(grammarAccess.getFacetAccess().getRightCurlyBracketKeyword_8()); 
 
             }
@@ -3145,103 +3434,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
     // $ANTLR end "rule__Facet__Group__8__Impl"
 
 
-    // $ANTLR start "rule__Properties__Group__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1134:1: rule__Properties__Group__0 : rule__Properties__Group__0__Impl rule__Properties__Group__1 ;
-    public final void rule__Properties__Group__0() throws RecognitionException {
+    // $ANTLR start "rule__ComponentProperties__Group__0"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1212:1: rule__ComponentProperties__Group__0 : rule__ComponentProperties__Group__0__Impl rule__ComponentProperties__Group__1 ;
+    public final void rule__ComponentProperties__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1138:1: ( rule__Properties__Group__0__Impl rule__Properties__Group__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1139:2: rule__Properties__Group__0__Impl rule__Properties__Group__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1216:1: ( rule__ComponentProperties__Group__0__Impl rule__ComponentProperties__Group__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1217:2: rule__ComponentProperties__Group__0__Impl rule__ComponentProperties__Group__1
             {
-            pushFollow(FOLLOW_rule__Properties__Group__0__Impl_in_rule__Properties__Group__02310);
-            rule__Properties__Group__0__Impl();
+            pushFollow(FOLLOW_rule__ComponentProperties__Group__0__Impl_in_rule__ComponentProperties__Group__02485);
+            rule__ComponentProperties__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__Properties__Group__1_in_rule__Properties__Group__02313);
-            rule__Properties__Group__1();
-
-            state._fsp--;
-
-
-            }
-
-        }
-        catch (RecognitionException re) {
-            reportError(re);
-            recover(input,re);
-        }
-        finally {
-
-            	restoreStackSize(stackSize);
-
-        }
-        return ;
-    }
-    // $ANTLR end "rule__Properties__Group__0"
-
-
-    // $ANTLR start "rule__Properties__Group__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1146:1: rule__Properties__Group__0__Impl : ( ( rule__Properties__InstallerPropertyAssignment_0 ) ) ;
-    public final void rule__Properties__Group__0__Impl() throws RecognitionException {
-
-        		int stackSize = keepStackSize();
-            
-        try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1150:1: ( ( ( rule__Properties__InstallerPropertyAssignment_0 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1151:1: ( ( rule__Properties__InstallerPropertyAssignment_0 ) )
-            {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1151:1: ( ( rule__Properties__InstallerPropertyAssignment_0 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1152:1: ( rule__Properties__InstallerPropertyAssignment_0 )
-            {
-             before(grammarAccess.getPropertiesAccess().getInstallerPropertyAssignment_0()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1153:1: ( rule__Properties__InstallerPropertyAssignment_0 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1153:2: rule__Properties__InstallerPropertyAssignment_0
-            {
-            pushFollow(FOLLOW_rule__Properties__InstallerPropertyAssignment_0_in_rule__Properties__Group__0__Impl2340);
-            rule__Properties__InstallerPropertyAssignment_0();
-
-            state._fsp--;
-
-
-            }
-
-             after(grammarAccess.getPropertiesAccess().getInstallerPropertyAssignment_0()); 
-
-            }
-
-
-            }
-
-        }
-        catch (RecognitionException re) {
-            reportError(re);
-            recover(input,re);
-        }
-        finally {
-
-            	restoreStackSize(stackSize);
-
-        }
-        return ;
-    }
-    // $ANTLR end "rule__Properties__Group__0__Impl"
-
-
-    // $ANTLR start "rule__Properties__Group__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1163:1: rule__Properties__Group__1 : rule__Properties__Group__1__Impl ;
-    public final void rule__Properties__Group__1() throws RecognitionException {
-
-        		int stackSize = keepStackSize();
-            
-        try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1167:1: ( rule__Properties__Group__1__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1168:2: rule__Properties__Group__1__Impl
-            {
-            pushFollow(FOLLOW_rule__Properties__Group__1__Impl_in_rule__Properties__Group__12370);
-            rule__Properties__Group__1__Impl();
+            pushFollow(FOLLOW_rule__ComponentProperties__Group__1_in_rule__ComponentProperties__Group__02488);
+            rule__ComponentProperties__Group__1();
 
             state._fsp--;
 
@@ -3260,40 +3469,40 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
         }
         return ;
     }
-    // $ANTLR end "rule__Properties__Group__1"
+    // $ANTLR end "rule__ComponentProperties__Group__0"
 
 
-    // $ANTLR start "rule__Properties__Group__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1174:1: rule__Properties__Group__1__Impl : ( ( rule__Properties__OptionalPropertiesAssignment_1 )* ) ;
-    public final void rule__Properties__Group__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__ComponentProperties__Group__0__Impl"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1224:1: rule__ComponentProperties__Group__0__Impl : ( ( rule__ComponentProperties__OptionalPropertiesAssignment_0 )* ) ;
+    public final void rule__ComponentProperties__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1178:1: ( ( ( rule__Properties__OptionalPropertiesAssignment_1 )* ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1179:1: ( ( rule__Properties__OptionalPropertiesAssignment_1 )* )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1228:1: ( ( ( rule__ComponentProperties__OptionalPropertiesAssignment_0 )* ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1229:1: ( ( rule__ComponentProperties__OptionalPropertiesAssignment_0 )* )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1179:1: ( ( rule__Properties__OptionalPropertiesAssignment_1 )* )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1180:1: ( rule__Properties__OptionalPropertiesAssignment_1 )*
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1229:1: ( ( rule__ComponentProperties__OptionalPropertiesAssignment_0 )* )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1230:1: ( rule__ComponentProperties__OptionalPropertiesAssignment_0 )*
             {
-             before(grammarAccess.getPropertiesAccess().getOptionalPropertiesAssignment_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1181:1: ( rule__Properties__OptionalPropertiesAssignment_1 )*
-            loop13:
+             before(grammarAccess.getComponentPropertiesAccess().getOptionalPropertiesAssignment_0()); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1231:1: ( rule__ComponentProperties__OptionalPropertiesAssignment_0 )*
+            loop16:
             do {
-                int alt13=2;
-                int LA13_0 = input.LA(1);
+                int alt16=2;
+                int LA16_0 = input.LA(1);
 
-                if ( (LA13_0==16||LA13_0==18||LA13_0==20||(LA13_0>=22 && LA13_0<=23)) ) {
-                    alt13=1;
+                if ( (LA16_0==16||LA16_0==18||LA16_0==20||(LA16_0>=22 && LA16_0<=23)) ) {
+                    alt16=1;
                 }
 
 
-                switch (alt13) {
+                switch (alt16) {
             	case 1 :
-            	    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1181:2: rule__Properties__OptionalPropertiesAssignment_1
+            	    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1231:2: rule__ComponentProperties__OptionalPropertiesAssignment_0
             	    {
-            	    pushFollow(FOLLOW_rule__Properties__OptionalPropertiesAssignment_1_in_rule__Properties__Group__1__Impl2397);
-            	    rule__Properties__OptionalPropertiesAssignment_1();
+            	    pushFollow(FOLLOW_rule__ComponentProperties__OptionalPropertiesAssignment_0_in_rule__ComponentProperties__Group__0__Impl2515);
+            	    rule__ComponentProperties__OptionalPropertiesAssignment_0();
 
             	    state._fsp--;
 
@@ -3302,11 +3511,11 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
             	    break;
 
             	default :
-            	    break loop13;
+            	    break loop16;
                 }
             } while (true);
 
-             after(grammarAccess.getPropertiesAccess().getOptionalPropertiesAssignment_1()); 
+             after(grammarAccess.getComponentPropertiesAccess().getOptionalPropertiesAssignment_0()); 
 
             }
 
@@ -3325,25 +3534,656 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
         }
         return ;
     }
-    // $ANTLR end "rule__Properties__Group__1__Impl"
+    // $ANTLR end "rule__ComponentProperties__Group__0__Impl"
+
+
+    // $ANTLR start "rule__ComponentProperties__Group__1"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1241:1: rule__ComponentProperties__Group__1 : rule__ComponentProperties__Group__1__Impl rule__ComponentProperties__Group__2 ;
+    public final void rule__ComponentProperties__Group__1() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1245:1: ( rule__ComponentProperties__Group__1__Impl rule__ComponentProperties__Group__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1246:2: rule__ComponentProperties__Group__1__Impl rule__ComponentProperties__Group__2
+            {
+            pushFollow(FOLLOW_rule__ComponentProperties__Group__1__Impl_in_rule__ComponentProperties__Group__12546);
+            rule__ComponentProperties__Group__1__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_rule__ComponentProperties__Group__2_in_rule__ComponentProperties__Group__12549);
+            rule__ComponentProperties__Group__2();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__ComponentProperties__Group__1"
+
+
+    // $ANTLR start "rule__ComponentProperties__Group__1__Impl"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1253:1: rule__ComponentProperties__Group__1__Impl : ( ( RULE_WS )? ) ;
+    public final void rule__ComponentProperties__Group__1__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1257:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1258:1: ( ( RULE_WS )? )
+            {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1258:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1259:1: ( RULE_WS )?
+            {
+             before(grammarAccess.getComponentPropertiesAccess().getWSTerminalRuleCall_1()); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1260:1: ( RULE_WS )?
+            int alt17=2;
+            int LA17_0 = input.LA(1);
+
+            if ( (LA17_0==RULE_WS) ) {
+                alt17=1;
+            }
+            switch (alt17) {
+                case 1 :
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1260:3: RULE_WS
+                    {
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ComponentProperties__Group__1__Impl2577); 
+
+                    }
+                    break;
+
+            }
+
+             after(grammarAccess.getComponentPropertiesAccess().getWSTerminalRuleCall_1()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__ComponentProperties__Group__1__Impl"
+
+
+    // $ANTLR start "rule__ComponentProperties__Group__2"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1270:1: rule__ComponentProperties__Group__2 : rule__ComponentProperties__Group__2__Impl rule__ComponentProperties__Group__3 ;
+    public final void rule__ComponentProperties__Group__2() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1274:1: ( rule__ComponentProperties__Group__2__Impl rule__ComponentProperties__Group__3 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1275:2: rule__ComponentProperties__Group__2__Impl rule__ComponentProperties__Group__3
+            {
+            pushFollow(FOLLOW_rule__ComponentProperties__Group__2__Impl_in_rule__ComponentProperties__Group__22608);
+            rule__ComponentProperties__Group__2__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_rule__ComponentProperties__Group__3_in_rule__ComponentProperties__Group__22611);
+            rule__ComponentProperties__Group__3();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__ComponentProperties__Group__2"
+
+
+    // $ANTLR start "rule__ComponentProperties__Group__2__Impl"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1282:1: rule__ComponentProperties__Group__2__Impl : ( ( rule__ComponentProperties__InstallerPropertyAssignment_2 ) ) ;
+    public final void rule__ComponentProperties__Group__2__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1286:1: ( ( ( rule__ComponentProperties__InstallerPropertyAssignment_2 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1287:1: ( ( rule__ComponentProperties__InstallerPropertyAssignment_2 ) )
+            {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1287:1: ( ( rule__ComponentProperties__InstallerPropertyAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1288:1: ( rule__ComponentProperties__InstallerPropertyAssignment_2 )
+            {
+             before(grammarAccess.getComponentPropertiesAccess().getInstallerPropertyAssignment_2()); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1289:1: ( rule__ComponentProperties__InstallerPropertyAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1289:2: rule__ComponentProperties__InstallerPropertyAssignment_2
+            {
+            pushFollow(FOLLOW_rule__ComponentProperties__InstallerPropertyAssignment_2_in_rule__ComponentProperties__Group__2__Impl2638);
+            rule__ComponentProperties__InstallerPropertyAssignment_2();
+
+            state._fsp--;
+
+
+            }
+
+             after(grammarAccess.getComponentPropertiesAccess().getInstallerPropertyAssignment_2()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__ComponentProperties__Group__2__Impl"
+
+
+    // $ANTLR start "rule__ComponentProperties__Group__3"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1299:1: rule__ComponentProperties__Group__3 : rule__ComponentProperties__Group__3__Impl rule__ComponentProperties__Group__4 ;
+    public final void rule__ComponentProperties__Group__3() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1303:1: ( rule__ComponentProperties__Group__3__Impl rule__ComponentProperties__Group__4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1304:2: rule__ComponentProperties__Group__3__Impl rule__ComponentProperties__Group__4
+            {
+            pushFollow(FOLLOW_rule__ComponentProperties__Group__3__Impl_in_rule__ComponentProperties__Group__32668);
+            rule__ComponentProperties__Group__3__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_rule__ComponentProperties__Group__4_in_rule__ComponentProperties__Group__32671);
+            rule__ComponentProperties__Group__4();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__ComponentProperties__Group__3"
+
+
+    // $ANTLR start "rule__ComponentProperties__Group__3__Impl"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1311:1: rule__ComponentProperties__Group__3__Impl : ( ( RULE_WS )? ) ;
+    public final void rule__ComponentProperties__Group__3__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1315:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1316:1: ( ( RULE_WS )? )
+            {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1316:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1317:1: ( RULE_WS )?
+            {
+             before(grammarAccess.getComponentPropertiesAccess().getWSTerminalRuleCall_3()); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1318:1: ( RULE_WS )?
+            int alt18=2;
+            int LA18_0 = input.LA(1);
+
+            if ( (LA18_0==RULE_WS) ) {
+                alt18=1;
+            }
+            switch (alt18) {
+                case 1 :
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1318:3: RULE_WS
+                    {
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ComponentProperties__Group__3__Impl2699); 
+
+                    }
+                    break;
+
+            }
+
+             after(grammarAccess.getComponentPropertiesAccess().getWSTerminalRuleCall_3()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__ComponentProperties__Group__3__Impl"
+
+
+    // $ANTLR start "rule__ComponentProperties__Group__4"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1328:1: rule__ComponentProperties__Group__4 : rule__ComponentProperties__Group__4__Impl ;
+    public final void rule__ComponentProperties__Group__4() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1332:1: ( rule__ComponentProperties__Group__4__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1333:2: rule__ComponentProperties__Group__4__Impl
+            {
+            pushFollow(FOLLOW_rule__ComponentProperties__Group__4__Impl_in_rule__ComponentProperties__Group__42730);
+            rule__ComponentProperties__Group__4__Impl();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__ComponentProperties__Group__4"
+
+
+    // $ANTLR start "rule__ComponentProperties__Group__4__Impl"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1339:1: rule__ComponentProperties__Group__4__Impl : ( ( rule__ComponentProperties__OptionalPropertiesAssignment_4 )* ) ;
+    public final void rule__ComponentProperties__Group__4__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1343:1: ( ( ( rule__ComponentProperties__OptionalPropertiesAssignment_4 )* ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1344:1: ( ( rule__ComponentProperties__OptionalPropertiesAssignment_4 )* )
+            {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1344:1: ( ( rule__ComponentProperties__OptionalPropertiesAssignment_4 )* )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1345:1: ( rule__ComponentProperties__OptionalPropertiesAssignment_4 )*
+            {
+             before(grammarAccess.getComponentPropertiesAccess().getOptionalPropertiesAssignment_4()); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1346:1: ( rule__ComponentProperties__OptionalPropertiesAssignment_4 )*
+            loop19:
+            do {
+                int alt19=2;
+                int LA19_0 = input.LA(1);
+
+                if ( (LA19_0==16||LA19_0==18||LA19_0==20||(LA19_0>=22 && LA19_0<=23)) ) {
+                    alt19=1;
+                }
+
+
+                switch (alt19) {
+            	case 1 :
+            	    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1346:2: rule__ComponentProperties__OptionalPropertiesAssignment_4
+            	    {
+            	    pushFollow(FOLLOW_rule__ComponentProperties__OptionalPropertiesAssignment_4_in_rule__ComponentProperties__Group__4__Impl2757);
+            	    rule__ComponentProperties__OptionalPropertiesAssignment_4();
+
+            	    state._fsp--;
+
+
+            	    }
+            	    break;
+
+            	default :
+            	    break loop19;
+                }
+            } while (true);
+
+             after(grammarAccess.getComponentPropertiesAccess().getOptionalPropertiesAssignment_4()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__ComponentProperties__Group__4__Impl"
+
+
+    // $ANTLR start "rule__FacetProperties__Group__0"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1366:1: rule__FacetProperties__Group__0 : rule__FacetProperties__Group__0__Impl rule__FacetProperties__Group__1 ;
+    public final void rule__FacetProperties__Group__0() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1370:1: ( rule__FacetProperties__Group__0__Impl rule__FacetProperties__Group__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1371:2: rule__FacetProperties__Group__0__Impl rule__FacetProperties__Group__1
+            {
+            pushFollow(FOLLOW_rule__FacetProperties__Group__0__Impl_in_rule__FacetProperties__Group__02798);
+            rule__FacetProperties__Group__0__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_rule__FacetProperties__Group__1_in_rule__FacetProperties__Group__02801);
+            rule__FacetProperties__Group__1();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__FacetProperties__Group__0"
+
+
+    // $ANTLR start "rule__FacetProperties__Group__0__Impl"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1378:1: rule__FacetProperties__Group__0__Impl : ( ( RULE_WS )? ) ;
+    public final void rule__FacetProperties__Group__0__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1382:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1383:1: ( ( RULE_WS )? )
+            {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1383:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1384:1: ( RULE_WS )?
+            {
+             before(grammarAccess.getFacetPropertiesAccess().getWSTerminalRuleCall_0()); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1385:1: ( RULE_WS )?
+            int alt20=2;
+            int LA20_0 = input.LA(1);
+
+            if ( (LA20_0==RULE_WS) ) {
+                alt20=1;
+            }
+            switch (alt20) {
+                case 1 :
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1385:3: RULE_WS
+                    {
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__FacetProperties__Group__0__Impl2829); 
+
+                    }
+                    break;
+
+            }
+
+             after(grammarAccess.getFacetPropertiesAccess().getWSTerminalRuleCall_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__FacetProperties__Group__0__Impl"
+
+
+    // $ANTLR start "rule__FacetProperties__Group__1"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1395:1: rule__FacetProperties__Group__1 : rule__FacetProperties__Group__1__Impl rule__FacetProperties__Group__2 ;
+    public final void rule__FacetProperties__Group__1() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1399:1: ( rule__FacetProperties__Group__1__Impl rule__FacetProperties__Group__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1400:2: rule__FacetProperties__Group__1__Impl rule__FacetProperties__Group__2
+            {
+            pushFollow(FOLLOW_rule__FacetProperties__Group__1__Impl_in_rule__FacetProperties__Group__12860);
+            rule__FacetProperties__Group__1__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_rule__FacetProperties__Group__2_in_rule__FacetProperties__Group__12863);
+            rule__FacetProperties__Group__2();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__FacetProperties__Group__1"
+
+
+    // $ANTLR start "rule__FacetProperties__Group__1__Impl"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1407:1: rule__FacetProperties__Group__1__Impl : ( ( rule__FacetProperties__PropertiesAssignment_1 ) ) ;
+    public final void rule__FacetProperties__Group__1__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1411:1: ( ( ( rule__FacetProperties__PropertiesAssignment_1 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1412:1: ( ( rule__FacetProperties__PropertiesAssignment_1 ) )
+            {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1412:1: ( ( rule__FacetProperties__PropertiesAssignment_1 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1413:1: ( rule__FacetProperties__PropertiesAssignment_1 )
+            {
+             before(grammarAccess.getFacetPropertiesAccess().getPropertiesAssignment_1()); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1414:1: ( rule__FacetProperties__PropertiesAssignment_1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1414:2: rule__FacetProperties__PropertiesAssignment_1
+            {
+            pushFollow(FOLLOW_rule__FacetProperties__PropertiesAssignment_1_in_rule__FacetProperties__Group__1__Impl2890);
+            rule__FacetProperties__PropertiesAssignment_1();
+
+            state._fsp--;
+
+
+            }
+
+             after(grammarAccess.getFacetPropertiesAccess().getPropertiesAssignment_1()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__FacetProperties__Group__1__Impl"
+
+
+    // $ANTLR start "rule__FacetProperties__Group__2"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1424:1: rule__FacetProperties__Group__2 : rule__FacetProperties__Group__2__Impl ;
+    public final void rule__FacetProperties__Group__2() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1428:1: ( rule__FacetProperties__Group__2__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1429:2: rule__FacetProperties__Group__2__Impl
+            {
+            pushFollow(FOLLOW_rule__FacetProperties__Group__2__Impl_in_rule__FacetProperties__Group__22920);
+            rule__FacetProperties__Group__2__Impl();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__FacetProperties__Group__2"
+
+
+    // $ANTLR start "rule__FacetProperties__Group__2__Impl"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1435:1: rule__FacetProperties__Group__2__Impl : ( ( RULE_WS )? ) ;
+    public final void rule__FacetProperties__Group__2__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1439:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1440:1: ( ( RULE_WS )? )
+            {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1440:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1441:1: ( RULE_WS )?
+            {
+             before(grammarAccess.getFacetPropertiesAccess().getWSTerminalRuleCall_2()); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1442:1: ( RULE_WS )?
+            int alt21=2;
+            int LA21_0 = input.LA(1);
+
+            if ( (LA21_0==RULE_WS) ) {
+                alt21=1;
+            }
+            switch (alt21) {
+                case 1 :
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1442:3: RULE_WS
+                    {
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__FacetProperties__Group__2__Impl2948); 
+
+                    }
+                    break;
+
+            }
+
+             after(grammarAccess.getFacetPropertiesAccess().getWSTerminalRuleCall_2()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__FacetProperties__Group__2__Impl"
 
 
     // $ANTLR start "rule__InstallerProperty__Group__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1195:1: rule__InstallerProperty__Group__0 : rule__InstallerProperty__Group__0__Impl rule__InstallerProperty__Group__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1458:1: rule__InstallerProperty__Group__0 : rule__InstallerProperty__Group__0__Impl rule__InstallerProperty__Group__1 ;
     public final void rule__InstallerProperty__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1199:1: ( rule__InstallerProperty__Group__0__Impl rule__InstallerProperty__Group__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1200:2: rule__InstallerProperty__Group__0__Impl rule__InstallerProperty__Group__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1462:1: ( rule__InstallerProperty__Group__0__Impl rule__InstallerProperty__Group__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1463:2: rule__InstallerProperty__Group__0__Impl rule__InstallerProperty__Group__1
             {
-            pushFollow(FOLLOW_rule__InstallerProperty__Group__0__Impl_in_rule__InstallerProperty__Group__02432);
+            pushFollow(FOLLOW_rule__InstallerProperty__Group__0__Impl_in_rule__InstallerProperty__Group__02985);
             rule__InstallerProperty__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__InstallerProperty__Group__1_in_rule__InstallerProperty__Group__02435);
+            pushFollow(FOLLOW_rule__InstallerProperty__Group__1_in_rule__InstallerProperty__Group__02988);
             rule__InstallerProperty__Group__1();
 
             state._fsp--;
@@ -3367,20 +4207,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__InstallerProperty__Group__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1207:1: rule__InstallerProperty__Group__0__Impl : ( 'installer:' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1470:1: rule__InstallerProperty__Group__0__Impl : ( 'installer:' ) ;
     public final void rule__InstallerProperty__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1211:1: ( ( 'installer:' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1212:1: ( 'installer:' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1474:1: ( ( 'installer:' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1475:1: ( 'installer:' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1212:1: ( 'installer:' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1213:1: 'installer:'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1475:1: ( 'installer:' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1476:1: 'installer:'
             {
              before(grammarAccess.getInstallerPropertyAccess().getInstallerKeyword_0()); 
-            match(input,14,FOLLOW_14_in_rule__InstallerProperty__Group__0__Impl2463); 
+            match(input,14,FOLLOW_14_in_rule__InstallerProperty__Group__0__Impl3016); 
              after(grammarAccess.getInstallerPropertyAccess().getInstallerKeyword_0()); 
 
             }
@@ -3404,21 +4244,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__InstallerProperty__Group__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1226:1: rule__InstallerProperty__Group__1 : rule__InstallerProperty__Group__1__Impl rule__InstallerProperty__Group__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1489:1: rule__InstallerProperty__Group__1 : rule__InstallerProperty__Group__1__Impl rule__InstallerProperty__Group__2 ;
     public final void rule__InstallerProperty__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1230:1: ( rule__InstallerProperty__Group__1__Impl rule__InstallerProperty__Group__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1231:2: rule__InstallerProperty__Group__1__Impl rule__InstallerProperty__Group__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1493:1: ( rule__InstallerProperty__Group__1__Impl rule__InstallerProperty__Group__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1494:2: rule__InstallerProperty__Group__1__Impl rule__InstallerProperty__Group__2
             {
-            pushFollow(FOLLOW_rule__InstallerProperty__Group__1__Impl_in_rule__InstallerProperty__Group__12494);
+            pushFollow(FOLLOW_rule__InstallerProperty__Group__1__Impl_in_rule__InstallerProperty__Group__13047);
             rule__InstallerProperty__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__InstallerProperty__Group__2_in_rule__InstallerProperty__Group__12497);
+            pushFollow(FOLLOW_rule__InstallerProperty__Group__2_in_rule__InstallerProperty__Group__13050);
             rule__InstallerProperty__Group__2();
 
             state._fsp--;
@@ -3442,31 +4282,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__InstallerProperty__Group__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1238:1: rule__InstallerProperty__Group__1__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1501:1: rule__InstallerProperty__Group__1__Impl : ( ( RULE_WS )? ) ;
     public final void rule__InstallerProperty__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1242:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1243:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1505:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1506:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1243:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1244:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1506:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1507:1: ( RULE_WS )?
             {
              before(grammarAccess.getInstallerPropertyAccess().getWSTerminalRuleCall_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1245:1: ( RULE_WS )?
-            int alt14=2;
-            int LA14_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1508:1: ( RULE_WS )?
+            int alt22=2;
+            int LA22_0 = input.LA(1);
 
-            if ( (LA14_0==RULE_WS) ) {
-                alt14=1;
+            if ( (LA22_0==RULE_WS) ) {
+                alt22=1;
             }
-            switch (alt14) {
+            switch (alt22) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1245:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1508:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__InstallerProperty__Group__1__Impl2525); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__InstallerProperty__Group__1__Impl3078); 
 
                     }
                     break;
@@ -3496,21 +4336,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__InstallerProperty__Group__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1255:1: rule__InstallerProperty__Group__2 : rule__InstallerProperty__Group__2__Impl rule__InstallerProperty__Group__3 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1518:1: rule__InstallerProperty__Group__2 : rule__InstallerProperty__Group__2__Impl rule__InstallerProperty__Group__3 ;
     public final void rule__InstallerProperty__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1259:1: ( rule__InstallerProperty__Group__2__Impl rule__InstallerProperty__Group__3 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1260:2: rule__InstallerProperty__Group__2__Impl rule__InstallerProperty__Group__3
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1522:1: ( rule__InstallerProperty__Group__2__Impl rule__InstallerProperty__Group__3 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1523:2: rule__InstallerProperty__Group__2__Impl rule__InstallerProperty__Group__3
             {
-            pushFollow(FOLLOW_rule__InstallerProperty__Group__2__Impl_in_rule__InstallerProperty__Group__22556);
+            pushFollow(FOLLOW_rule__InstallerProperty__Group__2__Impl_in_rule__InstallerProperty__Group__23109);
             rule__InstallerProperty__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__InstallerProperty__Group__3_in_rule__InstallerProperty__Group__22559);
+            pushFollow(FOLLOW_rule__InstallerProperty__Group__3_in_rule__InstallerProperty__Group__23112);
             rule__InstallerProperty__Group__3();
 
             state._fsp--;
@@ -3534,23 +4374,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__InstallerProperty__Group__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1267:1: rule__InstallerProperty__Group__2__Impl : ( ( rule__InstallerProperty__NameAssignment_2 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1530:1: rule__InstallerProperty__Group__2__Impl : ( ( rule__InstallerProperty__NameAssignment_2 ) ) ;
     public final void rule__InstallerProperty__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1271:1: ( ( ( rule__InstallerProperty__NameAssignment_2 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1272:1: ( ( rule__InstallerProperty__NameAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1534:1: ( ( ( rule__InstallerProperty__NameAssignment_2 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1535:1: ( ( rule__InstallerProperty__NameAssignment_2 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1272:1: ( ( rule__InstallerProperty__NameAssignment_2 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1273:1: ( rule__InstallerProperty__NameAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1535:1: ( ( rule__InstallerProperty__NameAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1536:1: ( rule__InstallerProperty__NameAssignment_2 )
             {
              before(grammarAccess.getInstallerPropertyAccess().getNameAssignment_2()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1274:1: ( rule__InstallerProperty__NameAssignment_2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1274:2: rule__InstallerProperty__NameAssignment_2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1537:1: ( rule__InstallerProperty__NameAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1537:2: rule__InstallerProperty__NameAssignment_2
             {
-            pushFollow(FOLLOW_rule__InstallerProperty__NameAssignment_2_in_rule__InstallerProperty__Group__2__Impl2586);
+            pushFollow(FOLLOW_rule__InstallerProperty__NameAssignment_2_in_rule__InstallerProperty__Group__2__Impl3139);
             rule__InstallerProperty__NameAssignment_2();
 
             state._fsp--;
@@ -3581,21 +4421,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__InstallerProperty__Group__3"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1284:1: rule__InstallerProperty__Group__3 : rule__InstallerProperty__Group__3__Impl rule__InstallerProperty__Group__4 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1547:1: rule__InstallerProperty__Group__3 : rule__InstallerProperty__Group__3__Impl rule__InstallerProperty__Group__4 ;
     public final void rule__InstallerProperty__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1288:1: ( rule__InstallerProperty__Group__3__Impl rule__InstallerProperty__Group__4 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1289:2: rule__InstallerProperty__Group__3__Impl rule__InstallerProperty__Group__4
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1551:1: ( rule__InstallerProperty__Group__3__Impl rule__InstallerProperty__Group__4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1552:2: rule__InstallerProperty__Group__3__Impl rule__InstallerProperty__Group__4
             {
-            pushFollow(FOLLOW_rule__InstallerProperty__Group__3__Impl_in_rule__InstallerProperty__Group__32616);
+            pushFollow(FOLLOW_rule__InstallerProperty__Group__3__Impl_in_rule__InstallerProperty__Group__33169);
             rule__InstallerProperty__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__InstallerProperty__Group__4_in_rule__InstallerProperty__Group__32619);
+            pushFollow(FOLLOW_rule__InstallerProperty__Group__4_in_rule__InstallerProperty__Group__33172);
             rule__InstallerProperty__Group__4();
 
             state._fsp--;
@@ -3619,31 +4459,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__InstallerProperty__Group__3__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1296:1: rule__InstallerProperty__Group__3__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1559:1: rule__InstallerProperty__Group__3__Impl : ( ( RULE_WS )? ) ;
     public final void rule__InstallerProperty__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1300:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1301:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1563:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1564:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1301:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1302:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1564:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1565:1: ( RULE_WS )?
             {
              before(grammarAccess.getInstallerPropertyAccess().getWSTerminalRuleCall_3()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1303:1: ( RULE_WS )?
-            int alt15=2;
-            int LA15_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1566:1: ( RULE_WS )?
+            int alt23=2;
+            int LA23_0 = input.LA(1);
 
-            if ( (LA15_0==RULE_WS) ) {
-                alt15=1;
+            if ( (LA23_0==RULE_WS) ) {
+                alt23=1;
             }
-            switch (alt15) {
+            switch (alt23) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1303:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1566:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__InstallerProperty__Group__3__Impl2647); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__InstallerProperty__Group__3__Impl3200); 
 
                     }
                     break;
@@ -3673,16 +4513,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__InstallerProperty__Group__4"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1313:1: rule__InstallerProperty__Group__4 : rule__InstallerProperty__Group__4__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1576:1: rule__InstallerProperty__Group__4 : rule__InstallerProperty__Group__4__Impl ;
     public final void rule__InstallerProperty__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1317:1: ( rule__InstallerProperty__Group__4__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1318:2: rule__InstallerProperty__Group__4__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1580:1: ( rule__InstallerProperty__Group__4__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1581:2: rule__InstallerProperty__Group__4__Impl
             {
-            pushFollow(FOLLOW_rule__InstallerProperty__Group__4__Impl_in_rule__InstallerProperty__Group__42678);
+            pushFollow(FOLLOW_rule__InstallerProperty__Group__4__Impl_in_rule__InstallerProperty__Group__43231);
             rule__InstallerProperty__Group__4__Impl();
 
             state._fsp--;
@@ -3706,20 +4546,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__InstallerProperty__Group__4__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1324:1: rule__InstallerProperty__Group__4__Impl : ( ';' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1587:1: rule__InstallerProperty__Group__4__Impl : ( ';' ) ;
     public final void rule__InstallerProperty__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1328:1: ( ( ';' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1329:1: ( ';' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1591:1: ( ( ';' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1592:1: ( ';' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1329:1: ( ';' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1330:1: ';'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1592:1: ( ';' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1593:1: ';'
             {
              before(grammarAccess.getInstallerPropertyAccess().getSemicolonKeyword_4()); 
-            match(input,15,FOLLOW_15_in_rule__InstallerProperty__Group__4__Impl2706); 
+            match(input,15,FOLLOW_15_in_rule__InstallerProperty__Group__4__Impl3259); 
              after(grammarAccess.getInstallerPropertyAccess().getSemicolonKeyword_4()); 
 
             }
@@ -3743,21 +4583,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1353:1: rule__ChildrenProperty__Group__0 : rule__ChildrenProperty__Group__0__Impl rule__ChildrenProperty__Group__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1616:1: rule__ChildrenProperty__Group__0 : rule__ChildrenProperty__Group__0__Impl rule__ChildrenProperty__Group__1 ;
     public final void rule__ChildrenProperty__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1357:1: ( rule__ChildrenProperty__Group__0__Impl rule__ChildrenProperty__Group__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1358:2: rule__ChildrenProperty__Group__0__Impl rule__ChildrenProperty__Group__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1620:1: ( rule__ChildrenProperty__Group__0__Impl rule__ChildrenProperty__Group__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1621:2: rule__ChildrenProperty__Group__0__Impl rule__ChildrenProperty__Group__1
             {
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group__0__Impl_in_rule__ChildrenProperty__Group__02747);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group__0__Impl_in_rule__ChildrenProperty__Group__03300);
             rule__ChildrenProperty__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group__1_in_rule__ChildrenProperty__Group__02750);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group__1_in_rule__ChildrenProperty__Group__03303);
             rule__ChildrenProperty__Group__1();
 
             state._fsp--;
@@ -3781,20 +4621,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1365:1: rule__ChildrenProperty__Group__0__Impl : ( 'children:' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1628:1: rule__ChildrenProperty__Group__0__Impl : ( 'children:' ) ;
     public final void rule__ChildrenProperty__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1369:1: ( ( 'children:' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1370:1: ( 'children:' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1632:1: ( ( 'children:' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1633:1: ( 'children:' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1370:1: ( 'children:' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1371:1: 'children:'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1633:1: ( 'children:' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1634:1: 'children:'
             {
              before(grammarAccess.getChildrenPropertyAccess().getChildrenKeyword_0()); 
-            match(input,16,FOLLOW_16_in_rule__ChildrenProperty__Group__0__Impl2778); 
+            match(input,16,FOLLOW_16_in_rule__ChildrenProperty__Group__0__Impl3331); 
              after(grammarAccess.getChildrenPropertyAccess().getChildrenKeyword_0()); 
 
             }
@@ -3818,21 +4658,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1384:1: rule__ChildrenProperty__Group__1 : rule__ChildrenProperty__Group__1__Impl rule__ChildrenProperty__Group__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1647:1: rule__ChildrenProperty__Group__1 : rule__ChildrenProperty__Group__1__Impl rule__ChildrenProperty__Group__2 ;
     public final void rule__ChildrenProperty__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1388:1: ( rule__ChildrenProperty__Group__1__Impl rule__ChildrenProperty__Group__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1389:2: rule__ChildrenProperty__Group__1__Impl rule__ChildrenProperty__Group__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1651:1: ( rule__ChildrenProperty__Group__1__Impl rule__ChildrenProperty__Group__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1652:2: rule__ChildrenProperty__Group__1__Impl rule__ChildrenProperty__Group__2
             {
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group__1__Impl_in_rule__ChildrenProperty__Group__12809);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group__1__Impl_in_rule__ChildrenProperty__Group__13362);
             rule__ChildrenProperty__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group__2_in_rule__ChildrenProperty__Group__12812);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group__2_in_rule__ChildrenProperty__Group__13365);
             rule__ChildrenProperty__Group__2();
 
             state._fsp--;
@@ -3856,31 +4696,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1396:1: rule__ChildrenProperty__Group__1__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1659:1: rule__ChildrenProperty__Group__1__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ChildrenProperty__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1400:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1401:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1663:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1664:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1401:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1402:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1664:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1665:1: ( RULE_WS )?
             {
              before(grammarAccess.getChildrenPropertyAccess().getWSTerminalRuleCall_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1403:1: ( RULE_WS )?
-            int alt16=2;
-            int LA16_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1666:1: ( RULE_WS )?
+            int alt24=2;
+            int LA24_0 = input.LA(1);
 
-            if ( (LA16_0==RULE_WS) ) {
-                alt16=1;
+            if ( (LA24_0==RULE_WS) ) {
+                alt24=1;
             }
-            switch (alt16) {
+            switch (alt24) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1403:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1666:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group__1__Impl2840); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group__1__Impl3393); 
 
                     }
                     break;
@@ -3910,21 +4750,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1413:1: rule__ChildrenProperty__Group__2 : rule__ChildrenProperty__Group__2__Impl rule__ChildrenProperty__Group__3 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1676:1: rule__ChildrenProperty__Group__2 : rule__ChildrenProperty__Group__2__Impl rule__ChildrenProperty__Group__3 ;
     public final void rule__ChildrenProperty__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1417:1: ( rule__ChildrenProperty__Group__2__Impl rule__ChildrenProperty__Group__3 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1418:2: rule__ChildrenProperty__Group__2__Impl rule__ChildrenProperty__Group__3
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1680:1: ( rule__ChildrenProperty__Group__2__Impl rule__ChildrenProperty__Group__3 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1681:2: rule__ChildrenProperty__Group__2__Impl rule__ChildrenProperty__Group__3
             {
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group__2__Impl_in_rule__ChildrenProperty__Group__22871);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group__2__Impl_in_rule__ChildrenProperty__Group__23424);
             rule__ChildrenProperty__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group__3_in_rule__ChildrenProperty__Group__22874);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group__3_in_rule__ChildrenProperty__Group__23427);
             rule__ChildrenProperty__Group__3();
 
             state._fsp--;
@@ -3948,23 +4788,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1425:1: rule__ChildrenProperty__Group__2__Impl : ( ( rule__ChildrenProperty__NameAssignment_2 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1688:1: rule__ChildrenProperty__Group__2__Impl : ( ( rule__ChildrenProperty__NameAssignment_2 ) ) ;
     public final void rule__ChildrenProperty__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1429:1: ( ( ( rule__ChildrenProperty__NameAssignment_2 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1430:1: ( ( rule__ChildrenProperty__NameAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1692:1: ( ( ( rule__ChildrenProperty__NameAssignment_2 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1693:1: ( ( rule__ChildrenProperty__NameAssignment_2 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1430:1: ( ( rule__ChildrenProperty__NameAssignment_2 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1431:1: ( rule__ChildrenProperty__NameAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1693:1: ( ( rule__ChildrenProperty__NameAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1694:1: ( rule__ChildrenProperty__NameAssignment_2 )
             {
              before(grammarAccess.getChildrenPropertyAccess().getNameAssignment_2()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1432:1: ( rule__ChildrenProperty__NameAssignment_2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1432:2: rule__ChildrenProperty__NameAssignment_2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1695:1: ( rule__ChildrenProperty__NameAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1695:2: rule__ChildrenProperty__NameAssignment_2
             {
-            pushFollow(FOLLOW_rule__ChildrenProperty__NameAssignment_2_in_rule__ChildrenProperty__Group__2__Impl2901);
+            pushFollow(FOLLOW_rule__ChildrenProperty__NameAssignment_2_in_rule__ChildrenProperty__Group__2__Impl3454);
             rule__ChildrenProperty__NameAssignment_2();
 
             state._fsp--;
@@ -3995,21 +4835,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group__3"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1442:1: rule__ChildrenProperty__Group__3 : rule__ChildrenProperty__Group__3__Impl rule__ChildrenProperty__Group__4 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1705:1: rule__ChildrenProperty__Group__3 : rule__ChildrenProperty__Group__3__Impl rule__ChildrenProperty__Group__4 ;
     public final void rule__ChildrenProperty__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1446:1: ( rule__ChildrenProperty__Group__3__Impl rule__ChildrenProperty__Group__4 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1447:2: rule__ChildrenProperty__Group__3__Impl rule__ChildrenProperty__Group__4
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1709:1: ( rule__ChildrenProperty__Group__3__Impl rule__ChildrenProperty__Group__4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1710:2: rule__ChildrenProperty__Group__3__Impl rule__ChildrenProperty__Group__4
             {
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group__3__Impl_in_rule__ChildrenProperty__Group__32931);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group__3__Impl_in_rule__ChildrenProperty__Group__33484);
             rule__ChildrenProperty__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group__4_in_rule__ChildrenProperty__Group__32934);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group__4_in_rule__ChildrenProperty__Group__33487);
             rule__ChildrenProperty__Group__4();
 
             state._fsp--;
@@ -4033,31 +4873,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group__3__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1454:1: rule__ChildrenProperty__Group__3__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1717:1: rule__ChildrenProperty__Group__3__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ChildrenProperty__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1458:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1459:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1721:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1722:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1459:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1460:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1722:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1723:1: ( RULE_WS )?
             {
              before(grammarAccess.getChildrenPropertyAccess().getWSTerminalRuleCall_3()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1461:1: ( RULE_WS )?
-            int alt17=2;
-            int LA17_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1724:1: ( RULE_WS )?
+            int alt25=2;
+            int LA25_0 = input.LA(1);
 
-            if ( (LA17_0==RULE_WS) ) {
-                alt17=1;
+            if ( (LA25_0==RULE_WS) ) {
+                alt25=1;
             }
-            switch (alt17) {
+            switch (alt25) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1461:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1724:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group__3__Impl2962); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group__3__Impl3515); 
 
                     }
                     break;
@@ -4087,21 +4927,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group__4"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1471:1: rule__ChildrenProperty__Group__4 : rule__ChildrenProperty__Group__4__Impl rule__ChildrenProperty__Group__5 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1734:1: rule__ChildrenProperty__Group__4 : rule__ChildrenProperty__Group__4__Impl rule__ChildrenProperty__Group__5 ;
     public final void rule__ChildrenProperty__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1475:1: ( rule__ChildrenProperty__Group__4__Impl rule__ChildrenProperty__Group__5 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1476:2: rule__ChildrenProperty__Group__4__Impl rule__ChildrenProperty__Group__5
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1738:1: ( rule__ChildrenProperty__Group__4__Impl rule__ChildrenProperty__Group__5 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1739:2: rule__ChildrenProperty__Group__4__Impl rule__ChildrenProperty__Group__5
             {
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group__4__Impl_in_rule__ChildrenProperty__Group__42993);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group__4__Impl_in_rule__ChildrenProperty__Group__43546);
             rule__ChildrenProperty__Group__4__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group__5_in_rule__ChildrenProperty__Group__42996);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group__5_in_rule__ChildrenProperty__Group__43549);
             rule__ChildrenProperty__Group__5();
 
             state._fsp--;
@@ -4125,35 +4965,35 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group__4__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1483:1: rule__ChildrenProperty__Group__4__Impl : ( ( rule__ChildrenProperty__Group_4__0 )* ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1746:1: rule__ChildrenProperty__Group__4__Impl : ( ( rule__ChildrenProperty__Group_4__0 )* ) ;
     public final void rule__ChildrenProperty__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1487:1: ( ( ( rule__ChildrenProperty__Group_4__0 )* ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1488:1: ( ( rule__ChildrenProperty__Group_4__0 )* )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1750:1: ( ( ( rule__ChildrenProperty__Group_4__0 )* ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1751:1: ( ( rule__ChildrenProperty__Group_4__0 )* )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1488:1: ( ( rule__ChildrenProperty__Group_4__0 )* )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1489:1: ( rule__ChildrenProperty__Group_4__0 )*
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1751:1: ( ( rule__ChildrenProperty__Group_4__0 )* )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1752:1: ( rule__ChildrenProperty__Group_4__0 )*
             {
              before(grammarAccess.getChildrenPropertyAccess().getGroup_4()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1490:1: ( rule__ChildrenProperty__Group_4__0 )*
-            loop18:
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1753:1: ( rule__ChildrenProperty__Group_4__0 )*
+            loop26:
             do {
-                int alt18=2;
-                int LA18_0 = input.LA(1);
+                int alt26=2;
+                int LA26_0 = input.LA(1);
 
-                if ( (LA18_0==17) ) {
-                    alt18=1;
+                if ( (LA26_0==17) ) {
+                    alt26=1;
                 }
 
 
-                switch (alt18) {
+                switch (alt26) {
             	case 1 :
-            	    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1490:2: rule__ChildrenProperty__Group_4__0
+            	    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1753:2: rule__ChildrenProperty__Group_4__0
             	    {
-            	    pushFollow(FOLLOW_rule__ChildrenProperty__Group_4__0_in_rule__ChildrenProperty__Group__4__Impl3023);
+            	    pushFollow(FOLLOW_rule__ChildrenProperty__Group_4__0_in_rule__ChildrenProperty__Group__4__Impl3576);
             	    rule__ChildrenProperty__Group_4__0();
 
             	    state._fsp--;
@@ -4163,7 +5003,7 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
             	    break;
 
             	default :
-            	    break loop18;
+            	    break loop26;
                 }
             } while (true);
 
@@ -4190,21 +5030,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group__5"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1500:1: rule__ChildrenProperty__Group__5 : rule__ChildrenProperty__Group__5__Impl rule__ChildrenProperty__Group__6 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1763:1: rule__ChildrenProperty__Group__5 : rule__ChildrenProperty__Group__5__Impl rule__ChildrenProperty__Group__6 ;
     public final void rule__ChildrenProperty__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1504:1: ( rule__ChildrenProperty__Group__5__Impl rule__ChildrenProperty__Group__6 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1505:2: rule__ChildrenProperty__Group__5__Impl rule__ChildrenProperty__Group__6
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1767:1: ( rule__ChildrenProperty__Group__5__Impl rule__ChildrenProperty__Group__6 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1768:2: rule__ChildrenProperty__Group__5__Impl rule__ChildrenProperty__Group__6
             {
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group__5__Impl_in_rule__ChildrenProperty__Group__53054);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group__5__Impl_in_rule__ChildrenProperty__Group__53607);
             rule__ChildrenProperty__Group__5__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group__6_in_rule__ChildrenProperty__Group__53057);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group__6_in_rule__ChildrenProperty__Group__53610);
             rule__ChildrenProperty__Group__6();
 
             state._fsp--;
@@ -4228,31 +5068,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group__5__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1512:1: rule__ChildrenProperty__Group__5__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1775:1: rule__ChildrenProperty__Group__5__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ChildrenProperty__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1516:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1517:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1779:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1780:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1517:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1518:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1780:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1781:1: ( RULE_WS )?
             {
              before(grammarAccess.getChildrenPropertyAccess().getWSTerminalRuleCall_5()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1519:1: ( RULE_WS )?
-            int alt19=2;
-            int LA19_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1782:1: ( RULE_WS )?
+            int alt27=2;
+            int LA27_0 = input.LA(1);
 
-            if ( (LA19_0==RULE_WS) ) {
-                alt19=1;
+            if ( (LA27_0==RULE_WS) ) {
+                alt27=1;
             }
-            switch (alt19) {
+            switch (alt27) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1519:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1782:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group__5__Impl3085); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group__5__Impl3638); 
 
                     }
                     break;
@@ -4282,16 +5122,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group__6"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1529:1: rule__ChildrenProperty__Group__6 : rule__ChildrenProperty__Group__6__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1792:1: rule__ChildrenProperty__Group__6 : rule__ChildrenProperty__Group__6__Impl ;
     public final void rule__ChildrenProperty__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1533:1: ( rule__ChildrenProperty__Group__6__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1534:2: rule__ChildrenProperty__Group__6__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1796:1: ( rule__ChildrenProperty__Group__6__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1797:2: rule__ChildrenProperty__Group__6__Impl
             {
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group__6__Impl_in_rule__ChildrenProperty__Group__63116);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group__6__Impl_in_rule__ChildrenProperty__Group__63669);
             rule__ChildrenProperty__Group__6__Impl();
 
             state._fsp--;
@@ -4315,20 +5155,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group__6__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1540:1: rule__ChildrenProperty__Group__6__Impl : ( ';' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1803:1: rule__ChildrenProperty__Group__6__Impl : ( ';' ) ;
     public final void rule__ChildrenProperty__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1544:1: ( ( ';' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1545:1: ( ';' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1807:1: ( ( ';' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1808:1: ( ';' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1545:1: ( ';' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1546:1: ';'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1808:1: ( ';' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1809:1: ';'
             {
              before(grammarAccess.getChildrenPropertyAccess().getSemicolonKeyword_6()); 
-            match(input,15,FOLLOW_15_in_rule__ChildrenProperty__Group__6__Impl3144); 
+            match(input,15,FOLLOW_15_in_rule__ChildrenProperty__Group__6__Impl3697); 
              after(grammarAccess.getChildrenPropertyAccess().getSemicolonKeyword_6()); 
 
             }
@@ -4352,21 +5192,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group_4__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1573:1: rule__ChildrenProperty__Group_4__0 : rule__ChildrenProperty__Group_4__0__Impl rule__ChildrenProperty__Group_4__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1836:1: rule__ChildrenProperty__Group_4__0 : rule__ChildrenProperty__Group_4__0__Impl rule__ChildrenProperty__Group_4__1 ;
     public final void rule__ChildrenProperty__Group_4__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1577:1: ( rule__ChildrenProperty__Group_4__0__Impl rule__ChildrenProperty__Group_4__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1578:2: rule__ChildrenProperty__Group_4__0__Impl rule__ChildrenProperty__Group_4__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1840:1: ( rule__ChildrenProperty__Group_4__0__Impl rule__ChildrenProperty__Group_4__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1841:2: rule__ChildrenProperty__Group_4__0__Impl rule__ChildrenProperty__Group_4__1
             {
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group_4__0__Impl_in_rule__ChildrenProperty__Group_4__03189);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group_4__0__Impl_in_rule__ChildrenProperty__Group_4__03742);
             rule__ChildrenProperty__Group_4__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group_4__1_in_rule__ChildrenProperty__Group_4__03192);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group_4__1_in_rule__ChildrenProperty__Group_4__03745);
             rule__ChildrenProperty__Group_4__1();
 
             state._fsp--;
@@ -4390,20 +5230,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group_4__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1585:1: rule__ChildrenProperty__Group_4__0__Impl : ( ',' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1848:1: rule__ChildrenProperty__Group_4__0__Impl : ( ',' ) ;
     public final void rule__ChildrenProperty__Group_4__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1589:1: ( ( ',' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1590:1: ( ',' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1852:1: ( ( ',' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1853:1: ( ',' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1590:1: ( ',' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1591:1: ','
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1853:1: ( ',' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1854:1: ','
             {
              before(grammarAccess.getChildrenPropertyAccess().getCommaKeyword_4_0()); 
-            match(input,17,FOLLOW_17_in_rule__ChildrenProperty__Group_4__0__Impl3220); 
+            match(input,17,FOLLOW_17_in_rule__ChildrenProperty__Group_4__0__Impl3773); 
              after(grammarAccess.getChildrenPropertyAccess().getCommaKeyword_4_0()); 
 
             }
@@ -4427,21 +5267,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group_4__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1604:1: rule__ChildrenProperty__Group_4__1 : rule__ChildrenProperty__Group_4__1__Impl rule__ChildrenProperty__Group_4__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1867:1: rule__ChildrenProperty__Group_4__1 : rule__ChildrenProperty__Group_4__1__Impl rule__ChildrenProperty__Group_4__2 ;
     public final void rule__ChildrenProperty__Group_4__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1608:1: ( rule__ChildrenProperty__Group_4__1__Impl rule__ChildrenProperty__Group_4__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1609:2: rule__ChildrenProperty__Group_4__1__Impl rule__ChildrenProperty__Group_4__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1871:1: ( rule__ChildrenProperty__Group_4__1__Impl rule__ChildrenProperty__Group_4__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1872:2: rule__ChildrenProperty__Group_4__1__Impl rule__ChildrenProperty__Group_4__2
             {
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group_4__1__Impl_in_rule__ChildrenProperty__Group_4__13251);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group_4__1__Impl_in_rule__ChildrenProperty__Group_4__13804);
             rule__ChildrenProperty__Group_4__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group_4__2_in_rule__ChildrenProperty__Group_4__13254);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group_4__2_in_rule__ChildrenProperty__Group_4__13807);
             rule__ChildrenProperty__Group_4__2();
 
             state._fsp--;
@@ -4465,31 +5305,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group_4__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1616:1: rule__ChildrenProperty__Group_4__1__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1879:1: rule__ChildrenProperty__Group_4__1__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ChildrenProperty__Group_4__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1620:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1621:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1883:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1884:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1621:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1622:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1884:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1885:1: ( RULE_WS )?
             {
              before(grammarAccess.getChildrenPropertyAccess().getWSTerminalRuleCall_4_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1623:1: ( RULE_WS )?
-            int alt20=2;
-            int LA20_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1886:1: ( RULE_WS )?
+            int alt28=2;
+            int LA28_0 = input.LA(1);
 
-            if ( (LA20_0==RULE_WS) ) {
-                alt20=1;
+            if ( (LA28_0==RULE_WS) ) {
+                alt28=1;
             }
-            switch (alt20) {
+            switch (alt28) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1623:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1886:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group_4__1__Impl3282); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group_4__1__Impl3835); 
 
                     }
                     break;
@@ -4519,16 +5359,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group_4__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1633:1: rule__ChildrenProperty__Group_4__2 : rule__ChildrenProperty__Group_4__2__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1896:1: rule__ChildrenProperty__Group_4__2 : rule__ChildrenProperty__Group_4__2__Impl ;
     public final void rule__ChildrenProperty__Group_4__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1637:1: ( rule__ChildrenProperty__Group_4__2__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1638:2: rule__ChildrenProperty__Group_4__2__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1900:1: ( rule__ChildrenProperty__Group_4__2__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1901:2: rule__ChildrenProperty__Group_4__2__Impl
             {
-            pushFollow(FOLLOW_rule__ChildrenProperty__Group_4__2__Impl_in_rule__ChildrenProperty__Group_4__23313);
+            pushFollow(FOLLOW_rule__ChildrenProperty__Group_4__2__Impl_in_rule__ChildrenProperty__Group_4__23866);
             rule__ChildrenProperty__Group_4__2__Impl();
 
             state._fsp--;
@@ -4552,23 +5392,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__Group_4__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1644:1: rule__ChildrenProperty__Group_4__2__Impl : ( ( rule__ChildrenProperty__NameAssignment_4_2 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1907:1: rule__ChildrenProperty__Group_4__2__Impl : ( ( rule__ChildrenProperty__NameAssignment_4_2 ) ) ;
     public final void rule__ChildrenProperty__Group_4__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1648:1: ( ( ( rule__ChildrenProperty__NameAssignment_4_2 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1649:1: ( ( rule__ChildrenProperty__NameAssignment_4_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1911:1: ( ( ( rule__ChildrenProperty__NameAssignment_4_2 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1912:1: ( ( rule__ChildrenProperty__NameAssignment_4_2 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1649:1: ( ( rule__ChildrenProperty__NameAssignment_4_2 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1650:1: ( rule__ChildrenProperty__NameAssignment_4_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1912:1: ( ( rule__ChildrenProperty__NameAssignment_4_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1913:1: ( rule__ChildrenProperty__NameAssignment_4_2 )
             {
              before(grammarAccess.getChildrenPropertyAccess().getNameAssignment_4_2()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1651:1: ( rule__ChildrenProperty__NameAssignment_4_2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1651:2: rule__ChildrenProperty__NameAssignment_4_2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1914:1: ( rule__ChildrenProperty__NameAssignment_4_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1914:2: rule__ChildrenProperty__NameAssignment_4_2
             {
-            pushFollow(FOLLOW_rule__ChildrenProperty__NameAssignment_4_2_in_rule__ChildrenProperty__Group_4__2__Impl3340);
+            pushFollow(FOLLOW_rule__ChildrenProperty__NameAssignment_4_2_in_rule__ChildrenProperty__Group_4__2__Impl3893);
             rule__ChildrenProperty__NameAssignment_4_2();
 
             state._fsp--;
@@ -4599,21 +5439,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1667:1: rule__ExportsProperty__Group__0 : rule__ExportsProperty__Group__0__Impl rule__ExportsProperty__Group__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1930:1: rule__ExportsProperty__Group__0 : rule__ExportsProperty__Group__0__Impl rule__ExportsProperty__Group__1 ;
     public final void rule__ExportsProperty__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1671:1: ( rule__ExportsProperty__Group__0__Impl rule__ExportsProperty__Group__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1672:2: rule__ExportsProperty__Group__0__Impl rule__ExportsProperty__Group__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1934:1: ( rule__ExportsProperty__Group__0__Impl rule__ExportsProperty__Group__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1935:2: rule__ExportsProperty__Group__0__Impl rule__ExportsProperty__Group__1
             {
-            pushFollow(FOLLOW_rule__ExportsProperty__Group__0__Impl_in_rule__ExportsProperty__Group__03376);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group__0__Impl_in_rule__ExportsProperty__Group__03929);
             rule__ExportsProperty__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExportsProperty__Group__1_in_rule__ExportsProperty__Group__03379);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group__1_in_rule__ExportsProperty__Group__03932);
             rule__ExportsProperty__Group__1();
 
             state._fsp--;
@@ -4637,20 +5477,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1679:1: rule__ExportsProperty__Group__0__Impl : ( 'exports:' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1942:1: rule__ExportsProperty__Group__0__Impl : ( 'exports:' ) ;
     public final void rule__ExportsProperty__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1683:1: ( ( 'exports:' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1684:1: ( 'exports:' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1946:1: ( ( 'exports:' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1947:1: ( 'exports:' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1684:1: ( 'exports:' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1685:1: 'exports:'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1947:1: ( 'exports:' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1948:1: 'exports:'
             {
              before(grammarAccess.getExportsPropertyAccess().getExportsKeyword_0()); 
-            match(input,18,FOLLOW_18_in_rule__ExportsProperty__Group__0__Impl3407); 
+            match(input,18,FOLLOW_18_in_rule__ExportsProperty__Group__0__Impl3960); 
              after(grammarAccess.getExportsPropertyAccess().getExportsKeyword_0()); 
 
             }
@@ -4674,21 +5514,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1698:1: rule__ExportsProperty__Group__1 : rule__ExportsProperty__Group__1__Impl rule__ExportsProperty__Group__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1961:1: rule__ExportsProperty__Group__1 : rule__ExportsProperty__Group__1__Impl rule__ExportsProperty__Group__2 ;
     public final void rule__ExportsProperty__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1702:1: ( rule__ExportsProperty__Group__1__Impl rule__ExportsProperty__Group__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1703:2: rule__ExportsProperty__Group__1__Impl rule__ExportsProperty__Group__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1965:1: ( rule__ExportsProperty__Group__1__Impl rule__ExportsProperty__Group__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1966:2: rule__ExportsProperty__Group__1__Impl rule__ExportsProperty__Group__2
             {
-            pushFollow(FOLLOW_rule__ExportsProperty__Group__1__Impl_in_rule__ExportsProperty__Group__13438);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group__1__Impl_in_rule__ExportsProperty__Group__13991);
             rule__ExportsProperty__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExportsProperty__Group__2_in_rule__ExportsProperty__Group__13441);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group__2_in_rule__ExportsProperty__Group__13994);
             rule__ExportsProperty__Group__2();
 
             state._fsp--;
@@ -4712,31 +5552,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1710:1: rule__ExportsProperty__Group__1__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1973:1: rule__ExportsProperty__Group__1__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ExportsProperty__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1714:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1715:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1977:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1978:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1715:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1716:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1978:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1979:1: ( RULE_WS )?
             {
              before(grammarAccess.getExportsPropertyAccess().getWSTerminalRuleCall_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1717:1: ( RULE_WS )?
-            int alt21=2;
-            int LA21_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1980:1: ( RULE_WS )?
+            int alt29=2;
+            int LA29_0 = input.LA(1);
 
-            if ( (LA21_0==RULE_WS) ) {
-                alt21=1;
+            if ( (LA29_0==RULE_WS) ) {
+                alt29=1;
             }
-            switch (alt21) {
+            switch (alt29) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1717:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1980:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExportsProperty__Group__1__Impl3469); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExportsProperty__Group__1__Impl4022); 
 
                     }
                     break;
@@ -4766,21 +5606,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1727:1: rule__ExportsProperty__Group__2 : rule__ExportsProperty__Group__2__Impl rule__ExportsProperty__Group__3 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1990:1: rule__ExportsProperty__Group__2 : rule__ExportsProperty__Group__2__Impl rule__ExportsProperty__Group__3 ;
     public final void rule__ExportsProperty__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1731:1: ( rule__ExportsProperty__Group__2__Impl rule__ExportsProperty__Group__3 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1732:2: rule__ExportsProperty__Group__2__Impl rule__ExportsProperty__Group__3
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1994:1: ( rule__ExportsProperty__Group__2__Impl rule__ExportsProperty__Group__3 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1995:2: rule__ExportsProperty__Group__2__Impl rule__ExportsProperty__Group__3
             {
-            pushFollow(FOLLOW_rule__ExportsProperty__Group__2__Impl_in_rule__ExportsProperty__Group__23500);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group__2__Impl_in_rule__ExportsProperty__Group__24053);
             rule__ExportsProperty__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExportsProperty__Group__3_in_rule__ExportsProperty__Group__23503);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group__3_in_rule__ExportsProperty__Group__24056);
             rule__ExportsProperty__Group__3();
 
             state._fsp--;
@@ -4804,23 +5644,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1739:1: rule__ExportsProperty__Group__2__Impl : ( ( rule__ExportsProperty__ExportsVariablesAssignment_2 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2002:1: rule__ExportsProperty__Group__2__Impl : ( ( rule__ExportsProperty__ExportsVariablesAssignment_2 ) ) ;
     public final void rule__ExportsProperty__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1743:1: ( ( ( rule__ExportsProperty__ExportsVariablesAssignment_2 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1744:1: ( ( rule__ExportsProperty__ExportsVariablesAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2006:1: ( ( ( rule__ExportsProperty__ExportsVariablesAssignment_2 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2007:1: ( ( rule__ExportsProperty__ExportsVariablesAssignment_2 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1744:1: ( ( rule__ExportsProperty__ExportsVariablesAssignment_2 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1745:1: ( rule__ExportsProperty__ExportsVariablesAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2007:1: ( ( rule__ExportsProperty__ExportsVariablesAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2008:1: ( rule__ExportsProperty__ExportsVariablesAssignment_2 )
             {
              before(grammarAccess.getExportsPropertyAccess().getExportsVariablesAssignment_2()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1746:1: ( rule__ExportsProperty__ExportsVariablesAssignment_2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1746:2: rule__ExportsProperty__ExportsVariablesAssignment_2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2009:1: ( rule__ExportsProperty__ExportsVariablesAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2009:2: rule__ExportsProperty__ExportsVariablesAssignment_2
             {
-            pushFollow(FOLLOW_rule__ExportsProperty__ExportsVariablesAssignment_2_in_rule__ExportsProperty__Group__2__Impl3530);
+            pushFollow(FOLLOW_rule__ExportsProperty__ExportsVariablesAssignment_2_in_rule__ExportsProperty__Group__2__Impl4083);
             rule__ExportsProperty__ExportsVariablesAssignment_2();
 
             state._fsp--;
@@ -4851,21 +5691,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group__3"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1756:1: rule__ExportsProperty__Group__3 : rule__ExportsProperty__Group__3__Impl rule__ExportsProperty__Group__4 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2019:1: rule__ExportsProperty__Group__3 : rule__ExportsProperty__Group__3__Impl rule__ExportsProperty__Group__4 ;
     public final void rule__ExportsProperty__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1760:1: ( rule__ExportsProperty__Group__3__Impl rule__ExportsProperty__Group__4 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1761:2: rule__ExportsProperty__Group__3__Impl rule__ExportsProperty__Group__4
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2023:1: ( rule__ExportsProperty__Group__3__Impl rule__ExportsProperty__Group__4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2024:2: rule__ExportsProperty__Group__3__Impl rule__ExportsProperty__Group__4
             {
-            pushFollow(FOLLOW_rule__ExportsProperty__Group__3__Impl_in_rule__ExportsProperty__Group__33560);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group__3__Impl_in_rule__ExportsProperty__Group__34113);
             rule__ExportsProperty__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExportsProperty__Group__4_in_rule__ExportsProperty__Group__33563);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group__4_in_rule__ExportsProperty__Group__34116);
             rule__ExportsProperty__Group__4();
 
             state._fsp--;
@@ -4889,31 +5729,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group__3__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1768:1: rule__ExportsProperty__Group__3__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2031:1: rule__ExportsProperty__Group__3__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ExportsProperty__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1772:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1773:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2035:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2036:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1773:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1774:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2036:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2037:1: ( RULE_WS )?
             {
              before(grammarAccess.getExportsPropertyAccess().getWSTerminalRuleCall_3()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1775:1: ( RULE_WS )?
-            int alt22=2;
-            int LA22_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2038:1: ( RULE_WS )?
+            int alt30=2;
+            int LA30_0 = input.LA(1);
 
-            if ( (LA22_0==RULE_WS) ) {
-                alt22=1;
+            if ( (LA30_0==RULE_WS) ) {
+                alt30=1;
             }
-            switch (alt22) {
+            switch (alt30) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1775:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2038:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExportsProperty__Group__3__Impl3591); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExportsProperty__Group__3__Impl4144); 
 
                     }
                     break;
@@ -4943,21 +5783,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group__4"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1785:1: rule__ExportsProperty__Group__4 : rule__ExportsProperty__Group__4__Impl rule__ExportsProperty__Group__5 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2048:1: rule__ExportsProperty__Group__4 : rule__ExportsProperty__Group__4__Impl rule__ExportsProperty__Group__5 ;
     public final void rule__ExportsProperty__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1789:1: ( rule__ExportsProperty__Group__4__Impl rule__ExportsProperty__Group__5 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1790:2: rule__ExportsProperty__Group__4__Impl rule__ExportsProperty__Group__5
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2052:1: ( rule__ExportsProperty__Group__4__Impl rule__ExportsProperty__Group__5 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2053:2: rule__ExportsProperty__Group__4__Impl rule__ExportsProperty__Group__5
             {
-            pushFollow(FOLLOW_rule__ExportsProperty__Group__4__Impl_in_rule__ExportsProperty__Group__43622);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group__4__Impl_in_rule__ExportsProperty__Group__44175);
             rule__ExportsProperty__Group__4__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExportsProperty__Group__5_in_rule__ExportsProperty__Group__43625);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group__5_in_rule__ExportsProperty__Group__44178);
             rule__ExportsProperty__Group__5();
 
             state._fsp--;
@@ -4981,29 +5821,47 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group__4__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1797:1: rule__ExportsProperty__Group__4__Impl : ( ( rule__ExportsProperty__Group_4__0 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2060:1: rule__ExportsProperty__Group__4__Impl : ( ( rule__ExportsProperty__Group_4__0 )* ) ;
     public final void rule__ExportsProperty__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1801:1: ( ( ( rule__ExportsProperty__Group_4__0 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1802:1: ( ( rule__ExportsProperty__Group_4__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2064:1: ( ( ( rule__ExportsProperty__Group_4__0 )* ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2065:1: ( ( rule__ExportsProperty__Group_4__0 )* )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1802:1: ( ( rule__ExportsProperty__Group_4__0 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1803:1: ( rule__ExportsProperty__Group_4__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2065:1: ( ( rule__ExportsProperty__Group_4__0 )* )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2066:1: ( rule__ExportsProperty__Group_4__0 )*
             {
              before(grammarAccess.getExportsPropertyAccess().getGroup_4()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1804:1: ( rule__ExportsProperty__Group_4__0 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1804:2: rule__ExportsProperty__Group_4__0
-            {
-            pushFollow(FOLLOW_rule__ExportsProperty__Group_4__0_in_rule__ExportsProperty__Group__4__Impl3652);
-            rule__ExportsProperty__Group_4__0();
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2067:1: ( rule__ExportsProperty__Group_4__0 )*
+            loop31:
+            do {
+                int alt31=2;
+                int LA31_0 = input.LA(1);
 
-            state._fsp--;
+                if ( (LA31_0==17) ) {
+                    alt31=1;
+                }
 
 
-            }
+                switch (alt31) {
+            	case 1 :
+            	    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2067:2: rule__ExportsProperty__Group_4__0
+            	    {
+            	    pushFollow(FOLLOW_rule__ExportsProperty__Group_4__0_in_rule__ExportsProperty__Group__4__Impl4205);
+            	    rule__ExportsProperty__Group_4__0();
+
+            	    state._fsp--;
+
+
+            	    }
+            	    break;
+
+            	default :
+            	    break loop31;
+                }
+            } while (true);
 
              after(grammarAccess.getExportsPropertyAccess().getGroup_4()); 
 
@@ -5028,21 +5886,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group__5"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1814:1: rule__ExportsProperty__Group__5 : rule__ExportsProperty__Group__5__Impl rule__ExportsProperty__Group__6 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2077:1: rule__ExportsProperty__Group__5 : rule__ExportsProperty__Group__5__Impl rule__ExportsProperty__Group__6 ;
     public final void rule__ExportsProperty__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1818:1: ( rule__ExportsProperty__Group__5__Impl rule__ExportsProperty__Group__6 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1819:2: rule__ExportsProperty__Group__5__Impl rule__ExportsProperty__Group__6
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2081:1: ( rule__ExportsProperty__Group__5__Impl rule__ExportsProperty__Group__6 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2082:2: rule__ExportsProperty__Group__5__Impl rule__ExportsProperty__Group__6
             {
-            pushFollow(FOLLOW_rule__ExportsProperty__Group__5__Impl_in_rule__ExportsProperty__Group__53682);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group__5__Impl_in_rule__ExportsProperty__Group__54236);
             rule__ExportsProperty__Group__5__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExportsProperty__Group__6_in_rule__ExportsProperty__Group__53685);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group__6_in_rule__ExportsProperty__Group__54239);
             rule__ExportsProperty__Group__6();
 
             state._fsp--;
@@ -5066,31 +5924,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group__5__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1826:1: rule__ExportsProperty__Group__5__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2089:1: rule__ExportsProperty__Group__5__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ExportsProperty__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1830:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1831:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2093:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2094:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1831:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1832:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2094:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2095:1: ( RULE_WS )?
             {
              before(grammarAccess.getExportsPropertyAccess().getWSTerminalRuleCall_5()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1833:1: ( RULE_WS )?
-            int alt23=2;
-            int LA23_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2096:1: ( RULE_WS )?
+            int alt32=2;
+            int LA32_0 = input.LA(1);
 
-            if ( (LA23_0==RULE_WS) ) {
-                alt23=1;
+            if ( (LA32_0==RULE_WS) ) {
+                alt32=1;
             }
-            switch (alt23) {
+            switch (alt32) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1833:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2096:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExportsProperty__Group__5__Impl3713); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExportsProperty__Group__5__Impl4267); 
 
                     }
                     break;
@@ -5120,16 +5978,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group__6"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1843:1: rule__ExportsProperty__Group__6 : rule__ExportsProperty__Group__6__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2106:1: rule__ExportsProperty__Group__6 : rule__ExportsProperty__Group__6__Impl ;
     public final void rule__ExportsProperty__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1847:1: ( rule__ExportsProperty__Group__6__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1848:2: rule__ExportsProperty__Group__6__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2110:1: ( rule__ExportsProperty__Group__6__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2111:2: rule__ExportsProperty__Group__6__Impl
             {
-            pushFollow(FOLLOW_rule__ExportsProperty__Group__6__Impl_in_rule__ExportsProperty__Group__63744);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group__6__Impl_in_rule__ExportsProperty__Group__64298);
             rule__ExportsProperty__Group__6__Impl();
 
             state._fsp--;
@@ -5153,20 +6011,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group__6__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1854:1: rule__ExportsProperty__Group__6__Impl : ( ';' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2117:1: rule__ExportsProperty__Group__6__Impl : ( ';' ) ;
     public final void rule__ExportsProperty__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1858:1: ( ( ';' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1859:1: ( ';' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2121:1: ( ( ';' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2122:1: ( ';' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1859:1: ( ';' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1860:1: ';'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2122:1: ( ';' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2123:1: ';'
             {
              before(grammarAccess.getExportsPropertyAccess().getSemicolonKeyword_6()); 
-            match(input,15,FOLLOW_15_in_rule__ExportsProperty__Group__6__Impl3772); 
+            match(input,15,FOLLOW_15_in_rule__ExportsProperty__Group__6__Impl4326); 
              after(grammarAccess.getExportsPropertyAccess().getSemicolonKeyword_6()); 
 
             }
@@ -5190,21 +6048,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group_4__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1887:1: rule__ExportsProperty__Group_4__0 : rule__ExportsProperty__Group_4__0__Impl rule__ExportsProperty__Group_4__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2150:1: rule__ExportsProperty__Group_4__0 : rule__ExportsProperty__Group_4__0__Impl rule__ExportsProperty__Group_4__1 ;
     public final void rule__ExportsProperty__Group_4__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1891:1: ( rule__ExportsProperty__Group_4__0__Impl rule__ExportsProperty__Group_4__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1892:2: rule__ExportsProperty__Group_4__0__Impl rule__ExportsProperty__Group_4__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2154:1: ( rule__ExportsProperty__Group_4__0__Impl rule__ExportsProperty__Group_4__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2155:2: rule__ExportsProperty__Group_4__0__Impl rule__ExportsProperty__Group_4__1
             {
-            pushFollow(FOLLOW_rule__ExportsProperty__Group_4__0__Impl_in_rule__ExportsProperty__Group_4__03817);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group_4__0__Impl_in_rule__ExportsProperty__Group_4__04371);
             rule__ExportsProperty__Group_4__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExportsProperty__Group_4__1_in_rule__ExportsProperty__Group_4__03820);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group_4__1_in_rule__ExportsProperty__Group_4__04374);
             rule__ExportsProperty__Group_4__1();
 
             state._fsp--;
@@ -5228,20 +6086,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group_4__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1899:1: rule__ExportsProperty__Group_4__0__Impl : ( ',' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2162:1: rule__ExportsProperty__Group_4__0__Impl : ( ',' ) ;
     public final void rule__ExportsProperty__Group_4__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1903:1: ( ( ',' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1904:1: ( ',' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2166:1: ( ( ',' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2167:1: ( ',' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1904:1: ( ',' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1905:1: ','
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2167:1: ( ',' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2168:1: ','
             {
              before(grammarAccess.getExportsPropertyAccess().getCommaKeyword_4_0()); 
-            match(input,17,FOLLOW_17_in_rule__ExportsProperty__Group_4__0__Impl3848); 
+            match(input,17,FOLLOW_17_in_rule__ExportsProperty__Group_4__0__Impl4402); 
              after(grammarAccess.getExportsPropertyAccess().getCommaKeyword_4_0()); 
 
             }
@@ -5265,21 +6123,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group_4__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1918:1: rule__ExportsProperty__Group_4__1 : rule__ExportsProperty__Group_4__1__Impl rule__ExportsProperty__Group_4__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2181:1: rule__ExportsProperty__Group_4__1 : rule__ExportsProperty__Group_4__1__Impl rule__ExportsProperty__Group_4__2 ;
     public final void rule__ExportsProperty__Group_4__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1922:1: ( rule__ExportsProperty__Group_4__1__Impl rule__ExportsProperty__Group_4__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1923:2: rule__ExportsProperty__Group_4__1__Impl rule__ExportsProperty__Group_4__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2185:1: ( rule__ExportsProperty__Group_4__1__Impl rule__ExportsProperty__Group_4__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2186:2: rule__ExportsProperty__Group_4__1__Impl rule__ExportsProperty__Group_4__2
             {
-            pushFollow(FOLLOW_rule__ExportsProperty__Group_4__1__Impl_in_rule__ExportsProperty__Group_4__13879);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group_4__1__Impl_in_rule__ExportsProperty__Group_4__14433);
             rule__ExportsProperty__Group_4__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExportsProperty__Group_4__2_in_rule__ExportsProperty__Group_4__13882);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group_4__2_in_rule__ExportsProperty__Group_4__14436);
             rule__ExportsProperty__Group_4__2();
 
             state._fsp--;
@@ -5303,31 +6161,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group_4__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1930:1: rule__ExportsProperty__Group_4__1__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2193:1: rule__ExportsProperty__Group_4__1__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ExportsProperty__Group_4__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1934:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1935:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2197:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2198:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1935:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1936:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2198:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2199:1: ( RULE_WS )?
             {
              before(grammarAccess.getExportsPropertyAccess().getWSTerminalRuleCall_4_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1937:1: ( RULE_WS )?
-            int alt24=2;
-            int LA24_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2200:1: ( RULE_WS )?
+            int alt33=2;
+            int LA33_0 = input.LA(1);
 
-            if ( (LA24_0==RULE_WS) ) {
-                alt24=1;
+            if ( (LA33_0==RULE_WS) ) {
+                alt33=1;
             }
-            switch (alt24) {
+            switch (alt33) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1937:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2200:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExportsProperty__Group_4__1__Impl3910); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExportsProperty__Group_4__1__Impl4464); 
 
                     }
                     break;
@@ -5357,16 +6215,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group_4__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1947:1: rule__ExportsProperty__Group_4__2 : rule__ExportsProperty__Group_4__2__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2210:1: rule__ExportsProperty__Group_4__2 : rule__ExportsProperty__Group_4__2__Impl ;
     public final void rule__ExportsProperty__Group_4__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1951:1: ( rule__ExportsProperty__Group_4__2__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1952:2: rule__ExportsProperty__Group_4__2__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2214:1: ( rule__ExportsProperty__Group_4__2__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2215:2: rule__ExportsProperty__Group_4__2__Impl
             {
-            pushFollow(FOLLOW_rule__ExportsProperty__Group_4__2__Impl_in_rule__ExportsProperty__Group_4__23941);
+            pushFollow(FOLLOW_rule__ExportsProperty__Group_4__2__Impl_in_rule__ExportsProperty__Group_4__24495);
             rule__ExportsProperty__Group_4__2__Impl();
 
             state._fsp--;
@@ -5390,23 +6248,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__Group_4__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1958:1: rule__ExportsProperty__Group_4__2__Impl : ( ( rule__ExportsProperty__ExportsVariablesAssignment_4_2 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2221:1: rule__ExportsProperty__Group_4__2__Impl : ( ( rule__ExportsProperty__ExportsVariablesAssignment_4_2 ) ) ;
     public final void rule__ExportsProperty__Group_4__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1962:1: ( ( ( rule__ExportsProperty__ExportsVariablesAssignment_4_2 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1963:1: ( ( rule__ExportsProperty__ExportsVariablesAssignment_4_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2225:1: ( ( ( rule__ExportsProperty__ExportsVariablesAssignment_4_2 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2226:1: ( ( rule__ExportsProperty__ExportsVariablesAssignment_4_2 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1963:1: ( ( rule__ExportsProperty__ExportsVariablesAssignment_4_2 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1964:1: ( rule__ExportsProperty__ExportsVariablesAssignment_4_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2226:1: ( ( rule__ExportsProperty__ExportsVariablesAssignment_4_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2227:1: ( rule__ExportsProperty__ExportsVariablesAssignment_4_2 )
             {
              before(grammarAccess.getExportsPropertyAccess().getExportsVariablesAssignment_4_2()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1965:1: ( rule__ExportsProperty__ExportsVariablesAssignment_4_2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1965:2: rule__ExportsProperty__ExportsVariablesAssignment_4_2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2228:1: ( rule__ExportsProperty__ExportsVariablesAssignment_4_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2228:2: rule__ExportsProperty__ExportsVariablesAssignment_4_2
             {
-            pushFollow(FOLLOW_rule__ExportsProperty__ExportsVariablesAssignment_4_2_in_rule__ExportsProperty__Group_4__2__Impl3968);
+            pushFollow(FOLLOW_rule__ExportsProperty__ExportsVariablesAssignment_4_2_in_rule__ExportsProperty__Group_4__2__Impl4522);
             rule__ExportsProperty__ExportsVariablesAssignment_4_2();
 
             state._fsp--;
@@ -5437,21 +6295,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsVariable__Group_1__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1981:1: rule__ExportsVariable__Group_1__0 : rule__ExportsVariable__Group_1__0__Impl rule__ExportsVariable__Group_1__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2244:1: rule__ExportsVariable__Group_1__0 : rule__ExportsVariable__Group_1__0__Impl rule__ExportsVariable__Group_1__1 ;
     public final void rule__ExportsVariable__Group_1__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1985:1: ( rule__ExportsVariable__Group_1__0__Impl rule__ExportsVariable__Group_1__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1986:2: rule__ExportsVariable__Group_1__0__Impl rule__ExportsVariable__Group_1__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2248:1: ( rule__ExportsVariable__Group_1__0__Impl rule__ExportsVariable__Group_1__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2249:2: rule__ExportsVariable__Group_1__0__Impl rule__ExportsVariable__Group_1__1
             {
-            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__0__Impl_in_rule__ExportsVariable__Group_1__04004);
+            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__0__Impl_in_rule__ExportsVariable__Group_1__04558);
             rule__ExportsVariable__Group_1__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__1_in_rule__ExportsVariable__Group_1__04007);
+            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__1_in_rule__ExportsVariable__Group_1__04561);
             rule__ExportsVariable__Group_1__1();
 
             state._fsp--;
@@ -5475,23 +6333,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsVariable__Group_1__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1993:1: rule__ExportsVariable__Group_1__0__Impl : ( ( rule__ExportsVariable__NameAssignment_1_0 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2256:1: rule__ExportsVariable__Group_1__0__Impl : ( ( rule__ExportsVariable__NameAssignment_1_0 ) ) ;
     public final void rule__ExportsVariable__Group_1__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1997:1: ( ( ( rule__ExportsVariable__NameAssignment_1_0 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1998:1: ( ( rule__ExportsVariable__NameAssignment_1_0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2260:1: ( ( ( rule__ExportsVariable__NameAssignment_1_0 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2261:1: ( ( rule__ExportsVariable__NameAssignment_1_0 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1998:1: ( ( rule__ExportsVariable__NameAssignment_1_0 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:1999:1: ( rule__ExportsVariable__NameAssignment_1_0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2261:1: ( ( rule__ExportsVariable__NameAssignment_1_0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2262:1: ( rule__ExportsVariable__NameAssignment_1_0 )
             {
              before(grammarAccess.getExportsVariableAccess().getNameAssignment_1_0()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2000:1: ( rule__ExportsVariable__NameAssignment_1_0 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2000:2: rule__ExportsVariable__NameAssignment_1_0
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2263:1: ( rule__ExportsVariable__NameAssignment_1_0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2263:2: rule__ExportsVariable__NameAssignment_1_0
             {
-            pushFollow(FOLLOW_rule__ExportsVariable__NameAssignment_1_0_in_rule__ExportsVariable__Group_1__0__Impl4034);
+            pushFollow(FOLLOW_rule__ExportsVariable__NameAssignment_1_0_in_rule__ExportsVariable__Group_1__0__Impl4588);
             rule__ExportsVariable__NameAssignment_1_0();
 
             state._fsp--;
@@ -5522,21 +6380,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsVariable__Group_1__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2010:1: rule__ExportsVariable__Group_1__1 : rule__ExportsVariable__Group_1__1__Impl rule__ExportsVariable__Group_1__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2273:1: rule__ExportsVariable__Group_1__1 : rule__ExportsVariable__Group_1__1__Impl rule__ExportsVariable__Group_1__2 ;
     public final void rule__ExportsVariable__Group_1__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2014:1: ( rule__ExportsVariable__Group_1__1__Impl rule__ExportsVariable__Group_1__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2015:2: rule__ExportsVariable__Group_1__1__Impl rule__ExportsVariable__Group_1__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2277:1: ( rule__ExportsVariable__Group_1__1__Impl rule__ExportsVariable__Group_1__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2278:2: rule__ExportsVariable__Group_1__1__Impl rule__ExportsVariable__Group_1__2
             {
-            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__1__Impl_in_rule__ExportsVariable__Group_1__14064);
+            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__1__Impl_in_rule__ExportsVariable__Group_1__14618);
             rule__ExportsVariable__Group_1__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__2_in_rule__ExportsVariable__Group_1__14067);
+            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__2_in_rule__ExportsVariable__Group_1__14621);
             rule__ExportsVariable__Group_1__2();
 
             state._fsp--;
@@ -5560,31 +6418,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsVariable__Group_1__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2022:1: rule__ExportsVariable__Group_1__1__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2285:1: rule__ExportsVariable__Group_1__1__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ExportsVariable__Group_1__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2026:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2027:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2289:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2290:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2027:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2028:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2290:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2291:1: ( RULE_WS )?
             {
              before(grammarAccess.getExportsVariableAccess().getWSTerminalRuleCall_1_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2029:1: ( RULE_WS )?
-            int alt25=2;
-            int LA25_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2292:1: ( RULE_WS )?
+            int alt34=2;
+            int LA34_0 = input.LA(1);
 
-            if ( (LA25_0==RULE_WS) ) {
-                alt25=1;
+            if ( (LA34_0==RULE_WS) ) {
+                alt34=1;
             }
-            switch (alt25) {
+            switch (alt34) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2029:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2292:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExportsVariable__Group_1__1__Impl4095); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExportsVariable__Group_1__1__Impl4649); 
 
                     }
                     break;
@@ -5614,21 +6472,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsVariable__Group_1__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2039:1: rule__ExportsVariable__Group_1__2 : rule__ExportsVariable__Group_1__2__Impl rule__ExportsVariable__Group_1__3 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2302:1: rule__ExportsVariable__Group_1__2 : rule__ExportsVariable__Group_1__2__Impl rule__ExportsVariable__Group_1__3 ;
     public final void rule__ExportsVariable__Group_1__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2043:1: ( rule__ExportsVariable__Group_1__2__Impl rule__ExportsVariable__Group_1__3 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2044:2: rule__ExportsVariable__Group_1__2__Impl rule__ExportsVariable__Group_1__3
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2306:1: ( rule__ExportsVariable__Group_1__2__Impl rule__ExportsVariable__Group_1__3 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2307:2: rule__ExportsVariable__Group_1__2__Impl rule__ExportsVariable__Group_1__3
             {
-            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__2__Impl_in_rule__ExportsVariable__Group_1__24126);
+            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__2__Impl_in_rule__ExportsVariable__Group_1__24680);
             rule__ExportsVariable__Group_1__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__3_in_rule__ExportsVariable__Group_1__24129);
+            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__3_in_rule__ExportsVariable__Group_1__24683);
             rule__ExportsVariable__Group_1__3();
 
             state._fsp--;
@@ -5652,20 +6510,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsVariable__Group_1__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2051:1: rule__ExportsVariable__Group_1__2__Impl : ( '=' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2314:1: rule__ExportsVariable__Group_1__2__Impl : ( '=' ) ;
     public final void rule__ExportsVariable__Group_1__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2055:1: ( ( '=' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2056:1: ( '=' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2318:1: ( ( '=' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2319:1: ( '=' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2056:1: ( '=' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2057:1: '='
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2319:1: ( '=' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2320:1: '='
             {
              before(grammarAccess.getExportsVariableAccess().getEqualsSignKeyword_1_2()); 
-            match(input,19,FOLLOW_19_in_rule__ExportsVariable__Group_1__2__Impl4157); 
+            match(input,19,FOLLOW_19_in_rule__ExportsVariable__Group_1__2__Impl4711); 
              after(grammarAccess.getExportsVariableAccess().getEqualsSignKeyword_1_2()); 
 
             }
@@ -5689,21 +6547,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsVariable__Group_1__3"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2070:1: rule__ExportsVariable__Group_1__3 : rule__ExportsVariable__Group_1__3__Impl rule__ExportsVariable__Group_1__4 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2333:1: rule__ExportsVariable__Group_1__3 : rule__ExportsVariable__Group_1__3__Impl rule__ExportsVariable__Group_1__4 ;
     public final void rule__ExportsVariable__Group_1__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2074:1: ( rule__ExportsVariable__Group_1__3__Impl rule__ExportsVariable__Group_1__4 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2075:2: rule__ExportsVariable__Group_1__3__Impl rule__ExportsVariable__Group_1__4
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2337:1: ( rule__ExportsVariable__Group_1__3__Impl rule__ExportsVariable__Group_1__4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2338:2: rule__ExportsVariable__Group_1__3__Impl rule__ExportsVariable__Group_1__4
             {
-            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__3__Impl_in_rule__ExportsVariable__Group_1__34188);
+            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__3__Impl_in_rule__ExportsVariable__Group_1__34742);
             rule__ExportsVariable__Group_1__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__4_in_rule__ExportsVariable__Group_1__34191);
+            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__4_in_rule__ExportsVariable__Group_1__34745);
             rule__ExportsVariable__Group_1__4();
 
             state._fsp--;
@@ -5727,31 +6585,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsVariable__Group_1__3__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2082:1: rule__ExportsVariable__Group_1__3__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2345:1: rule__ExportsVariable__Group_1__3__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ExportsVariable__Group_1__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2086:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2087:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2349:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2350:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2087:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2088:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2350:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2351:1: ( RULE_WS )?
             {
              before(grammarAccess.getExportsVariableAccess().getWSTerminalRuleCall_1_3()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2089:1: ( RULE_WS )?
-            int alt26=2;
-            int LA26_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2352:1: ( RULE_WS )?
+            int alt35=2;
+            int LA35_0 = input.LA(1);
 
-            if ( (LA26_0==RULE_WS) ) {
-                alt26=1;
+            if ( (LA35_0==RULE_WS) ) {
+                alt35=1;
             }
-            switch (alt26) {
+            switch (alt35) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2089:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2352:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExportsVariable__Group_1__3__Impl4219); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExportsVariable__Group_1__3__Impl4773); 
 
                     }
                     break;
@@ -5781,16 +6639,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsVariable__Group_1__4"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2099:1: rule__ExportsVariable__Group_1__4 : rule__ExportsVariable__Group_1__4__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2362:1: rule__ExportsVariable__Group_1__4 : rule__ExportsVariable__Group_1__4__Impl ;
     public final void rule__ExportsVariable__Group_1__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2103:1: ( rule__ExportsVariable__Group_1__4__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2104:2: rule__ExportsVariable__Group_1__4__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2366:1: ( rule__ExportsVariable__Group_1__4__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2367:2: rule__ExportsVariable__Group_1__4__Impl
             {
-            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__4__Impl_in_rule__ExportsVariable__Group_1__44250);
+            pushFollow(FOLLOW_rule__ExportsVariable__Group_1__4__Impl_in_rule__ExportsVariable__Group_1__44804);
             rule__ExportsVariable__Group_1__4__Impl();
 
             state._fsp--;
@@ -5814,23 +6672,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsVariable__Group_1__4__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2110:1: rule__ExportsVariable__Group_1__4__Impl : ( ( rule__ExportsVariable__ValueAssignment_1_4 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2373:1: rule__ExportsVariable__Group_1__4__Impl : ( ( rule__ExportsVariable__ValueAssignment_1_4 ) ) ;
     public final void rule__ExportsVariable__Group_1__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2114:1: ( ( ( rule__ExportsVariable__ValueAssignment_1_4 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2115:1: ( ( rule__ExportsVariable__ValueAssignment_1_4 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2377:1: ( ( ( rule__ExportsVariable__ValueAssignment_1_4 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2378:1: ( ( rule__ExportsVariable__ValueAssignment_1_4 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2115:1: ( ( rule__ExportsVariable__ValueAssignment_1_4 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2116:1: ( rule__ExportsVariable__ValueAssignment_1_4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2378:1: ( ( rule__ExportsVariable__ValueAssignment_1_4 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2379:1: ( rule__ExportsVariable__ValueAssignment_1_4 )
             {
              before(grammarAccess.getExportsVariableAccess().getValueAssignment_1_4()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2117:1: ( rule__ExportsVariable__ValueAssignment_1_4 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2117:2: rule__ExportsVariable__ValueAssignment_1_4
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2380:1: ( rule__ExportsVariable__ValueAssignment_1_4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2380:2: rule__ExportsVariable__ValueAssignment_1_4
             {
-            pushFollow(FOLLOW_rule__ExportsVariable__ValueAssignment_1_4_in_rule__ExportsVariable__Group_1__4__Impl4277);
+            pushFollow(FOLLOW_rule__ExportsVariable__ValueAssignment_1_4_in_rule__ExportsVariable__Group_1__4__Impl4831);
             rule__ExportsVariable__ValueAssignment_1_4();
 
             state._fsp--;
@@ -5861,21 +6719,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2137:1: rule__ImportsProperty__Group__0 : rule__ImportsProperty__Group__0__Impl rule__ImportsProperty__Group__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2400:1: rule__ImportsProperty__Group__0 : rule__ImportsProperty__Group__0__Impl rule__ImportsProperty__Group__1 ;
     public final void rule__ImportsProperty__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2141:1: ( rule__ImportsProperty__Group__0__Impl rule__ImportsProperty__Group__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2142:2: rule__ImportsProperty__Group__0__Impl rule__ImportsProperty__Group__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2404:1: ( rule__ImportsProperty__Group__0__Impl rule__ImportsProperty__Group__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2405:2: rule__ImportsProperty__Group__0__Impl rule__ImportsProperty__Group__1
             {
-            pushFollow(FOLLOW_rule__ImportsProperty__Group__0__Impl_in_rule__ImportsProperty__Group__04317);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group__0__Impl_in_rule__ImportsProperty__Group__04871);
             rule__ImportsProperty__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ImportsProperty__Group__1_in_rule__ImportsProperty__Group__04320);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group__1_in_rule__ImportsProperty__Group__04874);
             rule__ImportsProperty__Group__1();
 
             state._fsp--;
@@ -5899,20 +6757,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2149:1: rule__ImportsProperty__Group__0__Impl : ( 'imports:' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2412:1: rule__ImportsProperty__Group__0__Impl : ( 'imports:' ) ;
     public final void rule__ImportsProperty__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2153:1: ( ( 'imports:' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2154:1: ( 'imports:' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2416:1: ( ( 'imports:' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2417:1: ( 'imports:' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2154:1: ( 'imports:' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2155:1: 'imports:'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2417:1: ( 'imports:' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2418:1: 'imports:'
             {
              before(grammarAccess.getImportsPropertyAccess().getImportsKeyword_0()); 
-            match(input,20,FOLLOW_20_in_rule__ImportsProperty__Group__0__Impl4348); 
+            match(input,20,FOLLOW_20_in_rule__ImportsProperty__Group__0__Impl4902); 
              after(grammarAccess.getImportsPropertyAccess().getImportsKeyword_0()); 
 
             }
@@ -5936,21 +6794,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2168:1: rule__ImportsProperty__Group__1 : rule__ImportsProperty__Group__1__Impl rule__ImportsProperty__Group__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2431:1: rule__ImportsProperty__Group__1 : rule__ImportsProperty__Group__1__Impl rule__ImportsProperty__Group__2 ;
     public final void rule__ImportsProperty__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2172:1: ( rule__ImportsProperty__Group__1__Impl rule__ImportsProperty__Group__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2173:2: rule__ImportsProperty__Group__1__Impl rule__ImportsProperty__Group__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2435:1: ( rule__ImportsProperty__Group__1__Impl rule__ImportsProperty__Group__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2436:2: rule__ImportsProperty__Group__1__Impl rule__ImportsProperty__Group__2
             {
-            pushFollow(FOLLOW_rule__ImportsProperty__Group__1__Impl_in_rule__ImportsProperty__Group__14379);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group__1__Impl_in_rule__ImportsProperty__Group__14933);
             rule__ImportsProperty__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ImportsProperty__Group__2_in_rule__ImportsProperty__Group__14382);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group__2_in_rule__ImportsProperty__Group__14936);
             rule__ImportsProperty__Group__2();
 
             state._fsp--;
@@ -5974,31 +6832,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2180:1: rule__ImportsProperty__Group__1__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2443:1: rule__ImportsProperty__Group__1__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ImportsProperty__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2184:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2185:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2447:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2448:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2185:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2186:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2448:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2449:1: ( RULE_WS )?
             {
              before(grammarAccess.getImportsPropertyAccess().getWSTerminalRuleCall_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2187:1: ( RULE_WS )?
-            int alt27=2;
-            int LA27_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2450:1: ( RULE_WS )?
+            int alt36=2;
+            int LA36_0 = input.LA(1);
 
-            if ( (LA27_0==RULE_WS) ) {
-                alt27=1;
+            if ( (LA36_0==RULE_WS) ) {
+                alt36=1;
             }
-            switch (alt27) {
+            switch (alt36) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2187:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2450:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ImportsProperty__Group__1__Impl4410); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ImportsProperty__Group__1__Impl4964); 
 
                     }
                     break;
@@ -6028,21 +6886,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2197:1: rule__ImportsProperty__Group__2 : rule__ImportsProperty__Group__2__Impl rule__ImportsProperty__Group__3 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2460:1: rule__ImportsProperty__Group__2 : rule__ImportsProperty__Group__2__Impl rule__ImportsProperty__Group__3 ;
     public final void rule__ImportsProperty__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2201:1: ( rule__ImportsProperty__Group__2__Impl rule__ImportsProperty__Group__3 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2202:2: rule__ImportsProperty__Group__2__Impl rule__ImportsProperty__Group__3
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2464:1: ( rule__ImportsProperty__Group__2__Impl rule__ImportsProperty__Group__3 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2465:2: rule__ImportsProperty__Group__2__Impl rule__ImportsProperty__Group__3
             {
-            pushFollow(FOLLOW_rule__ImportsProperty__Group__2__Impl_in_rule__ImportsProperty__Group__24441);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group__2__Impl_in_rule__ImportsProperty__Group__24995);
             rule__ImportsProperty__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ImportsProperty__Group__3_in_rule__ImportsProperty__Group__24444);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group__3_in_rule__ImportsProperty__Group__24998);
             rule__ImportsProperty__Group__3();
 
             state._fsp--;
@@ -6066,23 +6924,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2209:1: rule__ImportsProperty__Group__2__Impl : ( ( rule__ImportsProperty__ImportsVariablesAssignment_2 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2472:1: rule__ImportsProperty__Group__2__Impl : ( ( rule__ImportsProperty__ImportsVariablesAssignment_2 ) ) ;
     public final void rule__ImportsProperty__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2213:1: ( ( ( rule__ImportsProperty__ImportsVariablesAssignment_2 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2214:1: ( ( rule__ImportsProperty__ImportsVariablesAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2476:1: ( ( ( rule__ImportsProperty__ImportsVariablesAssignment_2 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2477:1: ( ( rule__ImportsProperty__ImportsVariablesAssignment_2 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2214:1: ( ( rule__ImportsProperty__ImportsVariablesAssignment_2 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2215:1: ( rule__ImportsProperty__ImportsVariablesAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2477:1: ( ( rule__ImportsProperty__ImportsVariablesAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2478:1: ( rule__ImportsProperty__ImportsVariablesAssignment_2 )
             {
              before(grammarAccess.getImportsPropertyAccess().getImportsVariablesAssignment_2()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2216:1: ( rule__ImportsProperty__ImportsVariablesAssignment_2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2216:2: rule__ImportsProperty__ImportsVariablesAssignment_2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2479:1: ( rule__ImportsProperty__ImportsVariablesAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2479:2: rule__ImportsProperty__ImportsVariablesAssignment_2
             {
-            pushFollow(FOLLOW_rule__ImportsProperty__ImportsVariablesAssignment_2_in_rule__ImportsProperty__Group__2__Impl4471);
+            pushFollow(FOLLOW_rule__ImportsProperty__ImportsVariablesAssignment_2_in_rule__ImportsProperty__Group__2__Impl5025);
             rule__ImportsProperty__ImportsVariablesAssignment_2();
 
             state._fsp--;
@@ -6113,21 +6971,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group__3"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2226:1: rule__ImportsProperty__Group__3 : rule__ImportsProperty__Group__3__Impl rule__ImportsProperty__Group__4 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2489:1: rule__ImportsProperty__Group__3 : rule__ImportsProperty__Group__3__Impl rule__ImportsProperty__Group__4 ;
     public final void rule__ImportsProperty__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2230:1: ( rule__ImportsProperty__Group__3__Impl rule__ImportsProperty__Group__4 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2231:2: rule__ImportsProperty__Group__3__Impl rule__ImportsProperty__Group__4
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2493:1: ( rule__ImportsProperty__Group__3__Impl rule__ImportsProperty__Group__4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2494:2: rule__ImportsProperty__Group__3__Impl rule__ImportsProperty__Group__4
             {
-            pushFollow(FOLLOW_rule__ImportsProperty__Group__3__Impl_in_rule__ImportsProperty__Group__34501);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group__3__Impl_in_rule__ImportsProperty__Group__35055);
             rule__ImportsProperty__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ImportsProperty__Group__4_in_rule__ImportsProperty__Group__34504);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group__4_in_rule__ImportsProperty__Group__35058);
             rule__ImportsProperty__Group__4();
 
             state._fsp--;
@@ -6151,31 +7009,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group__3__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2238:1: rule__ImportsProperty__Group__3__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2501:1: rule__ImportsProperty__Group__3__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ImportsProperty__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2242:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2243:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2505:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2506:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2243:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2244:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2506:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2507:1: ( RULE_WS )?
             {
              before(grammarAccess.getImportsPropertyAccess().getWSTerminalRuleCall_3()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2245:1: ( RULE_WS )?
-            int alt28=2;
-            int LA28_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2508:1: ( RULE_WS )?
+            int alt37=2;
+            int LA37_0 = input.LA(1);
 
-            if ( (LA28_0==RULE_WS) ) {
-                alt28=1;
+            if ( (LA37_0==RULE_WS) ) {
+                alt37=1;
             }
-            switch (alt28) {
+            switch (alt37) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2245:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2508:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ImportsProperty__Group__3__Impl4532); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ImportsProperty__Group__3__Impl5086); 
 
                     }
                     break;
@@ -6205,21 +7063,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group__4"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2255:1: rule__ImportsProperty__Group__4 : rule__ImportsProperty__Group__4__Impl rule__ImportsProperty__Group__5 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2518:1: rule__ImportsProperty__Group__4 : rule__ImportsProperty__Group__4__Impl rule__ImportsProperty__Group__5 ;
     public final void rule__ImportsProperty__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2259:1: ( rule__ImportsProperty__Group__4__Impl rule__ImportsProperty__Group__5 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2260:2: rule__ImportsProperty__Group__4__Impl rule__ImportsProperty__Group__5
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2522:1: ( rule__ImportsProperty__Group__4__Impl rule__ImportsProperty__Group__5 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2523:2: rule__ImportsProperty__Group__4__Impl rule__ImportsProperty__Group__5
             {
-            pushFollow(FOLLOW_rule__ImportsProperty__Group__4__Impl_in_rule__ImportsProperty__Group__44563);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group__4__Impl_in_rule__ImportsProperty__Group__45117);
             rule__ImportsProperty__Group__4__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ImportsProperty__Group__5_in_rule__ImportsProperty__Group__44566);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group__5_in_rule__ImportsProperty__Group__45120);
             rule__ImportsProperty__Group__5();
 
             state._fsp--;
@@ -6243,29 +7101,47 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group__4__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2267:1: rule__ImportsProperty__Group__4__Impl : ( ( rule__ImportsProperty__Group_4__0 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2530:1: rule__ImportsProperty__Group__4__Impl : ( ( rule__ImportsProperty__Group_4__0 )* ) ;
     public final void rule__ImportsProperty__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2271:1: ( ( ( rule__ImportsProperty__Group_4__0 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2272:1: ( ( rule__ImportsProperty__Group_4__0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2534:1: ( ( ( rule__ImportsProperty__Group_4__0 )* ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2535:1: ( ( rule__ImportsProperty__Group_4__0 )* )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2272:1: ( ( rule__ImportsProperty__Group_4__0 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2273:1: ( rule__ImportsProperty__Group_4__0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2535:1: ( ( rule__ImportsProperty__Group_4__0 )* )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2536:1: ( rule__ImportsProperty__Group_4__0 )*
             {
              before(grammarAccess.getImportsPropertyAccess().getGroup_4()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2274:1: ( rule__ImportsProperty__Group_4__0 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2274:2: rule__ImportsProperty__Group_4__0
-            {
-            pushFollow(FOLLOW_rule__ImportsProperty__Group_4__0_in_rule__ImportsProperty__Group__4__Impl4593);
-            rule__ImportsProperty__Group_4__0();
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2537:1: ( rule__ImportsProperty__Group_4__0 )*
+            loop38:
+            do {
+                int alt38=2;
+                int LA38_0 = input.LA(1);
 
-            state._fsp--;
+                if ( (LA38_0==17) ) {
+                    alt38=1;
+                }
 
 
-            }
+                switch (alt38) {
+            	case 1 :
+            	    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2537:2: rule__ImportsProperty__Group_4__0
+            	    {
+            	    pushFollow(FOLLOW_rule__ImportsProperty__Group_4__0_in_rule__ImportsProperty__Group__4__Impl5147);
+            	    rule__ImportsProperty__Group_4__0();
+
+            	    state._fsp--;
+
+
+            	    }
+            	    break;
+
+            	default :
+            	    break loop38;
+                }
+            } while (true);
 
              after(grammarAccess.getImportsPropertyAccess().getGroup_4()); 
 
@@ -6290,21 +7166,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group__5"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2284:1: rule__ImportsProperty__Group__5 : rule__ImportsProperty__Group__5__Impl rule__ImportsProperty__Group__6 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2547:1: rule__ImportsProperty__Group__5 : rule__ImportsProperty__Group__5__Impl rule__ImportsProperty__Group__6 ;
     public final void rule__ImportsProperty__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2288:1: ( rule__ImportsProperty__Group__5__Impl rule__ImportsProperty__Group__6 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2289:2: rule__ImportsProperty__Group__5__Impl rule__ImportsProperty__Group__6
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2551:1: ( rule__ImportsProperty__Group__5__Impl rule__ImportsProperty__Group__6 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2552:2: rule__ImportsProperty__Group__5__Impl rule__ImportsProperty__Group__6
             {
-            pushFollow(FOLLOW_rule__ImportsProperty__Group__5__Impl_in_rule__ImportsProperty__Group__54623);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group__5__Impl_in_rule__ImportsProperty__Group__55178);
             rule__ImportsProperty__Group__5__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ImportsProperty__Group__6_in_rule__ImportsProperty__Group__54626);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group__6_in_rule__ImportsProperty__Group__55181);
             rule__ImportsProperty__Group__6();
 
             state._fsp--;
@@ -6328,31 +7204,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group__5__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2296:1: rule__ImportsProperty__Group__5__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2559:1: rule__ImportsProperty__Group__5__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ImportsProperty__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2300:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2301:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2563:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2564:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2301:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2302:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2564:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2565:1: ( RULE_WS )?
             {
              before(grammarAccess.getImportsPropertyAccess().getWSTerminalRuleCall_5()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2303:1: ( RULE_WS )?
-            int alt29=2;
-            int LA29_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2566:1: ( RULE_WS )?
+            int alt39=2;
+            int LA39_0 = input.LA(1);
 
-            if ( (LA29_0==RULE_WS) ) {
-                alt29=1;
+            if ( (LA39_0==RULE_WS) ) {
+                alt39=1;
             }
-            switch (alt29) {
+            switch (alt39) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2303:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2566:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ImportsProperty__Group__5__Impl4654); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ImportsProperty__Group__5__Impl5209); 
 
                     }
                     break;
@@ -6382,16 +7258,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group__6"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2313:1: rule__ImportsProperty__Group__6 : rule__ImportsProperty__Group__6__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2576:1: rule__ImportsProperty__Group__6 : rule__ImportsProperty__Group__6__Impl ;
     public final void rule__ImportsProperty__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2317:1: ( rule__ImportsProperty__Group__6__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2318:2: rule__ImportsProperty__Group__6__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2580:1: ( rule__ImportsProperty__Group__6__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2581:2: rule__ImportsProperty__Group__6__Impl
             {
-            pushFollow(FOLLOW_rule__ImportsProperty__Group__6__Impl_in_rule__ImportsProperty__Group__64685);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group__6__Impl_in_rule__ImportsProperty__Group__65240);
             rule__ImportsProperty__Group__6__Impl();
 
             state._fsp--;
@@ -6415,20 +7291,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group__6__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2324:1: rule__ImportsProperty__Group__6__Impl : ( ';' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2587:1: rule__ImportsProperty__Group__6__Impl : ( ';' ) ;
     public final void rule__ImportsProperty__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2328:1: ( ( ';' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2329:1: ( ';' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2591:1: ( ( ';' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2592:1: ( ';' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2329:1: ( ';' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2330:1: ';'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2592:1: ( ';' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2593:1: ';'
             {
              before(grammarAccess.getImportsPropertyAccess().getSemicolonKeyword_6()); 
-            match(input,15,FOLLOW_15_in_rule__ImportsProperty__Group__6__Impl4713); 
+            match(input,15,FOLLOW_15_in_rule__ImportsProperty__Group__6__Impl5268); 
              after(grammarAccess.getImportsPropertyAccess().getSemicolonKeyword_6()); 
 
             }
@@ -6452,21 +7328,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group_4__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2357:1: rule__ImportsProperty__Group_4__0 : rule__ImportsProperty__Group_4__0__Impl rule__ImportsProperty__Group_4__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2620:1: rule__ImportsProperty__Group_4__0 : rule__ImportsProperty__Group_4__0__Impl rule__ImportsProperty__Group_4__1 ;
     public final void rule__ImportsProperty__Group_4__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2361:1: ( rule__ImportsProperty__Group_4__0__Impl rule__ImportsProperty__Group_4__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2362:2: rule__ImportsProperty__Group_4__0__Impl rule__ImportsProperty__Group_4__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2624:1: ( rule__ImportsProperty__Group_4__0__Impl rule__ImportsProperty__Group_4__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2625:2: rule__ImportsProperty__Group_4__0__Impl rule__ImportsProperty__Group_4__1
             {
-            pushFollow(FOLLOW_rule__ImportsProperty__Group_4__0__Impl_in_rule__ImportsProperty__Group_4__04758);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group_4__0__Impl_in_rule__ImportsProperty__Group_4__05313);
             rule__ImportsProperty__Group_4__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ImportsProperty__Group_4__1_in_rule__ImportsProperty__Group_4__04761);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group_4__1_in_rule__ImportsProperty__Group_4__05316);
             rule__ImportsProperty__Group_4__1();
 
             state._fsp--;
@@ -6490,20 +7366,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group_4__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2369:1: rule__ImportsProperty__Group_4__0__Impl : ( ',' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2632:1: rule__ImportsProperty__Group_4__0__Impl : ( ',' ) ;
     public final void rule__ImportsProperty__Group_4__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2373:1: ( ( ',' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2374:1: ( ',' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2636:1: ( ( ',' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2637:1: ( ',' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2374:1: ( ',' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2375:1: ','
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2637:1: ( ',' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2638:1: ','
             {
              before(grammarAccess.getImportsPropertyAccess().getCommaKeyword_4_0()); 
-            match(input,17,FOLLOW_17_in_rule__ImportsProperty__Group_4__0__Impl4789); 
+            match(input,17,FOLLOW_17_in_rule__ImportsProperty__Group_4__0__Impl5344); 
              after(grammarAccess.getImportsPropertyAccess().getCommaKeyword_4_0()); 
 
             }
@@ -6527,21 +7403,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group_4__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2388:1: rule__ImportsProperty__Group_4__1 : rule__ImportsProperty__Group_4__1__Impl rule__ImportsProperty__Group_4__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2651:1: rule__ImportsProperty__Group_4__1 : rule__ImportsProperty__Group_4__1__Impl rule__ImportsProperty__Group_4__2 ;
     public final void rule__ImportsProperty__Group_4__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2392:1: ( rule__ImportsProperty__Group_4__1__Impl rule__ImportsProperty__Group_4__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2393:2: rule__ImportsProperty__Group_4__1__Impl rule__ImportsProperty__Group_4__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2655:1: ( rule__ImportsProperty__Group_4__1__Impl rule__ImportsProperty__Group_4__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2656:2: rule__ImportsProperty__Group_4__1__Impl rule__ImportsProperty__Group_4__2
             {
-            pushFollow(FOLLOW_rule__ImportsProperty__Group_4__1__Impl_in_rule__ImportsProperty__Group_4__14820);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group_4__1__Impl_in_rule__ImportsProperty__Group_4__15375);
             rule__ImportsProperty__Group_4__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ImportsProperty__Group_4__2_in_rule__ImportsProperty__Group_4__14823);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group_4__2_in_rule__ImportsProperty__Group_4__15378);
             rule__ImportsProperty__Group_4__2();
 
             state._fsp--;
@@ -6565,31 +7441,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group_4__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2400:1: rule__ImportsProperty__Group_4__1__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2663:1: rule__ImportsProperty__Group_4__1__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ImportsProperty__Group_4__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2404:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2405:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2667:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2668:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2405:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2406:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2668:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2669:1: ( RULE_WS )?
             {
              before(grammarAccess.getImportsPropertyAccess().getWSTerminalRuleCall_4_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2407:1: ( RULE_WS )?
-            int alt30=2;
-            int LA30_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2670:1: ( RULE_WS )?
+            int alt40=2;
+            int LA40_0 = input.LA(1);
 
-            if ( (LA30_0==RULE_WS) ) {
-                alt30=1;
+            if ( (LA40_0==RULE_WS) ) {
+                alt40=1;
             }
-            switch (alt30) {
+            switch (alt40) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2407:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2670:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ImportsProperty__Group_4__1__Impl4851); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ImportsProperty__Group_4__1__Impl5406); 
 
                     }
                     break;
@@ -6619,16 +7495,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group_4__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2417:1: rule__ImportsProperty__Group_4__2 : rule__ImportsProperty__Group_4__2__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2680:1: rule__ImportsProperty__Group_4__2 : rule__ImportsProperty__Group_4__2__Impl ;
     public final void rule__ImportsProperty__Group_4__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2421:1: ( rule__ImportsProperty__Group_4__2__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2422:2: rule__ImportsProperty__Group_4__2__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2684:1: ( rule__ImportsProperty__Group_4__2__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2685:2: rule__ImportsProperty__Group_4__2__Impl
             {
-            pushFollow(FOLLOW_rule__ImportsProperty__Group_4__2__Impl_in_rule__ImportsProperty__Group_4__24882);
+            pushFollow(FOLLOW_rule__ImportsProperty__Group_4__2__Impl_in_rule__ImportsProperty__Group_4__25437);
             rule__ImportsProperty__Group_4__2__Impl();
 
             state._fsp--;
@@ -6652,23 +7528,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__Group_4__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2428:1: rule__ImportsProperty__Group_4__2__Impl : ( ( rule__ImportsProperty__ImportsVariablesAssignment_4_2 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2691:1: rule__ImportsProperty__Group_4__2__Impl : ( ( rule__ImportsProperty__ImportsVariablesAssignment_4_2 ) ) ;
     public final void rule__ImportsProperty__Group_4__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2432:1: ( ( ( rule__ImportsProperty__ImportsVariablesAssignment_4_2 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2433:1: ( ( rule__ImportsProperty__ImportsVariablesAssignment_4_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2695:1: ( ( ( rule__ImportsProperty__ImportsVariablesAssignment_4_2 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2696:1: ( ( rule__ImportsProperty__ImportsVariablesAssignment_4_2 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2433:1: ( ( rule__ImportsProperty__ImportsVariablesAssignment_4_2 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2434:1: ( rule__ImportsProperty__ImportsVariablesAssignment_4_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2696:1: ( ( rule__ImportsProperty__ImportsVariablesAssignment_4_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2697:1: ( rule__ImportsProperty__ImportsVariablesAssignment_4_2 )
             {
              before(grammarAccess.getImportsPropertyAccess().getImportsVariablesAssignment_4_2()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2435:1: ( rule__ImportsProperty__ImportsVariablesAssignment_4_2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2435:2: rule__ImportsProperty__ImportsVariablesAssignment_4_2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2698:1: ( rule__ImportsProperty__ImportsVariablesAssignment_4_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2698:2: rule__ImportsProperty__ImportsVariablesAssignment_4_2
             {
-            pushFollow(FOLLOW_rule__ImportsProperty__ImportsVariablesAssignment_4_2_in_rule__ImportsProperty__Group_4__2__Impl4909);
+            pushFollow(FOLLOW_rule__ImportsProperty__ImportsVariablesAssignment_4_2_in_rule__ImportsProperty__Group_4__2__Impl5464);
             rule__ImportsProperty__ImportsVariablesAssignment_4_2();
 
             state._fsp--;
@@ -6699,21 +7575,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2451:1: rule__ImportsVariable__Group__0 : rule__ImportsVariable__Group__0__Impl rule__ImportsVariable__Group__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2714:1: rule__ImportsVariable__Group__0 : rule__ImportsVariable__Group__0__Impl rule__ImportsVariable__Group__1 ;
     public final void rule__ImportsVariable__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2455:1: ( rule__ImportsVariable__Group__0__Impl rule__ImportsVariable__Group__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2456:2: rule__ImportsVariable__Group__0__Impl rule__ImportsVariable__Group__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2718:1: ( rule__ImportsVariable__Group__0__Impl rule__ImportsVariable__Group__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2719:2: rule__ImportsVariable__Group__0__Impl rule__ImportsVariable__Group__1
             {
-            pushFollow(FOLLOW_rule__ImportsVariable__Group__0__Impl_in_rule__ImportsVariable__Group__04945);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group__0__Impl_in_rule__ImportsVariable__Group__05500);
             rule__ImportsVariable__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ImportsVariable__Group__1_in_rule__ImportsVariable__Group__04948);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group__1_in_rule__ImportsVariable__Group__05503);
             rule__ImportsVariable__Group__1();
 
             state._fsp--;
@@ -6737,31 +7613,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2463:1: rule__ImportsVariable__Group__0__Impl : ( ( rule__ImportsVariable__Group_0__0 )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2726:1: rule__ImportsVariable__Group__0__Impl : ( ( rule__ImportsVariable__Group_0__0 )? ) ;
     public final void rule__ImportsVariable__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2467:1: ( ( ( rule__ImportsVariable__Group_0__0 )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2468:1: ( ( rule__ImportsVariable__Group_0__0 )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2730:1: ( ( ( rule__ImportsVariable__Group_0__0 )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2731:1: ( ( rule__ImportsVariable__Group_0__0 )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2468:1: ( ( rule__ImportsVariable__Group_0__0 )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2469:1: ( rule__ImportsVariable__Group_0__0 )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2731:1: ( ( rule__ImportsVariable__Group_0__0 )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2732:1: ( rule__ImportsVariable__Group_0__0 )?
             {
              before(grammarAccess.getImportsVariableAccess().getGroup_0()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2470:1: ( rule__ImportsVariable__Group_0__0 )?
-            int alt31=2;
-            int LA31_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2733:1: ( rule__ImportsVariable__Group_0__0 )?
+            int alt41=2;
+            int LA41_0 = input.LA(1);
 
-            if ( (LA31_0==25) ) {
-                alt31=1;
+            if ( (LA41_0==25) ) {
+                alt41=1;
             }
-            switch (alt31) {
+            switch (alt41) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2470:2: rule__ImportsVariable__Group_0__0
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2733:2: rule__ImportsVariable__Group_0__0
                     {
-                    pushFollow(FOLLOW_rule__ImportsVariable__Group_0__0_in_rule__ImportsVariable__Group__0__Impl4975);
+                    pushFollow(FOLLOW_rule__ImportsVariable__Group_0__0_in_rule__ImportsVariable__Group__0__Impl5530);
                     rule__ImportsVariable__Group_0__0();
 
                     state._fsp--;
@@ -6795,21 +7671,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2480:1: rule__ImportsVariable__Group__1 : rule__ImportsVariable__Group__1__Impl rule__ImportsVariable__Group__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2743:1: rule__ImportsVariable__Group__1 : rule__ImportsVariable__Group__1__Impl rule__ImportsVariable__Group__2 ;
     public final void rule__ImportsVariable__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2484:1: ( rule__ImportsVariable__Group__1__Impl rule__ImportsVariable__Group__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2485:2: rule__ImportsVariable__Group__1__Impl rule__ImportsVariable__Group__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2747:1: ( rule__ImportsVariable__Group__1__Impl rule__ImportsVariable__Group__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2748:2: rule__ImportsVariable__Group__1__Impl rule__ImportsVariable__Group__2
             {
-            pushFollow(FOLLOW_rule__ImportsVariable__Group__1__Impl_in_rule__ImportsVariable__Group__15006);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group__1__Impl_in_rule__ImportsVariable__Group__15561);
             rule__ImportsVariable__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ImportsVariable__Group__2_in_rule__ImportsVariable__Group__15009);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group__2_in_rule__ImportsVariable__Group__15564);
             rule__ImportsVariable__Group__2();
 
             state._fsp--;
@@ -6833,23 +7709,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2492:1: rule__ImportsVariable__Group__1__Impl : ( ( rule__ImportsVariable__ComponentNameAssignment_1 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2755:1: rule__ImportsVariable__Group__1__Impl : ( ( rule__ImportsVariable__ComponentNameAssignment_1 ) ) ;
     public final void rule__ImportsVariable__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2496:1: ( ( ( rule__ImportsVariable__ComponentNameAssignment_1 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2497:1: ( ( rule__ImportsVariable__ComponentNameAssignment_1 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2759:1: ( ( ( rule__ImportsVariable__ComponentNameAssignment_1 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2760:1: ( ( rule__ImportsVariable__ComponentNameAssignment_1 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2497:1: ( ( rule__ImportsVariable__ComponentNameAssignment_1 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2498:1: ( rule__ImportsVariable__ComponentNameAssignment_1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2760:1: ( ( rule__ImportsVariable__ComponentNameAssignment_1 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2761:1: ( rule__ImportsVariable__ComponentNameAssignment_1 )
             {
              before(grammarAccess.getImportsVariableAccess().getComponentNameAssignment_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2499:1: ( rule__ImportsVariable__ComponentNameAssignment_1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2499:2: rule__ImportsVariable__ComponentNameAssignment_1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2762:1: ( rule__ImportsVariable__ComponentNameAssignment_1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2762:2: rule__ImportsVariable__ComponentNameAssignment_1
             {
-            pushFollow(FOLLOW_rule__ImportsVariable__ComponentNameAssignment_1_in_rule__ImportsVariable__Group__1__Impl5036);
+            pushFollow(FOLLOW_rule__ImportsVariable__ComponentNameAssignment_1_in_rule__ImportsVariable__Group__1__Impl5591);
             rule__ImportsVariable__ComponentNameAssignment_1();
 
             state._fsp--;
@@ -6880,21 +7756,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2509:1: rule__ImportsVariable__Group__2 : rule__ImportsVariable__Group__2__Impl rule__ImportsVariable__Group__3 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2772:1: rule__ImportsVariable__Group__2 : rule__ImportsVariable__Group__2__Impl rule__ImportsVariable__Group__3 ;
     public final void rule__ImportsVariable__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2513:1: ( rule__ImportsVariable__Group__2__Impl rule__ImportsVariable__Group__3 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2514:2: rule__ImportsVariable__Group__2__Impl rule__ImportsVariable__Group__3
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2776:1: ( rule__ImportsVariable__Group__2__Impl rule__ImportsVariable__Group__3 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2777:2: rule__ImportsVariable__Group__2__Impl rule__ImportsVariable__Group__3
             {
-            pushFollow(FOLLOW_rule__ImportsVariable__Group__2__Impl_in_rule__ImportsVariable__Group__25066);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group__2__Impl_in_rule__ImportsVariable__Group__25621);
             rule__ImportsVariable__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ImportsVariable__Group__3_in_rule__ImportsVariable__Group__25069);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group__3_in_rule__ImportsVariable__Group__25624);
             rule__ImportsVariable__Group__3();
 
             state._fsp--;
@@ -6918,20 +7794,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2521:1: rule__ImportsVariable__Group__2__Impl : ( '.' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2784:1: rule__ImportsVariable__Group__2__Impl : ( '.' ) ;
     public final void rule__ImportsVariable__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2525:1: ( ( '.' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2526:1: ( '.' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2788:1: ( ( '.' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2789:1: ( '.' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2526:1: ( '.' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2527:1: '.'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2789:1: ( '.' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2790:1: '.'
             {
              before(grammarAccess.getImportsVariableAccess().getFullStopKeyword_2()); 
-            match(input,21,FOLLOW_21_in_rule__ImportsVariable__Group__2__Impl5097); 
+            match(input,21,FOLLOW_21_in_rule__ImportsVariable__Group__2__Impl5652); 
              after(grammarAccess.getImportsVariableAccess().getFullStopKeyword_2()); 
 
             }
@@ -6955,21 +7831,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group__3"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2540:1: rule__ImportsVariable__Group__3 : rule__ImportsVariable__Group__3__Impl rule__ImportsVariable__Group__4 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2803:1: rule__ImportsVariable__Group__3 : rule__ImportsVariable__Group__3__Impl rule__ImportsVariable__Group__4 ;
     public final void rule__ImportsVariable__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2544:1: ( rule__ImportsVariable__Group__3__Impl rule__ImportsVariable__Group__4 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2545:2: rule__ImportsVariable__Group__3__Impl rule__ImportsVariable__Group__4
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2807:1: ( rule__ImportsVariable__Group__3__Impl rule__ImportsVariable__Group__4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2808:2: rule__ImportsVariable__Group__3__Impl rule__ImportsVariable__Group__4
             {
-            pushFollow(FOLLOW_rule__ImportsVariable__Group__3__Impl_in_rule__ImportsVariable__Group__35128);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group__3__Impl_in_rule__ImportsVariable__Group__35683);
             rule__ImportsVariable__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ImportsVariable__Group__4_in_rule__ImportsVariable__Group__35131);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group__4_in_rule__ImportsVariable__Group__35686);
             rule__ImportsVariable__Group__4();
 
             state._fsp--;
@@ -6993,23 +7869,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group__3__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2552:1: rule__ImportsVariable__Group__3__Impl : ( ( rule__ImportsVariable__ComponentPropertyAssignment_3 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2815:1: rule__ImportsVariable__Group__3__Impl : ( ( rule__ImportsVariable__ComponentPropertyAssignment_3 ) ) ;
     public final void rule__ImportsVariable__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2556:1: ( ( ( rule__ImportsVariable__ComponentPropertyAssignment_3 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2557:1: ( ( rule__ImportsVariable__ComponentPropertyAssignment_3 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2819:1: ( ( ( rule__ImportsVariable__ComponentPropertyAssignment_3 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2820:1: ( ( rule__ImportsVariable__ComponentPropertyAssignment_3 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2557:1: ( ( rule__ImportsVariable__ComponentPropertyAssignment_3 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2558:1: ( rule__ImportsVariable__ComponentPropertyAssignment_3 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2820:1: ( ( rule__ImportsVariable__ComponentPropertyAssignment_3 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2821:1: ( rule__ImportsVariable__ComponentPropertyAssignment_3 )
             {
              before(grammarAccess.getImportsVariableAccess().getComponentPropertyAssignment_3()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2559:1: ( rule__ImportsVariable__ComponentPropertyAssignment_3 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2559:2: rule__ImportsVariable__ComponentPropertyAssignment_3
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2822:1: ( rule__ImportsVariable__ComponentPropertyAssignment_3 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2822:2: rule__ImportsVariable__ComponentPropertyAssignment_3
             {
-            pushFollow(FOLLOW_rule__ImportsVariable__ComponentPropertyAssignment_3_in_rule__ImportsVariable__Group__3__Impl5158);
+            pushFollow(FOLLOW_rule__ImportsVariable__ComponentPropertyAssignment_3_in_rule__ImportsVariable__Group__3__Impl5713);
             rule__ImportsVariable__ComponentPropertyAssignment_3();
 
             state._fsp--;
@@ -7040,16 +7916,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group__4"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2569:1: rule__ImportsVariable__Group__4 : rule__ImportsVariable__Group__4__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2832:1: rule__ImportsVariable__Group__4 : rule__ImportsVariable__Group__4__Impl ;
     public final void rule__ImportsVariable__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2573:1: ( rule__ImportsVariable__Group__4__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2574:2: rule__ImportsVariable__Group__4__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2836:1: ( rule__ImportsVariable__Group__4__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2837:2: rule__ImportsVariable__Group__4__Impl
             {
-            pushFollow(FOLLOW_rule__ImportsVariable__Group__4__Impl_in_rule__ImportsVariable__Group__45188);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group__4__Impl_in_rule__ImportsVariable__Group__45743);
             rule__ImportsVariable__Group__4__Impl();
 
             state._fsp--;
@@ -7073,35 +7949,35 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group__4__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2580:1: rule__ImportsVariable__Group__4__Impl : ( ( rule__ImportsVariable__Group_4__0 )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2843:1: rule__ImportsVariable__Group__4__Impl : ( ( rule__ImportsVariable__Group_4__0 )? ) ;
     public final void rule__ImportsVariable__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2584:1: ( ( ( rule__ImportsVariable__Group_4__0 )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2585:1: ( ( rule__ImportsVariable__Group_4__0 )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2847:1: ( ( ( rule__ImportsVariable__Group_4__0 )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2848:1: ( ( rule__ImportsVariable__Group_4__0 )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2585:1: ( ( rule__ImportsVariable__Group_4__0 )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2586:1: ( rule__ImportsVariable__Group_4__0 )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2848:1: ( ( rule__ImportsVariable__Group_4__0 )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2849:1: ( rule__ImportsVariable__Group_4__0 )?
             {
              before(grammarAccess.getImportsVariableAccess().getGroup_4()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2587:1: ( rule__ImportsVariable__Group_4__0 )?
-            int alt32=2;
-            int LA32_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2850:1: ( rule__ImportsVariable__Group_4__0 )?
+            int alt42=2;
+            int LA42_0 = input.LA(1);
 
-            if ( (LA32_0==RULE_WS) ) {
-                int LA32_1 = input.LA(2);
+            if ( (LA42_0==RULE_WS) ) {
+                int LA42_1 = input.LA(2);
 
-                if ( (LA32_1==26) ) {
-                    alt32=1;
+                if ( (LA42_1==26) ) {
+                    alt42=1;
                 }
             }
-            switch (alt32) {
+            switch (alt42) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2587:2: rule__ImportsVariable__Group_4__0
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2850:2: rule__ImportsVariable__Group_4__0
                     {
-                    pushFollow(FOLLOW_rule__ImportsVariable__Group_4__0_in_rule__ImportsVariable__Group__4__Impl5215);
+                    pushFollow(FOLLOW_rule__ImportsVariable__Group_4__0_in_rule__ImportsVariable__Group__4__Impl5770);
                     rule__ImportsVariable__Group_4__0();
 
                     state._fsp--;
@@ -7135,21 +8011,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group_0__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2607:1: rule__ImportsVariable__Group_0__0 : rule__ImportsVariable__Group_0__0__Impl rule__ImportsVariable__Group_0__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2870:1: rule__ImportsVariable__Group_0__0 : rule__ImportsVariable__Group_0__0__Impl rule__ImportsVariable__Group_0__1 ;
     public final void rule__ImportsVariable__Group_0__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2611:1: ( rule__ImportsVariable__Group_0__0__Impl rule__ImportsVariable__Group_0__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2612:2: rule__ImportsVariable__Group_0__0__Impl rule__ImportsVariable__Group_0__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2874:1: ( rule__ImportsVariable__Group_0__0__Impl rule__ImportsVariable__Group_0__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2875:2: rule__ImportsVariable__Group_0__0__Impl rule__ImportsVariable__Group_0__1
             {
-            pushFollow(FOLLOW_rule__ImportsVariable__Group_0__0__Impl_in_rule__ImportsVariable__Group_0__05256);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group_0__0__Impl_in_rule__ImportsVariable__Group_0__05811);
             rule__ImportsVariable__Group_0__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ImportsVariable__Group_0__1_in_rule__ImportsVariable__Group_0__05259);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group_0__1_in_rule__ImportsVariable__Group_0__05814);
             rule__ImportsVariable__Group_0__1();
 
             state._fsp--;
@@ -7173,23 +8049,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group_0__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2619:1: rule__ImportsVariable__Group_0__0__Impl : ( ( rule__ImportsVariable__IsExternalAssignment_0_0 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2882:1: rule__ImportsVariable__Group_0__0__Impl : ( ( rule__ImportsVariable__IsExternalAssignment_0_0 ) ) ;
     public final void rule__ImportsVariable__Group_0__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2623:1: ( ( ( rule__ImportsVariable__IsExternalAssignment_0_0 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2624:1: ( ( rule__ImportsVariable__IsExternalAssignment_0_0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2886:1: ( ( ( rule__ImportsVariable__IsExternalAssignment_0_0 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2887:1: ( ( rule__ImportsVariable__IsExternalAssignment_0_0 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2624:1: ( ( rule__ImportsVariable__IsExternalAssignment_0_0 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2625:1: ( rule__ImportsVariable__IsExternalAssignment_0_0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2887:1: ( ( rule__ImportsVariable__IsExternalAssignment_0_0 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2888:1: ( rule__ImportsVariable__IsExternalAssignment_0_0 )
             {
              before(grammarAccess.getImportsVariableAccess().getIsExternalAssignment_0_0()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2626:1: ( rule__ImportsVariable__IsExternalAssignment_0_0 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2626:2: rule__ImportsVariable__IsExternalAssignment_0_0
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2889:1: ( rule__ImportsVariable__IsExternalAssignment_0_0 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2889:2: rule__ImportsVariable__IsExternalAssignment_0_0
             {
-            pushFollow(FOLLOW_rule__ImportsVariable__IsExternalAssignment_0_0_in_rule__ImportsVariable__Group_0__0__Impl5286);
+            pushFollow(FOLLOW_rule__ImportsVariable__IsExternalAssignment_0_0_in_rule__ImportsVariable__Group_0__0__Impl5841);
             rule__ImportsVariable__IsExternalAssignment_0_0();
 
             state._fsp--;
@@ -7220,16 +8096,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group_0__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2636:1: rule__ImportsVariable__Group_0__1 : rule__ImportsVariable__Group_0__1__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2899:1: rule__ImportsVariable__Group_0__1 : rule__ImportsVariable__Group_0__1__Impl ;
     public final void rule__ImportsVariable__Group_0__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2640:1: ( rule__ImportsVariable__Group_0__1__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2641:2: rule__ImportsVariable__Group_0__1__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2903:1: ( rule__ImportsVariable__Group_0__1__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2904:2: rule__ImportsVariable__Group_0__1__Impl
             {
-            pushFollow(FOLLOW_rule__ImportsVariable__Group_0__1__Impl_in_rule__ImportsVariable__Group_0__15316);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group_0__1__Impl_in_rule__ImportsVariable__Group_0__15871);
             rule__ImportsVariable__Group_0__1__Impl();
 
             state._fsp--;
@@ -7253,20 +8129,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group_0__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2647:1: rule__ImportsVariable__Group_0__1__Impl : ( RULE_WS ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2910:1: rule__ImportsVariable__Group_0__1__Impl : ( RULE_WS ) ;
     public final void rule__ImportsVariable__Group_0__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2651:1: ( ( RULE_WS ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2652:1: ( RULE_WS )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2914:1: ( ( RULE_WS ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2915:1: ( RULE_WS )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2652:1: ( RULE_WS )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2653:1: RULE_WS
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2915:1: ( RULE_WS )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2916:1: RULE_WS
             {
              before(grammarAccess.getImportsVariableAccess().getWSTerminalRuleCall_0_1()); 
-            match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ImportsVariable__Group_0__1__Impl5343); 
+            match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ImportsVariable__Group_0__1__Impl5898); 
              after(grammarAccess.getImportsVariableAccess().getWSTerminalRuleCall_0_1()); 
 
             }
@@ -7290,21 +8166,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group_4__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2668:1: rule__ImportsVariable__Group_4__0 : rule__ImportsVariable__Group_4__0__Impl rule__ImportsVariable__Group_4__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2931:1: rule__ImportsVariable__Group_4__0 : rule__ImportsVariable__Group_4__0__Impl rule__ImportsVariable__Group_4__1 ;
     public final void rule__ImportsVariable__Group_4__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2672:1: ( rule__ImportsVariable__Group_4__0__Impl rule__ImportsVariable__Group_4__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2673:2: rule__ImportsVariable__Group_4__0__Impl rule__ImportsVariable__Group_4__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2935:1: ( rule__ImportsVariable__Group_4__0__Impl rule__ImportsVariable__Group_4__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2936:2: rule__ImportsVariable__Group_4__0__Impl rule__ImportsVariable__Group_4__1
             {
-            pushFollow(FOLLOW_rule__ImportsVariable__Group_4__0__Impl_in_rule__ImportsVariable__Group_4__05376);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group_4__0__Impl_in_rule__ImportsVariable__Group_4__05931);
             rule__ImportsVariable__Group_4__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ImportsVariable__Group_4__1_in_rule__ImportsVariable__Group_4__05379);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group_4__1_in_rule__ImportsVariable__Group_4__05934);
             rule__ImportsVariable__Group_4__1();
 
             state._fsp--;
@@ -7328,20 +8204,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group_4__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2680:1: rule__ImportsVariable__Group_4__0__Impl : ( RULE_WS ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2943:1: rule__ImportsVariable__Group_4__0__Impl : ( RULE_WS ) ;
     public final void rule__ImportsVariable__Group_4__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2684:1: ( ( RULE_WS ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2685:1: ( RULE_WS )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2947:1: ( ( RULE_WS ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2948:1: ( RULE_WS )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2685:1: ( RULE_WS )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2686:1: RULE_WS
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2948:1: ( RULE_WS )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2949:1: RULE_WS
             {
              before(grammarAccess.getImportsVariableAccess().getWSTerminalRuleCall_4_0()); 
-            match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ImportsVariable__Group_4__0__Impl5406); 
+            match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ImportsVariable__Group_4__0__Impl5961); 
              after(grammarAccess.getImportsVariableAccess().getWSTerminalRuleCall_4_0()); 
 
             }
@@ -7365,16 +8241,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group_4__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2697:1: rule__ImportsVariable__Group_4__1 : rule__ImportsVariable__Group_4__1__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2960:1: rule__ImportsVariable__Group_4__1 : rule__ImportsVariable__Group_4__1__Impl ;
     public final void rule__ImportsVariable__Group_4__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2701:1: ( rule__ImportsVariable__Group_4__1__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2702:2: rule__ImportsVariable__Group_4__1__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2964:1: ( rule__ImportsVariable__Group_4__1__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2965:2: rule__ImportsVariable__Group_4__1__Impl
             {
-            pushFollow(FOLLOW_rule__ImportsVariable__Group_4__1__Impl_in_rule__ImportsVariable__Group_4__15435);
+            pushFollow(FOLLOW_rule__ImportsVariable__Group_4__1__Impl_in_rule__ImportsVariable__Group_4__15990);
             rule__ImportsVariable__Group_4__1__Impl();
 
             state._fsp--;
@@ -7398,23 +8274,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__Group_4__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2708:1: rule__ImportsVariable__Group_4__1__Impl : ( ( rule__ImportsVariable__IsOptionalAssignment_4_1 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2971:1: rule__ImportsVariable__Group_4__1__Impl : ( ( rule__ImportsVariable__IsOptionalAssignment_4_1 ) ) ;
     public final void rule__ImportsVariable__Group_4__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2712:1: ( ( ( rule__ImportsVariable__IsOptionalAssignment_4_1 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2713:1: ( ( rule__ImportsVariable__IsOptionalAssignment_4_1 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2975:1: ( ( ( rule__ImportsVariable__IsOptionalAssignment_4_1 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2976:1: ( ( rule__ImportsVariable__IsOptionalAssignment_4_1 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2713:1: ( ( rule__ImportsVariable__IsOptionalAssignment_4_1 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2714:1: ( rule__ImportsVariable__IsOptionalAssignment_4_1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2976:1: ( ( rule__ImportsVariable__IsOptionalAssignment_4_1 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2977:1: ( rule__ImportsVariable__IsOptionalAssignment_4_1 )
             {
              before(grammarAccess.getImportsVariableAccess().getIsOptionalAssignment_4_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2715:1: ( rule__ImportsVariable__IsOptionalAssignment_4_1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2715:2: rule__ImportsVariable__IsOptionalAssignment_4_1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2978:1: ( rule__ImportsVariable__IsOptionalAssignment_4_1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2978:2: rule__ImportsVariable__IsOptionalAssignment_4_1
             {
-            pushFollow(FOLLOW_rule__ImportsVariable__IsOptionalAssignment_4_1_in_rule__ImportsVariable__Group_4__1__Impl5462);
+            pushFollow(FOLLOW_rule__ImportsVariable__IsOptionalAssignment_4_1_in_rule__ImportsVariable__Group_4__1__Impl6017);
             rule__ImportsVariable__IsOptionalAssignment_4_1();
 
             state._fsp--;
@@ -7445,21 +8321,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2729:1: rule__FacetsProperty__Group__0 : rule__FacetsProperty__Group__0__Impl rule__FacetsProperty__Group__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2992:1: rule__FacetsProperty__Group__0 : rule__FacetsProperty__Group__0__Impl rule__FacetsProperty__Group__1 ;
     public final void rule__FacetsProperty__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2733:1: ( rule__FacetsProperty__Group__0__Impl rule__FacetsProperty__Group__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2734:2: rule__FacetsProperty__Group__0__Impl rule__FacetsProperty__Group__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2996:1: ( rule__FacetsProperty__Group__0__Impl rule__FacetsProperty__Group__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2997:2: rule__FacetsProperty__Group__0__Impl rule__FacetsProperty__Group__1
             {
-            pushFollow(FOLLOW_rule__FacetsProperty__Group__0__Impl_in_rule__FacetsProperty__Group__05496);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group__0__Impl_in_rule__FacetsProperty__Group__06051);
             rule__FacetsProperty__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__FacetsProperty__Group__1_in_rule__FacetsProperty__Group__05499);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group__1_in_rule__FacetsProperty__Group__06054);
             rule__FacetsProperty__Group__1();
 
             state._fsp--;
@@ -7483,20 +8359,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2741:1: rule__FacetsProperty__Group__0__Impl : ( 'facets:' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3004:1: rule__FacetsProperty__Group__0__Impl : ( 'facets:' ) ;
     public final void rule__FacetsProperty__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2745:1: ( ( 'facets:' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2746:1: ( 'facets:' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3008:1: ( ( 'facets:' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3009:1: ( 'facets:' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2746:1: ( 'facets:' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2747:1: 'facets:'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3009:1: ( 'facets:' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3010:1: 'facets:'
             {
              before(grammarAccess.getFacetsPropertyAccess().getFacetsKeyword_0()); 
-            match(input,22,FOLLOW_22_in_rule__FacetsProperty__Group__0__Impl5527); 
+            match(input,22,FOLLOW_22_in_rule__FacetsProperty__Group__0__Impl6082); 
              after(grammarAccess.getFacetsPropertyAccess().getFacetsKeyword_0()); 
 
             }
@@ -7520,21 +8396,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2760:1: rule__FacetsProperty__Group__1 : rule__FacetsProperty__Group__1__Impl rule__FacetsProperty__Group__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3023:1: rule__FacetsProperty__Group__1 : rule__FacetsProperty__Group__1__Impl rule__FacetsProperty__Group__2 ;
     public final void rule__FacetsProperty__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2764:1: ( rule__FacetsProperty__Group__1__Impl rule__FacetsProperty__Group__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2765:2: rule__FacetsProperty__Group__1__Impl rule__FacetsProperty__Group__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3027:1: ( rule__FacetsProperty__Group__1__Impl rule__FacetsProperty__Group__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3028:2: rule__FacetsProperty__Group__1__Impl rule__FacetsProperty__Group__2
             {
-            pushFollow(FOLLOW_rule__FacetsProperty__Group__1__Impl_in_rule__FacetsProperty__Group__15558);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group__1__Impl_in_rule__FacetsProperty__Group__16113);
             rule__FacetsProperty__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__FacetsProperty__Group__2_in_rule__FacetsProperty__Group__15561);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group__2_in_rule__FacetsProperty__Group__16116);
             rule__FacetsProperty__Group__2();
 
             state._fsp--;
@@ -7558,31 +8434,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2772:1: rule__FacetsProperty__Group__1__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3035:1: rule__FacetsProperty__Group__1__Impl : ( ( RULE_WS )? ) ;
     public final void rule__FacetsProperty__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2776:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2777:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3039:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3040:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2777:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2778:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3040:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3041:1: ( RULE_WS )?
             {
              before(grammarAccess.getFacetsPropertyAccess().getWSTerminalRuleCall_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2779:1: ( RULE_WS )?
-            int alt33=2;
-            int LA33_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3042:1: ( RULE_WS )?
+            int alt43=2;
+            int LA43_0 = input.LA(1);
 
-            if ( (LA33_0==RULE_WS) ) {
-                alt33=1;
+            if ( (LA43_0==RULE_WS) ) {
+                alt43=1;
             }
-            switch (alt33) {
+            switch (alt43) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2779:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3042:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__FacetsProperty__Group__1__Impl5589); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__FacetsProperty__Group__1__Impl6144); 
 
                     }
                     break;
@@ -7612,21 +8488,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2789:1: rule__FacetsProperty__Group__2 : rule__FacetsProperty__Group__2__Impl rule__FacetsProperty__Group__3 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3052:1: rule__FacetsProperty__Group__2 : rule__FacetsProperty__Group__2__Impl rule__FacetsProperty__Group__3 ;
     public final void rule__FacetsProperty__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2793:1: ( rule__FacetsProperty__Group__2__Impl rule__FacetsProperty__Group__3 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2794:2: rule__FacetsProperty__Group__2__Impl rule__FacetsProperty__Group__3
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3056:1: ( rule__FacetsProperty__Group__2__Impl rule__FacetsProperty__Group__3 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3057:2: rule__FacetsProperty__Group__2__Impl rule__FacetsProperty__Group__3
             {
-            pushFollow(FOLLOW_rule__FacetsProperty__Group__2__Impl_in_rule__FacetsProperty__Group__25620);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group__2__Impl_in_rule__FacetsProperty__Group__26175);
             rule__FacetsProperty__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__FacetsProperty__Group__3_in_rule__FacetsProperty__Group__25623);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group__3_in_rule__FacetsProperty__Group__26178);
             rule__FacetsProperty__Group__3();
 
             state._fsp--;
@@ -7650,23 +8526,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2801:1: rule__FacetsProperty__Group__2__Impl : ( ( rule__FacetsProperty__FacetsNamesAssignment_2 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3064:1: rule__FacetsProperty__Group__2__Impl : ( ( rule__FacetsProperty__FacetsNamesAssignment_2 ) ) ;
     public final void rule__FacetsProperty__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2805:1: ( ( ( rule__FacetsProperty__FacetsNamesAssignment_2 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2806:1: ( ( rule__FacetsProperty__FacetsNamesAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3068:1: ( ( ( rule__FacetsProperty__FacetsNamesAssignment_2 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3069:1: ( ( rule__FacetsProperty__FacetsNamesAssignment_2 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2806:1: ( ( rule__FacetsProperty__FacetsNamesAssignment_2 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2807:1: ( rule__FacetsProperty__FacetsNamesAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3069:1: ( ( rule__FacetsProperty__FacetsNamesAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3070:1: ( rule__FacetsProperty__FacetsNamesAssignment_2 )
             {
              before(grammarAccess.getFacetsPropertyAccess().getFacetsNamesAssignment_2()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2808:1: ( rule__FacetsProperty__FacetsNamesAssignment_2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2808:2: rule__FacetsProperty__FacetsNamesAssignment_2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3071:1: ( rule__FacetsProperty__FacetsNamesAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3071:2: rule__FacetsProperty__FacetsNamesAssignment_2
             {
-            pushFollow(FOLLOW_rule__FacetsProperty__FacetsNamesAssignment_2_in_rule__FacetsProperty__Group__2__Impl5650);
+            pushFollow(FOLLOW_rule__FacetsProperty__FacetsNamesAssignment_2_in_rule__FacetsProperty__Group__2__Impl6205);
             rule__FacetsProperty__FacetsNamesAssignment_2();
 
             state._fsp--;
@@ -7697,21 +8573,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group__3"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2818:1: rule__FacetsProperty__Group__3 : rule__FacetsProperty__Group__3__Impl rule__FacetsProperty__Group__4 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3081:1: rule__FacetsProperty__Group__3 : rule__FacetsProperty__Group__3__Impl rule__FacetsProperty__Group__4 ;
     public final void rule__FacetsProperty__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2822:1: ( rule__FacetsProperty__Group__3__Impl rule__FacetsProperty__Group__4 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2823:2: rule__FacetsProperty__Group__3__Impl rule__FacetsProperty__Group__4
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3085:1: ( rule__FacetsProperty__Group__3__Impl rule__FacetsProperty__Group__4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3086:2: rule__FacetsProperty__Group__3__Impl rule__FacetsProperty__Group__4
             {
-            pushFollow(FOLLOW_rule__FacetsProperty__Group__3__Impl_in_rule__FacetsProperty__Group__35680);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group__3__Impl_in_rule__FacetsProperty__Group__36235);
             rule__FacetsProperty__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__FacetsProperty__Group__4_in_rule__FacetsProperty__Group__35683);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group__4_in_rule__FacetsProperty__Group__36238);
             rule__FacetsProperty__Group__4();
 
             state._fsp--;
@@ -7735,31 +8611,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group__3__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2830:1: rule__FacetsProperty__Group__3__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3093:1: rule__FacetsProperty__Group__3__Impl : ( ( RULE_WS )? ) ;
     public final void rule__FacetsProperty__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2834:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2835:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3097:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3098:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2835:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2836:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3098:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3099:1: ( RULE_WS )?
             {
              before(grammarAccess.getFacetsPropertyAccess().getWSTerminalRuleCall_3()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2837:1: ( RULE_WS )?
-            int alt34=2;
-            int LA34_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3100:1: ( RULE_WS )?
+            int alt44=2;
+            int LA44_0 = input.LA(1);
 
-            if ( (LA34_0==RULE_WS) ) {
-                alt34=1;
+            if ( (LA44_0==RULE_WS) ) {
+                alt44=1;
             }
-            switch (alt34) {
+            switch (alt44) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2837:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3100:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__FacetsProperty__Group__3__Impl5711); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__FacetsProperty__Group__3__Impl6266); 
 
                     }
                     break;
@@ -7789,21 +8665,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group__4"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2847:1: rule__FacetsProperty__Group__4 : rule__FacetsProperty__Group__4__Impl rule__FacetsProperty__Group__5 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3110:1: rule__FacetsProperty__Group__4 : rule__FacetsProperty__Group__4__Impl rule__FacetsProperty__Group__5 ;
     public final void rule__FacetsProperty__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2851:1: ( rule__FacetsProperty__Group__4__Impl rule__FacetsProperty__Group__5 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2852:2: rule__FacetsProperty__Group__4__Impl rule__FacetsProperty__Group__5
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3114:1: ( rule__FacetsProperty__Group__4__Impl rule__FacetsProperty__Group__5 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3115:2: rule__FacetsProperty__Group__4__Impl rule__FacetsProperty__Group__5
             {
-            pushFollow(FOLLOW_rule__FacetsProperty__Group__4__Impl_in_rule__FacetsProperty__Group__45742);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group__4__Impl_in_rule__FacetsProperty__Group__46297);
             rule__FacetsProperty__Group__4__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__FacetsProperty__Group__5_in_rule__FacetsProperty__Group__45745);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group__5_in_rule__FacetsProperty__Group__46300);
             rule__FacetsProperty__Group__5();
 
             state._fsp--;
@@ -7827,35 +8703,35 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group__4__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2859:1: rule__FacetsProperty__Group__4__Impl : ( ( rule__FacetsProperty__Group_4__0 )* ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3122:1: rule__FacetsProperty__Group__4__Impl : ( ( rule__FacetsProperty__Group_4__0 )* ) ;
     public final void rule__FacetsProperty__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2863:1: ( ( ( rule__FacetsProperty__Group_4__0 )* ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2864:1: ( ( rule__FacetsProperty__Group_4__0 )* )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3126:1: ( ( ( rule__FacetsProperty__Group_4__0 )* ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3127:1: ( ( rule__FacetsProperty__Group_4__0 )* )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2864:1: ( ( rule__FacetsProperty__Group_4__0 )* )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2865:1: ( rule__FacetsProperty__Group_4__0 )*
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3127:1: ( ( rule__FacetsProperty__Group_4__0 )* )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3128:1: ( rule__FacetsProperty__Group_4__0 )*
             {
              before(grammarAccess.getFacetsPropertyAccess().getGroup_4()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2866:1: ( rule__FacetsProperty__Group_4__0 )*
-            loop35:
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3129:1: ( rule__FacetsProperty__Group_4__0 )*
+            loop45:
             do {
-                int alt35=2;
-                int LA35_0 = input.LA(1);
+                int alt45=2;
+                int LA45_0 = input.LA(1);
 
-                if ( (LA35_0==17) ) {
-                    alt35=1;
+                if ( (LA45_0==17) ) {
+                    alt45=1;
                 }
 
 
-                switch (alt35) {
+                switch (alt45) {
             	case 1 :
-            	    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2866:2: rule__FacetsProperty__Group_4__0
+            	    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3129:2: rule__FacetsProperty__Group_4__0
             	    {
-            	    pushFollow(FOLLOW_rule__FacetsProperty__Group_4__0_in_rule__FacetsProperty__Group__4__Impl5772);
+            	    pushFollow(FOLLOW_rule__FacetsProperty__Group_4__0_in_rule__FacetsProperty__Group__4__Impl6327);
             	    rule__FacetsProperty__Group_4__0();
 
             	    state._fsp--;
@@ -7865,7 +8741,7 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
             	    break;
 
             	default :
-            	    break loop35;
+            	    break loop45;
                 }
             } while (true);
 
@@ -7892,21 +8768,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group__5"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2876:1: rule__FacetsProperty__Group__5 : rule__FacetsProperty__Group__5__Impl rule__FacetsProperty__Group__6 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3139:1: rule__FacetsProperty__Group__5 : rule__FacetsProperty__Group__5__Impl rule__FacetsProperty__Group__6 ;
     public final void rule__FacetsProperty__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2880:1: ( rule__FacetsProperty__Group__5__Impl rule__FacetsProperty__Group__6 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2881:2: rule__FacetsProperty__Group__5__Impl rule__FacetsProperty__Group__6
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3143:1: ( rule__FacetsProperty__Group__5__Impl rule__FacetsProperty__Group__6 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3144:2: rule__FacetsProperty__Group__5__Impl rule__FacetsProperty__Group__6
             {
-            pushFollow(FOLLOW_rule__FacetsProperty__Group__5__Impl_in_rule__FacetsProperty__Group__55803);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group__5__Impl_in_rule__FacetsProperty__Group__56358);
             rule__FacetsProperty__Group__5__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__FacetsProperty__Group__6_in_rule__FacetsProperty__Group__55806);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group__6_in_rule__FacetsProperty__Group__56361);
             rule__FacetsProperty__Group__6();
 
             state._fsp--;
@@ -7930,31 +8806,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group__5__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2888:1: rule__FacetsProperty__Group__5__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3151:1: rule__FacetsProperty__Group__5__Impl : ( ( RULE_WS )? ) ;
     public final void rule__FacetsProperty__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2892:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2893:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3155:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3156:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2893:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2894:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3156:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3157:1: ( RULE_WS )?
             {
              before(grammarAccess.getFacetsPropertyAccess().getWSTerminalRuleCall_5()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2895:1: ( RULE_WS )?
-            int alt36=2;
-            int LA36_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3158:1: ( RULE_WS )?
+            int alt46=2;
+            int LA46_0 = input.LA(1);
 
-            if ( (LA36_0==RULE_WS) ) {
-                alt36=1;
+            if ( (LA46_0==RULE_WS) ) {
+                alt46=1;
             }
-            switch (alt36) {
+            switch (alt46) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2895:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3158:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__FacetsProperty__Group__5__Impl5834); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__FacetsProperty__Group__5__Impl6389); 
 
                     }
                     break;
@@ -7984,16 +8860,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group__6"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2905:1: rule__FacetsProperty__Group__6 : rule__FacetsProperty__Group__6__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3168:1: rule__FacetsProperty__Group__6 : rule__FacetsProperty__Group__6__Impl ;
     public final void rule__FacetsProperty__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2909:1: ( rule__FacetsProperty__Group__6__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2910:2: rule__FacetsProperty__Group__6__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3172:1: ( rule__FacetsProperty__Group__6__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3173:2: rule__FacetsProperty__Group__6__Impl
             {
-            pushFollow(FOLLOW_rule__FacetsProperty__Group__6__Impl_in_rule__FacetsProperty__Group__65865);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group__6__Impl_in_rule__FacetsProperty__Group__66420);
             rule__FacetsProperty__Group__6__Impl();
 
             state._fsp--;
@@ -8017,20 +8893,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group__6__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2916:1: rule__FacetsProperty__Group__6__Impl : ( ';' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3179:1: rule__FacetsProperty__Group__6__Impl : ( ';' ) ;
     public final void rule__FacetsProperty__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2920:1: ( ( ';' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2921:1: ( ';' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3183:1: ( ( ';' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3184:1: ( ';' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2921:1: ( ';' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2922:1: ';'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3184:1: ( ';' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3185:1: ';'
             {
              before(grammarAccess.getFacetsPropertyAccess().getSemicolonKeyword_6()); 
-            match(input,15,FOLLOW_15_in_rule__FacetsProperty__Group__6__Impl5893); 
+            match(input,15,FOLLOW_15_in_rule__FacetsProperty__Group__6__Impl6448); 
              after(grammarAccess.getFacetsPropertyAccess().getSemicolonKeyword_6()); 
 
             }
@@ -8054,21 +8930,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group_4__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2949:1: rule__FacetsProperty__Group_4__0 : rule__FacetsProperty__Group_4__0__Impl rule__FacetsProperty__Group_4__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3212:1: rule__FacetsProperty__Group_4__0 : rule__FacetsProperty__Group_4__0__Impl rule__FacetsProperty__Group_4__1 ;
     public final void rule__FacetsProperty__Group_4__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2953:1: ( rule__FacetsProperty__Group_4__0__Impl rule__FacetsProperty__Group_4__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2954:2: rule__FacetsProperty__Group_4__0__Impl rule__FacetsProperty__Group_4__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3216:1: ( rule__FacetsProperty__Group_4__0__Impl rule__FacetsProperty__Group_4__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3217:2: rule__FacetsProperty__Group_4__0__Impl rule__FacetsProperty__Group_4__1
             {
-            pushFollow(FOLLOW_rule__FacetsProperty__Group_4__0__Impl_in_rule__FacetsProperty__Group_4__05938);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group_4__0__Impl_in_rule__FacetsProperty__Group_4__06493);
             rule__FacetsProperty__Group_4__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__FacetsProperty__Group_4__1_in_rule__FacetsProperty__Group_4__05941);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group_4__1_in_rule__FacetsProperty__Group_4__06496);
             rule__FacetsProperty__Group_4__1();
 
             state._fsp--;
@@ -8092,20 +8968,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group_4__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2961:1: rule__FacetsProperty__Group_4__0__Impl : ( ',' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3224:1: rule__FacetsProperty__Group_4__0__Impl : ( ',' ) ;
     public final void rule__FacetsProperty__Group_4__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2965:1: ( ( ',' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2966:1: ( ',' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3228:1: ( ( ',' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3229:1: ( ',' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2966:1: ( ',' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2967:1: ','
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3229:1: ( ',' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3230:1: ','
             {
              before(grammarAccess.getFacetsPropertyAccess().getCommaKeyword_4_0()); 
-            match(input,17,FOLLOW_17_in_rule__FacetsProperty__Group_4__0__Impl5969); 
+            match(input,17,FOLLOW_17_in_rule__FacetsProperty__Group_4__0__Impl6524); 
              after(grammarAccess.getFacetsPropertyAccess().getCommaKeyword_4_0()); 
 
             }
@@ -8129,21 +9005,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group_4__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2980:1: rule__FacetsProperty__Group_4__1 : rule__FacetsProperty__Group_4__1__Impl rule__FacetsProperty__Group_4__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3243:1: rule__FacetsProperty__Group_4__1 : rule__FacetsProperty__Group_4__1__Impl rule__FacetsProperty__Group_4__2 ;
     public final void rule__FacetsProperty__Group_4__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2984:1: ( rule__FacetsProperty__Group_4__1__Impl rule__FacetsProperty__Group_4__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2985:2: rule__FacetsProperty__Group_4__1__Impl rule__FacetsProperty__Group_4__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3247:1: ( rule__FacetsProperty__Group_4__1__Impl rule__FacetsProperty__Group_4__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3248:2: rule__FacetsProperty__Group_4__1__Impl rule__FacetsProperty__Group_4__2
             {
-            pushFollow(FOLLOW_rule__FacetsProperty__Group_4__1__Impl_in_rule__FacetsProperty__Group_4__16000);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group_4__1__Impl_in_rule__FacetsProperty__Group_4__16555);
             rule__FacetsProperty__Group_4__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__FacetsProperty__Group_4__2_in_rule__FacetsProperty__Group_4__16003);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group_4__2_in_rule__FacetsProperty__Group_4__16558);
             rule__FacetsProperty__Group_4__2();
 
             state._fsp--;
@@ -8167,31 +9043,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group_4__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2992:1: rule__FacetsProperty__Group_4__1__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3255:1: rule__FacetsProperty__Group_4__1__Impl : ( ( RULE_WS )? ) ;
     public final void rule__FacetsProperty__Group_4__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2996:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2997:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3259:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3260:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2997:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2998:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3260:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3261:1: ( RULE_WS )?
             {
              before(grammarAccess.getFacetsPropertyAccess().getWSTerminalRuleCall_4_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2999:1: ( RULE_WS )?
-            int alt37=2;
-            int LA37_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3262:1: ( RULE_WS )?
+            int alt47=2;
+            int LA47_0 = input.LA(1);
 
-            if ( (LA37_0==RULE_WS) ) {
-                alt37=1;
+            if ( (LA47_0==RULE_WS) ) {
+                alt47=1;
             }
-            switch (alt37) {
+            switch (alt47) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:2999:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3262:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__FacetsProperty__Group_4__1__Impl6031); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__FacetsProperty__Group_4__1__Impl6586); 
 
                     }
                     break;
@@ -8221,16 +9097,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group_4__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3009:1: rule__FacetsProperty__Group_4__2 : rule__FacetsProperty__Group_4__2__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3272:1: rule__FacetsProperty__Group_4__2 : rule__FacetsProperty__Group_4__2__Impl ;
     public final void rule__FacetsProperty__Group_4__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3013:1: ( rule__FacetsProperty__Group_4__2__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3014:2: rule__FacetsProperty__Group_4__2__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3276:1: ( rule__FacetsProperty__Group_4__2__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3277:2: rule__FacetsProperty__Group_4__2__Impl
             {
-            pushFollow(FOLLOW_rule__FacetsProperty__Group_4__2__Impl_in_rule__FacetsProperty__Group_4__26062);
+            pushFollow(FOLLOW_rule__FacetsProperty__Group_4__2__Impl_in_rule__FacetsProperty__Group_4__26617);
             rule__FacetsProperty__Group_4__2__Impl();
 
             state._fsp--;
@@ -8254,23 +9130,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__Group_4__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3020:1: rule__FacetsProperty__Group_4__2__Impl : ( ( rule__FacetsProperty__FacetsNamesAssignment_4_2 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3283:1: rule__FacetsProperty__Group_4__2__Impl : ( ( rule__FacetsProperty__FacetsNamesAssignment_4_2 ) ) ;
     public final void rule__FacetsProperty__Group_4__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3024:1: ( ( ( rule__FacetsProperty__FacetsNamesAssignment_4_2 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3025:1: ( ( rule__FacetsProperty__FacetsNamesAssignment_4_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3287:1: ( ( ( rule__FacetsProperty__FacetsNamesAssignment_4_2 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3288:1: ( ( rule__FacetsProperty__FacetsNamesAssignment_4_2 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3025:1: ( ( rule__FacetsProperty__FacetsNamesAssignment_4_2 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3026:1: ( rule__FacetsProperty__FacetsNamesAssignment_4_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3288:1: ( ( rule__FacetsProperty__FacetsNamesAssignment_4_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3289:1: ( rule__FacetsProperty__FacetsNamesAssignment_4_2 )
             {
              before(grammarAccess.getFacetsPropertyAccess().getFacetsNamesAssignment_4_2()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3027:1: ( rule__FacetsProperty__FacetsNamesAssignment_4_2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3027:2: rule__FacetsProperty__FacetsNamesAssignment_4_2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3290:1: ( rule__FacetsProperty__FacetsNamesAssignment_4_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3290:2: rule__FacetsProperty__FacetsNamesAssignment_4_2
             {
-            pushFollow(FOLLOW_rule__FacetsProperty__FacetsNamesAssignment_4_2_in_rule__FacetsProperty__Group_4__2__Impl6089);
+            pushFollow(FOLLOW_rule__FacetsProperty__FacetsNamesAssignment_4_2_in_rule__FacetsProperty__Group_4__2__Impl6644);
             rule__FacetsProperty__FacetsNamesAssignment_4_2();
 
             state._fsp--;
@@ -8301,21 +9177,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3043:1: rule__ExtendsProperty__Group__0 : rule__ExtendsProperty__Group__0__Impl rule__ExtendsProperty__Group__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3306:1: rule__ExtendsProperty__Group__0 : rule__ExtendsProperty__Group__0__Impl rule__ExtendsProperty__Group__1 ;
     public final void rule__ExtendsProperty__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3047:1: ( rule__ExtendsProperty__Group__0__Impl rule__ExtendsProperty__Group__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3048:2: rule__ExtendsProperty__Group__0__Impl rule__ExtendsProperty__Group__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3310:1: ( rule__ExtendsProperty__Group__0__Impl rule__ExtendsProperty__Group__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3311:2: rule__ExtendsProperty__Group__0__Impl rule__ExtendsProperty__Group__1
             {
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group__0__Impl_in_rule__ExtendsProperty__Group__06125);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group__0__Impl_in_rule__ExtendsProperty__Group__06680);
             rule__ExtendsProperty__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group__1_in_rule__ExtendsProperty__Group__06128);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group__1_in_rule__ExtendsProperty__Group__06683);
             rule__ExtendsProperty__Group__1();
 
             state._fsp--;
@@ -8339,20 +9215,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3055:1: rule__ExtendsProperty__Group__0__Impl : ( 'extends:' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3318:1: rule__ExtendsProperty__Group__0__Impl : ( 'extends:' ) ;
     public final void rule__ExtendsProperty__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3059:1: ( ( 'extends:' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3060:1: ( 'extends:' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3322:1: ( ( 'extends:' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3323:1: ( 'extends:' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3060:1: ( 'extends:' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3061:1: 'extends:'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3323:1: ( 'extends:' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3324:1: 'extends:'
             {
              before(grammarAccess.getExtendsPropertyAccess().getExtendsKeyword_0()); 
-            match(input,23,FOLLOW_23_in_rule__ExtendsProperty__Group__0__Impl6156); 
+            match(input,23,FOLLOW_23_in_rule__ExtendsProperty__Group__0__Impl6711); 
              after(grammarAccess.getExtendsPropertyAccess().getExtendsKeyword_0()); 
 
             }
@@ -8376,21 +9252,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3074:1: rule__ExtendsProperty__Group__1 : rule__ExtendsProperty__Group__1__Impl rule__ExtendsProperty__Group__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3337:1: rule__ExtendsProperty__Group__1 : rule__ExtendsProperty__Group__1__Impl rule__ExtendsProperty__Group__2 ;
     public final void rule__ExtendsProperty__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3078:1: ( rule__ExtendsProperty__Group__1__Impl rule__ExtendsProperty__Group__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3079:2: rule__ExtendsProperty__Group__1__Impl rule__ExtendsProperty__Group__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3341:1: ( rule__ExtendsProperty__Group__1__Impl rule__ExtendsProperty__Group__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3342:2: rule__ExtendsProperty__Group__1__Impl rule__ExtendsProperty__Group__2
             {
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group__1__Impl_in_rule__ExtendsProperty__Group__16187);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group__1__Impl_in_rule__ExtendsProperty__Group__16742);
             rule__ExtendsProperty__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group__2_in_rule__ExtendsProperty__Group__16190);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group__2_in_rule__ExtendsProperty__Group__16745);
             rule__ExtendsProperty__Group__2();
 
             state._fsp--;
@@ -8414,31 +9290,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3086:1: rule__ExtendsProperty__Group__1__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3349:1: rule__ExtendsProperty__Group__1__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ExtendsProperty__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3090:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3091:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3353:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3354:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3091:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3092:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3354:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3355:1: ( RULE_WS )?
             {
              before(grammarAccess.getExtendsPropertyAccess().getWSTerminalRuleCall_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3093:1: ( RULE_WS )?
-            int alt38=2;
-            int LA38_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3356:1: ( RULE_WS )?
+            int alt48=2;
+            int LA48_0 = input.LA(1);
 
-            if ( (LA38_0==RULE_WS) ) {
-                alt38=1;
+            if ( (LA48_0==RULE_WS) ) {
+                alt48=1;
             }
-            switch (alt38) {
+            switch (alt48) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3093:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3356:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group__1__Impl6218); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group__1__Impl6773); 
 
                     }
                     break;
@@ -8468,21 +9344,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3103:1: rule__ExtendsProperty__Group__2 : rule__ExtendsProperty__Group__2__Impl rule__ExtendsProperty__Group__3 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3366:1: rule__ExtendsProperty__Group__2 : rule__ExtendsProperty__Group__2__Impl rule__ExtendsProperty__Group__3 ;
     public final void rule__ExtendsProperty__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3107:1: ( rule__ExtendsProperty__Group__2__Impl rule__ExtendsProperty__Group__3 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3108:2: rule__ExtendsProperty__Group__2__Impl rule__ExtendsProperty__Group__3
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3370:1: ( rule__ExtendsProperty__Group__2__Impl rule__ExtendsProperty__Group__3 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3371:2: rule__ExtendsProperty__Group__2__Impl rule__ExtendsProperty__Group__3
             {
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group__2__Impl_in_rule__ExtendsProperty__Group__26249);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group__2__Impl_in_rule__ExtendsProperty__Group__26804);
             rule__ExtendsProperty__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group__3_in_rule__ExtendsProperty__Group__26252);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group__3_in_rule__ExtendsProperty__Group__26807);
             rule__ExtendsProperty__Group__3();
 
             state._fsp--;
@@ -8506,23 +9382,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3115:1: rule__ExtendsProperty__Group__2__Impl : ( ( rule__ExtendsProperty__ExtendsNamesAssignment_2 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3378:1: rule__ExtendsProperty__Group__2__Impl : ( ( rule__ExtendsProperty__ExtendsNamesAssignment_2 ) ) ;
     public final void rule__ExtendsProperty__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3119:1: ( ( ( rule__ExtendsProperty__ExtendsNamesAssignment_2 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3120:1: ( ( rule__ExtendsProperty__ExtendsNamesAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3382:1: ( ( ( rule__ExtendsProperty__ExtendsNamesAssignment_2 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3383:1: ( ( rule__ExtendsProperty__ExtendsNamesAssignment_2 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3120:1: ( ( rule__ExtendsProperty__ExtendsNamesAssignment_2 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3121:1: ( rule__ExtendsProperty__ExtendsNamesAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3383:1: ( ( rule__ExtendsProperty__ExtendsNamesAssignment_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3384:1: ( rule__ExtendsProperty__ExtendsNamesAssignment_2 )
             {
              before(grammarAccess.getExtendsPropertyAccess().getExtendsNamesAssignment_2()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3122:1: ( rule__ExtendsProperty__ExtendsNamesAssignment_2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3122:2: rule__ExtendsProperty__ExtendsNamesAssignment_2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3385:1: ( rule__ExtendsProperty__ExtendsNamesAssignment_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3385:2: rule__ExtendsProperty__ExtendsNamesAssignment_2
             {
-            pushFollow(FOLLOW_rule__ExtendsProperty__ExtendsNamesAssignment_2_in_rule__ExtendsProperty__Group__2__Impl6279);
+            pushFollow(FOLLOW_rule__ExtendsProperty__ExtendsNamesAssignment_2_in_rule__ExtendsProperty__Group__2__Impl6834);
             rule__ExtendsProperty__ExtendsNamesAssignment_2();
 
             state._fsp--;
@@ -8553,21 +9429,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group__3"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3132:1: rule__ExtendsProperty__Group__3 : rule__ExtendsProperty__Group__3__Impl rule__ExtendsProperty__Group__4 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3395:1: rule__ExtendsProperty__Group__3 : rule__ExtendsProperty__Group__3__Impl rule__ExtendsProperty__Group__4 ;
     public final void rule__ExtendsProperty__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3136:1: ( rule__ExtendsProperty__Group__3__Impl rule__ExtendsProperty__Group__4 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3137:2: rule__ExtendsProperty__Group__3__Impl rule__ExtendsProperty__Group__4
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3399:1: ( rule__ExtendsProperty__Group__3__Impl rule__ExtendsProperty__Group__4 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3400:2: rule__ExtendsProperty__Group__3__Impl rule__ExtendsProperty__Group__4
             {
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group__3__Impl_in_rule__ExtendsProperty__Group__36309);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group__3__Impl_in_rule__ExtendsProperty__Group__36864);
             rule__ExtendsProperty__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group__4_in_rule__ExtendsProperty__Group__36312);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group__4_in_rule__ExtendsProperty__Group__36867);
             rule__ExtendsProperty__Group__4();
 
             state._fsp--;
@@ -8591,31 +9467,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group__3__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3144:1: rule__ExtendsProperty__Group__3__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3407:1: rule__ExtendsProperty__Group__3__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ExtendsProperty__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3148:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3149:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3411:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3412:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3149:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3150:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3412:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3413:1: ( RULE_WS )?
             {
              before(grammarAccess.getExtendsPropertyAccess().getWSTerminalRuleCall_3()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3151:1: ( RULE_WS )?
-            int alt39=2;
-            int LA39_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3414:1: ( RULE_WS )?
+            int alt49=2;
+            int LA49_0 = input.LA(1);
 
-            if ( (LA39_0==RULE_WS) ) {
-                alt39=1;
+            if ( (LA49_0==RULE_WS) ) {
+                alt49=1;
             }
-            switch (alt39) {
+            switch (alt49) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3151:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3414:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group__3__Impl6340); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group__3__Impl6895); 
 
                     }
                     break;
@@ -8645,21 +9521,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group__4"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3161:1: rule__ExtendsProperty__Group__4 : rule__ExtendsProperty__Group__4__Impl rule__ExtendsProperty__Group__5 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3424:1: rule__ExtendsProperty__Group__4 : rule__ExtendsProperty__Group__4__Impl rule__ExtendsProperty__Group__5 ;
     public final void rule__ExtendsProperty__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3165:1: ( rule__ExtendsProperty__Group__4__Impl rule__ExtendsProperty__Group__5 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3166:2: rule__ExtendsProperty__Group__4__Impl rule__ExtendsProperty__Group__5
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3428:1: ( rule__ExtendsProperty__Group__4__Impl rule__ExtendsProperty__Group__5 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3429:2: rule__ExtendsProperty__Group__4__Impl rule__ExtendsProperty__Group__5
             {
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group__4__Impl_in_rule__ExtendsProperty__Group__46371);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group__4__Impl_in_rule__ExtendsProperty__Group__46926);
             rule__ExtendsProperty__Group__4__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group__5_in_rule__ExtendsProperty__Group__46374);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group__5_in_rule__ExtendsProperty__Group__46929);
             rule__ExtendsProperty__Group__5();
 
             state._fsp--;
@@ -8683,35 +9559,35 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group__4__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3173:1: rule__ExtendsProperty__Group__4__Impl : ( ( rule__ExtendsProperty__Group_4__0 )* ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3436:1: rule__ExtendsProperty__Group__4__Impl : ( ( rule__ExtendsProperty__Group_4__0 )* ) ;
     public final void rule__ExtendsProperty__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3177:1: ( ( ( rule__ExtendsProperty__Group_4__0 )* ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3178:1: ( ( rule__ExtendsProperty__Group_4__0 )* )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3440:1: ( ( ( rule__ExtendsProperty__Group_4__0 )* ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3441:1: ( ( rule__ExtendsProperty__Group_4__0 )* )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3178:1: ( ( rule__ExtendsProperty__Group_4__0 )* )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3179:1: ( rule__ExtendsProperty__Group_4__0 )*
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3441:1: ( ( rule__ExtendsProperty__Group_4__0 )* )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3442:1: ( rule__ExtendsProperty__Group_4__0 )*
             {
              before(grammarAccess.getExtendsPropertyAccess().getGroup_4()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3180:1: ( rule__ExtendsProperty__Group_4__0 )*
-            loop40:
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3443:1: ( rule__ExtendsProperty__Group_4__0 )*
+            loop50:
             do {
-                int alt40=2;
-                int LA40_0 = input.LA(1);
+                int alt50=2;
+                int LA50_0 = input.LA(1);
 
-                if ( (LA40_0==17) ) {
-                    alt40=1;
+                if ( (LA50_0==17) ) {
+                    alt50=1;
                 }
 
 
-                switch (alt40) {
+                switch (alt50) {
             	case 1 :
-            	    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3180:2: rule__ExtendsProperty__Group_4__0
+            	    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3443:2: rule__ExtendsProperty__Group_4__0
             	    {
-            	    pushFollow(FOLLOW_rule__ExtendsProperty__Group_4__0_in_rule__ExtendsProperty__Group__4__Impl6401);
+            	    pushFollow(FOLLOW_rule__ExtendsProperty__Group_4__0_in_rule__ExtendsProperty__Group__4__Impl6956);
             	    rule__ExtendsProperty__Group_4__0();
 
             	    state._fsp--;
@@ -8721,7 +9597,7 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
             	    break;
 
             	default :
-            	    break loop40;
+            	    break loop50;
                 }
             } while (true);
 
@@ -8748,21 +9624,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group__5"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3190:1: rule__ExtendsProperty__Group__5 : rule__ExtendsProperty__Group__5__Impl rule__ExtendsProperty__Group__6 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3453:1: rule__ExtendsProperty__Group__5 : rule__ExtendsProperty__Group__5__Impl rule__ExtendsProperty__Group__6 ;
     public final void rule__ExtendsProperty__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3194:1: ( rule__ExtendsProperty__Group__5__Impl rule__ExtendsProperty__Group__6 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3195:2: rule__ExtendsProperty__Group__5__Impl rule__ExtendsProperty__Group__6
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3457:1: ( rule__ExtendsProperty__Group__5__Impl rule__ExtendsProperty__Group__6 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3458:2: rule__ExtendsProperty__Group__5__Impl rule__ExtendsProperty__Group__6
             {
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group__5__Impl_in_rule__ExtendsProperty__Group__56432);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group__5__Impl_in_rule__ExtendsProperty__Group__56987);
             rule__ExtendsProperty__Group__5__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group__6_in_rule__ExtendsProperty__Group__56435);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group__6_in_rule__ExtendsProperty__Group__56990);
             rule__ExtendsProperty__Group__6();
 
             state._fsp--;
@@ -8786,31 +9662,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group__5__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3202:1: rule__ExtendsProperty__Group__5__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3465:1: rule__ExtendsProperty__Group__5__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ExtendsProperty__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3206:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3207:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3469:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3470:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3207:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3208:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3470:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3471:1: ( RULE_WS )?
             {
              before(grammarAccess.getExtendsPropertyAccess().getWSTerminalRuleCall_5()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3209:1: ( RULE_WS )?
-            int alt41=2;
-            int LA41_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3472:1: ( RULE_WS )?
+            int alt51=2;
+            int LA51_0 = input.LA(1);
 
-            if ( (LA41_0==RULE_WS) ) {
-                alt41=1;
+            if ( (LA51_0==RULE_WS) ) {
+                alt51=1;
             }
-            switch (alt41) {
+            switch (alt51) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3209:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3472:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group__5__Impl6463); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group__5__Impl7018); 
 
                     }
                     break;
@@ -8840,16 +9716,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group__6"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3219:1: rule__ExtendsProperty__Group__6 : rule__ExtendsProperty__Group__6__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3482:1: rule__ExtendsProperty__Group__6 : rule__ExtendsProperty__Group__6__Impl ;
     public final void rule__ExtendsProperty__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3223:1: ( rule__ExtendsProperty__Group__6__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3224:2: rule__ExtendsProperty__Group__6__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3486:1: ( rule__ExtendsProperty__Group__6__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3487:2: rule__ExtendsProperty__Group__6__Impl
             {
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group__6__Impl_in_rule__ExtendsProperty__Group__66494);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group__6__Impl_in_rule__ExtendsProperty__Group__67049);
             rule__ExtendsProperty__Group__6__Impl();
 
             state._fsp--;
@@ -8873,20 +9749,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group__6__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3230:1: rule__ExtendsProperty__Group__6__Impl : ( ';' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3493:1: rule__ExtendsProperty__Group__6__Impl : ( ';' ) ;
     public final void rule__ExtendsProperty__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3234:1: ( ( ';' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3235:1: ( ';' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3497:1: ( ( ';' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3498:1: ( ';' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3235:1: ( ';' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3236:1: ';'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3498:1: ( ';' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3499:1: ';'
             {
              before(grammarAccess.getExtendsPropertyAccess().getSemicolonKeyword_6()); 
-            match(input,15,FOLLOW_15_in_rule__ExtendsProperty__Group__6__Impl6522); 
+            match(input,15,FOLLOW_15_in_rule__ExtendsProperty__Group__6__Impl7077); 
              after(grammarAccess.getExtendsPropertyAccess().getSemicolonKeyword_6()); 
 
             }
@@ -8910,21 +9786,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group_4__0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3263:1: rule__ExtendsProperty__Group_4__0 : rule__ExtendsProperty__Group_4__0__Impl rule__ExtendsProperty__Group_4__1 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3526:1: rule__ExtendsProperty__Group_4__0 : rule__ExtendsProperty__Group_4__0__Impl rule__ExtendsProperty__Group_4__1 ;
     public final void rule__ExtendsProperty__Group_4__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3267:1: ( rule__ExtendsProperty__Group_4__0__Impl rule__ExtendsProperty__Group_4__1 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3268:2: rule__ExtendsProperty__Group_4__0__Impl rule__ExtendsProperty__Group_4__1
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3530:1: ( rule__ExtendsProperty__Group_4__0__Impl rule__ExtendsProperty__Group_4__1 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3531:2: rule__ExtendsProperty__Group_4__0__Impl rule__ExtendsProperty__Group_4__1
             {
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group_4__0__Impl_in_rule__ExtendsProperty__Group_4__06567);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group_4__0__Impl_in_rule__ExtendsProperty__Group_4__07122);
             rule__ExtendsProperty__Group_4__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group_4__1_in_rule__ExtendsProperty__Group_4__06570);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group_4__1_in_rule__ExtendsProperty__Group_4__07125);
             rule__ExtendsProperty__Group_4__1();
 
             state._fsp--;
@@ -8948,20 +9824,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group_4__0__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3275:1: rule__ExtendsProperty__Group_4__0__Impl : ( ',' ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3538:1: rule__ExtendsProperty__Group_4__0__Impl : ( ',' ) ;
     public final void rule__ExtendsProperty__Group_4__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3279:1: ( ( ',' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3280:1: ( ',' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3542:1: ( ( ',' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3543:1: ( ',' )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3280:1: ( ',' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3281:1: ','
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3543:1: ( ',' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3544:1: ','
             {
              before(grammarAccess.getExtendsPropertyAccess().getCommaKeyword_4_0()); 
-            match(input,17,FOLLOW_17_in_rule__ExtendsProperty__Group_4__0__Impl6598); 
+            match(input,17,FOLLOW_17_in_rule__ExtendsProperty__Group_4__0__Impl7153); 
              after(grammarAccess.getExtendsPropertyAccess().getCommaKeyword_4_0()); 
 
             }
@@ -8985,21 +9861,21 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group_4__1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3294:1: rule__ExtendsProperty__Group_4__1 : rule__ExtendsProperty__Group_4__1__Impl rule__ExtendsProperty__Group_4__2 ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3557:1: rule__ExtendsProperty__Group_4__1 : rule__ExtendsProperty__Group_4__1__Impl rule__ExtendsProperty__Group_4__2 ;
     public final void rule__ExtendsProperty__Group_4__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3298:1: ( rule__ExtendsProperty__Group_4__1__Impl rule__ExtendsProperty__Group_4__2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3299:2: rule__ExtendsProperty__Group_4__1__Impl rule__ExtendsProperty__Group_4__2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3561:1: ( rule__ExtendsProperty__Group_4__1__Impl rule__ExtendsProperty__Group_4__2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3562:2: rule__ExtendsProperty__Group_4__1__Impl rule__ExtendsProperty__Group_4__2
             {
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group_4__1__Impl_in_rule__ExtendsProperty__Group_4__16629);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group_4__1__Impl_in_rule__ExtendsProperty__Group_4__17184);
             rule__ExtendsProperty__Group_4__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group_4__2_in_rule__ExtendsProperty__Group_4__16632);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group_4__2_in_rule__ExtendsProperty__Group_4__17187);
             rule__ExtendsProperty__Group_4__2();
 
             state._fsp--;
@@ -9023,31 +9899,31 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group_4__1__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3306:1: rule__ExtendsProperty__Group_4__1__Impl : ( ( RULE_WS )? ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3569:1: rule__ExtendsProperty__Group_4__1__Impl : ( ( RULE_WS )? ) ;
     public final void rule__ExtendsProperty__Group_4__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3310:1: ( ( ( RULE_WS )? ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3311:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3573:1: ( ( ( RULE_WS )? ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3574:1: ( ( RULE_WS )? )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3311:1: ( ( RULE_WS )? )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3312:1: ( RULE_WS )?
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3574:1: ( ( RULE_WS )? )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3575:1: ( RULE_WS )?
             {
              before(grammarAccess.getExtendsPropertyAccess().getWSTerminalRuleCall_4_1()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3313:1: ( RULE_WS )?
-            int alt42=2;
-            int LA42_0 = input.LA(1);
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3576:1: ( RULE_WS )?
+            int alt52=2;
+            int LA52_0 = input.LA(1);
 
-            if ( (LA42_0==RULE_WS) ) {
-                alt42=1;
+            if ( (LA52_0==RULE_WS) ) {
+                alt52=1;
             }
-            switch (alt42) {
+            switch (alt52) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3313:3: RULE_WS
+                    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3576:3: RULE_WS
                     {
-                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group_4__1__Impl6660); 
+                    match(input,RULE_WS,FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group_4__1__Impl7215); 
 
                     }
                     break;
@@ -9077,16 +9953,16 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group_4__2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3323:1: rule__ExtendsProperty__Group_4__2 : rule__ExtendsProperty__Group_4__2__Impl ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3586:1: rule__ExtendsProperty__Group_4__2 : rule__ExtendsProperty__Group_4__2__Impl ;
     public final void rule__ExtendsProperty__Group_4__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3327:1: ( rule__ExtendsProperty__Group_4__2__Impl )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3328:2: rule__ExtendsProperty__Group_4__2__Impl
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3590:1: ( rule__ExtendsProperty__Group_4__2__Impl )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3591:2: rule__ExtendsProperty__Group_4__2__Impl
             {
-            pushFollow(FOLLOW_rule__ExtendsProperty__Group_4__2__Impl_in_rule__ExtendsProperty__Group_4__26691);
+            pushFollow(FOLLOW_rule__ExtendsProperty__Group_4__2__Impl_in_rule__ExtendsProperty__Group_4__27246);
             rule__ExtendsProperty__Group_4__2__Impl();
 
             state._fsp--;
@@ -9110,23 +9986,23 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__Group_4__2__Impl"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3334:1: rule__ExtendsProperty__Group_4__2__Impl : ( ( rule__ExtendsProperty__ExtendsNamesAssignment_4_2 ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3597:1: rule__ExtendsProperty__Group_4__2__Impl : ( ( rule__ExtendsProperty__ExtendsNamesAssignment_4_2 ) ) ;
     public final void rule__ExtendsProperty__Group_4__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3338:1: ( ( ( rule__ExtendsProperty__ExtendsNamesAssignment_4_2 ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3339:1: ( ( rule__ExtendsProperty__ExtendsNamesAssignment_4_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3601:1: ( ( ( rule__ExtendsProperty__ExtendsNamesAssignment_4_2 ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3602:1: ( ( rule__ExtendsProperty__ExtendsNamesAssignment_4_2 ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3339:1: ( ( rule__ExtendsProperty__ExtendsNamesAssignment_4_2 ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3340:1: ( rule__ExtendsProperty__ExtendsNamesAssignment_4_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3602:1: ( ( rule__ExtendsProperty__ExtendsNamesAssignment_4_2 ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3603:1: ( rule__ExtendsProperty__ExtendsNamesAssignment_4_2 )
             {
              before(grammarAccess.getExtendsPropertyAccess().getExtendsNamesAssignment_4_2()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3341:1: ( rule__ExtendsProperty__ExtendsNamesAssignment_4_2 )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3341:2: rule__ExtendsProperty__ExtendsNamesAssignment_4_2
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3604:1: ( rule__ExtendsProperty__ExtendsNamesAssignment_4_2 )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3604:2: rule__ExtendsProperty__ExtendsNamesAssignment_4_2
             {
-            pushFollow(FOLLOW_rule__ExtendsProperty__ExtendsNamesAssignment_4_2_in_rule__ExtendsProperty__Group_4__2__Impl6718);
+            pushFollow(FOLLOW_rule__ExtendsProperty__ExtendsNamesAssignment_4_2_in_rule__ExtendsProperty__Group_4__2__Impl7273);
             rule__ExtendsProperty__ExtendsNamesAssignment_4_2();
 
             state._fsp--;
@@ -9157,20 +10033,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Graph__ComponentsAssignment_1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3358:1: rule__Graph__ComponentsAssignment_1 : ( ruleComponentOrFacet ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3621:1: rule__Graph__ComponentsAssignment_1 : ( ruleComponentOrFacet ) ;
     public final void rule__Graph__ComponentsAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3362:1: ( ( ruleComponentOrFacet ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3363:1: ( ruleComponentOrFacet )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3625:1: ( ( ruleComponentOrFacet ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3626:1: ( ruleComponentOrFacet )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3363:1: ( ruleComponentOrFacet )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3364:1: ruleComponentOrFacet
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3626:1: ( ruleComponentOrFacet )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3627:1: ruleComponentOrFacet
             {
              before(grammarAccess.getGraphAccess().getComponentsComponentOrFacetParserRuleCall_1_0()); 
-            pushFollow(FOLLOW_ruleComponentOrFacet_in_rule__Graph__ComponentsAssignment_16759);
+            pushFollow(FOLLOW_ruleComponentOrFacet_in_rule__Graph__ComponentsAssignment_17314);
             ruleComponentOrFacet();
 
             state._fsp--;
@@ -9198,20 +10074,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ComponentOrFacet__ComponentAssignment_0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3373:1: rule__ComponentOrFacet__ComponentAssignment_0 : ( ruleComponent ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3636:1: rule__ComponentOrFacet__ComponentAssignment_0 : ( ruleComponent ) ;
     public final void rule__ComponentOrFacet__ComponentAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3377:1: ( ( ruleComponent ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3378:1: ( ruleComponent )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3640:1: ( ( ruleComponent ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3641:1: ( ruleComponent )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3378:1: ( ruleComponent )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3379:1: ruleComponent
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3641:1: ( ruleComponent )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3642:1: ruleComponent
             {
              before(grammarAccess.getComponentOrFacetAccess().getComponentComponentParserRuleCall_0_0()); 
-            pushFollow(FOLLOW_ruleComponent_in_rule__ComponentOrFacet__ComponentAssignment_06790);
+            pushFollow(FOLLOW_ruleComponent_in_rule__ComponentOrFacet__ComponentAssignment_07345);
             ruleComponent();
 
             state._fsp--;
@@ -9239,20 +10115,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ComponentOrFacet__FacetAssignment_1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3388:1: rule__ComponentOrFacet__FacetAssignment_1 : ( ruleFacet ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3651:1: rule__ComponentOrFacet__FacetAssignment_1 : ( ruleFacet ) ;
     public final void rule__ComponentOrFacet__FacetAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3392:1: ( ( ruleFacet ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3393:1: ( ruleFacet )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3655:1: ( ( ruleFacet ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3656:1: ( ruleFacet )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3393:1: ( ruleFacet )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3394:1: ruleFacet
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3656:1: ( ruleFacet )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3657:1: ruleFacet
             {
              before(grammarAccess.getComponentOrFacetAccess().getFacetFacetParserRuleCall_1_0()); 
-            pushFollow(FOLLOW_ruleFacet_in_rule__ComponentOrFacet__FacetAssignment_16821);
+            pushFollow(FOLLOW_ruleFacet_in_rule__ComponentOrFacet__FacetAssignment_17376);
             ruleFacet();
 
             state._fsp--;
@@ -9280,20 +10156,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__NameAssignment_0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3403:1: rule__Component__NameAssignment_0 : ( RULE_ID ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3666:1: rule__Component__NameAssignment_0 : ( RULE_ID ) ;
     public final void rule__Component__NameAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3407:1: ( ( RULE_ID ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3408:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3670:1: ( ( RULE_ID ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3671:1: ( RULE_ID )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3408:1: ( RULE_ID )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3409:1: RULE_ID
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3671:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3672:1: RULE_ID
             {
              before(grammarAccess.getComponentAccess().getNameIDTerminalRuleCall_0_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__Component__NameAssignment_06852); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__Component__NameAssignment_07407); 
              after(grammarAccess.getComponentAccess().getNameIDTerminalRuleCall_0_0()); 
 
             }
@@ -9317,25 +10193,25 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Component__PropertiesAssignment_4"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3418:1: rule__Component__PropertiesAssignment_4 : ( ruleProperties ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3681:1: rule__Component__PropertiesAssignment_4 : ( ruleComponentProperties ) ;
     public final void rule__Component__PropertiesAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3422:1: ( ( ruleProperties ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3423:1: ( ruleProperties )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3685:1: ( ( ruleComponentProperties ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3686:1: ( ruleComponentProperties )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3423:1: ( ruleProperties )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3424:1: ruleProperties
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3686:1: ( ruleComponentProperties )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3687:1: ruleComponentProperties
             {
-             before(grammarAccess.getComponentAccess().getPropertiesPropertiesParserRuleCall_4_0()); 
-            pushFollow(FOLLOW_ruleProperties_in_rule__Component__PropertiesAssignment_46883);
-            ruleProperties();
+             before(grammarAccess.getComponentAccess().getPropertiesComponentPropertiesParserRuleCall_4_0()); 
+            pushFollow(FOLLOW_ruleComponentProperties_in_rule__Component__PropertiesAssignment_47438);
+            ruleComponentProperties();
 
             state._fsp--;
 
-             after(grammarAccess.getComponentAccess().getPropertiesPropertiesParserRuleCall_4_0()); 
+             after(grammarAccess.getComponentAccess().getPropertiesComponentPropertiesParserRuleCall_4_0()); 
 
             }
 
@@ -9358,20 +10234,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__NameAssignment_2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3433:1: rule__Facet__NameAssignment_2 : ( RULE_ID ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3696:1: rule__Facet__NameAssignment_2 : ( RULE_ID ) ;
     public final void rule__Facet__NameAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3437:1: ( ( RULE_ID ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3438:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3700:1: ( ( RULE_ID ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3701:1: ( RULE_ID )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3438:1: ( RULE_ID )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3439:1: RULE_ID
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3701:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3702:1: RULE_ID
             {
              before(grammarAccess.getFacetAccess().getNameIDTerminalRuleCall_2_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__Facet__NameAssignment_26914); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__Facet__NameAssignment_27469); 
              after(grammarAccess.getFacetAccess().getNameIDTerminalRuleCall_2_0()); 
 
             }
@@ -9395,25 +10271,25 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__Facet__PropertiesAssignment_6"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3448:1: rule__Facet__PropertiesAssignment_6 : ( ruleProperties ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3711:1: rule__Facet__PropertiesAssignment_6 : ( ruleFacetProperties ) ;
     public final void rule__Facet__PropertiesAssignment_6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3452:1: ( ( ruleProperties ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3453:1: ( ruleProperties )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3715:1: ( ( ruleFacetProperties ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3716:1: ( ruleFacetProperties )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3453:1: ( ruleProperties )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3454:1: ruleProperties
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3716:1: ( ruleFacetProperties )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3717:1: ruleFacetProperties
             {
-             before(grammarAccess.getFacetAccess().getPropertiesPropertiesParserRuleCall_6_0()); 
-            pushFollow(FOLLOW_ruleProperties_in_rule__Facet__PropertiesAssignment_66945);
-            ruleProperties();
+             before(grammarAccess.getFacetAccess().getPropertiesFacetPropertiesParserRuleCall_6_0()); 
+            pushFollow(FOLLOW_ruleFacetProperties_in_rule__Facet__PropertiesAssignment_67500);
+            ruleFacetProperties();
 
             state._fsp--;
 
-             after(grammarAccess.getFacetAccess().getPropertiesPropertiesParserRuleCall_6_0()); 
+             after(grammarAccess.getFacetAccess().getPropertiesFacetPropertiesParserRuleCall_6_0()); 
 
             }
 
@@ -9435,67 +10311,26 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
     // $ANTLR end "rule__Facet__PropertiesAssignment_6"
 
 
-    // $ANTLR start "rule__Properties__InstallerPropertyAssignment_0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3463:1: rule__Properties__InstallerPropertyAssignment_0 : ( ruleInstallerProperty ) ;
-    public final void rule__Properties__InstallerPropertyAssignment_0() throws RecognitionException {
+    // $ANTLR start "rule__ComponentProperties__OptionalPropertiesAssignment_0"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3726:1: rule__ComponentProperties__OptionalPropertiesAssignment_0 : ( ruleOptionalProperty ) ;
+    public final void rule__ComponentProperties__OptionalPropertiesAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3467:1: ( ( ruleInstallerProperty ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3468:1: ( ruleInstallerProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3730:1: ( ( ruleOptionalProperty ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3731:1: ( ruleOptionalProperty )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3468:1: ( ruleInstallerProperty )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3469:1: ruleInstallerProperty
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3731:1: ( ruleOptionalProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3732:1: ruleOptionalProperty
             {
-             before(grammarAccess.getPropertiesAccess().getInstallerPropertyInstallerPropertyParserRuleCall_0_0()); 
-            pushFollow(FOLLOW_ruleInstallerProperty_in_rule__Properties__InstallerPropertyAssignment_06976);
-            ruleInstallerProperty();
-
-            state._fsp--;
-
-             after(grammarAccess.getPropertiesAccess().getInstallerPropertyInstallerPropertyParserRuleCall_0_0()); 
-
-            }
-
-
-            }
-
-        }
-        catch (RecognitionException re) {
-            reportError(re);
-            recover(input,re);
-        }
-        finally {
-
-            	restoreStackSize(stackSize);
-
-        }
-        return ;
-    }
-    // $ANTLR end "rule__Properties__InstallerPropertyAssignment_0"
-
-
-    // $ANTLR start "rule__Properties__OptionalPropertiesAssignment_1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3478:1: rule__Properties__OptionalPropertiesAssignment_1 : ( ruleOptionalProperty ) ;
-    public final void rule__Properties__OptionalPropertiesAssignment_1() throws RecognitionException {
-
-        		int stackSize = keepStackSize();
-            
-        try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3482:1: ( ( ruleOptionalProperty ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3483:1: ( ruleOptionalProperty )
-            {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3483:1: ( ruleOptionalProperty )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3484:1: ruleOptionalProperty
-            {
-             before(grammarAccess.getPropertiesAccess().getOptionalPropertiesOptionalPropertyParserRuleCall_1_0()); 
-            pushFollow(FOLLOW_ruleOptionalProperty_in_rule__Properties__OptionalPropertiesAssignment_17007);
+             before(grammarAccess.getComponentPropertiesAccess().getOptionalPropertiesOptionalPropertyParserRuleCall_0_0()); 
+            pushFollow(FOLLOW_ruleOptionalProperty_in_rule__ComponentProperties__OptionalPropertiesAssignment_07531);
             ruleOptionalProperty();
 
             state._fsp--;
 
-             after(grammarAccess.getPropertiesAccess().getOptionalPropertiesOptionalPropertyParserRuleCall_1_0()); 
+             after(grammarAccess.getComponentPropertiesAccess().getOptionalPropertiesOptionalPropertyParserRuleCall_0_0()); 
 
             }
 
@@ -9514,24 +10349,229 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
         }
         return ;
     }
-    // $ANTLR end "rule__Properties__OptionalPropertiesAssignment_1"
+    // $ANTLR end "rule__ComponentProperties__OptionalPropertiesAssignment_0"
+
+
+    // $ANTLR start "rule__ComponentProperties__InstallerPropertyAssignment_2"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3741:1: rule__ComponentProperties__InstallerPropertyAssignment_2 : ( ruleInstallerProperty ) ;
+    public final void rule__ComponentProperties__InstallerPropertyAssignment_2() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3745:1: ( ( ruleInstallerProperty ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3746:1: ( ruleInstallerProperty )
+            {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3746:1: ( ruleInstallerProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3747:1: ruleInstallerProperty
+            {
+             before(grammarAccess.getComponentPropertiesAccess().getInstallerPropertyInstallerPropertyParserRuleCall_2_0()); 
+            pushFollow(FOLLOW_ruleInstallerProperty_in_rule__ComponentProperties__InstallerPropertyAssignment_27562);
+            ruleInstallerProperty();
+
+            state._fsp--;
+
+             after(grammarAccess.getComponentPropertiesAccess().getInstallerPropertyInstallerPropertyParserRuleCall_2_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__ComponentProperties__InstallerPropertyAssignment_2"
+
+
+    // $ANTLR start "rule__ComponentProperties__OptionalPropertiesAssignment_4"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3756:1: rule__ComponentProperties__OptionalPropertiesAssignment_4 : ( ruleOptionalProperty ) ;
+    public final void rule__ComponentProperties__OptionalPropertiesAssignment_4() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3760:1: ( ( ruleOptionalProperty ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3761:1: ( ruleOptionalProperty )
+            {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3761:1: ( ruleOptionalProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3762:1: ruleOptionalProperty
+            {
+             before(grammarAccess.getComponentPropertiesAccess().getOptionalPropertiesOptionalPropertyParserRuleCall_4_0()); 
+            pushFollow(FOLLOW_ruleOptionalProperty_in_rule__ComponentProperties__OptionalPropertiesAssignment_47593);
+            ruleOptionalProperty();
+
+            state._fsp--;
+
+             after(grammarAccess.getComponentPropertiesAccess().getOptionalPropertiesOptionalPropertyParserRuleCall_4_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__ComponentProperties__OptionalPropertiesAssignment_4"
+
+
+    // $ANTLR start "rule__FacetProperties__PropertiesAssignment_1"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3771:1: rule__FacetProperties__PropertiesAssignment_1 : ( ruleFacetProperty ) ;
+    public final void rule__FacetProperties__PropertiesAssignment_1() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3775:1: ( ( ruleFacetProperty ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3776:1: ( ruleFacetProperty )
+            {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3776:1: ( ruleFacetProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3777:1: ruleFacetProperty
+            {
+             before(grammarAccess.getFacetPropertiesAccess().getPropertiesFacetPropertyParserRuleCall_1_0()); 
+            pushFollow(FOLLOW_ruleFacetProperty_in_rule__FacetProperties__PropertiesAssignment_17624);
+            ruleFacetProperty();
+
+            state._fsp--;
+
+             after(grammarAccess.getFacetPropertiesAccess().getPropertiesFacetPropertyParserRuleCall_1_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__FacetProperties__PropertiesAssignment_1"
+
+
+    // $ANTLR start "rule__FacetProperty__ChildrenPropertyAssignment_0"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3786:1: rule__FacetProperty__ChildrenPropertyAssignment_0 : ( ruleChildrenProperty ) ;
+    public final void rule__FacetProperty__ChildrenPropertyAssignment_0() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3790:1: ( ( ruleChildrenProperty ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3791:1: ( ruleChildrenProperty )
+            {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3791:1: ( ruleChildrenProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3792:1: ruleChildrenProperty
+            {
+             before(grammarAccess.getFacetPropertyAccess().getChildrenPropertyChildrenPropertyParserRuleCall_0_0()); 
+            pushFollow(FOLLOW_ruleChildrenProperty_in_rule__FacetProperty__ChildrenPropertyAssignment_07655);
+            ruleChildrenProperty();
+
+            state._fsp--;
+
+             after(grammarAccess.getFacetPropertyAccess().getChildrenPropertyChildrenPropertyParserRuleCall_0_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__FacetProperty__ChildrenPropertyAssignment_0"
+
+
+    // $ANTLR start "rule__FacetProperty__ExportsPropertyAssignment_1"
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3801:1: rule__FacetProperty__ExportsPropertyAssignment_1 : ( ruleExportsProperty ) ;
+    public final void rule__FacetProperty__ExportsPropertyAssignment_1() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3805:1: ( ( ruleExportsProperty ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3806:1: ( ruleExportsProperty )
+            {
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3806:1: ( ruleExportsProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3807:1: ruleExportsProperty
+            {
+             before(grammarAccess.getFacetPropertyAccess().getExportsPropertyExportsPropertyParserRuleCall_1_0()); 
+            pushFollow(FOLLOW_ruleExportsProperty_in_rule__FacetProperty__ExportsPropertyAssignment_17686);
+            ruleExportsProperty();
+
+            state._fsp--;
+
+             after(grammarAccess.getFacetPropertyAccess().getExportsPropertyExportsPropertyParserRuleCall_1_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__FacetProperty__ExportsPropertyAssignment_1"
 
 
     // $ANTLR start "rule__OptionalProperty__ChildrenPropertyAssignment_0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3493:1: rule__OptionalProperty__ChildrenPropertyAssignment_0 : ( ruleChildrenProperty ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3816:1: rule__OptionalProperty__ChildrenPropertyAssignment_0 : ( ruleChildrenProperty ) ;
     public final void rule__OptionalProperty__ChildrenPropertyAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3497:1: ( ( ruleChildrenProperty ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3498:1: ( ruleChildrenProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3820:1: ( ( ruleChildrenProperty ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3821:1: ( ruleChildrenProperty )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3498:1: ( ruleChildrenProperty )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3499:1: ruleChildrenProperty
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3821:1: ( ruleChildrenProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3822:1: ruleChildrenProperty
             {
              before(grammarAccess.getOptionalPropertyAccess().getChildrenPropertyChildrenPropertyParserRuleCall_0_0()); 
-            pushFollow(FOLLOW_ruleChildrenProperty_in_rule__OptionalProperty__ChildrenPropertyAssignment_07038);
+            pushFollow(FOLLOW_ruleChildrenProperty_in_rule__OptionalProperty__ChildrenPropertyAssignment_07717);
             ruleChildrenProperty();
 
             state._fsp--;
@@ -9559,20 +10599,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__OptionalProperty__ExportsPropertyAssignment_1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3508:1: rule__OptionalProperty__ExportsPropertyAssignment_1 : ( ruleExportsProperty ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3831:1: rule__OptionalProperty__ExportsPropertyAssignment_1 : ( ruleExportsProperty ) ;
     public final void rule__OptionalProperty__ExportsPropertyAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3512:1: ( ( ruleExportsProperty ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3513:1: ( ruleExportsProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3835:1: ( ( ruleExportsProperty ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3836:1: ( ruleExportsProperty )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3513:1: ( ruleExportsProperty )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3514:1: ruleExportsProperty
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3836:1: ( ruleExportsProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3837:1: ruleExportsProperty
             {
              before(grammarAccess.getOptionalPropertyAccess().getExportsPropertyExportsPropertyParserRuleCall_1_0()); 
-            pushFollow(FOLLOW_ruleExportsProperty_in_rule__OptionalProperty__ExportsPropertyAssignment_17069);
+            pushFollow(FOLLOW_ruleExportsProperty_in_rule__OptionalProperty__ExportsPropertyAssignment_17748);
             ruleExportsProperty();
 
             state._fsp--;
@@ -9600,20 +10640,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__OptionalProperty__ImportsPropertyAssignment_2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3523:1: rule__OptionalProperty__ImportsPropertyAssignment_2 : ( ruleImportsProperty ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3846:1: rule__OptionalProperty__ImportsPropertyAssignment_2 : ( ruleImportsProperty ) ;
     public final void rule__OptionalProperty__ImportsPropertyAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3527:1: ( ( ruleImportsProperty ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3528:1: ( ruleImportsProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3850:1: ( ( ruleImportsProperty ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3851:1: ( ruleImportsProperty )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3528:1: ( ruleImportsProperty )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3529:1: ruleImportsProperty
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3851:1: ( ruleImportsProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3852:1: ruleImportsProperty
             {
              before(grammarAccess.getOptionalPropertyAccess().getImportsPropertyImportsPropertyParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleImportsProperty_in_rule__OptionalProperty__ImportsPropertyAssignment_27100);
+            pushFollow(FOLLOW_ruleImportsProperty_in_rule__OptionalProperty__ImportsPropertyAssignment_27779);
             ruleImportsProperty();
 
             state._fsp--;
@@ -9641,20 +10681,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__OptionalProperty__FacetsPropertyAssignment_3"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3538:1: rule__OptionalProperty__FacetsPropertyAssignment_3 : ( ruleFacetsProperty ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3861:1: rule__OptionalProperty__FacetsPropertyAssignment_3 : ( ruleFacetsProperty ) ;
     public final void rule__OptionalProperty__FacetsPropertyAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3542:1: ( ( ruleFacetsProperty ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3543:1: ( ruleFacetsProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3865:1: ( ( ruleFacetsProperty ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3866:1: ( ruleFacetsProperty )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3543:1: ( ruleFacetsProperty )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3544:1: ruleFacetsProperty
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3866:1: ( ruleFacetsProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3867:1: ruleFacetsProperty
             {
              before(grammarAccess.getOptionalPropertyAccess().getFacetsPropertyFacetsPropertyParserRuleCall_3_0()); 
-            pushFollow(FOLLOW_ruleFacetsProperty_in_rule__OptionalProperty__FacetsPropertyAssignment_37131);
+            pushFollow(FOLLOW_ruleFacetsProperty_in_rule__OptionalProperty__FacetsPropertyAssignment_37810);
             ruleFacetsProperty();
 
             state._fsp--;
@@ -9682,20 +10722,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__OptionalProperty__ExtendsPropertyAssignment_4"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3553:1: rule__OptionalProperty__ExtendsPropertyAssignment_4 : ( ruleExtendsProperty ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3876:1: rule__OptionalProperty__ExtendsPropertyAssignment_4 : ( ruleExtendsProperty ) ;
     public final void rule__OptionalProperty__ExtendsPropertyAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3557:1: ( ( ruleExtendsProperty ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3558:1: ( ruleExtendsProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3880:1: ( ( ruleExtendsProperty ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3881:1: ( ruleExtendsProperty )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3558:1: ( ruleExtendsProperty )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3559:1: ruleExtendsProperty
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3881:1: ( ruleExtendsProperty )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3882:1: ruleExtendsProperty
             {
              before(grammarAccess.getOptionalPropertyAccess().getExtendsPropertyExtendsPropertyParserRuleCall_4_0()); 
-            pushFollow(FOLLOW_ruleExtendsProperty_in_rule__OptionalProperty__ExtendsPropertyAssignment_47162);
+            pushFollow(FOLLOW_ruleExtendsProperty_in_rule__OptionalProperty__ExtendsPropertyAssignment_47841);
             ruleExtendsProperty();
 
             state._fsp--;
@@ -9723,20 +10763,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__InstallerProperty__NameAssignment_2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3568:1: rule__InstallerProperty__NameAssignment_2 : ( RULE_ID ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3891:1: rule__InstallerProperty__NameAssignment_2 : ( RULE_ID ) ;
     public final void rule__InstallerProperty__NameAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3572:1: ( ( RULE_ID ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3573:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3895:1: ( ( RULE_ID ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3896:1: ( RULE_ID )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3573:1: ( RULE_ID )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3574:1: RULE_ID
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3896:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3897:1: RULE_ID
             {
              before(grammarAccess.getInstallerPropertyAccess().getNameIDTerminalRuleCall_2_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__InstallerProperty__NameAssignment_27193); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__InstallerProperty__NameAssignment_27872); 
              after(grammarAccess.getInstallerPropertyAccess().getNameIDTerminalRuleCall_2_0()); 
 
             }
@@ -9760,20 +10800,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__NameAssignment_2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3583:1: rule__ChildrenProperty__NameAssignment_2 : ( RULE_ID ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3906:1: rule__ChildrenProperty__NameAssignment_2 : ( RULE_ID ) ;
     public final void rule__ChildrenProperty__NameAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3587:1: ( ( RULE_ID ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3588:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3910:1: ( ( RULE_ID ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3911:1: ( RULE_ID )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3588:1: ( RULE_ID )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3589:1: RULE_ID
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3911:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3912:1: RULE_ID
             {
              before(grammarAccess.getChildrenPropertyAccess().getNameIDTerminalRuleCall_2_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ChildrenProperty__NameAssignment_27224); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ChildrenProperty__NameAssignment_27903); 
              after(grammarAccess.getChildrenPropertyAccess().getNameIDTerminalRuleCall_2_0()); 
 
             }
@@ -9797,20 +10837,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ChildrenProperty__NameAssignment_4_2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3598:1: rule__ChildrenProperty__NameAssignment_4_2 : ( RULE_ID ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3921:1: rule__ChildrenProperty__NameAssignment_4_2 : ( RULE_ID ) ;
     public final void rule__ChildrenProperty__NameAssignment_4_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3602:1: ( ( RULE_ID ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3603:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3925:1: ( ( RULE_ID ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3926:1: ( RULE_ID )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3603:1: ( RULE_ID )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3604:1: RULE_ID
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3926:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3927:1: RULE_ID
             {
              before(grammarAccess.getChildrenPropertyAccess().getNameIDTerminalRuleCall_4_2_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ChildrenProperty__NameAssignment_4_27255); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ChildrenProperty__NameAssignment_4_27934); 
              after(grammarAccess.getChildrenPropertyAccess().getNameIDTerminalRuleCall_4_2_0()); 
 
             }
@@ -9834,20 +10874,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__ExportsVariablesAssignment_2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3613:1: rule__ExportsProperty__ExportsVariablesAssignment_2 : ( ruleExportsVariable ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3936:1: rule__ExportsProperty__ExportsVariablesAssignment_2 : ( ruleExportsVariable ) ;
     public final void rule__ExportsProperty__ExportsVariablesAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3617:1: ( ( ruleExportsVariable ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3618:1: ( ruleExportsVariable )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3940:1: ( ( ruleExportsVariable ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3941:1: ( ruleExportsVariable )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3618:1: ( ruleExportsVariable )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3619:1: ruleExportsVariable
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3941:1: ( ruleExportsVariable )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3942:1: ruleExportsVariable
             {
              before(grammarAccess.getExportsPropertyAccess().getExportsVariablesExportsVariableParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleExportsVariable_in_rule__ExportsProperty__ExportsVariablesAssignment_27286);
+            pushFollow(FOLLOW_ruleExportsVariable_in_rule__ExportsProperty__ExportsVariablesAssignment_27965);
             ruleExportsVariable();
 
             state._fsp--;
@@ -9875,20 +10915,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsProperty__ExportsVariablesAssignment_4_2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3628:1: rule__ExportsProperty__ExportsVariablesAssignment_4_2 : ( ruleExportsVariable ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3951:1: rule__ExportsProperty__ExportsVariablesAssignment_4_2 : ( ruleExportsVariable ) ;
     public final void rule__ExportsProperty__ExportsVariablesAssignment_4_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3632:1: ( ( ruleExportsVariable ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3633:1: ( ruleExportsVariable )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3955:1: ( ( ruleExportsVariable ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3956:1: ( ruleExportsVariable )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3633:1: ( ruleExportsVariable )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3634:1: ruleExportsVariable
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3956:1: ( ruleExportsVariable )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3957:1: ruleExportsVariable
             {
              before(grammarAccess.getExportsPropertyAccess().getExportsVariablesExportsVariableParserRuleCall_4_2_0()); 
-            pushFollow(FOLLOW_ruleExportsVariable_in_rule__ExportsProperty__ExportsVariablesAssignment_4_27317);
+            pushFollow(FOLLOW_ruleExportsVariable_in_rule__ExportsProperty__ExportsVariablesAssignment_4_27996);
             ruleExportsVariable();
 
             state._fsp--;
@@ -9916,24 +10956,24 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsVariable__NameAssignment_0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3643:1: rule__ExportsVariable__NameAssignment_0 : ( ( 'ip' ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3966:1: rule__ExportsVariable__NameAssignment_0 : ( ( 'ip' ) ) ;
     public final void rule__ExportsVariable__NameAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3647:1: ( ( ( 'ip' ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3648:1: ( ( 'ip' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3970:1: ( ( ( 'ip' ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3971:1: ( ( 'ip' ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3648:1: ( ( 'ip' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3649:1: ( 'ip' )
-            {
-             before(grammarAccess.getExportsVariableAccess().getNameIpKeyword_0_0()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3650:1: ( 'ip' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3651:1: 'ip'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3971:1: ( ( 'ip' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3972:1: ( 'ip' )
             {
              before(grammarAccess.getExportsVariableAccess().getNameIpKeyword_0_0()); 
-            match(input,24,FOLLOW_24_in_rule__ExportsVariable__NameAssignment_07353); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3973:1: ( 'ip' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3974:1: 'ip'
+            {
+             before(grammarAccess.getExportsVariableAccess().getNameIpKeyword_0_0()); 
+            match(input,24,FOLLOW_24_in_rule__ExportsVariable__NameAssignment_08032); 
              after(grammarAccess.getExportsVariableAccess().getNameIpKeyword_0_0()); 
 
             }
@@ -9961,20 +11001,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsVariable__NameAssignment_1_0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3666:1: rule__ExportsVariable__NameAssignment_1_0 : ( RULE_ID ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3989:1: rule__ExportsVariable__NameAssignment_1_0 : ( RULE_ID ) ;
     public final void rule__ExportsVariable__NameAssignment_1_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3670:1: ( ( RULE_ID ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3671:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3993:1: ( ( RULE_ID ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3994:1: ( RULE_ID )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3671:1: ( RULE_ID )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3672:1: RULE_ID
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3994:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3995:1: RULE_ID
             {
              before(grammarAccess.getExportsVariableAccess().getNameIDTerminalRuleCall_1_0_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ExportsVariable__NameAssignment_1_07392); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ExportsVariable__NameAssignment_1_08071); 
              after(grammarAccess.getExportsVariableAccess().getNameIDTerminalRuleCall_1_0_0()); 
 
             }
@@ -9998,20 +11038,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExportsVariable__ValueAssignment_1_4"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3681:1: rule__ExportsVariable__ValueAssignment_1_4 : ( RULE_INT ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4004:1: rule__ExportsVariable__ValueAssignment_1_4 : ( RULE_INT ) ;
     public final void rule__ExportsVariable__ValueAssignment_1_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3685:1: ( ( RULE_INT ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3686:1: ( RULE_INT )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4008:1: ( ( RULE_INT ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4009:1: ( RULE_INT )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3686:1: ( RULE_INT )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3687:1: RULE_INT
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4009:1: ( RULE_INT )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4010:1: RULE_INT
             {
              before(grammarAccess.getExportsVariableAccess().getValueINTTerminalRuleCall_1_4_0()); 
-            match(input,RULE_INT,FOLLOW_RULE_INT_in_rule__ExportsVariable__ValueAssignment_1_47423); 
+            match(input,RULE_INT,FOLLOW_RULE_INT_in_rule__ExportsVariable__ValueAssignment_1_48102); 
              after(grammarAccess.getExportsVariableAccess().getValueINTTerminalRuleCall_1_4_0()); 
 
             }
@@ -10035,20 +11075,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__ImportsVariablesAssignment_2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3696:1: rule__ImportsProperty__ImportsVariablesAssignment_2 : ( ruleImportsVariable ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4019:1: rule__ImportsProperty__ImportsVariablesAssignment_2 : ( ruleImportsVariable ) ;
     public final void rule__ImportsProperty__ImportsVariablesAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3700:1: ( ( ruleImportsVariable ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3701:1: ( ruleImportsVariable )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4023:1: ( ( ruleImportsVariable ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4024:1: ( ruleImportsVariable )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3701:1: ( ruleImportsVariable )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3702:1: ruleImportsVariable
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4024:1: ( ruleImportsVariable )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4025:1: ruleImportsVariable
             {
              before(grammarAccess.getImportsPropertyAccess().getImportsVariablesImportsVariableParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleImportsVariable_in_rule__ImportsProperty__ImportsVariablesAssignment_27454);
+            pushFollow(FOLLOW_ruleImportsVariable_in_rule__ImportsProperty__ImportsVariablesAssignment_28133);
             ruleImportsVariable();
 
             state._fsp--;
@@ -10076,20 +11116,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsProperty__ImportsVariablesAssignment_4_2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3711:1: rule__ImportsProperty__ImportsVariablesAssignment_4_2 : ( ruleImportsVariable ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4034:1: rule__ImportsProperty__ImportsVariablesAssignment_4_2 : ( ruleImportsVariable ) ;
     public final void rule__ImportsProperty__ImportsVariablesAssignment_4_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3715:1: ( ( ruleImportsVariable ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3716:1: ( ruleImportsVariable )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4038:1: ( ( ruleImportsVariable ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4039:1: ( ruleImportsVariable )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3716:1: ( ruleImportsVariable )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3717:1: ruleImportsVariable
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4039:1: ( ruleImportsVariable )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4040:1: ruleImportsVariable
             {
              before(grammarAccess.getImportsPropertyAccess().getImportsVariablesImportsVariableParserRuleCall_4_2_0()); 
-            pushFollow(FOLLOW_ruleImportsVariable_in_rule__ImportsProperty__ImportsVariablesAssignment_4_27485);
+            pushFollow(FOLLOW_ruleImportsVariable_in_rule__ImportsProperty__ImportsVariablesAssignment_4_28164);
             ruleImportsVariable();
 
             state._fsp--;
@@ -10117,24 +11157,24 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__IsExternalAssignment_0_0"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3726:1: rule__ImportsVariable__IsExternalAssignment_0_0 : ( ( 'external' ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4049:1: rule__ImportsVariable__IsExternalAssignment_0_0 : ( ( 'external' ) ) ;
     public final void rule__ImportsVariable__IsExternalAssignment_0_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3730:1: ( ( ( 'external' ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3731:1: ( ( 'external' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4053:1: ( ( ( 'external' ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4054:1: ( ( 'external' ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3731:1: ( ( 'external' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3732:1: ( 'external' )
-            {
-             before(grammarAccess.getImportsVariableAccess().getIsExternalExternalKeyword_0_0_0()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3733:1: ( 'external' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3734:1: 'external'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4054:1: ( ( 'external' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4055:1: ( 'external' )
             {
              before(grammarAccess.getImportsVariableAccess().getIsExternalExternalKeyword_0_0_0()); 
-            match(input,25,FOLLOW_25_in_rule__ImportsVariable__IsExternalAssignment_0_07521); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4056:1: ( 'external' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4057:1: 'external'
+            {
+             before(grammarAccess.getImportsVariableAccess().getIsExternalExternalKeyword_0_0_0()); 
+            match(input,25,FOLLOW_25_in_rule__ImportsVariable__IsExternalAssignment_0_08200); 
              after(grammarAccess.getImportsVariableAccess().getIsExternalExternalKeyword_0_0_0()); 
 
             }
@@ -10162,20 +11202,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__ComponentNameAssignment_1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3749:1: rule__ImportsVariable__ComponentNameAssignment_1 : ( RULE_ID ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4072:1: rule__ImportsVariable__ComponentNameAssignment_1 : ( RULE_ID ) ;
     public final void rule__ImportsVariable__ComponentNameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3753:1: ( ( RULE_ID ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3754:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4076:1: ( ( RULE_ID ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4077:1: ( RULE_ID )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3754:1: ( RULE_ID )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3755:1: RULE_ID
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4077:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4078:1: RULE_ID
             {
              before(grammarAccess.getImportsVariableAccess().getComponentNameIDTerminalRuleCall_1_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ImportsVariable__ComponentNameAssignment_17560); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ImportsVariable__ComponentNameAssignment_18239); 
              after(grammarAccess.getImportsVariableAccess().getComponentNameIDTerminalRuleCall_1_0()); 
 
             }
@@ -10199,20 +11239,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__ComponentPropertyAssignment_3"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3764:1: rule__ImportsVariable__ComponentPropertyAssignment_3 : ( RULE_ID ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4087:1: rule__ImportsVariable__ComponentPropertyAssignment_3 : ( RULE_ID ) ;
     public final void rule__ImportsVariable__ComponentPropertyAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3768:1: ( ( RULE_ID ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3769:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4091:1: ( ( RULE_ID ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4092:1: ( RULE_ID )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3769:1: ( RULE_ID )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3770:1: RULE_ID
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4092:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4093:1: RULE_ID
             {
              before(grammarAccess.getImportsVariableAccess().getComponentPropertyIDTerminalRuleCall_3_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ImportsVariable__ComponentPropertyAssignment_37591); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ImportsVariable__ComponentPropertyAssignment_38270); 
              after(grammarAccess.getImportsVariableAccess().getComponentPropertyIDTerminalRuleCall_3_0()); 
 
             }
@@ -10236,24 +11276,24 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ImportsVariable__IsOptionalAssignment_4_1"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3779:1: rule__ImportsVariable__IsOptionalAssignment_4_1 : ( ( '(optional)' ) ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4102:1: rule__ImportsVariable__IsOptionalAssignment_4_1 : ( ( '(optional)' ) ) ;
     public final void rule__ImportsVariable__IsOptionalAssignment_4_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3783:1: ( ( ( '(optional)' ) ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3784:1: ( ( '(optional)' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4106:1: ( ( ( '(optional)' ) ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4107:1: ( ( '(optional)' ) )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3784:1: ( ( '(optional)' ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3785:1: ( '(optional)' )
-            {
-             before(grammarAccess.getImportsVariableAccess().getIsOptionalOptionalKeyword_4_1_0()); 
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3786:1: ( '(optional)' )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3787:1: '(optional)'
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4107:1: ( ( '(optional)' ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4108:1: ( '(optional)' )
             {
              before(grammarAccess.getImportsVariableAccess().getIsOptionalOptionalKeyword_4_1_0()); 
-            match(input,26,FOLLOW_26_in_rule__ImportsVariable__IsOptionalAssignment_4_17627); 
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4109:1: ( '(optional)' )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4110:1: '(optional)'
+            {
+             before(grammarAccess.getImportsVariableAccess().getIsOptionalOptionalKeyword_4_1_0()); 
+            match(input,26,FOLLOW_26_in_rule__ImportsVariable__IsOptionalAssignment_4_18306); 
              after(grammarAccess.getImportsVariableAccess().getIsOptionalOptionalKeyword_4_1_0()); 
 
             }
@@ -10281,20 +11321,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__FacetsNamesAssignment_2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3802:1: rule__FacetsProperty__FacetsNamesAssignment_2 : ( RULE_ID ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4125:1: rule__FacetsProperty__FacetsNamesAssignment_2 : ( RULE_ID ) ;
     public final void rule__FacetsProperty__FacetsNamesAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3806:1: ( ( RULE_ID ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3807:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4129:1: ( ( RULE_ID ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4130:1: ( RULE_ID )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3807:1: ( RULE_ID )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3808:1: RULE_ID
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4130:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4131:1: RULE_ID
             {
              before(grammarAccess.getFacetsPropertyAccess().getFacetsNamesIDTerminalRuleCall_2_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__FacetsProperty__FacetsNamesAssignment_27666); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__FacetsProperty__FacetsNamesAssignment_28345); 
              after(grammarAccess.getFacetsPropertyAccess().getFacetsNamesIDTerminalRuleCall_2_0()); 
 
             }
@@ -10318,20 +11358,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__FacetsProperty__FacetsNamesAssignment_4_2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3817:1: rule__FacetsProperty__FacetsNamesAssignment_4_2 : ( RULE_ID ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4140:1: rule__FacetsProperty__FacetsNamesAssignment_4_2 : ( RULE_ID ) ;
     public final void rule__FacetsProperty__FacetsNamesAssignment_4_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3821:1: ( ( RULE_ID ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3822:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4144:1: ( ( RULE_ID ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4145:1: ( RULE_ID )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3822:1: ( RULE_ID )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3823:1: RULE_ID
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4145:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4146:1: RULE_ID
             {
              before(grammarAccess.getFacetsPropertyAccess().getFacetsNamesIDTerminalRuleCall_4_2_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__FacetsProperty__FacetsNamesAssignment_4_27697); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__FacetsProperty__FacetsNamesAssignment_4_28376); 
              after(grammarAccess.getFacetsPropertyAccess().getFacetsNamesIDTerminalRuleCall_4_2_0()); 
 
             }
@@ -10355,20 +11395,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__ExtendsNamesAssignment_2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3832:1: rule__ExtendsProperty__ExtendsNamesAssignment_2 : ( RULE_ID ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4155:1: rule__ExtendsProperty__ExtendsNamesAssignment_2 : ( RULE_ID ) ;
     public final void rule__ExtendsProperty__ExtendsNamesAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3836:1: ( ( RULE_ID ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3837:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4159:1: ( ( RULE_ID ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4160:1: ( RULE_ID )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3837:1: ( RULE_ID )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3838:1: RULE_ID
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4160:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4161:1: RULE_ID
             {
              before(grammarAccess.getExtendsPropertyAccess().getExtendsNamesIDTerminalRuleCall_2_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ExtendsProperty__ExtendsNamesAssignment_27728); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ExtendsProperty__ExtendsNamesAssignment_28407); 
              after(grammarAccess.getExtendsPropertyAccess().getExtendsNamesIDTerminalRuleCall_2_0()); 
 
             }
@@ -10392,20 +11432,20 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
 
 
     // $ANTLR start "rule__ExtendsProperty__ExtendsNamesAssignment_4_2"
-    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3847:1: rule__ExtendsProperty__ExtendsNamesAssignment_4_2 : ( RULE_ID ) ;
+    // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4170:1: rule__ExtendsProperty__ExtendsNamesAssignment_4_2 : ( RULE_ID ) ;
     public final void rule__ExtendsProperty__ExtendsNamesAssignment_4_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3851:1: ( ( RULE_ID ) )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3852:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4174:1: ( ( RULE_ID ) )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4175:1: ( RULE_ID )
             {
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3852:1: ( RULE_ID )
-            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:3853:1: RULE_ID
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4175:1: ( RULE_ID )
+            // ../fr.imag.mosig.seacs.roboconf.ui/src-gen/fr/imag/mosig/seacs/roboconf/ui/contentassist/antlr/internal/InternalGraphDsl.g:4176:1: RULE_ID
             {
              before(grammarAccess.getExtendsPropertyAccess().getExtendsNamesIDTerminalRuleCall_4_2_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ExtendsProperty__ExtendsNamesAssignment_4_27759); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__ExtendsProperty__ExtendsNamesAssignment_4_28438); 
              after(grammarAccess.getExtendsPropertyAccess().getExtendsNamesIDTerminalRuleCall_4_2_0()); 
 
             }
@@ -10444,327 +11484,356 @@ public class InternalGraphDslParser extends AbstractInternalContentAssistParser 
     public static final BitSet FOLLOW_ruleFacet_in_entryRuleFacet242 = new BitSet(new long[]{0x0000000000000000L});
     public static final BitSet FOLLOW_EOF_in_entryRuleFacet249 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__Facet__Group__0_in_ruleFacet275 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleProperties_in_entryRuleProperties302 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleProperties309 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Properties__Group__0_in_ruleProperties335 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleOptionalProperty_in_entryRuleOptionalProperty362 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleOptionalProperty369 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__OptionalProperty__Alternatives_in_ruleOptionalProperty395 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleInstallerProperty_in_entryRuleInstallerProperty422 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleInstallerProperty429 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__InstallerProperty__Group__0_in_ruleInstallerProperty455 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleChildrenProperty_in_entryRuleChildrenProperty482 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleChildrenProperty489 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__0_in_ruleChildrenProperty515 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleExportsProperty_in_entryRuleExportsProperty542 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleExportsProperty549 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group__0_in_ruleExportsProperty575 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleExportsVariable_in_entryRuleExportsVariable602 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleExportsVariable609 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsVariable__Alternatives_in_ruleExportsVariable635 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleImportsProperty_in_entryRuleImportsProperty662 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleImportsProperty669 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group__0_in_ruleImportsProperty695 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleImportsVariable_in_entryRuleImportsVariable722 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleImportsVariable729 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group__0_in_ruleImportsVariable755 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleFacetsProperty_in_entryRuleFacetsProperty782 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleFacetsProperty789 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group__0_in_ruleFacetsProperty815 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleExtendsProperty_in_entryRuleExtendsProperty842 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleExtendsProperty849 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__0_in_ruleExtendsProperty875 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ComponentOrFacet__ComponentAssignment_0_in_rule__ComponentOrFacet__Alternatives911 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ComponentOrFacet__FacetAssignment_1_in_rule__ComponentOrFacet__Alternatives929 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__OptionalProperty__ChildrenPropertyAssignment_0_in_rule__OptionalProperty__Alternatives962 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__OptionalProperty__ExportsPropertyAssignment_1_in_rule__OptionalProperty__Alternatives980 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__OptionalProperty__ImportsPropertyAssignment_2_in_rule__OptionalProperty__Alternatives998 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__OptionalProperty__FacetsPropertyAssignment_3_in_rule__OptionalProperty__Alternatives1016 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__OptionalProperty__ExtendsPropertyAssignment_4_in_rule__OptionalProperty__Alternatives1034 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsVariable__NameAssignment_0_in_rule__ExportsVariable__Alternatives1067 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__0_in_rule__ExportsVariable__Alternatives1085 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Graph__Group__0__Impl_in_rule__Graph__Group__01116 = new BitSet(new long[]{0x0000000000002030L});
-    public static final BitSet FOLLOW_rule__Graph__Group__1_in_rule__Graph__Group__01119 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__Graph__Group__0__Impl1147 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Graph__Group__1__Impl_in_rule__Graph__Group__11178 = new BitSet(new long[]{0x0000000000000010L});
-    public static final BitSet FOLLOW_rule__Graph__Group__2_in_rule__Graph__Group__11181 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Graph__ComponentsAssignment_1_in_rule__Graph__Group__1__Impl1208 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Graph__Group__2__Impl_in_rule__Graph__Group__21238 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__Graph__Group__2__Impl1266 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Component__Group__0__Impl_in_rule__Component__Group__01303 = new BitSet(new long[]{0x0000000000000810L});
-    public static final BitSet FOLLOW_rule__Component__Group__1_in_rule__Component__Group__01306 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Component__NameAssignment_0_in_rule__Component__Group__0__Impl1333 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Component__Group__1__Impl_in_rule__Component__Group__11363 = new BitSet(new long[]{0x0000000000000810L});
-    public static final BitSet FOLLOW_rule__Component__Group__2_in_rule__Component__Group__11366 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__Component__Group__1__Impl1394 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Component__Group__2__Impl_in_rule__Component__Group__21425 = new BitSet(new long[]{0x0000000000004010L});
-    public static final BitSet FOLLOW_rule__Component__Group__3_in_rule__Component__Group__21428 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_11_in_rule__Component__Group__2__Impl1456 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Component__Group__3__Impl_in_rule__Component__Group__31487 = new BitSet(new long[]{0x0000000000004010L});
-    public static final BitSet FOLLOW_rule__Component__Group__4_in_rule__Component__Group__31490 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__Component__Group__3__Impl1518 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Component__Group__4__Impl_in_rule__Component__Group__41549 = new BitSet(new long[]{0x0000000000001010L});
-    public static final BitSet FOLLOW_rule__Component__Group__5_in_rule__Component__Group__41552 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Component__PropertiesAssignment_4_in_rule__Component__Group__4__Impl1579 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Component__Group__5__Impl_in_rule__Component__Group__51609 = new BitSet(new long[]{0x0000000000001010L});
-    public static final BitSet FOLLOW_rule__Component__Group__6_in_rule__Component__Group__51612 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__Component__Group__5__Impl1640 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Component__Group__6__Impl_in_rule__Component__Group__61671 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_12_in_rule__Component__Group__6__Impl1699 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Facet__Group__0__Impl_in_rule__Facet__Group__01744 = new BitSet(new long[]{0x0000000000000010L});
-    public static final BitSet FOLLOW_rule__Facet__Group__1_in_rule__Facet__Group__01747 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_13_in_rule__Facet__Group__0__Impl1775 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Facet__Group__1__Impl_in_rule__Facet__Group__11806 = new BitSet(new long[]{0x0000000000000020L});
-    public static final BitSet FOLLOW_rule__Facet__Group__2_in_rule__Facet__Group__11809 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__Facet__Group__1__Impl1836 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Facet__Group__2__Impl_in_rule__Facet__Group__21865 = new BitSet(new long[]{0x0000000000000810L});
-    public static final BitSet FOLLOW_rule__Facet__Group__3_in_rule__Facet__Group__21868 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Facet__NameAssignment_2_in_rule__Facet__Group__2__Impl1895 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Facet__Group__3__Impl_in_rule__Facet__Group__31925 = new BitSet(new long[]{0x0000000000000810L});
-    public static final BitSet FOLLOW_rule__Facet__Group__4_in_rule__Facet__Group__31928 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__Facet__Group__3__Impl1956 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Facet__Group__4__Impl_in_rule__Facet__Group__41987 = new BitSet(new long[]{0x0000000000004010L});
-    public static final BitSet FOLLOW_rule__Facet__Group__5_in_rule__Facet__Group__41990 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_11_in_rule__Facet__Group__4__Impl2018 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Facet__Group__5__Impl_in_rule__Facet__Group__52049 = new BitSet(new long[]{0x0000000000004010L});
-    public static final BitSet FOLLOW_rule__Facet__Group__6_in_rule__Facet__Group__52052 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__Facet__Group__5__Impl2080 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Facet__Group__6__Impl_in_rule__Facet__Group__62111 = new BitSet(new long[]{0x0000000000001010L});
-    public static final BitSet FOLLOW_rule__Facet__Group__7_in_rule__Facet__Group__62114 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Facet__PropertiesAssignment_6_in_rule__Facet__Group__6__Impl2141 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Facet__Group__7__Impl_in_rule__Facet__Group__72171 = new BitSet(new long[]{0x0000000000001010L});
-    public static final BitSet FOLLOW_rule__Facet__Group__8_in_rule__Facet__Group__72174 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__Facet__Group__7__Impl2202 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Facet__Group__8__Impl_in_rule__Facet__Group__82233 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_12_in_rule__Facet__Group__8__Impl2261 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Properties__Group__0__Impl_in_rule__Properties__Group__02310 = new BitSet(new long[]{0x0000000000D50000L});
-    public static final BitSet FOLLOW_rule__Properties__Group__1_in_rule__Properties__Group__02313 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Properties__InstallerPropertyAssignment_0_in_rule__Properties__Group__0__Impl2340 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Properties__Group__1__Impl_in_rule__Properties__Group__12370 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__Properties__OptionalPropertiesAssignment_1_in_rule__Properties__Group__1__Impl2397 = new BitSet(new long[]{0x0000000000D50002L});
-    public static final BitSet FOLLOW_rule__InstallerProperty__Group__0__Impl_in_rule__InstallerProperty__Group__02432 = new BitSet(new long[]{0x0000000000000030L});
-    public static final BitSet FOLLOW_rule__InstallerProperty__Group__1_in_rule__InstallerProperty__Group__02435 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_14_in_rule__InstallerProperty__Group__0__Impl2463 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__InstallerProperty__Group__1__Impl_in_rule__InstallerProperty__Group__12494 = new BitSet(new long[]{0x0000000000000030L});
-    public static final BitSet FOLLOW_rule__InstallerProperty__Group__2_in_rule__InstallerProperty__Group__12497 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__InstallerProperty__Group__1__Impl2525 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__InstallerProperty__Group__2__Impl_in_rule__InstallerProperty__Group__22556 = new BitSet(new long[]{0x0000000000008010L});
-    public static final BitSet FOLLOW_rule__InstallerProperty__Group__3_in_rule__InstallerProperty__Group__22559 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__InstallerProperty__NameAssignment_2_in_rule__InstallerProperty__Group__2__Impl2586 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__InstallerProperty__Group__3__Impl_in_rule__InstallerProperty__Group__32616 = new BitSet(new long[]{0x0000000000008010L});
-    public static final BitSet FOLLOW_rule__InstallerProperty__Group__4_in_rule__InstallerProperty__Group__32619 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__InstallerProperty__Group__3__Impl2647 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__InstallerProperty__Group__4__Impl_in_rule__InstallerProperty__Group__42678 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_15_in_rule__InstallerProperty__Group__4__Impl2706 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__0__Impl_in_rule__ChildrenProperty__Group__02747 = new BitSet(new long[]{0x0000000000000030L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__1_in_rule__ChildrenProperty__Group__02750 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_16_in_rule__ChildrenProperty__Group__0__Impl2778 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__1__Impl_in_rule__ChildrenProperty__Group__12809 = new BitSet(new long[]{0x0000000000000030L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__2_in_rule__ChildrenProperty__Group__12812 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group__1__Impl2840 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__2__Impl_in_rule__ChildrenProperty__Group__22871 = new BitSet(new long[]{0x0000000000028010L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__3_in_rule__ChildrenProperty__Group__22874 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__NameAssignment_2_in_rule__ChildrenProperty__Group__2__Impl2901 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__3__Impl_in_rule__ChildrenProperty__Group__32931 = new BitSet(new long[]{0x0000000000028010L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__4_in_rule__ChildrenProperty__Group__32934 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group__3__Impl2962 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__4__Impl_in_rule__ChildrenProperty__Group__42993 = new BitSet(new long[]{0x0000000000028010L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__5_in_rule__ChildrenProperty__Group__42996 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group_4__0_in_rule__ChildrenProperty__Group__4__Impl3023 = new BitSet(new long[]{0x0000000000020002L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__5__Impl_in_rule__ChildrenProperty__Group__53054 = new BitSet(new long[]{0x0000000000028010L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__6_in_rule__ChildrenProperty__Group__53057 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group__5__Impl3085 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__6__Impl_in_rule__ChildrenProperty__Group__63116 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_15_in_rule__ChildrenProperty__Group__6__Impl3144 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group_4__0__Impl_in_rule__ChildrenProperty__Group_4__03189 = new BitSet(new long[]{0x0000000000000030L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group_4__1_in_rule__ChildrenProperty__Group_4__03192 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_17_in_rule__ChildrenProperty__Group_4__0__Impl3220 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group_4__1__Impl_in_rule__ChildrenProperty__Group_4__13251 = new BitSet(new long[]{0x0000000000000030L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group_4__2_in_rule__ChildrenProperty__Group_4__13254 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group_4__1__Impl3282 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__Group_4__2__Impl_in_rule__ChildrenProperty__Group_4__23313 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ChildrenProperty__NameAssignment_4_2_in_rule__ChildrenProperty__Group_4__2__Impl3340 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group__0__Impl_in_rule__ExportsProperty__Group__03376 = new BitSet(new long[]{0x0000000001000030L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group__1_in_rule__ExportsProperty__Group__03379 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_18_in_rule__ExportsProperty__Group__0__Impl3407 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group__1__Impl_in_rule__ExportsProperty__Group__13438 = new BitSet(new long[]{0x0000000001000030L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group__2_in_rule__ExportsProperty__Group__13441 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ExportsProperty__Group__1__Impl3469 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group__2__Impl_in_rule__ExportsProperty__Group__23500 = new BitSet(new long[]{0x0000000000020010L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group__3_in_rule__ExportsProperty__Group__23503 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__ExportsVariablesAssignment_2_in_rule__ExportsProperty__Group__2__Impl3530 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group__3__Impl_in_rule__ExportsProperty__Group__33560 = new BitSet(new long[]{0x0000000000020010L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group__4_in_rule__ExportsProperty__Group__33563 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ExportsProperty__Group__3__Impl3591 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group__4__Impl_in_rule__ExportsProperty__Group__43622 = new BitSet(new long[]{0x0000000000008010L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group__5_in_rule__ExportsProperty__Group__43625 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group_4__0_in_rule__ExportsProperty__Group__4__Impl3652 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group__5__Impl_in_rule__ExportsProperty__Group__53682 = new BitSet(new long[]{0x0000000000008010L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group__6_in_rule__ExportsProperty__Group__53685 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ExportsProperty__Group__5__Impl3713 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group__6__Impl_in_rule__ExportsProperty__Group__63744 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_15_in_rule__ExportsProperty__Group__6__Impl3772 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group_4__0__Impl_in_rule__ExportsProperty__Group_4__03817 = new BitSet(new long[]{0x0000000001000030L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group_4__1_in_rule__ExportsProperty__Group_4__03820 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_17_in_rule__ExportsProperty__Group_4__0__Impl3848 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group_4__1__Impl_in_rule__ExportsProperty__Group_4__13879 = new BitSet(new long[]{0x0000000001000030L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group_4__2_in_rule__ExportsProperty__Group_4__13882 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ExportsProperty__Group_4__1__Impl3910 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__Group_4__2__Impl_in_rule__ExportsProperty__Group_4__23941 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsProperty__ExportsVariablesAssignment_4_2_in_rule__ExportsProperty__Group_4__2__Impl3968 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__0__Impl_in_rule__ExportsVariable__Group_1__04004 = new BitSet(new long[]{0x0000000000080010L});
-    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__1_in_rule__ExportsVariable__Group_1__04007 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsVariable__NameAssignment_1_0_in_rule__ExportsVariable__Group_1__0__Impl4034 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__1__Impl_in_rule__ExportsVariable__Group_1__14064 = new BitSet(new long[]{0x0000000000080010L});
-    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__2_in_rule__ExportsVariable__Group_1__14067 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ExportsVariable__Group_1__1__Impl4095 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__2__Impl_in_rule__ExportsVariable__Group_1__24126 = new BitSet(new long[]{0x0000000000000050L});
-    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__3_in_rule__ExportsVariable__Group_1__24129 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_19_in_rule__ExportsVariable__Group_1__2__Impl4157 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__3__Impl_in_rule__ExportsVariable__Group_1__34188 = new BitSet(new long[]{0x0000000000000050L});
-    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__4_in_rule__ExportsVariable__Group_1__34191 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ExportsVariable__Group_1__3__Impl4219 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__4__Impl_in_rule__ExportsVariable__Group_1__44250 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExportsVariable__ValueAssignment_1_4_in_rule__ExportsVariable__Group_1__4__Impl4277 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group__0__Impl_in_rule__ImportsProperty__Group__04317 = new BitSet(new long[]{0x0000000002000030L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group__1_in_rule__ImportsProperty__Group__04320 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_20_in_rule__ImportsProperty__Group__0__Impl4348 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group__1__Impl_in_rule__ImportsProperty__Group__14379 = new BitSet(new long[]{0x0000000002000030L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group__2_in_rule__ImportsProperty__Group__14382 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ImportsProperty__Group__1__Impl4410 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group__2__Impl_in_rule__ImportsProperty__Group__24441 = new BitSet(new long[]{0x0000000000020010L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group__3_in_rule__ImportsProperty__Group__24444 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__ImportsVariablesAssignment_2_in_rule__ImportsProperty__Group__2__Impl4471 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group__3__Impl_in_rule__ImportsProperty__Group__34501 = new BitSet(new long[]{0x0000000000020010L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group__4_in_rule__ImportsProperty__Group__34504 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ImportsProperty__Group__3__Impl4532 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group__4__Impl_in_rule__ImportsProperty__Group__44563 = new BitSet(new long[]{0x0000000000008010L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group__5_in_rule__ImportsProperty__Group__44566 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group_4__0_in_rule__ImportsProperty__Group__4__Impl4593 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group__5__Impl_in_rule__ImportsProperty__Group__54623 = new BitSet(new long[]{0x0000000000008010L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group__6_in_rule__ImportsProperty__Group__54626 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ImportsProperty__Group__5__Impl4654 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group__6__Impl_in_rule__ImportsProperty__Group__64685 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_15_in_rule__ImportsProperty__Group__6__Impl4713 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group_4__0__Impl_in_rule__ImportsProperty__Group_4__04758 = new BitSet(new long[]{0x0000000002000030L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group_4__1_in_rule__ImportsProperty__Group_4__04761 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_17_in_rule__ImportsProperty__Group_4__0__Impl4789 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group_4__1__Impl_in_rule__ImportsProperty__Group_4__14820 = new BitSet(new long[]{0x0000000002000030L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group_4__2_in_rule__ImportsProperty__Group_4__14823 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ImportsProperty__Group_4__1__Impl4851 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__Group_4__2__Impl_in_rule__ImportsProperty__Group_4__24882 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsProperty__ImportsVariablesAssignment_4_2_in_rule__ImportsProperty__Group_4__2__Impl4909 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group__0__Impl_in_rule__ImportsVariable__Group__04945 = new BitSet(new long[]{0x0000000002000030L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group__1_in_rule__ImportsVariable__Group__04948 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group_0__0_in_rule__ImportsVariable__Group__0__Impl4975 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group__1__Impl_in_rule__ImportsVariable__Group__15006 = new BitSet(new long[]{0x0000000000200000L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group__2_in_rule__ImportsVariable__Group__15009 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__ComponentNameAssignment_1_in_rule__ImportsVariable__Group__1__Impl5036 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group__2__Impl_in_rule__ImportsVariable__Group__25066 = new BitSet(new long[]{0x0000000000000020L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group__3_in_rule__ImportsVariable__Group__25069 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_21_in_rule__ImportsVariable__Group__2__Impl5097 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group__3__Impl_in_rule__ImportsVariable__Group__35128 = new BitSet(new long[]{0x0000000000000010L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group__4_in_rule__ImportsVariable__Group__35131 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__ComponentPropertyAssignment_3_in_rule__ImportsVariable__Group__3__Impl5158 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group__4__Impl_in_rule__ImportsVariable__Group__45188 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group_4__0_in_rule__ImportsVariable__Group__4__Impl5215 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group_0__0__Impl_in_rule__ImportsVariable__Group_0__05256 = new BitSet(new long[]{0x0000000000000010L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group_0__1_in_rule__ImportsVariable__Group_0__05259 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__IsExternalAssignment_0_0_in_rule__ImportsVariable__Group_0__0__Impl5286 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group_0__1__Impl_in_rule__ImportsVariable__Group_0__15316 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ImportsVariable__Group_0__1__Impl5343 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group_4__0__Impl_in_rule__ImportsVariable__Group_4__05376 = new BitSet(new long[]{0x0000000004000000L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group_4__1_in_rule__ImportsVariable__Group_4__05379 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ImportsVariable__Group_4__0__Impl5406 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__Group_4__1__Impl_in_rule__ImportsVariable__Group_4__15435 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ImportsVariable__IsOptionalAssignment_4_1_in_rule__ImportsVariable__Group_4__1__Impl5462 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group__0__Impl_in_rule__FacetsProperty__Group__05496 = new BitSet(new long[]{0x0000000000000030L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group__1_in_rule__FacetsProperty__Group__05499 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_22_in_rule__FacetsProperty__Group__0__Impl5527 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group__1__Impl_in_rule__FacetsProperty__Group__15558 = new BitSet(new long[]{0x0000000000000030L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group__2_in_rule__FacetsProperty__Group__15561 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__FacetsProperty__Group__1__Impl5589 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group__2__Impl_in_rule__FacetsProperty__Group__25620 = new BitSet(new long[]{0x0000000000028010L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group__3_in_rule__FacetsProperty__Group__25623 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__FacetsNamesAssignment_2_in_rule__FacetsProperty__Group__2__Impl5650 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group__3__Impl_in_rule__FacetsProperty__Group__35680 = new BitSet(new long[]{0x0000000000028010L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group__4_in_rule__FacetsProperty__Group__35683 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__FacetsProperty__Group__3__Impl5711 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group__4__Impl_in_rule__FacetsProperty__Group__45742 = new BitSet(new long[]{0x0000000000028010L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group__5_in_rule__FacetsProperty__Group__45745 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group_4__0_in_rule__FacetsProperty__Group__4__Impl5772 = new BitSet(new long[]{0x0000000000020002L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group__5__Impl_in_rule__FacetsProperty__Group__55803 = new BitSet(new long[]{0x0000000000028010L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group__6_in_rule__FacetsProperty__Group__55806 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__FacetsProperty__Group__5__Impl5834 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group__6__Impl_in_rule__FacetsProperty__Group__65865 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_15_in_rule__FacetsProperty__Group__6__Impl5893 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group_4__0__Impl_in_rule__FacetsProperty__Group_4__05938 = new BitSet(new long[]{0x0000000000000030L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group_4__1_in_rule__FacetsProperty__Group_4__05941 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_17_in_rule__FacetsProperty__Group_4__0__Impl5969 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group_4__1__Impl_in_rule__FacetsProperty__Group_4__16000 = new BitSet(new long[]{0x0000000000000030L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group_4__2_in_rule__FacetsProperty__Group_4__16003 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__FacetsProperty__Group_4__1__Impl6031 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__Group_4__2__Impl_in_rule__FacetsProperty__Group_4__26062 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FacetsProperty__FacetsNamesAssignment_4_2_in_rule__FacetsProperty__Group_4__2__Impl6089 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__0__Impl_in_rule__ExtendsProperty__Group__06125 = new BitSet(new long[]{0x0000000000000030L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__1_in_rule__ExtendsProperty__Group__06128 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_23_in_rule__ExtendsProperty__Group__0__Impl6156 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__1__Impl_in_rule__ExtendsProperty__Group__16187 = new BitSet(new long[]{0x0000000000000030L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__2_in_rule__ExtendsProperty__Group__16190 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group__1__Impl6218 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__2__Impl_in_rule__ExtendsProperty__Group__26249 = new BitSet(new long[]{0x0000000000028010L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__3_in_rule__ExtendsProperty__Group__26252 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__ExtendsNamesAssignment_2_in_rule__ExtendsProperty__Group__2__Impl6279 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__3__Impl_in_rule__ExtendsProperty__Group__36309 = new BitSet(new long[]{0x0000000000028010L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__4_in_rule__ExtendsProperty__Group__36312 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group__3__Impl6340 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__4__Impl_in_rule__ExtendsProperty__Group__46371 = new BitSet(new long[]{0x0000000000028010L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__5_in_rule__ExtendsProperty__Group__46374 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group_4__0_in_rule__ExtendsProperty__Group__4__Impl6401 = new BitSet(new long[]{0x0000000000020002L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__5__Impl_in_rule__ExtendsProperty__Group__56432 = new BitSet(new long[]{0x0000000000028010L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__6_in_rule__ExtendsProperty__Group__56435 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group__5__Impl6463 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__6__Impl_in_rule__ExtendsProperty__Group__66494 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_15_in_rule__ExtendsProperty__Group__6__Impl6522 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group_4__0__Impl_in_rule__ExtendsProperty__Group_4__06567 = new BitSet(new long[]{0x0000000000000030L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group_4__1_in_rule__ExtendsProperty__Group_4__06570 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_17_in_rule__ExtendsProperty__Group_4__0__Impl6598 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group_4__1__Impl_in_rule__ExtendsProperty__Group_4__16629 = new BitSet(new long[]{0x0000000000000030L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group_4__2_in_rule__ExtendsProperty__Group_4__16632 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group_4__1__Impl6660 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__Group_4__2__Impl_in_rule__ExtendsProperty__Group_4__26691 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__ExtendsProperty__ExtendsNamesAssignment_4_2_in_rule__ExtendsProperty__Group_4__2__Impl6718 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleComponentOrFacet_in_rule__Graph__ComponentsAssignment_16759 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleComponent_in_rule__ComponentOrFacet__ComponentAssignment_06790 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleFacet_in_rule__ComponentOrFacet__FacetAssignment_16821 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__Component__NameAssignment_06852 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleProperties_in_rule__Component__PropertiesAssignment_46883 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__Facet__NameAssignment_26914 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleProperties_in_rule__Facet__PropertiesAssignment_66945 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleInstallerProperty_in_rule__Properties__InstallerPropertyAssignment_06976 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleOptionalProperty_in_rule__Properties__OptionalPropertiesAssignment_17007 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleChildrenProperty_in_rule__OptionalProperty__ChildrenPropertyAssignment_07038 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleExportsProperty_in_rule__OptionalProperty__ExportsPropertyAssignment_17069 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleImportsProperty_in_rule__OptionalProperty__ImportsPropertyAssignment_27100 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleFacetsProperty_in_rule__OptionalProperty__FacetsPropertyAssignment_37131 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleExtendsProperty_in_rule__OptionalProperty__ExtendsPropertyAssignment_47162 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__InstallerProperty__NameAssignment_27193 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__ChildrenProperty__NameAssignment_27224 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__ChildrenProperty__NameAssignment_4_27255 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleExportsVariable_in_rule__ExportsProperty__ExportsVariablesAssignment_27286 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleExportsVariable_in_rule__ExportsProperty__ExportsVariablesAssignment_4_27317 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_24_in_rule__ExportsVariable__NameAssignment_07353 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__ExportsVariable__NameAssignment_1_07392 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_INT_in_rule__ExportsVariable__ValueAssignment_1_47423 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleImportsVariable_in_rule__ImportsProperty__ImportsVariablesAssignment_27454 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleImportsVariable_in_rule__ImportsProperty__ImportsVariablesAssignment_4_27485 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_25_in_rule__ImportsVariable__IsExternalAssignment_0_07521 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__ImportsVariable__ComponentNameAssignment_17560 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__ImportsVariable__ComponentPropertyAssignment_37591 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_26_in_rule__ImportsVariable__IsOptionalAssignment_4_17627 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__FacetsProperty__FacetsNamesAssignment_27666 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__FacetsProperty__FacetsNamesAssignment_4_27697 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__ExtendsProperty__ExtendsNamesAssignment_27728 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__ExtendsProperty__ExtendsNamesAssignment_4_27759 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleComponentProperties_in_entryRuleComponentProperties302 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleComponentProperties309 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComponentProperties__Group__0_in_ruleComponentProperties335 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleFacetProperties_in_entryRuleFacetProperties362 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleFacetProperties369 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetProperties__Group__0_in_ruleFacetProperties395 = new BitSet(new long[]{0x0000000000050012L});
+    public static final BitSet FOLLOW_ruleFacetProperty_in_entryRuleFacetProperty423 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleFacetProperty430 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetProperty__Alternatives_in_ruleFacetProperty456 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleOptionalProperty_in_entryRuleOptionalProperty483 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleOptionalProperty490 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__OptionalProperty__Alternatives_in_ruleOptionalProperty516 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleInstallerProperty_in_entryRuleInstallerProperty543 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleInstallerProperty550 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__InstallerProperty__Group__0_in_ruleInstallerProperty576 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleChildrenProperty_in_entryRuleChildrenProperty603 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleChildrenProperty610 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__0_in_ruleChildrenProperty636 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExportsProperty_in_entryRuleExportsProperty663 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleExportsProperty670 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group__0_in_ruleExportsProperty696 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExportsVariable_in_entryRuleExportsVariable723 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleExportsVariable730 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsVariable__Alternatives_in_ruleExportsVariable756 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleImportsProperty_in_entryRuleImportsProperty783 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleImportsProperty790 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group__0_in_ruleImportsProperty816 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleImportsVariable_in_entryRuleImportsVariable843 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleImportsVariable850 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group__0_in_ruleImportsVariable876 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleFacetsProperty_in_entryRuleFacetsProperty903 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleFacetsProperty910 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group__0_in_ruleFacetsProperty936 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExtendsProperty_in_entryRuleExtendsProperty963 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleExtendsProperty970 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__0_in_ruleExtendsProperty996 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComponentOrFacet__ComponentAssignment_0_in_rule__ComponentOrFacet__Alternatives1032 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComponentOrFacet__FacetAssignment_1_in_rule__ComponentOrFacet__Alternatives1050 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetProperty__ChildrenPropertyAssignment_0_in_rule__FacetProperty__Alternatives1083 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetProperty__ExportsPropertyAssignment_1_in_rule__FacetProperty__Alternatives1101 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__OptionalProperty__ChildrenPropertyAssignment_0_in_rule__OptionalProperty__Alternatives1134 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__OptionalProperty__ExportsPropertyAssignment_1_in_rule__OptionalProperty__Alternatives1152 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__OptionalProperty__ImportsPropertyAssignment_2_in_rule__OptionalProperty__Alternatives1170 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__OptionalProperty__FacetsPropertyAssignment_3_in_rule__OptionalProperty__Alternatives1188 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__OptionalProperty__ExtendsPropertyAssignment_4_in_rule__OptionalProperty__Alternatives1206 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsVariable__NameAssignment_0_in_rule__ExportsVariable__Alternatives1239 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__0_in_rule__ExportsVariable__Alternatives1257 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Graph__Group__0__Impl_in_rule__Graph__Group__01288 = new BitSet(new long[]{0x0000000000002030L});
+    public static final BitSet FOLLOW_rule__Graph__Group__1_in_rule__Graph__Group__01291 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__Graph__Group__0__Impl1319 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Graph__Group__1__Impl_in_rule__Graph__Group__11350 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_rule__Graph__Group__2_in_rule__Graph__Group__11353 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Graph__ComponentsAssignment_1_in_rule__Graph__Group__1__Impl1380 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Graph__Group__2__Impl_in_rule__Graph__Group__21410 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__Graph__Group__2__Impl1438 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Component__Group__0__Impl_in_rule__Component__Group__01475 = new BitSet(new long[]{0x0000000000000810L});
+    public static final BitSet FOLLOW_rule__Component__Group__1_in_rule__Component__Group__01478 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Component__NameAssignment_0_in_rule__Component__Group__0__Impl1505 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Component__Group__1__Impl_in_rule__Component__Group__11535 = new BitSet(new long[]{0x0000000000000810L});
+    public static final BitSet FOLLOW_rule__Component__Group__2_in_rule__Component__Group__11538 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__Component__Group__1__Impl1566 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Component__Group__2__Impl_in_rule__Component__Group__21597 = new BitSet(new long[]{0x0000000000D54010L});
+    public static final BitSet FOLLOW_rule__Component__Group__3_in_rule__Component__Group__21600 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_11_in_rule__Component__Group__2__Impl1628 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Component__Group__3__Impl_in_rule__Component__Group__31659 = new BitSet(new long[]{0x0000000000D54010L});
+    public static final BitSet FOLLOW_rule__Component__Group__4_in_rule__Component__Group__31662 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__Component__Group__3__Impl1690 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Component__Group__4__Impl_in_rule__Component__Group__41721 = new BitSet(new long[]{0x0000000000001010L});
+    public static final BitSet FOLLOW_rule__Component__Group__5_in_rule__Component__Group__41724 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Component__PropertiesAssignment_4_in_rule__Component__Group__4__Impl1751 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Component__Group__5__Impl_in_rule__Component__Group__51781 = new BitSet(new long[]{0x0000000000001010L});
+    public static final BitSet FOLLOW_rule__Component__Group__6_in_rule__Component__Group__51784 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__Component__Group__5__Impl1812 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Component__Group__6__Impl_in_rule__Component__Group__61843 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_12_in_rule__Component__Group__6__Impl1871 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Facet__Group__0__Impl_in_rule__Facet__Group__01916 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__Facet__Group__1_in_rule__Facet__Group__01919 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_13_in_rule__Facet__Group__0__Impl1947 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Facet__Group__1__Impl_in_rule__Facet__Group__11978 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__Facet__Group__2_in_rule__Facet__Group__11981 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__Facet__Group__1__Impl2009 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Facet__Group__2__Impl_in_rule__Facet__Group__22040 = new BitSet(new long[]{0x0000000000000810L});
+    public static final BitSet FOLLOW_rule__Facet__Group__3_in_rule__Facet__Group__22043 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Facet__NameAssignment_2_in_rule__Facet__Group__2__Impl2070 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Facet__Group__3__Impl_in_rule__Facet__Group__32100 = new BitSet(new long[]{0x0000000000000810L});
+    public static final BitSet FOLLOW_rule__Facet__Group__4_in_rule__Facet__Group__32103 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__Facet__Group__3__Impl2131 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Facet__Group__4__Impl_in_rule__Facet__Group__42162 = new BitSet(new long[]{0x0000000000050010L});
+    public static final BitSet FOLLOW_rule__Facet__Group__5_in_rule__Facet__Group__42165 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_11_in_rule__Facet__Group__4__Impl2193 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Facet__Group__5__Impl_in_rule__Facet__Group__52224 = new BitSet(new long[]{0x0000000000050010L});
+    public static final BitSet FOLLOW_rule__Facet__Group__6_in_rule__Facet__Group__52227 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__Facet__Group__5__Impl2255 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Facet__Group__6__Impl_in_rule__Facet__Group__62286 = new BitSet(new long[]{0x0000000000001010L});
+    public static final BitSet FOLLOW_rule__Facet__Group__7_in_rule__Facet__Group__62289 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Facet__PropertiesAssignment_6_in_rule__Facet__Group__6__Impl2316 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Facet__Group__7__Impl_in_rule__Facet__Group__72346 = new BitSet(new long[]{0x0000000000001010L});
+    public static final BitSet FOLLOW_rule__Facet__Group__8_in_rule__Facet__Group__72349 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__Facet__Group__7__Impl2377 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Facet__Group__8__Impl_in_rule__Facet__Group__82408 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_12_in_rule__Facet__Group__8__Impl2436 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComponentProperties__Group__0__Impl_in_rule__ComponentProperties__Group__02485 = new BitSet(new long[]{0x0000000000D54010L});
+    public static final BitSet FOLLOW_rule__ComponentProperties__Group__1_in_rule__ComponentProperties__Group__02488 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComponentProperties__OptionalPropertiesAssignment_0_in_rule__ComponentProperties__Group__0__Impl2515 = new BitSet(new long[]{0x0000000000D50012L});
+    public static final BitSet FOLLOW_rule__ComponentProperties__Group__1__Impl_in_rule__ComponentProperties__Group__12546 = new BitSet(new long[]{0x0000000000D54010L});
+    public static final BitSet FOLLOW_rule__ComponentProperties__Group__2_in_rule__ComponentProperties__Group__12549 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ComponentProperties__Group__1__Impl2577 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComponentProperties__Group__2__Impl_in_rule__ComponentProperties__Group__22608 = new BitSet(new long[]{0x0000000000D50010L});
+    public static final BitSet FOLLOW_rule__ComponentProperties__Group__3_in_rule__ComponentProperties__Group__22611 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComponentProperties__InstallerPropertyAssignment_2_in_rule__ComponentProperties__Group__2__Impl2638 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComponentProperties__Group__3__Impl_in_rule__ComponentProperties__Group__32668 = new BitSet(new long[]{0x0000000000D50010L});
+    public static final BitSet FOLLOW_rule__ComponentProperties__Group__4_in_rule__ComponentProperties__Group__32671 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ComponentProperties__Group__3__Impl2699 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComponentProperties__Group__4__Impl_in_rule__ComponentProperties__Group__42730 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComponentProperties__OptionalPropertiesAssignment_4_in_rule__ComponentProperties__Group__4__Impl2757 = new BitSet(new long[]{0x0000000000D50012L});
+    public static final BitSet FOLLOW_rule__FacetProperties__Group__0__Impl_in_rule__FacetProperties__Group__02798 = new BitSet(new long[]{0x0000000000050010L});
+    public static final BitSet FOLLOW_rule__FacetProperties__Group__1_in_rule__FacetProperties__Group__02801 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__FacetProperties__Group__0__Impl2829 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetProperties__Group__1__Impl_in_rule__FacetProperties__Group__12860 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_rule__FacetProperties__Group__2_in_rule__FacetProperties__Group__12863 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetProperties__PropertiesAssignment_1_in_rule__FacetProperties__Group__1__Impl2890 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetProperties__Group__2__Impl_in_rule__FacetProperties__Group__22920 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__FacetProperties__Group__2__Impl2948 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__InstallerProperty__Group__0__Impl_in_rule__InstallerProperty__Group__02985 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__InstallerProperty__Group__1_in_rule__InstallerProperty__Group__02988 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_14_in_rule__InstallerProperty__Group__0__Impl3016 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__InstallerProperty__Group__1__Impl_in_rule__InstallerProperty__Group__13047 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__InstallerProperty__Group__2_in_rule__InstallerProperty__Group__13050 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__InstallerProperty__Group__1__Impl3078 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__InstallerProperty__Group__2__Impl_in_rule__InstallerProperty__Group__23109 = new BitSet(new long[]{0x0000000000008010L});
+    public static final BitSet FOLLOW_rule__InstallerProperty__Group__3_in_rule__InstallerProperty__Group__23112 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__InstallerProperty__NameAssignment_2_in_rule__InstallerProperty__Group__2__Impl3139 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__InstallerProperty__Group__3__Impl_in_rule__InstallerProperty__Group__33169 = new BitSet(new long[]{0x0000000000008010L});
+    public static final BitSet FOLLOW_rule__InstallerProperty__Group__4_in_rule__InstallerProperty__Group__33172 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__InstallerProperty__Group__3__Impl3200 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__InstallerProperty__Group__4__Impl_in_rule__InstallerProperty__Group__43231 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_15_in_rule__InstallerProperty__Group__4__Impl3259 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__0__Impl_in_rule__ChildrenProperty__Group__03300 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__1_in_rule__ChildrenProperty__Group__03303 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_16_in_rule__ChildrenProperty__Group__0__Impl3331 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__1__Impl_in_rule__ChildrenProperty__Group__13362 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__2_in_rule__ChildrenProperty__Group__13365 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group__1__Impl3393 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__2__Impl_in_rule__ChildrenProperty__Group__23424 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__3_in_rule__ChildrenProperty__Group__23427 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__NameAssignment_2_in_rule__ChildrenProperty__Group__2__Impl3454 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__3__Impl_in_rule__ChildrenProperty__Group__33484 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__4_in_rule__ChildrenProperty__Group__33487 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group__3__Impl3515 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__4__Impl_in_rule__ChildrenProperty__Group__43546 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__5_in_rule__ChildrenProperty__Group__43549 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group_4__0_in_rule__ChildrenProperty__Group__4__Impl3576 = new BitSet(new long[]{0x0000000000020002L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__5__Impl_in_rule__ChildrenProperty__Group__53607 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__6_in_rule__ChildrenProperty__Group__53610 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group__5__Impl3638 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group__6__Impl_in_rule__ChildrenProperty__Group__63669 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_15_in_rule__ChildrenProperty__Group__6__Impl3697 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group_4__0__Impl_in_rule__ChildrenProperty__Group_4__03742 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group_4__1_in_rule__ChildrenProperty__Group_4__03745 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_17_in_rule__ChildrenProperty__Group_4__0__Impl3773 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group_4__1__Impl_in_rule__ChildrenProperty__Group_4__13804 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group_4__2_in_rule__ChildrenProperty__Group_4__13807 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ChildrenProperty__Group_4__1__Impl3835 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__Group_4__2__Impl_in_rule__ChildrenProperty__Group_4__23866 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ChildrenProperty__NameAssignment_4_2_in_rule__ChildrenProperty__Group_4__2__Impl3893 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group__0__Impl_in_rule__ExportsProperty__Group__03929 = new BitSet(new long[]{0x0000000001000030L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group__1_in_rule__ExportsProperty__Group__03932 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_18_in_rule__ExportsProperty__Group__0__Impl3960 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group__1__Impl_in_rule__ExportsProperty__Group__13991 = new BitSet(new long[]{0x0000000001000030L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group__2_in_rule__ExportsProperty__Group__13994 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ExportsProperty__Group__1__Impl4022 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group__2__Impl_in_rule__ExportsProperty__Group__24053 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group__3_in_rule__ExportsProperty__Group__24056 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__ExportsVariablesAssignment_2_in_rule__ExportsProperty__Group__2__Impl4083 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group__3__Impl_in_rule__ExportsProperty__Group__34113 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group__4_in_rule__ExportsProperty__Group__34116 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ExportsProperty__Group__3__Impl4144 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group__4__Impl_in_rule__ExportsProperty__Group__44175 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group__5_in_rule__ExportsProperty__Group__44178 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group_4__0_in_rule__ExportsProperty__Group__4__Impl4205 = new BitSet(new long[]{0x0000000000020002L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group__5__Impl_in_rule__ExportsProperty__Group__54236 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group__6_in_rule__ExportsProperty__Group__54239 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ExportsProperty__Group__5__Impl4267 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group__6__Impl_in_rule__ExportsProperty__Group__64298 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_15_in_rule__ExportsProperty__Group__6__Impl4326 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group_4__0__Impl_in_rule__ExportsProperty__Group_4__04371 = new BitSet(new long[]{0x0000000001000030L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group_4__1_in_rule__ExportsProperty__Group_4__04374 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_17_in_rule__ExportsProperty__Group_4__0__Impl4402 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group_4__1__Impl_in_rule__ExportsProperty__Group_4__14433 = new BitSet(new long[]{0x0000000001000030L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group_4__2_in_rule__ExportsProperty__Group_4__14436 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ExportsProperty__Group_4__1__Impl4464 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__Group_4__2__Impl_in_rule__ExportsProperty__Group_4__24495 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsProperty__ExportsVariablesAssignment_4_2_in_rule__ExportsProperty__Group_4__2__Impl4522 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__0__Impl_in_rule__ExportsVariable__Group_1__04558 = new BitSet(new long[]{0x0000000000080010L});
+    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__1_in_rule__ExportsVariable__Group_1__04561 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsVariable__NameAssignment_1_0_in_rule__ExportsVariable__Group_1__0__Impl4588 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__1__Impl_in_rule__ExportsVariable__Group_1__14618 = new BitSet(new long[]{0x0000000000080010L});
+    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__2_in_rule__ExportsVariable__Group_1__14621 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ExportsVariable__Group_1__1__Impl4649 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__2__Impl_in_rule__ExportsVariable__Group_1__24680 = new BitSet(new long[]{0x0000000000000050L});
+    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__3_in_rule__ExportsVariable__Group_1__24683 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_19_in_rule__ExportsVariable__Group_1__2__Impl4711 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__3__Impl_in_rule__ExportsVariable__Group_1__34742 = new BitSet(new long[]{0x0000000000000050L});
+    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__4_in_rule__ExportsVariable__Group_1__34745 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ExportsVariable__Group_1__3__Impl4773 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsVariable__Group_1__4__Impl_in_rule__ExportsVariable__Group_1__44804 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExportsVariable__ValueAssignment_1_4_in_rule__ExportsVariable__Group_1__4__Impl4831 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group__0__Impl_in_rule__ImportsProperty__Group__04871 = new BitSet(new long[]{0x0000000002000030L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group__1_in_rule__ImportsProperty__Group__04874 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_20_in_rule__ImportsProperty__Group__0__Impl4902 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group__1__Impl_in_rule__ImportsProperty__Group__14933 = new BitSet(new long[]{0x0000000002000030L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group__2_in_rule__ImportsProperty__Group__14936 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ImportsProperty__Group__1__Impl4964 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group__2__Impl_in_rule__ImportsProperty__Group__24995 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group__3_in_rule__ImportsProperty__Group__24998 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__ImportsVariablesAssignment_2_in_rule__ImportsProperty__Group__2__Impl5025 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group__3__Impl_in_rule__ImportsProperty__Group__35055 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group__4_in_rule__ImportsProperty__Group__35058 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ImportsProperty__Group__3__Impl5086 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group__4__Impl_in_rule__ImportsProperty__Group__45117 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group__5_in_rule__ImportsProperty__Group__45120 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group_4__0_in_rule__ImportsProperty__Group__4__Impl5147 = new BitSet(new long[]{0x0000000000020002L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group__5__Impl_in_rule__ImportsProperty__Group__55178 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group__6_in_rule__ImportsProperty__Group__55181 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ImportsProperty__Group__5__Impl5209 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group__6__Impl_in_rule__ImportsProperty__Group__65240 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_15_in_rule__ImportsProperty__Group__6__Impl5268 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group_4__0__Impl_in_rule__ImportsProperty__Group_4__05313 = new BitSet(new long[]{0x0000000002000030L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group_4__1_in_rule__ImportsProperty__Group_4__05316 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_17_in_rule__ImportsProperty__Group_4__0__Impl5344 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group_4__1__Impl_in_rule__ImportsProperty__Group_4__15375 = new BitSet(new long[]{0x0000000002000030L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group_4__2_in_rule__ImportsProperty__Group_4__15378 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ImportsProperty__Group_4__1__Impl5406 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__Group_4__2__Impl_in_rule__ImportsProperty__Group_4__25437 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsProperty__ImportsVariablesAssignment_4_2_in_rule__ImportsProperty__Group_4__2__Impl5464 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group__0__Impl_in_rule__ImportsVariable__Group__05500 = new BitSet(new long[]{0x0000000002000030L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group__1_in_rule__ImportsVariable__Group__05503 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group_0__0_in_rule__ImportsVariable__Group__0__Impl5530 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group__1__Impl_in_rule__ImportsVariable__Group__15561 = new BitSet(new long[]{0x0000000000200000L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group__2_in_rule__ImportsVariable__Group__15564 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__ComponentNameAssignment_1_in_rule__ImportsVariable__Group__1__Impl5591 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group__2__Impl_in_rule__ImportsVariable__Group__25621 = new BitSet(new long[]{0x0000000000000020L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group__3_in_rule__ImportsVariable__Group__25624 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_21_in_rule__ImportsVariable__Group__2__Impl5652 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group__3__Impl_in_rule__ImportsVariable__Group__35683 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group__4_in_rule__ImportsVariable__Group__35686 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__ComponentPropertyAssignment_3_in_rule__ImportsVariable__Group__3__Impl5713 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group__4__Impl_in_rule__ImportsVariable__Group__45743 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group_4__0_in_rule__ImportsVariable__Group__4__Impl5770 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group_0__0__Impl_in_rule__ImportsVariable__Group_0__05811 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group_0__1_in_rule__ImportsVariable__Group_0__05814 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__IsExternalAssignment_0_0_in_rule__ImportsVariable__Group_0__0__Impl5841 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group_0__1__Impl_in_rule__ImportsVariable__Group_0__15871 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ImportsVariable__Group_0__1__Impl5898 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group_4__0__Impl_in_rule__ImportsVariable__Group_4__05931 = new BitSet(new long[]{0x0000000004000000L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group_4__1_in_rule__ImportsVariable__Group_4__05934 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ImportsVariable__Group_4__0__Impl5961 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__Group_4__1__Impl_in_rule__ImportsVariable__Group_4__15990 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ImportsVariable__IsOptionalAssignment_4_1_in_rule__ImportsVariable__Group_4__1__Impl6017 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group__0__Impl_in_rule__FacetsProperty__Group__06051 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group__1_in_rule__FacetsProperty__Group__06054 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_22_in_rule__FacetsProperty__Group__0__Impl6082 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group__1__Impl_in_rule__FacetsProperty__Group__16113 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group__2_in_rule__FacetsProperty__Group__16116 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__FacetsProperty__Group__1__Impl6144 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group__2__Impl_in_rule__FacetsProperty__Group__26175 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group__3_in_rule__FacetsProperty__Group__26178 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__FacetsNamesAssignment_2_in_rule__FacetsProperty__Group__2__Impl6205 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group__3__Impl_in_rule__FacetsProperty__Group__36235 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group__4_in_rule__FacetsProperty__Group__36238 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__FacetsProperty__Group__3__Impl6266 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group__4__Impl_in_rule__FacetsProperty__Group__46297 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group__5_in_rule__FacetsProperty__Group__46300 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group_4__0_in_rule__FacetsProperty__Group__4__Impl6327 = new BitSet(new long[]{0x0000000000020002L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group__5__Impl_in_rule__FacetsProperty__Group__56358 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group__6_in_rule__FacetsProperty__Group__56361 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__FacetsProperty__Group__5__Impl6389 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group__6__Impl_in_rule__FacetsProperty__Group__66420 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_15_in_rule__FacetsProperty__Group__6__Impl6448 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group_4__0__Impl_in_rule__FacetsProperty__Group_4__06493 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group_4__1_in_rule__FacetsProperty__Group_4__06496 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_17_in_rule__FacetsProperty__Group_4__0__Impl6524 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group_4__1__Impl_in_rule__FacetsProperty__Group_4__16555 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group_4__2_in_rule__FacetsProperty__Group_4__16558 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__FacetsProperty__Group_4__1__Impl6586 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__Group_4__2__Impl_in_rule__FacetsProperty__Group_4__26617 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FacetsProperty__FacetsNamesAssignment_4_2_in_rule__FacetsProperty__Group_4__2__Impl6644 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__0__Impl_in_rule__ExtendsProperty__Group__06680 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__1_in_rule__ExtendsProperty__Group__06683 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_23_in_rule__ExtendsProperty__Group__0__Impl6711 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__1__Impl_in_rule__ExtendsProperty__Group__16742 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__2_in_rule__ExtendsProperty__Group__16745 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group__1__Impl6773 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__2__Impl_in_rule__ExtendsProperty__Group__26804 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__3_in_rule__ExtendsProperty__Group__26807 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__ExtendsNamesAssignment_2_in_rule__ExtendsProperty__Group__2__Impl6834 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__3__Impl_in_rule__ExtendsProperty__Group__36864 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__4_in_rule__ExtendsProperty__Group__36867 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group__3__Impl6895 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__4__Impl_in_rule__ExtendsProperty__Group__46926 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__5_in_rule__ExtendsProperty__Group__46929 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group_4__0_in_rule__ExtendsProperty__Group__4__Impl6956 = new BitSet(new long[]{0x0000000000020002L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__5__Impl_in_rule__ExtendsProperty__Group__56987 = new BitSet(new long[]{0x0000000000028010L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__6_in_rule__ExtendsProperty__Group__56990 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group__5__Impl7018 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group__6__Impl_in_rule__ExtendsProperty__Group__67049 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_15_in_rule__ExtendsProperty__Group__6__Impl7077 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group_4__0__Impl_in_rule__ExtendsProperty__Group_4__07122 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group_4__1_in_rule__ExtendsProperty__Group_4__07125 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_17_in_rule__ExtendsProperty__Group_4__0__Impl7153 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group_4__1__Impl_in_rule__ExtendsProperty__Group_4__17184 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group_4__2_in_rule__ExtendsProperty__Group_4__17187 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_WS_in_rule__ExtendsProperty__Group_4__1__Impl7215 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__Group_4__2__Impl_in_rule__ExtendsProperty__Group_4__27246 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ExtendsProperty__ExtendsNamesAssignment_4_2_in_rule__ExtendsProperty__Group_4__2__Impl7273 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleComponentOrFacet_in_rule__Graph__ComponentsAssignment_17314 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleComponent_in_rule__ComponentOrFacet__ComponentAssignment_07345 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleFacet_in_rule__ComponentOrFacet__FacetAssignment_17376 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__Component__NameAssignment_07407 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleComponentProperties_in_rule__Component__PropertiesAssignment_47438 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__Facet__NameAssignment_27469 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleFacetProperties_in_rule__Facet__PropertiesAssignment_67500 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleOptionalProperty_in_rule__ComponentProperties__OptionalPropertiesAssignment_07531 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleInstallerProperty_in_rule__ComponentProperties__InstallerPropertyAssignment_27562 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleOptionalProperty_in_rule__ComponentProperties__OptionalPropertiesAssignment_47593 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleFacetProperty_in_rule__FacetProperties__PropertiesAssignment_17624 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleChildrenProperty_in_rule__FacetProperty__ChildrenPropertyAssignment_07655 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExportsProperty_in_rule__FacetProperty__ExportsPropertyAssignment_17686 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleChildrenProperty_in_rule__OptionalProperty__ChildrenPropertyAssignment_07717 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExportsProperty_in_rule__OptionalProperty__ExportsPropertyAssignment_17748 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleImportsProperty_in_rule__OptionalProperty__ImportsPropertyAssignment_27779 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleFacetsProperty_in_rule__OptionalProperty__FacetsPropertyAssignment_37810 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExtendsProperty_in_rule__OptionalProperty__ExtendsPropertyAssignment_47841 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__InstallerProperty__NameAssignment_27872 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__ChildrenProperty__NameAssignment_27903 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__ChildrenProperty__NameAssignment_4_27934 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExportsVariable_in_rule__ExportsProperty__ExportsVariablesAssignment_27965 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExportsVariable_in_rule__ExportsProperty__ExportsVariablesAssignment_4_27996 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_24_in_rule__ExportsVariable__NameAssignment_08032 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__ExportsVariable__NameAssignment_1_08071 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_INT_in_rule__ExportsVariable__ValueAssignment_1_48102 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleImportsVariable_in_rule__ImportsProperty__ImportsVariablesAssignment_28133 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleImportsVariable_in_rule__ImportsProperty__ImportsVariablesAssignment_4_28164 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_25_in_rule__ImportsVariable__IsExternalAssignment_0_08200 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__ImportsVariable__ComponentNameAssignment_18239 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__ImportsVariable__ComponentPropertyAssignment_38270 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_26_in_rule__ImportsVariable__IsOptionalAssignment_4_18306 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__FacetsProperty__FacetsNamesAssignment_28345 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__FacetsProperty__FacetsNamesAssignment_4_28376 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__ExtendsProperty__ExtendsNamesAssignment_28407 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__ExtendsProperty__ExtendsNamesAssignment_4_28438 = new BitSet(new long[]{0x0000000000000002L});
 
 }

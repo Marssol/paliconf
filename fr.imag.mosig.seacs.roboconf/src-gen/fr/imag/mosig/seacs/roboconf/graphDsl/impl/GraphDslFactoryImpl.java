@@ -68,7 +68,9 @@ public class GraphDslFactoryImpl extends EFactoryImpl implements GraphDslFactory
       case GraphDslPackage.COMPONENT_OR_FACET: return createComponentOrFacet();
       case GraphDslPackage.COMPONENT: return createComponent();
       case GraphDslPackage.FACET: return createFacet();
-      case GraphDslPackage.PROPERTIES: return createProperties();
+      case GraphDslPackage.COMPONENT_PROPERTIES: return createComponentProperties();
+      case GraphDslPackage.FACET_PROPERTIES: return createFacetProperties();
+      case GraphDslPackage.FACET_PROPERTY: return createFacetProperty();
       case GraphDslPackage.OPTIONAL_PROPERTY: return createOptionalProperty();
       case GraphDslPackage.INSTALLER_PROPERTY: return createInstallerProperty();
       case GraphDslPackage.CHILDREN_PROPERTY: return createChildrenProperty();
@@ -132,10 +134,32 @@ public class GraphDslFactoryImpl extends EFactoryImpl implements GraphDslFactory
    * <!-- end-user-doc -->
    * @generated
    */
-  public Properties createProperties()
+  public ComponentProperties createComponentProperties()
   {
-    PropertiesImpl properties = new PropertiesImpl();
-    return properties;
+    ComponentPropertiesImpl componentProperties = new ComponentPropertiesImpl();
+    return componentProperties;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public FacetProperties createFacetProperties()
+  {
+    FacetPropertiesImpl facetProperties = new FacetPropertiesImpl();
+    return facetProperties;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public FacetProperty createFacetProperty()
+  {
+    FacetPropertyImpl facetProperty = new FacetPropertyImpl();
+    return facetProperty;
   }
 
   /**

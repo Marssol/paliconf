@@ -95,9 +95,19 @@ public class GraphDslAdapterFactory extends AdapterFactoryImpl
         return createFacetAdapter();
       }
       @Override
-      public Adapter caseProperties(Properties object)
+      public Adapter caseComponentProperties(ComponentProperties object)
       {
-        return createPropertiesAdapter();
+        return createComponentPropertiesAdapter();
+      }
+      @Override
+      public Adapter caseFacetProperties(FacetProperties object)
+      {
+        return createFacetPropertiesAdapter();
+      }
+      @Override
+      public Adapter caseFacetProperty(FacetProperty object)
+      {
+        return createFacetPropertyAdapter();
       }
       @Override
       public Adapter caseOptionalProperty(OptionalProperty object)
@@ -227,16 +237,46 @@ public class GraphDslAdapterFactory extends AdapterFactoryImpl
   }
 
   /**
-   * Creates a new adapter for an object of class '{@link fr.imag.mosig.seacs.roboconf.graphDsl.Properties <em>Properties</em>}'.
+   * Creates a new adapter for an object of class '{@link fr.imag.mosig.seacs.roboconf.graphDsl.ComponentProperties <em>Component Properties</em>}'.
    * <!-- begin-user-doc -->
    * This default implementation returns null so that we can easily ignore cases;
    * it's useful to ignore a case when inheritance will catch all the cases anyway.
    * <!-- end-user-doc -->
    * @return the new adapter.
-   * @see fr.imag.mosig.seacs.roboconf.graphDsl.Properties
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.ComponentProperties
    * @generated
    */
-  public Adapter createPropertiesAdapter()
+  public Adapter createComponentPropertiesAdapter()
+  {
+    return null;
+  }
+
+  /**
+   * Creates a new adapter for an object of class '{@link fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperties <em>Facet Properties</em>}'.
+   * <!-- begin-user-doc -->
+   * This default implementation returns null so that we can easily ignore cases;
+   * it's useful to ignore a case when inheritance will catch all the cases anyway.
+   * <!-- end-user-doc -->
+   * @return the new adapter.
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperties
+   * @generated
+   */
+  public Adapter createFacetPropertiesAdapter()
+  {
+    return null;
+  }
+
+  /**
+   * Creates a new adapter for an object of class '{@link fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperty <em>Facet Property</em>}'.
+   * <!-- begin-user-doc -->
+   * This default implementation returns null so that we can easily ignore cases;
+   * it's useful to ignore a case when inheritance will catch all the cases anyway.
+   * <!-- end-user-doc -->
+   * @return the new adapter.
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperty
+   * @generated
+   */
+  public Adapter createFacetPropertyAdapter()
   {
     return null;
   }

@@ -2,10 +2,10 @@
  */
 package fr.imag.mosig.seacs.roboconf.graphDsl.impl;
 
+import fr.imag.mosig.seacs.roboconf.graphDsl.ComponentProperties;
 import fr.imag.mosig.seacs.roboconf.graphDsl.GraphDslPackage;
 import fr.imag.mosig.seacs.roboconf.graphDsl.InstallerProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.OptionalProperty;
-import fr.imag.mosig.seacs.roboconf.graphDsl.Properties;
 
 import java.util.Collection;
 
@@ -25,30 +25,20 @@ import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
  * <!-- begin-user-doc -->
- * An implementation of the model object '<em><b>Properties</b></em>'.
+ * An implementation of the model object '<em><b>Component Properties</b></em>'.
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
  * </p>
  * <ul>
- *   <li>{@link fr.imag.mosig.seacs.roboconf.graphDsl.impl.PropertiesImpl#getInstallerProperty <em>Installer Property</em>}</li>
- *   <li>{@link fr.imag.mosig.seacs.roboconf.graphDsl.impl.PropertiesImpl#getOptionalProperties <em>Optional Properties</em>}</li>
+ *   <li>{@link fr.imag.mosig.seacs.roboconf.graphDsl.impl.ComponentPropertiesImpl#getOptionalProperties <em>Optional Properties</em>}</li>
+ *   <li>{@link fr.imag.mosig.seacs.roboconf.graphDsl.impl.ComponentPropertiesImpl#getInstallerProperty <em>Installer Property</em>}</li>
  * </ul>
  *
  * @generated
  */
-public class PropertiesImpl extends MinimalEObjectImpl.Container implements Properties
+public class ComponentPropertiesImpl extends MinimalEObjectImpl.Container implements ComponentProperties
 {
-  /**
-   * The cached value of the '{@link #getInstallerProperty() <em>Installer Property</em>}' containment reference.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @see #getInstallerProperty()
-   * @generated
-   * @ordered
-   */
-  protected InstallerProperty installerProperty;
-
   /**
    * The cached value of the '{@link #getOptionalProperties() <em>Optional Properties</em>}' containment reference list.
    * <!-- begin-user-doc -->
@@ -60,11 +50,21 @@ public class PropertiesImpl extends MinimalEObjectImpl.Container implements Prop
   protected EList<OptionalProperty> optionalProperties;
 
   /**
+   * The cached value of the '{@link #getInstallerProperty() <em>Installer Property</em>}' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getInstallerProperty()
+   * @generated
+   * @ordered
+   */
+  protected InstallerProperty installerProperty;
+
+  /**
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    */
-  protected PropertiesImpl()
+  protected ComponentPropertiesImpl()
   {
     super();
   }
@@ -77,7 +77,21 @@ public class PropertiesImpl extends MinimalEObjectImpl.Container implements Prop
   @Override
   protected EClass eStaticClass()
   {
-    return GraphDslPackage.Literals.PROPERTIES;
+    return GraphDslPackage.Literals.COMPONENT_PROPERTIES;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EList<OptionalProperty> getOptionalProperties()
+  {
+    if (optionalProperties == null)
+    {
+      optionalProperties = new EObjectContainmentEList<OptionalProperty>(OptionalProperty.class, this, GraphDslPackage.COMPONENT_PROPERTIES__OPTIONAL_PROPERTIES);
+    }
+    return optionalProperties;
   }
 
   /**
@@ -101,7 +115,7 @@ public class PropertiesImpl extends MinimalEObjectImpl.Container implements Prop
     installerProperty = newInstallerProperty;
     if (eNotificationRequired())
     {
-      ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, GraphDslPackage.PROPERTIES__INSTALLER_PROPERTY, oldInstallerProperty, newInstallerProperty);
+      ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, GraphDslPackage.COMPONENT_PROPERTIES__INSTALLER_PROPERTY, oldInstallerProperty, newInstallerProperty);
       if (msgs == null) msgs = notification; else msgs.add(notification);
     }
     return msgs;
@@ -118,28 +132,14 @@ public class PropertiesImpl extends MinimalEObjectImpl.Container implements Prop
     {
       NotificationChain msgs = null;
       if (installerProperty != null)
-        msgs = ((InternalEObject)installerProperty).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - GraphDslPackage.PROPERTIES__INSTALLER_PROPERTY, null, msgs);
+        msgs = ((InternalEObject)installerProperty).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - GraphDslPackage.COMPONENT_PROPERTIES__INSTALLER_PROPERTY, null, msgs);
       if (newInstallerProperty != null)
-        msgs = ((InternalEObject)newInstallerProperty).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - GraphDslPackage.PROPERTIES__INSTALLER_PROPERTY, null, msgs);
+        msgs = ((InternalEObject)newInstallerProperty).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - GraphDslPackage.COMPONENT_PROPERTIES__INSTALLER_PROPERTY, null, msgs);
       msgs = basicSetInstallerProperty(newInstallerProperty, msgs);
       if (msgs != null) msgs.dispatch();
     }
     else if (eNotificationRequired())
-      eNotify(new ENotificationImpl(this, Notification.SET, GraphDslPackage.PROPERTIES__INSTALLER_PROPERTY, newInstallerProperty, newInstallerProperty));
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   */
-  public EList<OptionalProperty> getOptionalProperties()
-  {
-    if (optionalProperties == null)
-    {
-      optionalProperties = new EObjectContainmentEList<OptionalProperty>(OptionalProperty.class, this, GraphDslPackage.PROPERTIES__OPTIONAL_PROPERTIES);
-    }
-    return optionalProperties;
+      eNotify(new ENotificationImpl(this, Notification.SET, GraphDslPackage.COMPONENT_PROPERTIES__INSTALLER_PROPERTY, newInstallerProperty, newInstallerProperty));
   }
 
   /**
@@ -152,10 +152,10 @@ public class PropertiesImpl extends MinimalEObjectImpl.Container implements Prop
   {
     switch (featureID)
     {
-      case GraphDslPackage.PROPERTIES__INSTALLER_PROPERTY:
-        return basicSetInstallerProperty(null, msgs);
-      case GraphDslPackage.PROPERTIES__OPTIONAL_PROPERTIES:
+      case GraphDslPackage.COMPONENT_PROPERTIES__OPTIONAL_PROPERTIES:
         return ((InternalEList<?>)getOptionalProperties()).basicRemove(otherEnd, msgs);
+      case GraphDslPackage.COMPONENT_PROPERTIES__INSTALLER_PROPERTY:
+        return basicSetInstallerProperty(null, msgs);
     }
     return super.eInverseRemove(otherEnd, featureID, msgs);
   }
@@ -170,10 +170,10 @@ public class PropertiesImpl extends MinimalEObjectImpl.Container implements Prop
   {
     switch (featureID)
     {
-      case GraphDslPackage.PROPERTIES__INSTALLER_PROPERTY:
-        return getInstallerProperty();
-      case GraphDslPackage.PROPERTIES__OPTIONAL_PROPERTIES:
+      case GraphDslPackage.COMPONENT_PROPERTIES__OPTIONAL_PROPERTIES:
         return getOptionalProperties();
+      case GraphDslPackage.COMPONENT_PROPERTIES__INSTALLER_PROPERTY:
+        return getInstallerProperty();
     }
     return super.eGet(featureID, resolve, coreType);
   }
@@ -189,12 +189,12 @@ public class PropertiesImpl extends MinimalEObjectImpl.Container implements Prop
   {
     switch (featureID)
     {
-      case GraphDslPackage.PROPERTIES__INSTALLER_PROPERTY:
-        setInstallerProperty((InstallerProperty)newValue);
-        return;
-      case GraphDslPackage.PROPERTIES__OPTIONAL_PROPERTIES:
+      case GraphDslPackage.COMPONENT_PROPERTIES__OPTIONAL_PROPERTIES:
         getOptionalProperties().clear();
         getOptionalProperties().addAll((Collection<? extends OptionalProperty>)newValue);
+        return;
+      case GraphDslPackage.COMPONENT_PROPERTIES__INSTALLER_PROPERTY:
+        setInstallerProperty((InstallerProperty)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -210,11 +210,11 @@ public class PropertiesImpl extends MinimalEObjectImpl.Container implements Prop
   {
     switch (featureID)
     {
-      case GraphDslPackage.PROPERTIES__INSTALLER_PROPERTY:
-        setInstallerProperty((InstallerProperty)null);
-        return;
-      case GraphDslPackage.PROPERTIES__OPTIONAL_PROPERTIES:
+      case GraphDslPackage.COMPONENT_PROPERTIES__OPTIONAL_PROPERTIES:
         getOptionalProperties().clear();
+        return;
+      case GraphDslPackage.COMPONENT_PROPERTIES__INSTALLER_PROPERTY:
+        setInstallerProperty((InstallerProperty)null);
         return;
     }
     super.eUnset(featureID);
@@ -230,12 +230,12 @@ public class PropertiesImpl extends MinimalEObjectImpl.Container implements Prop
   {
     switch (featureID)
     {
-      case GraphDslPackage.PROPERTIES__INSTALLER_PROPERTY:
-        return installerProperty != null;
-      case GraphDslPackage.PROPERTIES__OPTIONAL_PROPERTIES:
+      case GraphDslPackage.COMPONENT_PROPERTIES__OPTIONAL_PROPERTIES:
         return optionalProperties != null && !optionalProperties.isEmpty();
+      case GraphDslPackage.COMPONENT_PROPERTIES__INSTALLER_PROPERTY:
+        return installerProperty != null;
     }
     return super.eIsSet(featureID);
   }
 
-} //PropertiesImpl
+} //ComponentPropertiesImpl

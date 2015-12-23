@@ -22,9 +22,16 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//Facet/name"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//Facet/properties"/>
     </genClasses>
-    <genClasses ecoreClass="GraphDsl.ecore#//Properties">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//Properties/installerProperty"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//Properties/optionalProperties"/>
+    <genClasses ecoreClass="GraphDsl.ecore#//ComponentProperties">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//ComponentProperties/optionalProperties"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//ComponentProperties/installerProperty"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//FacetProperties">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//FacetProperties/properties"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//FacetProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//FacetProperty/childrenProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//FacetProperty/exportsProperty"/>
     </genClasses>
     <genClasses ecoreClass="GraphDsl.ecore#//OptionalProperty">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//OptionalProperty/childrenProperty"/>

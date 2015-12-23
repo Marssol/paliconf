@@ -215,9 +215,9 @@ ruleComponent returns [EObject current=null]
 )?(
 (
 		{ 
-	        newCompositeNode(grammarAccess.getComponentAccess().getPropertiesPropertiesParserRuleCall_4_0()); 
+	        newCompositeNode(grammarAccess.getComponentAccess().getPropertiesComponentPropertiesParserRuleCall_4_0()); 
 	    }
-		lv_properties_4_0=ruleProperties		{
+		lv_properties_4_0=ruleComponentProperties		{
 	        if ($current==null) {
 	            $current = createModelElementForParent(grammarAccess.getComponentRule());
 	        }
@@ -225,7 +225,7 @@ ruleComponent returns [EObject current=null]
        			$current, 
        			"properties",
         		lv_properties_4_0, 
-        		"Properties");
+        		"ComponentProperties");
 	        afterParserOrEnumRuleCall();
 	    }
 
@@ -263,11 +263,11 @@ ruleFacet returns [EObject current=null]
     {
     	newLeafNode(otherlv_0, grammarAccess.getFacetAccess().getFacetKeyword_0());
     }
-this_WS_1=RULE_WS
+(this_WS_1=RULE_WS
     { 
     newLeafNode(this_WS_1, grammarAccess.getFacetAccess().getWSTerminalRuleCall_1()); 
     }
-(
+)?(
 (
 		lv_name_2_0=RULE_ID
 		{
@@ -300,9 +300,9 @@ this_WS_1=RULE_WS
 )?(
 (
 		{ 
-	        newCompositeNode(grammarAccess.getFacetAccess().getPropertiesPropertiesParserRuleCall_6_0()); 
+	        newCompositeNode(grammarAccess.getFacetAccess().getPropertiesFacetPropertiesParserRuleCall_6_0()); 
 	    }
-		lv_properties_6_0=ruleProperties		{
+		lv_properties_6_0=ruleFacetProperties		{
 	        if ($current==null) {
 	            $current = createModelElementForParent(grammarAccess.getFacetRule());
 	        }
@@ -310,7 +310,7 @@ this_WS_1=RULE_WS
        			$current, 
        			"properties",
         		lv_properties_6_0, 
-        		"Properties");
+        		"FacetProperties");
 	        afterParserOrEnumRuleCall();
 	    }
 
@@ -330,57 +330,188 @@ this_WS_1=RULE_WS
 
 
 
-// Entry rule entryRuleProperties
-entryRuleProperties returns [EObject current=null] 
+// Entry rule entryRuleComponentProperties
+entryRuleComponentProperties returns [EObject current=null] 
 	:
-	{ newCompositeNode(grammarAccess.getPropertiesRule()); }
-	 iv_ruleProperties=ruleProperties 
-	 { $current=$iv_ruleProperties.current; } 
+	{ newCompositeNode(grammarAccess.getComponentPropertiesRule()); }
+	 iv_ruleComponentProperties=ruleComponentProperties 
+	 { $current=$iv_ruleComponentProperties.current; } 
 	 EOF 
 ;
 
-// Rule Properties
-ruleProperties returns [EObject current=null] 
+// Rule ComponentProperties
+ruleComponentProperties returns [EObject current=null] 
     @init { enterRule(); 
     }
     @after { leaveRule(); }:
 ((
 (
 		{ 
-	        newCompositeNode(grammarAccess.getPropertiesAccess().getInstallerPropertyInstallerPropertyParserRuleCall_0_0()); 
+	        newCompositeNode(grammarAccess.getComponentPropertiesAccess().getOptionalPropertiesOptionalPropertyParserRuleCall_0_0()); 
 	    }
-		lv_installerProperty_0_0=ruleInstallerProperty		{
+		lv_optionalProperties_0_0=ruleOptionalProperty		{
 	        if ($current==null) {
-	            $current = createModelElementForParent(grammarAccess.getPropertiesRule());
+	            $current = createModelElementForParent(grammarAccess.getComponentPropertiesRule());
+	        }
+       		add(
+       			$current, 
+       			"optionalProperties",
+        		lv_optionalProperties_0_0, 
+        		"OptionalProperty");
+	        afterParserOrEnumRuleCall();
+	    }
+
+)
+)*(this_WS_1=RULE_WS
+    { 
+    newLeafNode(this_WS_1, grammarAccess.getComponentPropertiesAccess().getWSTerminalRuleCall_1()); 
+    }
+)?(
+(
+		{ 
+	        newCompositeNode(grammarAccess.getComponentPropertiesAccess().getInstallerPropertyInstallerPropertyParserRuleCall_2_0()); 
+	    }
+		lv_installerProperty_2_0=ruleInstallerProperty		{
+	        if ($current==null) {
+	            $current = createModelElementForParent(grammarAccess.getComponentPropertiesRule());
 	        }
        		set(
        			$current, 
        			"installerProperty",
-        		lv_installerProperty_0_0, 
+        		lv_installerProperty_2_0, 
         		"InstallerProperty");
 	        afterParserOrEnumRuleCall();
 	    }
 
 )
-)(
+)(this_WS_3=RULE_WS
+    { 
+    newLeafNode(this_WS_3, grammarAccess.getComponentPropertiesAccess().getWSTerminalRuleCall_3()); 
+    }
+)?(
 (
 		{ 
-	        newCompositeNode(grammarAccess.getPropertiesAccess().getOptionalPropertiesOptionalPropertyParserRuleCall_1_0()); 
+	        newCompositeNode(grammarAccess.getComponentPropertiesAccess().getOptionalPropertiesOptionalPropertyParserRuleCall_4_0()); 
 	    }
-		lv_optionalProperties_1_0=ruleOptionalProperty		{
+		lv_optionalProperties_4_0=ruleOptionalProperty		{
 	        if ($current==null) {
-	            $current = createModelElementForParent(grammarAccess.getPropertiesRule());
+	            $current = createModelElementForParent(grammarAccess.getComponentPropertiesRule());
 	        }
        		add(
        			$current, 
        			"optionalProperties",
-        		lv_optionalProperties_1_0, 
+        		lv_optionalProperties_4_0, 
         		"OptionalProperty");
 	        afterParserOrEnumRuleCall();
 	    }
 
 )
 )*)
+;
+
+
+
+
+
+// Entry rule entryRuleFacetProperties
+entryRuleFacetProperties returns [EObject current=null] 
+	:
+	{ newCompositeNode(grammarAccess.getFacetPropertiesRule()); }
+	 iv_ruleFacetProperties=ruleFacetProperties 
+	 { $current=$iv_ruleFacetProperties.current; } 
+	 EOF 
+;
+
+// Rule FacetProperties
+ruleFacetProperties returns [EObject current=null] 
+    @init { enterRule(); 
+    }
+    @after { leaveRule(); }:
+((this_WS_0=RULE_WS
+    { 
+    newLeafNode(this_WS_0, grammarAccess.getFacetPropertiesAccess().getWSTerminalRuleCall_0()); 
+    }
+)?(
+(
+		{ 
+	        newCompositeNode(grammarAccess.getFacetPropertiesAccess().getPropertiesFacetPropertyParserRuleCall_1_0()); 
+	    }
+		lv_properties_1_0=ruleFacetProperty		{
+	        if ($current==null) {
+	            $current = createModelElementForParent(grammarAccess.getFacetPropertiesRule());
+	        }
+       		add(
+       			$current, 
+       			"properties",
+        		lv_properties_1_0, 
+        		"FacetProperty");
+	        afterParserOrEnumRuleCall();
+	    }
+
+)
+)(this_WS_2=RULE_WS
+    { 
+    newLeafNode(this_WS_2, grammarAccess.getFacetPropertiesAccess().getWSTerminalRuleCall_2()); 
+    }
+)?)*
+;
+
+
+
+
+
+// Entry rule entryRuleFacetProperty
+entryRuleFacetProperty returns [EObject current=null] 
+	:
+	{ newCompositeNode(grammarAccess.getFacetPropertyRule()); }
+	 iv_ruleFacetProperty=ruleFacetProperty 
+	 { $current=$iv_ruleFacetProperty.current; } 
+	 EOF 
+;
+
+// Rule FacetProperty
+ruleFacetProperty returns [EObject current=null] 
+    @init { enterRule(); 
+    }
+    @after { leaveRule(); }:
+((
+(
+		{ 
+	        newCompositeNode(grammarAccess.getFacetPropertyAccess().getChildrenPropertyChildrenPropertyParserRuleCall_0_0()); 
+	    }
+		lv_childrenProperty_0_0=ruleChildrenProperty		{
+	        if ($current==null) {
+	            $current = createModelElementForParent(grammarAccess.getFacetPropertyRule());
+	        }
+       		set(
+       			$current, 
+       			"childrenProperty",
+        		lv_childrenProperty_0_0, 
+        		"ChildrenProperty");
+	        afterParserOrEnumRuleCall();
+	    }
+
+)
+)
+    |(
+(
+		{ 
+	        newCompositeNode(grammarAccess.getFacetPropertyAccess().getExportsPropertyExportsPropertyParserRuleCall_1_0()); 
+	    }
+		lv_exportsProperty_1_0=ruleExportsProperty		{
+	        if ($current==null) {
+	            $current = createModelElementForParent(grammarAccess.getFacetPropertyRule());
+	        }
+       		set(
+       			$current, 
+       			"exportsProperty",
+        		lv_exportsProperty_1_0, 
+        		"ExportsProperty");
+	        afterParserOrEnumRuleCall();
+	    }
+
+)
+))
 ;
 
 
@@ -712,7 +843,7 @@ ruleExportsProperty returns [EObject current=null]
 	    }
 
 )
-))(this_WS_7=RULE_WS
+))*(this_WS_7=RULE_WS
     { 
     newLeafNode(this_WS_7, grammarAccess.getExportsPropertyAccess().getWSTerminalRuleCall_5()); 
     }
@@ -882,7 +1013,7 @@ ruleImportsProperty returns [EObject current=null]
 	    }
 
 )
-))(this_WS_7=RULE_WS
+))*(this_WS_7=RULE_WS
     { 
     newLeafNode(this_WS_7, grammarAccess.getImportsPropertyAccess().getWSTerminalRuleCall_5()); 
     }

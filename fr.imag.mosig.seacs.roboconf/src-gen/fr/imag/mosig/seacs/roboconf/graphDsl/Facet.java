@@ -58,12 +58,12 @@ public interface Facet extends EObject
    * </p>
    * <!-- end-user-doc -->
    * @return the value of the '<em>Properties</em>' containment reference.
-   * @see #setProperties(Properties)
+   * @see #setProperties(FacetProperties)
    * @see fr.imag.mosig.seacs.roboconf.graphDsl.GraphDslPackage#getFacet_Properties()
    * @model containment="true"
    * @generated
    */
-  Properties getProperties();
+  FacetProperties getProperties();
 
   /**
    * Sets the value of the '{@link fr.imag.mosig.seacs.roboconf.graphDsl.Facet#getProperties <em>Properties</em>}' containment reference.
@@ -73,6 +73,6 @@ public interface Facet extends EObject
    * @see #getProperties()
    * @generated
    */
-  void setProperties(Properties value);
+  void setProperties(FacetProperties value);
 
 } // Facet

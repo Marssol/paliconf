@@ -100,10 +100,24 @@ public class GraphDslSwitch<T> extends Switch<T>
         if (result == null) result = defaultCase(theEObject);
         return result;
       }
-      case GraphDslPackage.PROPERTIES:
+      case GraphDslPackage.COMPONENT_PROPERTIES:
       {
-        Properties properties = (Properties)theEObject;
-        T result = caseProperties(properties);
+        ComponentProperties componentProperties = (ComponentProperties)theEObject;
+        T result = caseComponentProperties(componentProperties);
+        if (result == null) result = defaultCase(theEObject);
+        return result;
+      }
+      case GraphDslPackage.FACET_PROPERTIES:
+      {
+        FacetProperties facetProperties = (FacetProperties)theEObject;
+        T result = caseFacetProperties(facetProperties);
+        if (result == null) result = defaultCase(theEObject);
+        return result;
+      }
+      case GraphDslPackage.FACET_PROPERTY:
+      {
+        FacetProperty facetProperty = (FacetProperty)theEObject;
+        T result = caseFacetProperty(facetProperty);
         if (result == null) result = defaultCase(theEObject);
         return result;
       }
@@ -239,17 +253,49 @@ public class GraphDslSwitch<T> extends Switch<T>
   }
 
   /**
-   * Returns the result of interpreting the object as an instance of '<em>Properties</em>'.
+   * Returns the result of interpreting the object as an instance of '<em>Component Properties</em>'.
    * <!-- begin-user-doc -->
    * This implementation returns null;
    * returning a non-null result will terminate the switch.
    * <!-- end-user-doc -->
    * @param object the target of the switch.
-   * @return the result of interpreting the object as an instance of '<em>Properties</em>'.
+   * @return the result of interpreting the object as an instance of '<em>Component Properties</em>'.
    * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
    * @generated
    */
-  public T caseProperties(Properties object)
+  public T caseComponentProperties(ComponentProperties object)
+  {
+    return null;
+  }
+
+  /**
+   * Returns the result of interpreting the object as an instance of '<em>Facet Properties</em>'.
+   * <!-- begin-user-doc -->
+   * This implementation returns null;
+   * returning a non-null result will terminate the switch.
+   * <!-- end-user-doc -->
+   * @param object the target of the switch.
+   * @return the result of interpreting the object as an instance of '<em>Facet Properties</em>'.
+   * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+   * @generated
+   */
+  public T caseFacetProperties(FacetProperties object)
+  {
+    return null;
+  }
+
+  /**
+   * Returns the result of interpreting the object as an instance of '<em>Facet Property</em>'.
+   * <!-- begin-user-doc -->
+   * This implementation returns null;
+   * returning a non-null result will terminate the switch.
+   * <!-- end-user-doc -->
+   * @param object the target of the switch.
+   * @return the result of interpreting the object as an instance of '<em>Facet Property</em>'.
+   * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+   * @generated
+   */
+  public T caseFacetProperty(FacetProperty object)
   {
     return null;
   }

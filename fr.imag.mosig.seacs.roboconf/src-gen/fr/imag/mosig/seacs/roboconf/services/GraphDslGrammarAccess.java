@@ -83,15 +83,15 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cLeftCurlyBracketKeyword_2 = (Keyword)cGroup.eContents().get(2);
 		private final RuleCall cWSTerminalRuleCall_3 = (RuleCall)cGroup.eContents().get(3);
 		private final Assignment cPropertiesAssignment_4 = (Assignment)cGroup.eContents().get(4);
-		private final RuleCall cPropertiesPropertiesParserRuleCall_4_0 = (RuleCall)cPropertiesAssignment_4.eContents().get(0);
+		private final RuleCall cPropertiesComponentPropertiesParserRuleCall_4_0 = (RuleCall)cPropertiesAssignment_4.eContents().get(0);
 		private final RuleCall cWSTerminalRuleCall_5 = (RuleCall)cGroup.eContents().get(5);
 		private final Keyword cRightCurlyBracketKeyword_6 = (Keyword)cGroup.eContents().get(6);
 		
 		//Component:
-		//	name=ID WS? "{" WS? properties=Properties WS? "}";
+		//	name=ID WS? "{" WS? properties=ComponentProperties WS? "}";
 		@Override public ParserRule getRule() { return rule; }
 
-		//name=ID WS? "{" WS? properties=Properties WS? "}"
+		//name=ID WS? "{" WS? properties=ComponentProperties WS? "}"
 		public Group getGroup() { return cGroup; }
 
 		//name=ID
@@ -109,11 +109,11 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 		//WS?
 		public RuleCall getWSTerminalRuleCall_3() { return cWSTerminalRuleCall_3; }
 
-		//properties=Properties
+		//properties=ComponentProperties
 		public Assignment getPropertiesAssignment_4() { return cPropertiesAssignment_4; }
 
-		//Properties
-		public RuleCall getPropertiesPropertiesParserRuleCall_4_0() { return cPropertiesPropertiesParserRuleCall_4_0; }
+		//ComponentProperties
+		public RuleCall getPropertiesComponentPropertiesParserRuleCall_4_0() { return cPropertiesComponentPropertiesParserRuleCall_4_0; }
 
 		//WS?
 		public RuleCall getWSTerminalRuleCall_5() { return cWSTerminalRuleCall_5; }
@@ -133,21 +133,21 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cLeftCurlyBracketKeyword_4 = (Keyword)cGroup.eContents().get(4);
 		private final RuleCall cWSTerminalRuleCall_5 = (RuleCall)cGroup.eContents().get(5);
 		private final Assignment cPropertiesAssignment_6 = (Assignment)cGroup.eContents().get(6);
-		private final RuleCall cPropertiesPropertiesParserRuleCall_6_0 = (RuleCall)cPropertiesAssignment_6.eContents().get(0);
+		private final RuleCall cPropertiesFacetPropertiesParserRuleCall_6_0 = (RuleCall)cPropertiesAssignment_6.eContents().get(0);
 		private final RuleCall cWSTerminalRuleCall_7 = (RuleCall)cGroup.eContents().get(7);
 		private final Keyword cRightCurlyBracketKeyword_8 = (Keyword)cGroup.eContents().get(8);
 		
 		//Facet:
-		//	"facet" WS name=ID WS? "{" WS? properties=Properties WS? "}";
+		//	"facet" WS? name=ID WS? "{" WS? properties=FacetProperties WS? "}";
 		@Override public ParserRule getRule() { return rule; }
 
-		//"facet" WS name=ID WS? "{" WS? properties=Properties WS? "}"
+		//"facet" WS? name=ID WS? "{" WS? properties=FacetProperties WS? "}"
 		public Group getGroup() { return cGroup; }
 
 		//"facet"
 		public Keyword getFacetKeyword_0() { return cFacetKeyword_0; }
 
-		//WS
+		//WS?
 		public RuleCall getWSTerminalRuleCall_1() { return cWSTerminalRuleCall_1; }
 
 		//name=ID
@@ -165,11 +165,11 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 		//WS?
 		public RuleCall getWSTerminalRuleCall_5() { return cWSTerminalRuleCall_5; }
 
-		//properties=Properties
+		//properties=FacetProperties
 		public Assignment getPropertiesAssignment_6() { return cPropertiesAssignment_6; }
 
-		//Properties
-		public RuleCall getPropertiesPropertiesParserRuleCall_6_0() { return cPropertiesPropertiesParserRuleCall_6_0; }
+		//FacetProperties
+		public RuleCall getPropertiesFacetPropertiesParserRuleCall_6_0() { return cPropertiesFacetPropertiesParserRuleCall_6_0; }
 
 		//WS?
 		public RuleCall getWSTerminalRuleCall_7() { return cWSTerminalRuleCall_7; }
@@ -178,32 +178,105 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 		public Keyword getRightCurlyBracketKeyword_8() { return cRightCurlyBracketKeyword_8; }
 	}
 
-	public class PropertiesElements extends AbstractParserRuleElementFinder {
-		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "Properties");
+	public class ComponentPropertiesElements extends AbstractParserRuleElementFinder {
+		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "ComponentProperties");
 		private final Group cGroup = (Group)rule.eContents().get(1);
-		private final Assignment cInstallerPropertyAssignment_0 = (Assignment)cGroup.eContents().get(0);
-		private final RuleCall cInstallerPropertyInstallerPropertyParserRuleCall_0_0 = (RuleCall)cInstallerPropertyAssignment_0.eContents().get(0);
-		private final Assignment cOptionalPropertiesAssignment_1 = (Assignment)cGroup.eContents().get(1);
-		private final RuleCall cOptionalPropertiesOptionalPropertyParserRuleCall_1_0 = (RuleCall)cOptionalPropertiesAssignment_1.eContents().get(0);
+		private final Assignment cOptionalPropertiesAssignment_0 = (Assignment)cGroup.eContents().get(0);
+		private final RuleCall cOptionalPropertiesOptionalPropertyParserRuleCall_0_0 = (RuleCall)cOptionalPropertiesAssignment_0.eContents().get(0);
+		private final RuleCall cWSTerminalRuleCall_1 = (RuleCall)cGroup.eContents().get(1);
+		private final Assignment cInstallerPropertyAssignment_2 = (Assignment)cGroup.eContents().get(2);
+		private final RuleCall cInstallerPropertyInstallerPropertyParserRuleCall_2_0 = (RuleCall)cInstallerPropertyAssignment_2.eContents().get(0);
+		private final RuleCall cWSTerminalRuleCall_3 = (RuleCall)cGroup.eContents().get(3);
+		private final Assignment cOptionalPropertiesAssignment_4 = (Assignment)cGroup.eContents().get(4);
+		private final RuleCall cOptionalPropertiesOptionalPropertyParserRuleCall_4_0 = (RuleCall)cOptionalPropertiesAssignment_4.eContents().get(0);
 		
-		//Properties:
-		//	installerProperty=InstallerProperty optionalProperties+=OptionalProperty*;
+		//ComponentProperties:
+		//	optionalProperties+=OptionalProperty* WS? installerProperty=InstallerProperty WS?
+		//	optionalProperties+=OptionalProperty*;
 		@Override public ParserRule getRule() { return rule; }
 
-		//installerProperty=InstallerProperty optionalProperties+=OptionalProperty*
+		//optionalProperties+=OptionalProperty* WS? installerProperty=InstallerProperty WS? optionalProperties+=OptionalProperty*
 		public Group getGroup() { return cGroup; }
 
-		//installerProperty=InstallerProperty
-		public Assignment getInstallerPropertyAssignment_0() { return cInstallerPropertyAssignment_0; }
-
-		//InstallerProperty
-		public RuleCall getInstallerPropertyInstallerPropertyParserRuleCall_0_0() { return cInstallerPropertyInstallerPropertyParserRuleCall_0_0; }
-
 		//optionalProperties+=OptionalProperty*
-		public Assignment getOptionalPropertiesAssignment_1() { return cOptionalPropertiesAssignment_1; }
+		public Assignment getOptionalPropertiesAssignment_0() { return cOptionalPropertiesAssignment_0; }
 
 		//OptionalProperty
-		public RuleCall getOptionalPropertiesOptionalPropertyParserRuleCall_1_0() { return cOptionalPropertiesOptionalPropertyParserRuleCall_1_0; }
+		public RuleCall getOptionalPropertiesOptionalPropertyParserRuleCall_0_0() { return cOptionalPropertiesOptionalPropertyParserRuleCall_0_0; }
+
+		//WS?
+		public RuleCall getWSTerminalRuleCall_1() { return cWSTerminalRuleCall_1; }
+
+		//installerProperty=InstallerProperty
+		public Assignment getInstallerPropertyAssignment_2() { return cInstallerPropertyAssignment_2; }
+
+		//InstallerProperty
+		public RuleCall getInstallerPropertyInstallerPropertyParserRuleCall_2_0() { return cInstallerPropertyInstallerPropertyParserRuleCall_2_0; }
+
+		//WS?
+		public RuleCall getWSTerminalRuleCall_3() { return cWSTerminalRuleCall_3; }
+
+		//optionalProperties+=OptionalProperty*
+		public Assignment getOptionalPropertiesAssignment_4() { return cOptionalPropertiesAssignment_4; }
+
+		//OptionalProperty
+		public RuleCall getOptionalPropertiesOptionalPropertyParserRuleCall_4_0() { return cOptionalPropertiesOptionalPropertyParserRuleCall_4_0; }
+	}
+
+	public class FacetPropertiesElements extends AbstractParserRuleElementFinder {
+		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "FacetProperties");
+		private final Group cGroup = (Group)rule.eContents().get(1);
+		private final RuleCall cWSTerminalRuleCall_0 = (RuleCall)cGroup.eContents().get(0);
+		private final Assignment cPropertiesAssignment_1 = (Assignment)cGroup.eContents().get(1);
+		private final RuleCall cPropertiesFacetPropertyParserRuleCall_1_0 = (RuleCall)cPropertiesAssignment_1.eContents().get(0);
+		private final RuleCall cWSTerminalRuleCall_2 = (RuleCall)cGroup.eContents().get(2);
+		
+		//FacetProperties:
+		//	(WS? properties+=FacetProperty WS?)*;
+		@Override public ParserRule getRule() { return rule; }
+
+		//(WS? properties+=FacetProperty WS?)*
+		public Group getGroup() { return cGroup; }
+
+		//WS?
+		public RuleCall getWSTerminalRuleCall_0() { return cWSTerminalRuleCall_0; }
+
+		//properties+=FacetProperty
+		public Assignment getPropertiesAssignment_1() { return cPropertiesAssignment_1; }
+
+		//FacetProperty
+		public RuleCall getPropertiesFacetPropertyParserRuleCall_1_0() { return cPropertiesFacetPropertyParserRuleCall_1_0; }
+
+		//WS?
+		public RuleCall getWSTerminalRuleCall_2() { return cWSTerminalRuleCall_2; }
+	}
+
+	public class FacetPropertyElements extends AbstractParserRuleElementFinder {
+		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "FacetProperty");
+		private final Alternatives cAlternatives = (Alternatives)rule.eContents().get(1);
+		private final Assignment cChildrenPropertyAssignment_0 = (Assignment)cAlternatives.eContents().get(0);
+		private final RuleCall cChildrenPropertyChildrenPropertyParserRuleCall_0_0 = (RuleCall)cChildrenPropertyAssignment_0.eContents().get(0);
+		private final Assignment cExportsPropertyAssignment_1 = (Assignment)cAlternatives.eContents().get(1);
+		private final RuleCall cExportsPropertyExportsPropertyParserRuleCall_1_0 = (RuleCall)cExportsPropertyAssignment_1.eContents().get(0);
+		
+		//FacetProperty:
+		//	childrenProperty=ChildrenProperty | exportsProperty=ExportsProperty;
+		@Override public ParserRule getRule() { return rule; }
+
+		//childrenProperty=ChildrenProperty | exportsProperty=ExportsProperty
+		public Alternatives getAlternatives() { return cAlternatives; }
+
+		//childrenProperty=ChildrenProperty
+		public Assignment getChildrenPropertyAssignment_0() { return cChildrenPropertyAssignment_0; }
+
+		//ChildrenProperty
+		public RuleCall getChildrenPropertyChildrenPropertyParserRuleCall_0_0() { return cChildrenPropertyChildrenPropertyParserRuleCall_0_0; }
+
+		//exportsProperty=ExportsProperty
+		public Assignment getExportsPropertyAssignment_1() { return cExportsPropertyAssignment_1; }
+
+		//ExportsProperty
+		public RuleCall getExportsPropertyExportsPropertyParserRuleCall_1_0() { return cExportsPropertyExportsPropertyParserRuleCall_1_0; }
 	}
 
 	public class OptionalPropertyElements extends AbstractParserRuleElementFinder {
@@ -373,10 +446,10 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cSemicolonKeyword_6 = (Keyword)cGroup.eContents().get(6);
 		
 		//ExportsProperty:
-		//	"exports:" WS? exportsVariables+=ExportsVariable WS? ("," WS? exportsVariables+=ExportsVariable) WS? ";";
+		//	"exports:" WS? exportsVariables+=ExportsVariable WS? ("," WS? exportsVariables+=ExportsVariable)* WS? ";";
 		@Override public ParserRule getRule() { return rule; }
 
-		//"exports:" WS? exportsVariables+=ExportsVariable WS? ("," WS? exportsVariables+=ExportsVariable) WS? ";"
+		//"exports:" WS? exportsVariables+=ExportsVariable WS? ("," WS? exportsVariables+=ExportsVariable)* WS? ";"
 		public Group getGroup() { return cGroup; }
 
 		//"exports:"
@@ -394,7 +467,7 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 		//WS?
 		public RuleCall getWSTerminalRuleCall_3() { return cWSTerminalRuleCall_3; }
 
-		//"," WS? exportsVariables+=ExportsVariable
+		//("," WS? exportsVariables+=ExportsVariable)*
 		public Group getGroup_4() { return cGroup_4; }
 
 		//","
@@ -485,10 +558,10 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 		private final Keyword cSemicolonKeyword_6 = (Keyword)cGroup.eContents().get(6);
 		
 		//ImportsProperty:
-		//	"imports:" WS? importsVariables+=ImportsVariable WS? ("," WS? importsVariables+=ImportsVariable) WS? ";";
+		//	"imports:" WS? importsVariables+=ImportsVariable WS? ("," WS? importsVariables+=ImportsVariable)* WS? ";";
 		@Override public ParserRule getRule() { return rule; }
 
-		//"imports:" WS? importsVariables+=ImportsVariable WS? ("," WS? importsVariables+=ImportsVariable) WS? ";"
+		//"imports:" WS? importsVariables+=ImportsVariable WS? ("," WS? importsVariables+=ImportsVariable)* WS? ";"
 		public Group getGroup() { return cGroup; }
 
 		//"imports:"
@@ -506,7 +579,7 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 		//WS?
 		public RuleCall getWSTerminalRuleCall_3() { return cWSTerminalRuleCall_3; }
 
-		//"," WS? importsVariables+=ImportsVariable
+		//("," WS? importsVariables+=ImportsVariable)*
 		public Group getGroup_4() { return cGroup_4; }
 
 		//","
@@ -717,7 +790,9 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 	private final ComponentOrFacetElements pComponentOrFacet;
 	private final ComponentElements pComponent;
 	private final FacetElements pFacet;
-	private final PropertiesElements pProperties;
+	private final ComponentPropertiesElements pComponentProperties;
+	private final FacetPropertiesElements pFacetProperties;
+	private final FacetPropertyElements pFacetProperty;
 	private final OptionalPropertyElements pOptionalProperty;
 	private final InstallerPropertyElements pInstallerProperty;
 	private final ChildrenPropertyElements pChildrenProperty;
@@ -741,7 +816,9 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 		this.pComponentOrFacet = new ComponentOrFacetElements();
 		this.pComponent = new ComponentElements();
 		this.pFacet = new FacetElements();
-		this.pProperties = new PropertiesElements();
+		this.pComponentProperties = new ComponentPropertiesElements();
+		this.pFacetProperties = new FacetPropertiesElements();
+		this.pFacetProperty = new FacetPropertyElements();
 		this.pOptionalProperty = new OptionalPropertyElements();
 		this.pInstallerProperty = new InstallerPropertyElements();
 		this.pChildrenProperty = new ChildrenPropertyElements();
@@ -801,7 +878,7 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//Component:
-	//	name=ID WS? "{" WS? properties=Properties WS? "}";
+	//	name=ID WS? "{" WS? properties=ComponentProperties WS? "}";
 	public ComponentElements getComponentAccess() {
 		return pComponent;
 	}
@@ -811,7 +888,7 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//Facet:
-	//	"facet" WS name=ID WS? "{" WS? properties=Properties WS? "}";
+	//	"facet" WS? name=ID WS? "{" WS? properties=FacetProperties WS? "}";
 	public FacetElements getFacetAccess() {
 		return pFacet;
 	}
@@ -820,14 +897,35 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 		return getFacetAccess().getRule();
 	}
 
-	//Properties:
-	//	installerProperty=InstallerProperty optionalProperties+=OptionalProperty*;
-	public PropertiesElements getPropertiesAccess() {
-		return pProperties;
+	//ComponentProperties:
+	//	optionalProperties+=OptionalProperty* WS? installerProperty=InstallerProperty WS?
+	//	optionalProperties+=OptionalProperty*;
+	public ComponentPropertiesElements getComponentPropertiesAccess() {
+		return pComponentProperties;
 	}
 	
-	public ParserRule getPropertiesRule() {
-		return getPropertiesAccess().getRule();
+	public ParserRule getComponentPropertiesRule() {
+		return getComponentPropertiesAccess().getRule();
+	}
+
+	//FacetProperties:
+	//	(WS? properties+=FacetProperty WS?)*;
+	public FacetPropertiesElements getFacetPropertiesAccess() {
+		return pFacetProperties;
+	}
+	
+	public ParserRule getFacetPropertiesRule() {
+		return getFacetPropertiesAccess().getRule();
+	}
+
+	//FacetProperty:
+	//	childrenProperty=ChildrenProperty | exportsProperty=ExportsProperty;
+	public FacetPropertyElements getFacetPropertyAccess() {
+		return pFacetProperty;
+	}
+	
+	public ParserRule getFacetPropertyRule() {
+		return getFacetPropertyAccess().getRule();
 	}
 
 	//OptionalProperty:
@@ -862,7 +960,7 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//ExportsProperty:
-	//	"exports:" WS? exportsVariables+=ExportsVariable WS? ("," WS? exportsVariables+=ExportsVariable) WS? ";";
+	//	"exports:" WS? exportsVariables+=ExportsVariable WS? ("," WS? exportsVariables+=ExportsVariable)* WS? ";";
 	public ExportsPropertyElements getExportsPropertyAccess() {
 		return pExportsProperty;
 	}
@@ -882,7 +980,7 @@ public class GraphDslGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//ImportsProperty:
-	//	"imports:" WS? importsVariables+=ImportsVariable WS? ("," WS? importsVariables+=ImportsVariable) WS? ";";
+	//	"imports:" WS? importsVariables+=ImportsVariable WS? ("," WS? importsVariables+=ImportsVariable)* WS? ";";
 	public ImportsPropertyElements getImportsPropertyAccess() {
 		return pImportsProperty;
 	}

@@ -8,10 +8,13 @@ import com.google.inject.Provider;
 import fr.imag.mosig.seacs.roboconf.graphDsl.ChildrenProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.Component;
 import fr.imag.mosig.seacs.roboconf.graphDsl.ComponentOrFacet;
+import fr.imag.mosig.seacs.roboconf.graphDsl.ComponentProperties;
 import fr.imag.mosig.seacs.roboconf.graphDsl.ExportsProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.ExportsVariable;
 import fr.imag.mosig.seacs.roboconf.graphDsl.ExtendsProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.Facet;
+import fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperties;
+import fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.FacetsProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.Graph;
 import fr.imag.mosig.seacs.roboconf.graphDsl.GraphDslPackage;
@@ -19,7 +22,6 @@ import fr.imag.mosig.seacs.roboconf.graphDsl.ImportsProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.ImportsVariable;
 import fr.imag.mosig.seacs.roboconf.graphDsl.InstallerProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.OptionalProperty;
-import fr.imag.mosig.seacs.roboconf.graphDsl.Properties;
 import fr.imag.mosig.seacs.roboconf.services.GraphDslGrammarAccess;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.xtext.serializer.acceptor.ISemanticSequenceAcceptor;
@@ -51,6 +53,9 @@ public class GraphDslSemanticSequencer extends AbstractDelegatingSemanticSequenc
 			case GraphDslPackage.COMPONENT_OR_FACET:
 				sequence_ComponentOrFacet(context, (ComponentOrFacet) semanticObject); 
 				return; 
+			case GraphDslPackage.COMPONENT_PROPERTIES:
+				sequence_ComponentProperties(context, (ComponentProperties) semanticObject); 
+				return; 
 			case GraphDslPackage.EXPORTS_PROPERTY:
 				sequence_ExportsProperty(context, (ExportsProperty) semanticObject); 
 				return; 
@@ -62,6 +67,12 @@ public class GraphDslSemanticSequencer extends AbstractDelegatingSemanticSequenc
 				return; 
 			case GraphDslPackage.FACET:
 				sequence_Facet(context, (Facet) semanticObject); 
+				return; 
+			case GraphDslPackage.FACET_PROPERTIES:
+				sequence_FacetProperties(context, (FacetProperties) semanticObject); 
+				return; 
+			case GraphDslPackage.FACET_PROPERTY:
+				sequence_FacetProperty(context, (FacetProperty) semanticObject); 
 				return; 
 			case GraphDslPackage.FACETS_PROPERTY:
 				sequence_FacetsProperty(context, (FacetsProperty) semanticObject); 
@@ -80,9 +91,6 @@ public class GraphDslSemanticSequencer extends AbstractDelegatingSemanticSequenc
 				return; 
 			case GraphDslPackage.OPTIONAL_PROPERTY:
 				sequence_OptionalProperty(context, (OptionalProperty) semanticObject); 
-				return; 
-			case GraphDslPackage.PROPERTIES:
-				sequence_Properties(context, (Properties) semanticObject); 
 				return; 
 			}
 		if (errorAcceptor != null) errorAcceptor.accept(diagnosticProvider.createInvalidContextOrTypeDiagnostic(semanticObject, context));
@@ -108,7 +116,16 @@ public class GraphDslSemanticSequencer extends AbstractDelegatingSemanticSequenc
 	
 	/**
 	 * Constraint:
-	 *     (name=ID properties=Properties)
+	 *     (optionalProperties+=OptionalProperty* installerProperty=InstallerProperty optionalProperties+=OptionalProperty*)
+	 */
+	protected void sequence_ComponentProperties(EObject context, ComponentProperties semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Constraint:
+	 *     (name=ID properties=ComponentProperties)
 	 */
 	protected void sequence_Component(EObject context, Component semanticObject) {
 		if(errorAcceptor != null) {
@@ -120,14 +137,14 @@ public class GraphDslSemanticSequencer extends AbstractDelegatingSemanticSequenc
 		INodesForEObjectProvider nodes = createNodeProvider(semanticObject);
 		SequenceFeeder feeder = createSequencerFeeder(semanticObject, nodes);
 		feeder.accept(grammarAccess.getComponentAccess().getNameIDTerminalRuleCall_0_0(), semanticObject.getName());
-		feeder.accept(grammarAccess.getComponentAccess().getPropertiesPropertiesParserRuleCall_4_0(), semanticObject.getProperties());
+		feeder.accept(grammarAccess.getComponentAccess().getPropertiesComponentPropertiesParserRuleCall_4_0(), semanticObject.getProperties());
 		feeder.finish();
 	}
 	
 	
 	/**
 	 * Constraint:
-	 *     (exportsVariables+=ExportsVariable exportsVariables+=ExportsVariable)
+	 *     (exportsVariables+=ExportsVariable exportsVariables+=ExportsVariable*)
 	 */
 	protected void sequence_ExportsProperty(EObject context, ExportsProperty semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -154,7 +171,25 @@ public class GraphDslSemanticSequencer extends AbstractDelegatingSemanticSequenc
 	
 	/**
 	 * Constraint:
-	 *     (name=ID properties=Properties)
+	 *     properties+=FacetProperty*
+	 */
+	protected void sequence_FacetProperties(EObject context, FacetProperties semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Constraint:
+	 *     (childrenProperty=ChildrenProperty | exportsProperty=ExportsProperty)
+	 */
+	protected void sequence_FacetProperty(EObject context, FacetProperty semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Constraint:
+	 *     (name=ID properties=FacetProperties)
 	 */
 	protected void sequence_Facet(EObject context, Facet semanticObject) {
 		if(errorAcceptor != null) {
@@ -166,7 +201,7 @@ public class GraphDslSemanticSequencer extends AbstractDelegatingSemanticSequenc
 		INodesForEObjectProvider nodes = createNodeProvider(semanticObject);
 		SequenceFeeder feeder = createSequencerFeeder(semanticObject, nodes);
 		feeder.accept(grammarAccess.getFacetAccess().getNameIDTerminalRuleCall_2_0(), semanticObject.getName());
-		feeder.accept(grammarAccess.getFacetAccess().getPropertiesPropertiesParserRuleCall_6_0(), semanticObject.getProperties());
+		feeder.accept(grammarAccess.getFacetAccess().getPropertiesFacetPropertiesParserRuleCall_6_0(), semanticObject.getProperties());
 		feeder.finish();
 	}
 	
@@ -191,7 +226,7 @@ public class GraphDslSemanticSequencer extends AbstractDelegatingSemanticSequenc
 	
 	/**
 	 * Constraint:
-	 *     (importsVariables+=ImportsVariable importsVariables+=ImportsVariable)
+	 *     (importsVariables+=ImportsVariable importsVariables+=ImportsVariable*)
 	 */
 	protected void sequence_ImportsProperty(EObject context, ImportsProperty semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -234,15 +269,6 @@ public class GraphDslSemanticSequencer extends AbstractDelegatingSemanticSequenc
 	 *     )
 	 */
 	protected void sequence_OptionalProperty(EObject context, OptionalProperty semanticObject) {
-		genericSequencer.createSequence(context, semanticObject);
-	}
-	
-	
-	/**
-	 * Constraint:
-	 *     (installerProperty=InstallerProperty optionalProperties+=OptionalProperty*)
-	 */
-	protected void sequence_Properties(EObject context, Properties semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
 	}
 }

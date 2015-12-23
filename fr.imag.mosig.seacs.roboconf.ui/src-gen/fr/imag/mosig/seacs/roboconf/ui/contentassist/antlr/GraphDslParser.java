@@ -38,12 +38,14 @@ public class GraphDslParser extends AbstractContentAssistParser {
 				private static final long serialVersionUID = 1L;
 				{
 					put(grammarAccess.getComponentOrFacetAccess().getAlternatives(), "rule__ComponentOrFacet__Alternatives");
+					put(grammarAccess.getFacetPropertyAccess().getAlternatives(), "rule__FacetProperty__Alternatives");
 					put(grammarAccess.getOptionalPropertyAccess().getAlternatives(), "rule__OptionalProperty__Alternatives");
 					put(grammarAccess.getExportsVariableAccess().getAlternatives(), "rule__ExportsVariable__Alternatives");
 					put(grammarAccess.getGraphAccess().getGroup(), "rule__Graph__Group__0");
 					put(grammarAccess.getComponentAccess().getGroup(), "rule__Component__Group__0");
 					put(grammarAccess.getFacetAccess().getGroup(), "rule__Facet__Group__0");
-					put(grammarAccess.getPropertiesAccess().getGroup(), "rule__Properties__Group__0");
+					put(grammarAccess.getComponentPropertiesAccess().getGroup(), "rule__ComponentProperties__Group__0");
+					put(grammarAccess.getFacetPropertiesAccess().getGroup(), "rule__FacetProperties__Group__0");
 					put(grammarAccess.getInstallerPropertyAccess().getGroup(), "rule__InstallerProperty__Group__0");
 					put(grammarAccess.getChildrenPropertyAccess().getGroup(), "rule__ChildrenProperty__Group__0");
 					put(grammarAccess.getChildrenPropertyAccess().getGroup_4(), "rule__ChildrenProperty__Group_4__0");
@@ -66,8 +68,12 @@ public class GraphDslParser extends AbstractContentAssistParser {
 					put(grammarAccess.getComponentAccess().getPropertiesAssignment_4(), "rule__Component__PropertiesAssignment_4");
 					put(grammarAccess.getFacetAccess().getNameAssignment_2(), "rule__Facet__NameAssignment_2");
 					put(grammarAccess.getFacetAccess().getPropertiesAssignment_6(), "rule__Facet__PropertiesAssignment_6");
-					put(grammarAccess.getPropertiesAccess().getInstallerPropertyAssignment_0(), "rule__Properties__InstallerPropertyAssignment_0");
-					put(grammarAccess.getPropertiesAccess().getOptionalPropertiesAssignment_1(), "rule__Properties__OptionalPropertiesAssignment_1");
+					put(grammarAccess.getComponentPropertiesAccess().getOptionalPropertiesAssignment_0(), "rule__ComponentProperties__OptionalPropertiesAssignment_0");
+					put(grammarAccess.getComponentPropertiesAccess().getInstallerPropertyAssignment_2(), "rule__ComponentProperties__InstallerPropertyAssignment_2");
+					put(grammarAccess.getComponentPropertiesAccess().getOptionalPropertiesAssignment_4(), "rule__ComponentProperties__OptionalPropertiesAssignment_4");
+					put(grammarAccess.getFacetPropertiesAccess().getPropertiesAssignment_1(), "rule__FacetProperties__PropertiesAssignment_1");
+					put(grammarAccess.getFacetPropertyAccess().getChildrenPropertyAssignment_0(), "rule__FacetProperty__ChildrenPropertyAssignment_0");
+					put(grammarAccess.getFacetPropertyAccess().getExportsPropertyAssignment_1(), "rule__FacetProperty__ExportsPropertyAssignment_1");
 					put(grammarAccess.getOptionalPropertyAccess().getChildrenPropertyAssignment_0(), "rule__OptionalProperty__ChildrenPropertyAssignment_0");
 					put(grammarAccess.getOptionalPropertyAccess().getExportsPropertyAssignment_1(), "rule__OptionalProperty__ExportsPropertyAssignment_1");
 					put(grammarAccess.getOptionalPropertyAccess().getImportsPropertyAssignment_2(), "rule__OptionalProperty__ImportsPropertyAssignment_2");

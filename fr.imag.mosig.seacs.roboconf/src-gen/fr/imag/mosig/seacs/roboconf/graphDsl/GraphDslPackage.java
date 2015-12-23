@@ -196,23 +196,14 @@ public interface GraphDslPackage extends EPackage
   int FACET_FEATURE_COUNT = 2;
 
   /**
-   * The meta object id for the '{@link fr.imag.mosig.seacs.roboconf.graphDsl.impl.PropertiesImpl <em>Properties</em>}' class.
+   * The meta object id for the '{@link fr.imag.mosig.seacs.roboconf.graphDsl.impl.ComponentPropertiesImpl <em>Component Properties</em>}' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.PropertiesImpl
-   * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getProperties()
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.ComponentPropertiesImpl
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getComponentProperties()
    * @generated
    */
-  int PROPERTIES = 4;
-
-  /**
-   * The feature id for the '<em><b>Installer Property</b></em>' containment reference.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int PROPERTIES__INSTALLER_PROPERTY = 0;
+  int COMPONENT_PROPERTIES = 4;
 
   /**
    * The feature id for the '<em><b>Optional Properties</b></em>' containment reference list.
@@ -221,16 +212,90 @@ public interface GraphDslPackage extends EPackage
    * @generated
    * @ordered
    */
-  int PROPERTIES__OPTIONAL_PROPERTIES = 1;
+  int COMPONENT_PROPERTIES__OPTIONAL_PROPERTIES = 0;
 
   /**
-   * The number of structural features of the '<em>Properties</em>' class.
+   * The feature id for the '<em><b>Installer Property</b></em>' containment reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int PROPERTIES_FEATURE_COUNT = 2;
+  int COMPONENT_PROPERTIES__INSTALLER_PROPERTY = 1;
+
+  /**
+   * The number of structural features of the '<em>Component Properties</em>' class.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int COMPONENT_PROPERTIES_FEATURE_COUNT = 2;
+
+  /**
+   * The meta object id for the '{@link fr.imag.mosig.seacs.roboconf.graphDsl.impl.FacetPropertiesImpl <em>Facet Properties</em>}' class.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.FacetPropertiesImpl
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getFacetProperties()
+   * @generated
+   */
+  int FACET_PROPERTIES = 5;
+
+  /**
+   * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FACET_PROPERTIES__PROPERTIES = 0;
+
+  /**
+   * The number of structural features of the '<em>Facet Properties</em>' class.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FACET_PROPERTIES_FEATURE_COUNT = 1;
+
+  /**
+   * The meta object id for the '{@link fr.imag.mosig.seacs.roboconf.graphDsl.impl.FacetPropertyImpl <em>Facet Property</em>}' class.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.FacetPropertyImpl
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getFacetProperty()
+   * @generated
+   */
+  int FACET_PROPERTY = 6;
+
+  /**
+   * The feature id for the '<em><b>Children Property</b></em>' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FACET_PROPERTY__CHILDREN_PROPERTY = 0;
+
+  /**
+   * The feature id for the '<em><b>Exports Property</b></em>' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FACET_PROPERTY__EXPORTS_PROPERTY = 1;
+
+  /**
+   * The number of structural features of the '<em>Facet Property</em>' class.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int FACET_PROPERTY_FEATURE_COUNT = 2;
 
   /**
    * The meta object id for the '{@link fr.imag.mosig.seacs.roboconf.graphDsl.impl.OptionalPropertyImpl <em>Optional Property</em>}' class.
@@ -240,7 +305,7 @@ public interface GraphDslPackage extends EPackage
    * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getOptionalProperty()
    * @generated
    */
-  int OPTIONAL_PROPERTY = 5;
+  int OPTIONAL_PROPERTY = 7;
 
   /**
    * The feature id for the '<em><b>Children Property</b></em>' containment reference.
@@ -304,7 +369,7 @@ public interface GraphDslPackage extends EPackage
    * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getInstallerProperty()
    * @generated
    */
-  int INSTALLER_PROPERTY = 6;
+  int INSTALLER_PROPERTY = 8;
 
   /**
    * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -332,7 +397,7 @@ public interface GraphDslPackage extends EPackage
    * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getChildrenProperty()
    * @generated
    */
-  int CHILDREN_PROPERTY = 7;
+  int CHILDREN_PROPERTY = 9;
 
   /**
    * The feature id for the '<em><b>Name</b></em>' attribute list.
@@ -360,7 +425,7 @@ public interface GraphDslPackage extends EPackage
    * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getExportsProperty()
    * @generated
    */
-  int EXPORTS_PROPERTY = 8;
+  int EXPORTS_PROPERTY = 10;
 
   /**
    * The feature id for the '<em><b>Exports Variables</b></em>' containment reference list.
@@ -388,7 +453,7 @@ public interface GraphDslPackage extends EPackage
    * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getExportsVariable()
    * @generated
    */
-  int EXPORTS_VARIABLE = 9;
+  int EXPORTS_VARIABLE = 11;
 
   /**
    * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -425,7 +490,7 @@ public interface GraphDslPackage extends EPackage
    * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getImportsProperty()
    * @generated
    */
-  int IMPORTS_PROPERTY = 10;
+  int IMPORTS_PROPERTY = 12;
 
   /**
    * The feature id for the '<em><b>Imports Variables</b></em>' containment reference list.
@@ -453,7 +518,7 @@ public interface GraphDslPackage extends EPackage
    * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getImportsVariable()
    * @generated
    */
-  int IMPORTS_VARIABLE = 11;
+  int IMPORTS_VARIABLE = 13;
 
   /**
    * The feature id for the '<em><b>Is External</b></em>' attribute.
@@ -508,7 +573,7 @@ public interface GraphDslPackage extends EPackage
    * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getFacetsProperty()
    * @generated
    */
-  int FACETS_PROPERTY = 12;
+  int FACETS_PROPERTY = 14;
 
   /**
    * The feature id for the '<em><b>Facets Names</b></em>' attribute list.
@@ -536,7 +601,7 @@ public interface GraphDslPackage extends EPackage
    * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getExtendsProperty()
    * @generated
    */
-  int EXTENDS_PROPERTY = 13;
+  int EXTENDS_PROPERTY = 15;
 
   /**
    * The feature id for the '<em><b>Extends Names</b></em>' attribute list.
@@ -675,36 +740,89 @@ public interface GraphDslPackage extends EPackage
   EReference getFacet_Properties();
 
   /**
-   * Returns the meta object for class '{@link fr.imag.mosig.seacs.roboconf.graphDsl.Properties <em>Properties</em>}'.
+   * Returns the meta object for class '{@link fr.imag.mosig.seacs.roboconf.graphDsl.ComponentProperties <em>Component Properties</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @return the meta object for class '<em>Properties</em>'.
-   * @see fr.imag.mosig.seacs.roboconf.graphDsl.Properties
+   * @return the meta object for class '<em>Component Properties</em>'.
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.ComponentProperties
    * @generated
    */
-  EClass getProperties();
+  EClass getComponentProperties();
 
   /**
-   * Returns the meta object for the containment reference '{@link fr.imag.mosig.seacs.roboconf.graphDsl.Properties#getInstallerProperty <em>Installer Property</em>}'.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @return the meta object for the containment reference '<em>Installer Property</em>'.
-   * @see fr.imag.mosig.seacs.roboconf.graphDsl.Properties#getInstallerProperty()
-   * @see #getProperties()
-   * @generated
-   */
-  EReference getProperties_InstallerProperty();
-
-  /**
-   * Returns the meta object for the containment reference list '{@link fr.imag.mosig.seacs.roboconf.graphDsl.Properties#getOptionalProperties <em>Optional Properties</em>}'.
+   * Returns the meta object for the containment reference list '{@link fr.imag.mosig.seacs.roboconf.graphDsl.ComponentProperties#getOptionalProperties <em>Optional Properties</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the containment reference list '<em>Optional Properties</em>'.
-   * @see fr.imag.mosig.seacs.roboconf.graphDsl.Properties#getOptionalProperties()
-   * @see #getProperties()
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.ComponentProperties#getOptionalProperties()
+   * @see #getComponentProperties()
    * @generated
    */
-  EReference getProperties_OptionalProperties();
+  EReference getComponentProperties_OptionalProperties();
+
+  /**
+   * Returns the meta object for the containment reference '{@link fr.imag.mosig.seacs.roboconf.graphDsl.ComponentProperties#getInstallerProperty <em>Installer Property</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference '<em>Installer Property</em>'.
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.ComponentProperties#getInstallerProperty()
+   * @see #getComponentProperties()
+   * @generated
+   */
+  EReference getComponentProperties_InstallerProperty();
+
+  /**
+   * Returns the meta object for class '{@link fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperties <em>Facet Properties</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for class '<em>Facet Properties</em>'.
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperties
+   * @generated
+   */
+  EClass getFacetProperties();
+
+  /**
+   * Returns the meta object for the containment reference list '{@link fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperties#getProperties <em>Properties</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference list '<em>Properties</em>'.
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperties#getProperties()
+   * @see #getFacetProperties()
+   * @generated
+   */
+  EReference getFacetProperties_Properties();
+
+  /**
+   * Returns the meta object for class '{@link fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperty <em>Facet Property</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for class '<em>Facet Property</em>'.
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperty
+   * @generated
+   */
+  EClass getFacetProperty();
+
+  /**
+   * Returns the meta object for the containment reference '{@link fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperty#getChildrenProperty <em>Children Property</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference '<em>Children Property</em>'.
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperty#getChildrenProperty()
+   * @see #getFacetProperty()
+   * @generated
+   */
+  EReference getFacetProperty_ChildrenProperty();
+
+  /**
+   * Returns the meta object for the containment reference '{@link fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperty#getExportsProperty <em>Exports Property</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference '<em>Exports Property</em>'.
+   * @see fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperty#getExportsProperty()
+   * @see #getFacetProperty()
+   * @generated
+   */
+  EReference getFacetProperty_ExportsProperty();
 
   /**
    * Returns the meta object for class '{@link fr.imag.mosig.seacs.roboconf.graphDsl.OptionalProperty <em>Optional Property</em>}'.
@@ -1103,22 +1221,14 @@ public interface GraphDslPackage extends EPackage
     EReference FACET__PROPERTIES = eINSTANCE.getFacet_Properties();
 
     /**
-     * The meta object literal for the '{@link fr.imag.mosig.seacs.roboconf.graphDsl.impl.PropertiesImpl <em>Properties</em>}' class.
+     * The meta object literal for the '{@link fr.imag.mosig.seacs.roboconf.graphDsl.impl.ComponentPropertiesImpl <em>Component Properties</em>}' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.PropertiesImpl
-     * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getProperties()
+     * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.ComponentPropertiesImpl
+     * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getComponentProperties()
      * @generated
      */
-    EClass PROPERTIES = eINSTANCE.getProperties();
-
-    /**
-     * The meta object literal for the '<em><b>Installer Property</b></em>' containment reference feature.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    EReference PROPERTIES__INSTALLER_PROPERTY = eINSTANCE.getProperties_InstallerProperty();
+    EClass COMPONENT_PROPERTIES = eINSTANCE.getComponentProperties();
 
     /**
      * The meta object literal for the '<em><b>Optional Properties</b></em>' containment reference list feature.
@@ -1126,7 +1236,59 @@ public interface GraphDslPackage extends EPackage
      * <!-- end-user-doc -->
      * @generated
      */
-    EReference PROPERTIES__OPTIONAL_PROPERTIES = eINSTANCE.getProperties_OptionalProperties();
+    EReference COMPONENT_PROPERTIES__OPTIONAL_PROPERTIES = eINSTANCE.getComponentProperties_OptionalProperties();
+
+    /**
+     * The meta object literal for the '<em><b>Installer Property</b></em>' containment reference feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EReference COMPONENT_PROPERTIES__INSTALLER_PROPERTY = eINSTANCE.getComponentProperties_InstallerProperty();
+
+    /**
+     * The meta object literal for the '{@link fr.imag.mosig.seacs.roboconf.graphDsl.impl.FacetPropertiesImpl <em>Facet Properties</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.FacetPropertiesImpl
+     * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getFacetProperties()
+     * @generated
+     */
+    EClass FACET_PROPERTIES = eINSTANCE.getFacetProperties();
+
+    /**
+     * The meta object literal for the '<em><b>Properties</b></em>' containment reference list feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EReference FACET_PROPERTIES__PROPERTIES = eINSTANCE.getFacetProperties_Properties();
+
+    /**
+     * The meta object literal for the '{@link fr.imag.mosig.seacs.roboconf.graphDsl.impl.FacetPropertyImpl <em>Facet Property</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.FacetPropertyImpl
+     * @see fr.imag.mosig.seacs.roboconf.graphDsl.impl.GraphDslPackageImpl#getFacetProperty()
+     * @generated
+     */
+    EClass FACET_PROPERTY = eINSTANCE.getFacetProperty();
+
+    /**
+     * The meta object literal for the '<em><b>Children Property</b></em>' containment reference feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EReference FACET_PROPERTY__CHILDREN_PROPERTY = eINSTANCE.getFacetProperty_ChildrenProperty();
+
+    /**
+     * The meta object literal for the '<em><b>Exports Property</b></em>' containment reference feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EReference FACET_PROPERTY__EXPORTS_PROPERTY = eINSTANCE.getFacetProperty_ExportsProperty();
 
     /**
      * The meta object literal for the '{@link fr.imag.mosig.seacs.roboconf.graphDsl.impl.OptionalPropertyImpl <em>Optional Property</em>}' class.

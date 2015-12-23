@@ -3,8 +3,8 @@
 package fr.imag.mosig.seacs.roboconf.graphDsl.impl;
 
 import fr.imag.mosig.seacs.roboconf.graphDsl.Component;
+import fr.imag.mosig.seacs.roboconf.graphDsl.ComponentProperties;
 import fr.imag.mosig.seacs.roboconf.graphDsl.GraphDslPackage;
-import fr.imag.mosig.seacs.roboconf.graphDsl.Properties;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
@@ -59,7 +59,7 @@ public class ComponentImpl extends MinimalEObjectImpl.Container implements Compo
    * @generated
    * @ordered
    */
-  protected Properties properties;
+  protected ComponentProperties properties;
 
   /**
    * <!-- begin-user-doc -->
@@ -110,7 +110,7 @@ public class ComponentImpl extends MinimalEObjectImpl.Container implements Compo
    * <!-- end-user-doc -->
    * @generated
    */
-  public Properties getProperties()
+  public ComponentProperties getProperties()
   {
     return properties;
   }
@@ -120,9 +120,9 @@ public class ComponentImpl extends MinimalEObjectImpl.Container implements Compo
    * <!-- end-user-doc -->
    * @generated
    */
-  public NotificationChain basicSetProperties(Properties newProperties, NotificationChain msgs)
+  public NotificationChain basicSetProperties(ComponentProperties newProperties, NotificationChain msgs)
   {
-    Properties oldProperties = properties;
+    ComponentProperties oldProperties = properties;
     properties = newProperties;
     if (eNotificationRequired())
     {
@@ -137,7 +137,7 @@ public class ComponentImpl extends MinimalEObjectImpl.Container implements Compo
    * <!-- end-user-doc -->
    * @generated
    */
-  public void setProperties(Properties newProperties)
+  public void setProperties(ComponentProperties newProperties)
   {
     if (newProperties != properties)
     {
@@ -201,7 +201,7 @@ public class ComponentImpl extends MinimalEObjectImpl.Container implements Compo
         setName((String)newValue);
         return;
       case GraphDslPackage.COMPONENT__PROPERTIES:
-        setProperties((Properties)newValue);
+        setProperties((ComponentProperties)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -221,7 +221,7 @@ public class ComponentImpl extends MinimalEObjectImpl.Container implements Compo
         setName(NAME_EDEFAULT);
         return;
       case GraphDslPackage.COMPONENT__PROPERTIES:
-        setProperties((Properties)null);
+        setProperties((ComponentProperties)null);
         return;
     }
     super.eUnset(featureID);

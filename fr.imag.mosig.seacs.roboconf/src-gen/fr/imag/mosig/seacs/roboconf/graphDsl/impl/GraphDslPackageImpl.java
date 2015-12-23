@@ -5,10 +5,13 @@ package fr.imag.mosig.seacs.roboconf.graphDsl.impl;
 import fr.imag.mosig.seacs.roboconf.graphDsl.ChildrenProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.Component;
 import fr.imag.mosig.seacs.roboconf.graphDsl.ComponentOrFacet;
+import fr.imag.mosig.seacs.roboconf.graphDsl.ComponentProperties;
 import fr.imag.mosig.seacs.roboconf.graphDsl.ExportsProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.ExportsVariable;
 import fr.imag.mosig.seacs.roboconf.graphDsl.ExtendsProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.Facet;
+import fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperties;
+import fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.FacetsProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.Graph;
 import fr.imag.mosig.seacs.roboconf.graphDsl.GraphDslFactory;
@@ -17,7 +20,6 @@ import fr.imag.mosig.seacs.roboconf.graphDsl.ImportsProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.ImportsVariable;
 import fr.imag.mosig.seacs.roboconf.graphDsl.InstallerProperty;
 import fr.imag.mosig.seacs.roboconf.graphDsl.OptionalProperty;
-import fr.imag.mosig.seacs.roboconf.graphDsl.Properties;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
@@ -67,7 +69,21 @@ public class GraphDslPackageImpl extends EPackageImpl implements GraphDslPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  private EClass propertiesEClass = null;
+  private EClass componentPropertiesEClass = null;
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  private EClass facetPropertiesEClass = null;
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  private EClass facetPropertyEClass = null;
 
   /**
    * <!-- begin-user-doc -->
@@ -310,9 +326,9 @@ public class GraphDslPackageImpl extends EPackageImpl implements GraphDslPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  public EClass getProperties()
+  public EClass getComponentProperties()
   {
-    return propertiesEClass;
+    return componentPropertiesEClass;
   }
 
   /**
@@ -320,9 +336,9 @@ public class GraphDslPackageImpl extends EPackageImpl implements GraphDslPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  public EReference getProperties_InstallerProperty()
+  public EReference getComponentProperties_OptionalProperties()
   {
-    return (EReference)propertiesEClass.getEStructuralFeatures().get(0);
+    return (EReference)componentPropertiesEClass.getEStructuralFeatures().get(0);
   }
 
   /**
@@ -330,9 +346,59 @@ public class GraphDslPackageImpl extends EPackageImpl implements GraphDslPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  public EReference getProperties_OptionalProperties()
+  public EReference getComponentProperties_InstallerProperty()
   {
-    return (EReference)propertiesEClass.getEStructuralFeatures().get(1);
+    return (EReference)componentPropertiesEClass.getEStructuralFeatures().get(1);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EClass getFacetProperties()
+  {
+    return facetPropertiesEClass;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EReference getFacetProperties_Properties()
+  {
+    return (EReference)facetPropertiesEClass.getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EClass getFacetProperty()
+  {
+    return facetPropertyEClass;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EReference getFacetProperty_ChildrenProperty()
+  {
+    return (EReference)facetPropertyEClass.getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EReference getFacetProperty_ExportsProperty()
+  {
+    return (EReference)facetPropertyEClass.getEStructuralFeatures().get(1);
   }
 
   /**
@@ -640,9 +706,16 @@ public class GraphDslPackageImpl extends EPackageImpl implements GraphDslPackage
     createEAttribute(facetEClass, FACET__NAME);
     createEReference(facetEClass, FACET__PROPERTIES);
 
-    propertiesEClass = createEClass(PROPERTIES);
-    createEReference(propertiesEClass, PROPERTIES__INSTALLER_PROPERTY);
-    createEReference(propertiesEClass, PROPERTIES__OPTIONAL_PROPERTIES);
+    componentPropertiesEClass = createEClass(COMPONENT_PROPERTIES);
+    createEReference(componentPropertiesEClass, COMPONENT_PROPERTIES__OPTIONAL_PROPERTIES);
+    createEReference(componentPropertiesEClass, COMPONENT_PROPERTIES__INSTALLER_PROPERTY);
+
+    facetPropertiesEClass = createEClass(FACET_PROPERTIES);
+    createEReference(facetPropertiesEClass, FACET_PROPERTIES__PROPERTIES);
+
+    facetPropertyEClass = createEClass(FACET_PROPERTY);
+    createEReference(facetPropertyEClass, FACET_PROPERTY__CHILDREN_PROPERTY);
+    createEReference(facetPropertyEClass, FACET_PROPERTY__EXPORTS_PROPERTY);
 
     optionalPropertyEClass = createEClass(OPTIONAL_PROPERTY);
     createEReference(optionalPropertyEClass, OPTIONAL_PROPERTY__CHILDREN_PROPERTY);
@@ -720,15 +793,22 @@ public class GraphDslPackageImpl extends EPackageImpl implements GraphDslPackage
 
     initEClass(componentEClass, Component.class, "Component", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEAttribute(getComponent_Name(), ecorePackage.getEString(), "name", null, 0, 1, Component.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-    initEReference(getComponent_Properties(), this.getProperties(), null, "properties", null, 0, 1, Component.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEReference(getComponent_Properties(), this.getComponentProperties(), null, "properties", null, 0, 1, Component.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(facetEClass, Facet.class, "Facet", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEAttribute(getFacet_Name(), ecorePackage.getEString(), "name", null, 0, 1, Facet.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-    initEReference(getFacet_Properties(), this.getProperties(), null, "properties", null, 0, 1, Facet.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEReference(getFacet_Properties(), this.getFacetProperties(), null, "properties", null, 0, 1, Facet.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
-    initEClass(propertiesEClass, Properties.class, "Properties", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-    initEReference(getProperties_InstallerProperty(), this.getInstallerProperty(), null, "installerProperty", null, 0, 1, Properties.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-    initEReference(getProperties_OptionalProperties(), this.getOptionalProperty(), null, "optionalProperties", null, 0, -1, Properties.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEClass(componentPropertiesEClass, ComponentProperties.class, "ComponentProperties", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEReference(getComponentProperties_OptionalProperties(), this.getOptionalProperty(), null, "optionalProperties", null, 0, -1, ComponentProperties.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEReference(getComponentProperties_InstallerProperty(), this.getInstallerProperty(), null, "installerProperty", null, 0, 1, ComponentProperties.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+    initEClass(facetPropertiesEClass, FacetProperties.class, "FacetProperties", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEReference(getFacetProperties_Properties(), this.getFacetProperty(), null, "properties", null, 0, -1, FacetProperties.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+    initEClass(facetPropertyEClass, FacetProperty.class, "FacetProperty", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEReference(getFacetProperty_ChildrenProperty(), this.getChildrenProperty(), null, "childrenProperty", null, 0, 1, FacetProperty.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEReference(getFacetProperty_ExportsProperty(), this.getExportsProperty(), null, "exportsProperty", null, 0, 1, FacetProperty.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(optionalPropertyEClass, OptionalProperty.class, "OptionalProperty", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEReference(getOptionalProperty_ChildrenProperty(), this.getChildrenProperty(), null, "childrenProperty", null, 0, 1, OptionalProperty.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

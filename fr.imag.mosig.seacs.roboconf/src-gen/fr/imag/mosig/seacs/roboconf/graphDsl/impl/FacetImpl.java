@@ -3,8 +3,8 @@
 package fr.imag.mosig.seacs.roboconf.graphDsl.impl;
 
 import fr.imag.mosig.seacs.roboconf.graphDsl.Facet;
+import fr.imag.mosig.seacs.roboconf.graphDsl.FacetProperties;
 import fr.imag.mosig.seacs.roboconf.graphDsl.GraphDslPackage;
-import fr.imag.mosig.seacs.roboconf.graphDsl.Properties;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
@@ -59,7 +59,7 @@ public class FacetImpl extends MinimalEObjectImpl.Container implements Facet
    * @generated
    * @ordered
    */
-  protected Properties properties;
+  protected FacetProperties properties;
 
   /**
    * <!-- begin-user-doc -->
@@ -110,7 +110,7 @@ public class FacetImpl extends MinimalEObjectImpl.Container implements Facet
    * <!-- end-user-doc -->
    * @generated
    */
-  public Properties getProperties()
+  public FacetProperties getProperties()
   {
     return properties;
   }
@@ -120,9 +120,9 @@ public class FacetImpl extends MinimalEObjectImpl.Container implements Facet
    * <!-- end-user-doc -->
    * @generated
    */
-  public NotificationChain basicSetProperties(Properties newProperties, NotificationChain msgs)
+  public NotificationChain basicSetProperties(FacetProperties newProperties, NotificationChain msgs)
   {
-    Properties oldProperties = properties;
+    FacetProperties oldProperties = properties;
     properties = newProperties;
     if (eNotificationRequired())
     {
@@ -137,7 +137,7 @@ public class FacetImpl extends MinimalEObjectImpl.Container implements Facet
    * <!-- end-user-doc -->
    * @generated
    */
-  public void setProperties(Properties newProperties)
+  public void setProperties(FacetProperties newProperties)
   {
     if (newProperties != properties)
     {
@@ -201,7 +201,7 @@ public class FacetImpl extends MinimalEObjectImpl.Container implements Facet
         setName((String)newValue);
         return;
       case GraphDslPackage.FACET__PROPERTIES:
-        setProperties((Properties)newValue);
+        setProperties((FacetProperties)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -221,7 +221,7 @@ public class FacetImpl extends MinimalEObjectImpl.Container implements Facet
         setName(NAME_EDEFAULT);
         return;
       case GraphDslPackage.FACET__PROPERTIES:
-        setProperties((Properties)null);
+        setProperties((FacetProperties)null);
         return;
     }
     super.eUnset(featureID);

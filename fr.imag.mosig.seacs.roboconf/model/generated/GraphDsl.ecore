@@ -14,19 +14,29 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Component">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" eType="#//Properties"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" eType="#//ComponentProperties"
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Facet">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" eType="#//Properties"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" eType="#//FacetProperties"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Properties">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="installerProperty" eType="#//InstallerProperty"
-        containment="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ComponentProperties">
     <eStructuralFeatures xsi:type="ecore:EReference" name="optionalProperties" upperBound="-1"
         eType="#//OptionalProperty" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="installerProperty" eType="#//InstallerProperty"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FacetProperties">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1"
+        eType="#//FacetProperty" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FacetProperty">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="childrenProperty" eType="#//ChildrenProperty"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="exportsProperty" eType="#//ExportsProperty"
+        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="OptionalProperty">
     <eStructuralFeatures xsi:type="ecore:EReference" name="childrenProperty" eType="#//ChildrenProperty"

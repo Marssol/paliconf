@@ -24,6 +24,8 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	protected AbstractElementAlias match_ChildrenProperty_WSTerminalRuleCall_3_q;
 	protected AbstractElementAlias match_ChildrenProperty_WSTerminalRuleCall_4_1_q;
 	protected AbstractElementAlias match_ChildrenProperty_WSTerminalRuleCall_5_q;
+	protected AbstractElementAlias match_ComponentProperties_WSTerminalRuleCall_1_q;
+	protected AbstractElementAlias match_ComponentProperties_WSTerminalRuleCall_3_q;
 	protected AbstractElementAlias match_Component_WSTerminalRuleCall_1_q;
 	protected AbstractElementAlias match_Component_WSTerminalRuleCall_3_q;
 	protected AbstractElementAlias match_Component_WSTerminalRuleCall_5_q;
@@ -37,6 +39,9 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	protected AbstractElementAlias match_ExtendsProperty_WSTerminalRuleCall_3_q;
 	protected AbstractElementAlias match_ExtendsProperty_WSTerminalRuleCall_4_1_q;
 	protected AbstractElementAlias match_ExtendsProperty_WSTerminalRuleCall_5_q;
+	protected AbstractElementAlias match_FacetProperties_WSTerminalRuleCall_0_q;
+	protected AbstractElementAlias match_FacetProperties_WSTerminalRuleCall_2_q;
+	protected AbstractElementAlias match_Facet_WSTerminalRuleCall_1_q;
 	protected AbstractElementAlias match_Facet_WSTerminalRuleCall_3_q;
 	protected AbstractElementAlias match_Facet_WSTerminalRuleCall_5_q;
 	protected AbstractElementAlias match_Facet_WSTerminalRuleCall_7_q;
@@ -60,6 +65,8 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 		match_ChildrenProperty_WSTerminalRuleCall_3_q = new TokenAlias(false, true, grammarAccess.getChildrenPropertyAccess().getWSTerminalRuleCall_3());
 		match_ChildrenProperty_WSTerminalRuleCall_4_1_q = new TokenAlias(false, true, grammarAccess.getChildrenPropertyAccess().getWSTerminalRuleCall_4_1());
 		match_ChildrenProperty_WSTerminalRuleCall_5_q = new TokenAlias(false, true, grammarAccess.getChildrenPropertyAccess().getWSTerminalRuleCall_5());
+		match_ComponentProperties_WSTerminalRuleCall_1_q = new TokenAlias(false, true, grammarAccess.getComponentPropertiesAccess().getWSTerminalRuleCall_1());
+		match_ComponentProperties_WSTerminalRuleCall_3_q = new TokenAlias(false, true, grammarAccess.getComponentPropertiesAccess().getWSTerminalRuleCall_3());
 		match_Component_WSTerminalRuleCall_1_q = new TokenAlias(false, true, grammarAccess.getComponentAccess().getWSTerminalRuleCall_1());
 		match_Component_WSTerminalRuleCall_3_q = new TokenAlias(false, true, grammarAccess.getComponentAccess().getWSTerminalRuleCall_3());
 		match_Component_WSTerminalRuleCall_5_q = new TokenAlias(false, true, grammarAccess.getComponentAccess().getWSTerminalRuleCall_5());
@@ -73,6 +80,9 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 		match_ExtendsProperty_WSTerminalRuleCall_3_q = new TokenAlias(false, true, grammarAccess.getExtendsPropertyAccess().getWSTerminalRuleCall_3());
 		match_ExtendsProperty_WSTerminalRuleCall_4_1_q = new TokenAlias(false, true, grammarAccess.getExtendsPropertyAccess().getWSTerminalRuleCall_4_1());
 		match_ExtendsProperty_WSTerminalRuleCall_5_q = new TokenAlias(false, true, grammarAccess.getExtendsPropertyAccess().getWSTerminalRuleCall_5());
+		match_FacetProperties_WSTerminalRuleCall_0_q = new TokenAlias(false, true, grammarAccess.getFacetPropertiesAccess().getWSTerminalRuleCall_0());
+		match_FacetProperties_WSTerminalRuleCall_2_q = new TokenAlias(false, true, grammarAccess.getFacetPropertiesAccess().getWSTerminalRuleCall_2());
+		match_Facet_WSTerminalRuleCall_1_q = new TokenAlias(false, true, grammarAccess.getFacetAccess().getWSTerminalRuleCall_1());
 		match_Facet_WSTerminalRuleCall_3_q = new TokenAlias(false, true, grammarAccess.getFacetAccess().getWSTerminalRuleCall_3());
 		match_Facet_WSTerminalRuleCall_5_q = new TokenAlias(false, true, grammarAccess.getFacetAccess().getWSTerminalRuleCall_5());
 		match_Facet_WSTerminalRuleCall_7_q = new TokenAlias(false, true, grammarAccess.getFacetAccess().getWSTerminalRuleCall_7());
@@ -120,6 +130,10 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 				emit_ChildrenProperty_WSTerminalRuleCall_4_1_q(semanticObject, getLastNavigableState(), syntaxNodes);
 			else if(match_ChildrenProperty_WSTerminalRuleCall_5_q.equals(syntax))
 				emit_ChildrenProperty_WSTerminalRuleCall_5_q(semanticObject, getLastNavigableState(), syntaxNodes);
+			else if(match_ComponentProperties_WSTerminalRuleCall_1_q.equals(syntax))
+				emit_ComponentProperties_WSTerminalRuleCall_1_q(semanticObject, getLastNavigableState(), syntaxNodes);
+			else if(match_ComponentProperties_WSTerminalRuleCall_3_q.equals(syntax))
+				emit_ComponentProperties_WSTerminalRuleCall_3_q(semanticObject, getLastNavigableState(), syntaxNodes);
 			else if(match_Component_WSTerminalRuleCall_1_q.equals(syntax))
 				emit_Component_WSTerminalRuleCall_1_q(semanticObject, getLastNavigableState(), syntaxNodes);
 			else if(match_Component_WSTerminalRuleCall_3_q.equals(syntax))
@@ -146,6 +160,12 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 				emit_ExtendsProperty_WSTerminalRuleCall_4_1_q(semanticObject, getLastNavigableState(), syntaxNodes);
 			else if(match_ExtendsProperty_WSTerminalRuleCall_5_q.equals(syntax))
 				emit_ExtendsProperty_WSTerminalRuleCall_5_q(semanticObject, getLastNavigableState(), syntaxNodes);
+			else if(match_FacetProperties_WSTerminalRuleCall_0_q.equals(syntax))
+				emit_FacetProperties_WSTerminalRuleCall_0_q(semanticObject, getLastNavigableState(), syntaxNodes);
+			else if(match_FacetProperties_WSTerminalRuleCall_2_q.equals(syntax))
+				emit_FacetProperties_WSTerminalRuleCall_2_q(semanticObject, getLastNavigableState(), syntaxNodes);
+			else if(match_Facet_WSTerminalRuleCall_1_q.equals(syntax))
+				emit_Facet_WSTerminalRuleCall_1_q(semanticObject, getLastNavigableState(), syntaxNodes);
 			else if(match_Facet_WSTerminalRuleCall_3_q.equals(syntax))
 				emit_Facet_WSTerminalRuleCall_3_q(semanticObject, getLastNavigableState(), syntaxNodes);
 			else if(match_Facet_WSTerminalRuleCall_5_q.equals(syntax))
@@ -232,7 +252,31 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	 *     WS?
 	 *
 	 * This ambiguous syntax occurs at:
-	 *     name=ID (ambiguity) '{' WS? properties=Properties
+	 *     (rule start) (ambiguity) installerProperty=InstallerProperty
+	 *     optionalProperties+=OptionalProperty (ambiguity) installerProperty=InstallerProperty
+	 */
+	protected void emit_ComponentProperties_WSTerminalRuleCall_1_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
+		acceptNodes(transition, nodes);
+	}
+	
+	/**
+	 * Ambiguous syntax:
+	 *     WS?
+	 *
+	 * This ambiguous syntax occurs at:
+	 *     installerProperty=InstallerProperty (ambiguity) (rule end)
+	 *     installerProperty=InstallerProperty (ambiguity) optionalProperties+=OptionalProperty
+	 */
+	protected void emit_ComponentProperties_WSTerminalRuleCall_3_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
+		acceptNodes(transition, nodes);
+	}
+	
+	/**
+	 * Ambiguous syntax:
+	 *     WS?
+	 *
+	 * This ambiguous syntax occurs at:
+	 *     name=ID (ambiguity) '{' WS? properties=ComponentProperties
 	 */
 	protected void emit_Component_WSTerminalRuleCall_1_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -243,7 +287,7 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	 *     WS?
 	 *
 	 * This ambiguous syntax occurs at:
-	 *     name=ID WS? '{' (ambiguity) properties=Properties
+	 *     name=ID WS? '{' (ambiguity) properties=ComponentProperties
 	 */
 	protected void emit_Component_WSTerminalRuleCall_3_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -254,7 +298,7 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	 *     WS?
 	 *
 	 * This ambiguous syntax occurs at:
-	 *     properties=Properties (ambiguity) '}' (rule end)
+	 *     properties=ComponentProperties (ambiguity) '}' (rule end)
 	 */
 	protected void emit_Component_WSTerminalRuleCall_5_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -277,6 +321,7 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	 *
 	 * This ambiguous syntax occurs at:
 	 *     exportsVariables+=ExportsVariable (ambiguity) ',' WS? exportsVariables+=ExportsVariable
+	 *     exportsVariables+=ExportsVariable (ambiguity) WS? ';' (rule end)
 	 */
 	protected void emit_ExportsProperty_WSTerminalRuleCall_3_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -287,6 +332,7 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	 *     WS?
 	 *
 	 * This ambiguous syntax occurs at:
+	 *     exportsVariables+=ExportsVariable ',' (ambiguity) exportsVariables+=ExportsVariable
 	 *     exportsVariables+=ExportsVariable WS? ',' (ambiguity) exportsVariables+=ExportsVariable
 	 */
 	protected void emit_ExportsProperty_WSTerminalRuleCall_4_1_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
@@ -299,6 +345,7 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	 *
 	 * This ambiguous syntax occurs at:
 	 *     exportsVariables+=ExportsVariable (ambiguity) ';' (rule end)
+	 *     exportsVariables+=ExportsVariable WS? (ambiguity) ';' (rule end)
 	 */
 	protected void emit_ExportsProperty_WSTerminalRuleCall_5_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -378,7 +425,42 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	 *     WS?
 	 *
 	 * This ambiguous syntax occurs at:
-	 *     name=ID (ambiguity) '{' WS? properties=Properties
+	 *     (rule start) (ambiguity) properties+=FacetProperty
+	 *     properties+=FacetProperty WS? (ambiguity) properties+=FacetProperty
+	 */
+	protected void emit_FacetProperties_WSTerminalRuleCall_0_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
+		acceptNodes(transition, nodes);
+	}
+	
+	/**
+	 * Ambiguous syntax:
+	 *     WS?
+	 *
+	 * This ambiguous syntax occurs at:
+	 *     properties+=FacetProperty (ambiguity) (rule end)
+	 *     properties+=FacetProperty (ambiguity) WS? properties+=FacetProperty
+	 */
+	protected void emit_FacetProperties_WSTerminalRuleCall_2_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
+		acceptNodes(transition, nodes);
+	}
+	
+	/**
+	 * Ambiguous syntax:
+	 *     WS?
+	 *
+	 * This ambiguous syntax occurs at:
+	 *     (rule start) 'facet' (ambiguity) name=ID
+	 */
+	protected void emit_Facet_WSTerminalRuleCall_1_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
+		acceptNodes(transition, nodes);
+	}
+	
+	/**
+	 * Ambiguous syntax:
+	 *     WS?
+	 *
+	 * This ambiguous syntax occurs at:
+	 *     name=ID (ambiguity) '{' WS? properties=FacetProperties
 	 */
 	protected void emit_Facet_WSTerminalRuleCall_3_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -389,7 +471,7 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	 *     WS?
 	 *
 	 * This ambiguous syntax occurs at:
-	 *     name=ID WS? '{' (ambiguity) properties=Properties
+	 *     name=ID WS? '{' (ambiguity) properties=FacetProperties
 	 */
 	protected void emit_Facet_WSTerminalRuleCall_5_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -400,7 +482,7 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	 *     WS?
 	 *
 	 * This ambiguous syntax occurs at:
-	 *     properties=Properties (ambiguity) '}' (rule end)
+	 *     properties=FacetProperties (ambiguity) '}' (rule end)
 	 */
 	protected void emit_Facet_WSTerminalRuleCall_7_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -494,6 +576,7 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	 *
 	 * This ambiguous syntax occurs at:
 	 *     importsVariables+=ImportsVariable (ambiguity) ',' WS? importsVariables+=ImportsVariable
+	 *     importsVariables+=ImportsVariable (ambiguity) WS? ';' (rule end)
 	 */
 	protected void emit_ImportsProperty_WSTerminalRuleCall_3_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);
@@ -504,6 +587,7 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	 *     WS?
 	 *
 	 * This ambiguous syntax occurs at:
+	 *     importsVariables+=ImportsVariable ',' (ambiguity) importsVariables+=ImportsVariable
 	 *     importsVariables+=ImportsVariable WS? ',' (ambiguity) importsVariables+=ImportsVariable
 	 */
 	protected void emit_ImportsProperty_WSTerminalRuleCall_4_1_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
@@ -516,6 +600,7 @@ public class GraphDslSyntacticSequencer extends AbstractSyntacticSequencer {
 	 *
 	 * This ambiguous syntax occurs at:
 	 *     importsVariables+=ImportsVariable (ambiguity) ';' (rule end)
+	 *     importsVariables+=ImportsVariable WS? (ambiguity) ';' (rule end)
 	 */
 	protected void emit_ImportsProperty_WSTerminalRuleCall_5_q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
 		acceptNodes(transition, nodes);

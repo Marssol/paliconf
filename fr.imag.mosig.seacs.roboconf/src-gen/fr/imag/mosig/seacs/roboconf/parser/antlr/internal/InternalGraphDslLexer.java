@@ -385,10 +385,10 @@ public class InternalGraphDslLexer extends Lexer {
         try {
             int _type = RULE_ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1169:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1169:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1300:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1300:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             {
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1169:11: ( '^' )?
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1300:11: ( '^' )?
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -397,7 +397,7 @@ public class InternalGraphDslLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1169:11: '^'
+                    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1300:11: '^'
                     {
                     match('^'); 
 
@@ -415,7 +415,7 @@ public class InternalGraphDslLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1169:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1300:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             loop2:
             do {
                 int alt2=2;
@@ -464,10 +464,10 @@ public class InternalGraphDslLexer extends Lexer {
         try {
             int _type = RULE_INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1171:10: ( ( '0' .. '9' )+ )
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1171:12: ( '0' .. '9' )+
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1302:10: ( ( '0' .. '9' )+ )
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1302:12: ( '0' .. '9' )+
             {
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1171:12: ( '0' .. '9' )+
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1302:12: ( '0' .. '9' )+
             int cnt3=0;
             loop3:
             do {
@@ -481,7 +481,7 @@ public class InternalGraphDslLexer extends Lexer {
 
                 switch (alt3) {
             	case 1 :
-            	    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1171:13: '0' .. '9'
+            	    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1302:13: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -513,10 +513,10 @@ public class InternalGraphDslLexer extends Lexer {
         try {
             int _type = RULE_STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1173:13: ( ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1173:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1304:13: ( ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1304:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             {
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1173:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1304:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -534,10 +534,10 @@ public class InternalGraphDslLexer extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1173:16: '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
+                    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1304:16: '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
                     {
                     match('\"'); 
-                    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1173:20: ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )*
+                    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1304:20: ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )*
                     loop4:
                     do {
                         int alt4=3;
@@ -553,7 +553,7 @@ public class InternalGraphDslLexer extends Lexer {
 
                         switch (alt4) {
                     	case 1 :
-                    	    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1173:21: '\\\\' .
+                    	    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1304:21: '\\\\' .
                     	    {
                     	    match('\\'); 
                     	    matchAny(); 
@@ -561,7 +561,7 @@ public class InternalGraphDslLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1173:28: ~ ( ( '\\\\' | '\"' ) )
+                    	    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1304:28: ~ ( ( '\\\\' | '\"' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -586,10 +586,10 @@ public class InternalGraphDslLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1173:48: '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
+                    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1304:48: '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
                     {
                     match('\''); 
-                    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1173:53: ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )*
+                    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1304:53: ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )*
                     loop5:
                     do {
                         int alt5=3;
@@ -605,7 +605,7 @@ public class InternalGraphDslLexer extends Lexer {
 
                         switch (alt5) {
                     	case 1 :
-                    	    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1173:54: '\\\\' .
+                    	    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1304:54: '\\\\' .
                     	    {
                     	    match('\\'); 
                     	    matchAny(); 
@@ -613,7 +613,7 @@ public class InternalGraphDslLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1173:61: ~ ( ( '\\\\' | '\\'' ) )
+                    	    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1304:61: ~ ( ( '\\\\' | '\\'' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -656,12 +656,12 @@ public class InternalGraphDslLexer extends Lexer {
         try {
             int _type = RULE_ML_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1175:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1175:19: '/*' ( options {greedy=false; } : . )* '*/'
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1306:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1306:19: '/*' ( options {greedy=false; } : . )* '*/'
             {
             match("/*"); 
 
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1175:24: ( options {greedy=false; } : . )*
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1306:24: ( options {greedy=false; } : . )*
             loop7:
             do {
                 int alt7=2;
@@ -686,7 +686,7 @@ public class InternalGraphDslLexer extends Lexer {
 
                 switch (alt7) {
             	case 1 :
-            	    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1175:52: .
+            	    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1306:52: .
             	    {
             	    matchAny(); 
 
@@ -716,12 +716,12 @@ public class InternalGraphDslLexer extends Lexer {
         try {
             int _type = RULE_SL_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1177:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1177:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1308:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1308:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
             {
             match("//"); 
 
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1177:24: (~ ( ( '\\n' | '\\r' ) ) )*
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1308:24: (~ ( ( '\\n' | '\\r' ) ) )*
             loop8:
             do {
                 int alt8=2;
@@ -734,7 +734,7 @@ public class InternalGraphDslLexer extends Lexer {
 
                 switch (alt8) {
             	case 1 :
-            	    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1177:24: ~ ( ( '\\n' | '\\r' ) )
+            	    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1308:24: ~ ( ( '\\n' | '\\r' ) )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -754,7 +754,7 @@ public class InternalGraphDslLexer extends Lexer {
                 }
             } while (true);
 
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1177:40: ( ( '\\r' )? '\\n' )?
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1308:40: ( ( '\\r' )? '\\n' )?
             int alt10=2;
             int LA10_0 = input.LA(1);
 
@@ -763,9 +763,9 @@ public class InternalGraphDslLexer extends Lexer {
             }
             switch (alt10) {
                 case 1 :
-                    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1177:41: ( '\\r' )? '\\n'
+                    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1308:41: ( '\\r' )? '\\n'
                     {
-                    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1177:41: ( '\\r' )?
+                    // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1308:41: ( '\\r' )?
                     int alt9=2;
                     int LA9_0 = input.LA(1);
 
@@ -774,7 +774,7 @@ public class InternalGraphDslLexer extends Lexer {
                     }
                     switch (alt9) {
                         case 1 :
-                            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1177:41: '\\r'
+                            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1308:41: '\\r'
                             {
                             match('\r'); 
 
@@ -806,10 +806,10 @@ public class InternalGraphDslLexer extends Lexer {
         try {
             int _type = RULE_WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1179:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1179:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1310:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1310:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             {
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1179:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1310:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             int cnt11=0;
             loop11:
             do {
@@ -863,8 +863,8 @@ public class InternalGraphDslLexer extends Lexer {
         try {
             int _type = RULE_ANY_OTHER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1181:16: ( . )
-            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1181:18: .
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1312:16: ( . )
+            // ../fr.imag.mosig.seacs.roboconf/src-gen/fr/imag/mosig/seacs/roboconf/parser/antlr/internal/InternalGraphDsl.g:1312:18: .
             {
             matchAny(); 
 

@@ -12,16 +12,26 @@ ComponentOrFacet:
 ;
 
 Component:
-	(name = ID) WS? '{' WS? (properties = Properties) WS? '}'
+	(name = ID) WS? '{' WS? (properties = ComponentProperties) WS? '}'
 ;
 
 Facet:
-	'facet' WS (name = ID) WS? '{' WS? (properties = Properties) WS? '}'
+	'facet' WS? (name = ID) WS? '{' WS? (properties = FacetProperties) WS? '}'
 ;
 
-Properties:
-	(installerProperty = InstallerProperty)
+ComponentProperties:
+	(optionalProperties += OptionalProperty)* WS?
+	(installerProperty = InstallerProperty) WS?
 	(optionalProperties += OptionalProperty)*
+;
+
+FacetProperties:
+	(WS? (properties += FacetProperty) WS?)* 
+;
+
+FacetProperty:
+	(childrenProperty = ChildrenProperty) | 
+	(exportsProperty = ExportsProperty)
 ;
 
 OptionalProperty:
@@ -41,7 +51,7 @@ ChildrenProperty:
 ;
 
 ExportsProperty:
-	'exports:' WS? (exportsVariables += ExportsVariable) WS? (',' WS? (exportsVariables += ExportsVariable)) WS? ';'
+	'exports:' WS? (exportsVariables += ExportsVariable) WS? (',' WS? (exportsVariables += ExportsVariable))* WS? ';'
 ;
 
 ExportsVariable:
@@ -50,7 +60,7 @@ ExportsVariable:
 ;
 
 ImportsProperty:
-	'imports:' WS? (importsVariables += ImportsVariable) WS? (',' WS? (importsVariables += ImportsVariable)) WS? ';'
+	'imports:' WS? (importsVariables += ImportsVariable) WS? (',' WS? (importsVariables += ImportsVariable))* WS? ';'
 ;
 
 ImportsVariable:
