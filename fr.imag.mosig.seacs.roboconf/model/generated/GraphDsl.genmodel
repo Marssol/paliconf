@@ -8,6 +8,7 @@
   <genPackages prefix="GraphDsl" basePackage="fr.imag.mosig.seacs.roboconf" disposableProviderFactory="true"
       fileExtensions="graph" ecorePackage="GraphDsl.ecore#/">
     <genClasses ecoreClass="GraphDsl.ecore#//Graph">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//Graph/comments"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//Graph/components"/>
     </genClasses>
     <genClasses ecoreClass="GraphDsl.ecore#//ComponentOrFacet">
@@ -51,7 +52,8 @@
     </genClasses>
     <genClasses ecoreClass="GraphDsl.ecore#//ExportsVariable">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//ExportsVariable/name"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//ExportsVariable/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//ExportsVariable/intValue"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//ExportsVariable/strValue"/>
     </genClasses>
     <genClasses ecoreClass="GraphDsl.ecore#//ImportsProperty">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//ImportsProperty/importsVariables"/>
