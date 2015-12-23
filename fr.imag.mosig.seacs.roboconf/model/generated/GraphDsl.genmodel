@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/fr.imag.mosig.seacs.roboconf/src-gen" editDirectory="/fr.imag.mosig.seacs.roboconf.edit/src"
+    editorDirectory="/fr.imag.mosig.seacs.roboconf.editor/src" modelPluginID="fr.imag.mosig.seacs.roboconf"
+    forceOverwrite="true" modelName="GraphDsl" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="6.0" copyrightFields="false" editPluginID="fr.imag.mosig.seacs.roboconf.edit"
+    editorPluginID="fr.imag.mosig.seacs.roboconf.editor" runtimeVersion="2.11">
+  <genPackages prefix="GraphDsl" basePackage="fr.imag.mosig.seacs.roboconf" disposableProviderFactory="true"
+      fileExtensions="graph" ecorePackage="GraphDsl.ecore#/">
+    <genClasses ecoreClass="GraphDsl.ecore#//Graph">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//Graph/components"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//ComponentOrFacet">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//ComponentOrFacet/component"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//ComponentOrFacet/facet"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//Component">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//Component/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//Component/properties"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//Facet">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//Facet/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//Facet/properties"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//Properties">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//Properties/installerProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//Properties/optionalProperties"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//OptionalProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//OptionalProperty/childrenProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//OptionalProperty/exportsProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//OptionalProperty/importsProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//OptionalProperty/facetsProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//OptionalProperty/extendsProperty"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//InstallerProperty">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//InstallerProperty/name"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//ChildrenProperty">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//ChildrenProperty/name"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//ExportsProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//ExportsProperty/exportsVariables"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//ExportsVariable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//ExportsVariable/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//ExportsVariable/value"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//ImportsProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GraphDsl.ecore#//ImportsProperty/importsVariables"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//ImportsVariable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//ImportsVariable/isExternal"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//ImportsVariable/componentName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//ImportsVariable/componentProperty"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//ImportsVariable/isOptional"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//FacetsProperty">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//FacetsProperty/facetsNames"/>
+    </genClasses>
+    <genClasses ecoreClass="GraphDsl.ecore#//ExtendsProperty">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GraphDsl.ecore#//ExtendsProperty/extendsNames"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
